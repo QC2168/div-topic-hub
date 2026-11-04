@@ -1,0 +1,9 @@
+{
+  "id": "div-topic-hub",
+  "name": "选题雷达（Topic Hub）",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "在 Obsidian 侧边栏嵌入本地选题雷达，一键把热点写成笔记。",
+  "author": "div",
+  "isDesktopOnly": true
+}

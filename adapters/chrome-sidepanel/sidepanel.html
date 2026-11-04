@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>选题雷达</title>
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; background: #fff; }
+      #hub { width: 100%; height: 100%; border: 0; display: block; }
+      #hint {
+        font: 13px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+        color: #52525b; padding: 24px 18px;
+      }
+      #hint h1 { font-size: 15px; margin: 0 0 8px; color: #18181b; }
+      #hint code { background: #f4f4f5; padding: 1px 5px; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <iframe id="hub" src="http://localhost:3110/?embed=true&host=sidepanel" title="选题雷达"></iframe>
+    <div id="hint" hidden>
+      <h1>还没连上本地服务</h1>
+      <p>请先在项目目录执行 <code>bun run dev</code>，确认 <code>http://localhost:3110</code> 能打开，然后刷新本面板。</p>
+    </div>
+    <script src="sidepanel.js"></script>
+  </body>
+</html>

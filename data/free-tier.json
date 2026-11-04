@@ -1,0 +1,936 @@
+{
+  "verifiedAt": "2026-11-03",
+  "author": {
+    "mid": "",
+    "name": "",
+    "bvid": "",
+    "aid": 0
+  },
+  "domesticApp": [
+    {
+      "platform": "WorkBuddy",
+      "channel": "app",
+      "kind": "daily",
+      "headline": "每天签到 + 活跃，约 130–150 积分",
+      "details": [
+        "每日活跃奖励：Free 30 / Pro 50 积分，客户端发起一次有效对话自动到账（网页端不算）",
+        "Buddy 加油站：手动领 100 积分/天，0 点刷新，连签 7 天再 +1000",
+        "免费版每月还赠 500 积分（每月 1 号自动发放）"
+      ],
+      "gate": "注册即可，需装电脑客户端",
+      "applyUrl": "https://www.workbuddy.ai",
+      "sourceUrl": "https://www.workbuddy.ai/docs/zh/workbuddy/Subscription",
+      "note": "活跃赠送与加油站都是官方标注的限时活动，可能随时下线；签到必须手动点，当天不领作废"
+    },
+    {
+      "platform": "即梦 AI（字节）",
+      "channel": "app",
+      "kind": "daily",
+      "headline": "每日签到 60–100 积分，当天清零",
+      "details": [
+        "文生图 / 文生视频 / 图生视频一体，角色一致性最强",
+        "生成后一键进剪映，账号互通",
+        "免费档带水印、最高 720P"
+      ],
+      "gate": "抖音/剪映账号登录",
+      "applyUrl": "https://jimeng.jianying.com",
+      "sourceUrl": "https://jimeng.jianying.com",
+      "note": "积分当天不累积，别囤；免费档商用需看授权"
+    },
+    {
+      "platform": "可灵 AI（快手）",
+      "channel": "app",
+      "kind": "daily",
+      "headline": "每日登录送 66 灵感值",
+      "details": [
+        "动作流畅度、运镜、对口型目前第一梯队",
+        "文生视频 / 图生视频全支持，免费档 1080P 无水印",
+        "单条消耗随模式与清晰度变化（5 秒 720P 约 10–30 点）"
+      ],
+      "gate": "手机号注册，无需绑卡",
+      "applyUrl": "https://klingai.kuaishou.com",
+      "sourceUrl": "https://klingai.kuaishou.com",
+      "note": "工作日晚高峰排队 20–30 分钟，重要片子错峰跑"
+    },
+    {
+      "platform": "通义万相（阿里）",
+      "channel": "app",
+      "kind": "daily",
+      "headline": "每日签到 50 灵感值，约 200 张图",
+      "details": [
+        "1 灵感值≈4 张图，每天 0 点补",
+        "国风 / 水墨 / 古风效果最好",
+        "创意版下载无水印、可商用"
+      ],
+      "gate": "阿里账号登录",
+      "applyUrl": "https://tongyi.aliyun.com/wanxiang",
+      "sourceUrl": "https://tongyi.aliyun.com/wanxiang",
+      "note": "高清与长视频按量付费；要更长视频走百炼赠送的 50 秒额度"
+    },
+    {
+      "platform": "豆包（字节）",
+      "channel": "app",
+      "kind": "daily",
+      "headline": "对话/生图/音乐全免费，视频每天 10 点额度",
+      "details": [
+        "视频额度每日 0 点刷新、可累积不清零；签到再 +2",
+        "5 秒视频=1 点、10 秒=2 点 → 每天最多 10 条 5 秒",
+        "聊天、生图、写作、音乐生成完全免费"
+      ],
+      "gate": "手机号登录",
+      "applyUrl": "https://www.doubao.com",
+      "sourceUrl": "https://www.doubao.com",
+      "note": "视频仅文生视频、最长 10 秒；精细出图还是走即梦/万相"
+    },
+    {
+      "platform": "海螺 AI（MiniMax）",
+      "channel": "app",
+      "kind": "daily",
+      "headline": "国内每日约 3–5 条视频免费",
+      "details": [
+        "运镜控制强、出片快，约 20 秒一条",
+        "新用户另送一次性积分",
+        "对话与视频在同一站，配音配乐一并做"
+      ],
+      "gate": "手机号注册",
+      "applyUrl": "https://hailuoai.com",
+      "sourceUrl": "https://hailuoai.com",
+      "note": "免费带水印、非商用；单次最长约 5–6 秒"
+    },
+    {
+      "platform": "Vidu（清华系）",
+      "channel": "app",
+      "kind": "daily",
+      "headline": "注册赠 160 分 + 每月赠 80 + 每日签到",
+      "details": [
+        "动漫 / 教育 / 虚拟人风格，音画同步好",
+        "首尾帧、多镜头一致性是强项",
+        "新用户另有 7 天无限试用"
+      ],
+      "gate": "手机号注册",
+      "applyUrl": "https://www.vidu.cn",
+      "sourceUrl": "https://www.vidu.cn",
+      "note": "体验期后偏积分消耗，免费档带水印"
+    },
+    {
+      "platform": "文心一格（百度）",
+      "channel": "app",
+      "kind": "daily",
+      "headline": "每日免费出图额度",
+      "details": [
+        "国风与模板海报是强项",
+        "轻度使用够日常封面、配图"
+      ],
+      "gate": "百度账号登录",
+      "applyUrl": "https://yige.baidu.com",
+      "sourceUrl": "https://yige.baidu.com",
+      "note": "风格偏固定，灵活度不如即梦"
+    },
+    {
+      "platform": "腾讯元宝",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "完全免费，微信/QQ 直接登录",
+      "details": [
+        "可切换不同模型，能搜公众号与视频号内容",
+        "联网搜索、长文写作、图片理解都免费"
+      ],
+      "gate": "微信 / QQ 登录",
+      "applyUrl": "https://yuanbao.tencent.com",
+      "sourceUrl": "https://yuanbao.tencent.com",
+      "note": "腾讯生态内最省事的一个"
+    },
+    {
+      "platform": "DeepSeek",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "网页与 App 完全免费，无付费版",
+      "details": [
+        "代码、数学、长文推理强",
+        "支持上传文件与超长上下文"
+      ],
+      "gate": "手机号 / 微信登录",
+      "applyUrl": "https://chat.deepseek.com",
+      "sourceUrl": "https://chat.deepseek.com",
+      "note": "高峰期会变慢，认准官网别下山寨 App"
+    },
+    {
+      "platform": "Kimi（月之暗面）",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "日常对话免费，长文档能力最强",
+      "details": [
+        "几百页 PDF / 合同 / 论文直接丢进去问答",
+        "联网搜索、文件解析免费"
+      ],
+      "gate": "手机号登录",
+      "applyUrl": "https://kimi.com",
+      "sourceUrl": "https://kimi.com",
+      "note": "智能体、深度研究等高级功能要会员"
+    },
+    {
+      "platform": "通义千问（阿里）",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "主要功能免费",
+      "details": [
+        "对话、写作、表格、读文件、作图在一个 App 里",
+        "录音转写、PPT 生成也覆盖"
+      ],
+      "gate": "阿里账号登录",
+      "applyUrl": "https://www.qianwen.com",
+      "sourceUrl": "https://www.qianwen.com",
+      "note": "文件处理先让它总结再追问细节"
+    },
+    {
+      "platform": "文心助手（原文心一言）",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "2026-08-20 起宣布完全免费",
+      "details": [
+        "聊天、画图、识图、写作、翻译、读文档",
+        "百度生态内可直接用"
+      ],
+      "gate": "百度账号登录",
+      "applyUrl": "https://yiyan.baidu.com",
+      "sourceUrl": "https://yiyan.baidu.com",
+      "note": "品牌已由「文心一言」更名为「文心助手」"
+    },
+    {
+      "platform": "智谱清言",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "个人版日常对话免费",
+      "details": [
+        "读文档、画图、写代码",
+        "可自建固定助手，把提示词和资料存下来复用"
+      ],
+      "gate": "手机号登录",
+      "applyUrl": "https://chatglm.cn",
+      "sourceUrl": "https://chatglm.cn",
+      "note": "用量大的能力会提示开会员"
+    },
+    {
+      "platform": "智谱清影",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "基础视频生成全民免费",
+      "details": [
+        "文生视频、图生视频基础档免费",
+        "中文理解强，自带音效/配乐"
+      ],
+      "gate": "智谱账号登录",
+      "applyUrl": "https://chatglm.cn/video",
+      "sourceUrl": "https://chatglm.cn",
+      "note": "高清、长时长要会员"
+    },
+    {
+      "platform": "讯飞星火",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "App 免费使用，语音是杀手锏",
+      "details": [
+        "对话、写作、翻译、文档处理一站式",
+        "语音转文字准确率高，支持方言"
+      ],
+      "gate": "手机号登录",
+      "applyUrl": "https://xinghuo.xfyun.cn",
+      "sourceUrl": "https://xinghuo.xfyun.cn",
+      "note": "开会录音转文字后直接让它提炼待办"
+    },
+    {
+      "platform": "秘塔 AI 搜索",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "基础功能免费，网页免注册",
+      "details": [
+        "无广告，答案附引用来源",
+        "深度研究、上传文件、工作流"
+      ],
+      "gate": "网页可直接用",
+      "applyUrl": "https://metaso.cn",
+      "sourceUrl": "https://metaso.cn",
+      "note": "问题写具体（带时间和领域）答案才贴合"
+    },
+    {
+      "platform": "纳米 AI 搜索（360）",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "网页端可直接用",
+      "details": [
+        "AI 搜索、视频/PDF/网页分析、思维导图"
+      ],
+      "gate": "网页可直接用",
+      "applyUrl": "https://www.n.cn",
+      "sourceUrl": "https://www.n.cn",
+      "note": "适合快速检索与资料汇总"
+    },
+    {
+      "platform": "天工（昆仑万维）",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "注册即可用 DeepResearch",
+      "details": [
+        "AI 文档、PPT、表格生成",
+        "超级办公智能体"
+      ],
+      "gate": "手机号注册",
+      "applyUrl": "https://www.tiangong.cn",
+      "sourceUrl": "https://www.tiangong.cn",
+      "note": "做报告、做方案场景比纯聊天省时间"
+    },
+    {
+      "platform": "剪映（字节）",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "AI 成片/字幕/配音免费，导出无水印",
+      "details": [
+        "AI 成片无次数限制，自动匹配素材、配音、字幕",
+        "智能字幕、AI 作曲、基础 1080P/4K 导出免费"
+      ],
+      "gate": "手机号登录",
+      "applyUrl": "https://www.capcut.cn",
+      "sourceUrl": "https://www.capcut.cn",
+      "note": "数字人、智能抠像、4K 进阶 AI 需 SVIP"
+    },
+    {
+      "platform": "腾讯智影",
+      "channel": "app",
+      "kind": "quota",
+      "headline": "免费数字人，按月总时长计",
+      "details": [
+        "不限生成次数，只限总时长",
+        "数字人口播、图文转视频开放"
+      ],
+      "gate": "微信登录",
+      "applyUrl": "https://zenvideo.qq.com",
+      "sourceUrl": "https://zenvideo.qq.com",
+      "note": "不想露脸做口播的首选"
+    },
+    {
+      "platform": "讯飞听见",
+      "channel": "app",
+      "kind": "quota",
+      "headline": "每月 10 小时免费转写",
+      "details": [
+        "中文转写准确率高，支持方言",
+        "会议录音转文字 + 自动提取待办"
+      ],
+      "gate": "手机号登录",
+      "applyUrl": "https://www.iflyrec.com",
+      "sourceUrl": "https://www.iflyrec.com",
+      "note": "超出按小时计费"
+    },
+    {
+      "platform": "通义听悟（阿里）",
+      "channel": "app",
+      "kind": "quota",
+      "headline": "个人版每月免费转写额度",
+      "details": [
+        "录音与会议转写，自动提取待办",
+        "个人版额度够每月十几场会"
+      ],
+      "gate": "阿里账号登录",
+      "applyUrl": "https://tingwu.aliyun.com",
+      "sourceUrl": "https://tingwu.aliyun.com",
+      "note": "团队场景要付费"
+    },
+    {
+      "platform": "飞书妙记",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "个人用户永久免费",
+      "details": [
+        "自动区分发言人，一键转文档",
+        "会议纪要自动生成"
+      ],
+      "gate": "飞书账号",
+      "applyUrl": "https://www.feishu.cn/product/minutes",
+      "sourceUrl": "https://www.feishu.cn/product/minutes",
+      "note": "个人版够用，团队版另算"
+    },
+    {
+      "platform": "WPS AI",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "基础 AI 功能免费",
+      "details": [
+        "表格公式、PPT、文档写作都能帮上手",
+        "WPS 用户直接可用"
+      ],
+      "gate": "WPS 账号",
+      "applyUrl": "https://www.wps.cn",
+      "sourceUrl": "https://www.wps.cn",
+      "note": "高级生成与长文档处理可能进会员"
+    },
+    {
+      "platform": "办公小浣熊（商汤）",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "免费版 ¥0 永久",
+      "details": [
+        "文档写作、资料规划、数据分析、知识空间",
+        "适合个人轻量办公"
+      ],
+      "gate": "手机号注册",
+      "applyUrl": "https://office.xiaohuanxiong.com",
+      "sourceUrl": "https://office.xiaohuanxiong.com",
+      "note": "重度数据分析会撞额度"
+    },
+    {
+      "platform": "商量 SenseChat（商汤）",
+      "channel": "app",
+      "kind": "permanent",
+      "headline": "基础能力直接体验",
+      "details": [
+        "聊天、文案、翻译、画图、编程",
+        "官网无需付费即可体验基础档"
+      ],
+      "gate": "手机号注册",
+      "applyUrl": "https://chat.sensetime.com",
+      "sourceUrl": "https://chat.sensetime.com",
+      "note": "高级能力需企业版"
+    }
+  ],
+  "domesticApi": [
+    {
+      "platform": "智谱 AI（GLM）",
+      "channel": "api",
+      "kind": "quota",
+      "headline": "新用户 2000 万 token，永久有效",
+      "details": [
+        "GLM-4-Flash / GLM-4.7-Flash 永久免费（限流不限量）",
+        "OpenAI 兼容接口，改 base_url 即可"
+      ],
+      "gate": "实名注册",
+      "applyUrl": "https://open.bigmodel.cn",
+      "sourceUrl": "https://open.bigmodel.cn",
+      "note": "中文强，长期兜底首选"
+    },
+    {
+      "platform": "硅基流动 SiliconFlow",
+      "channel": "api",
+      "kind": "quota",
+      "headline": "新用户 2000–3000 万 token，永久有效",
+      "details": [
+        "9B 及以下开源模型永久免费（Qwen2.5-7B、Llama-3.2-3B 等）",
+        "API 响应快，中文友好"
+      ],
+      "gate": "手机号注册",
+      "applyUrl": "https://siliconflow.cn",
+      "sourceUrl": "https://siliconflow.cn",
+      "note": "小模型永久免费适合批量任务"
+    },
+    {
+      "platform": "火山引擎 · 方舟（豆包）",
+      "channel": "api",
+      "kind": "daily",
+      "headline": "每天 200 万 token，按天重置",
+      "details": [
+        "协作奖励计划：200 万 token/天（月约 6000 万）",
+        "另有每模型 50 万 token 安心体验额度",
+        "Doubao-lite-32k 长期限流免费"
+      ],
+      "gate": "实名注册",
+      "applyUrl": "https://console.volcengine.com/ark",
+      "sourceUrl": "https://www.volcengine.com/docs/82379",
+      "note": "国内日重置额度最大，适合每天跑的自动化脚本"
+    },
+    {
+      "platform": "阿里云百炼 DashScope",
+      "channel": "api",
+      "kind": "quota",
+      "headline": "每模型 100 万 token，90 天有效",
+      "details": [
+        "千问全系、DeepSeek、Kimi、MiniMax、GLM 都能试",
+        "Qwen-Turbo 长期限流免费"
+      ],
+      "gate": "实名注册",
+      "applyUrl": "https://dashscope.aliyun.com",
+      "sourceUrl": "https://help.aliyun.com/zh/model-studio/",
+      "note": "模型最全，适合横向对比"
+    },
+    {
+      "platform": "百度千帆",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "ERNIE-Speed / Lite 永久免费",
+      "details": [
+        "限流 QPS=50，长期稳定",
+        "新用户另有试用额度"
+      ],
+      "gate": "实名注册",
+      "applyUrl": "https://qianfan.cloud.baidu.com",
+      "sourceUrl": "https://cloud.baidu.com/doc/QIANFAN/index.html",
+      "note": "永久免费模型 QPS 50，稳定性好"
+    },
+    {
+      "platform": "腾讯混元 TokenHub",
+      "channel": "api",
+      "kind": "quota",
+      "headline": "100 万 token + 100 万 Embedding，1 年",
+      "details": [
+        "Hunyuan-Lite 长期限流免费（256K 上下文）",
+        "腾讯生态接入顺"
+      ],
+      "gate": "实名注册",
+      "applyUrl": "https://cloud.tencent.com/product/tokenhub",
+      "sourceUrl": "https://cloud.tencent.com/product/tokenhub",
+      "note": "Embedding 额度对做 RAG 很实用"
+    },
+    {
+      "platform": "魔搭 ModelScope",
+      "channel": "api",
+      "kind": "daily",
+      "headline": "每天 2000 次调用（单模型 500 次）",
+      "details": [
+        "覆盖 Qwen / DeepSeek / GLM / MiniMax 等全部社区模型",
+        "含文生图、图生图模型",
+        "按调用次数计，不按 token"
+      ],
+      "gate": "注册 + 绑定阿里云账号",
+      "applyUrl": "https://modelscope.cn/my/myaccesstoken",
+      "sourceUrl": "https://modelscope.cn/posts/1409",
+      "note": "2026 改版为「魔粒」计量：约 250 魔粒/天，主流模型每次约 2 魔粒 ≈ 125 次/天，超额 429"
+    },
+    {
+      "platform": "Kimi API（月之暗面）",
+      "channel": "api",
+      "kind": "trial",
+      "headline": "新用户 15 元代金券，永久有效",
+      "details": [
+        "256K 超长上下文",
+        "OpenAI 兼容"
+      ],
+      "gate": "实名注册",
+      "applyUrl": "https://platform.moonshot.cn",
+      "sourceUrl": "https://platform.moonshot.cn/docs",
+      "note": "亮点是长上下文，不是额度大"
+    },
+    {
+      "platform": "讯飞星火 API",
+      "channel": "api",
+      "kind": "quota",
+      "headline": "每模型 20 万 token",
+      "details": [
+        "Spark Lite 长期限流免费",
+        "语音（ASR/TTS）能力突出"
+      ],
+      "gate": "实名注册",
+      "applyUrl": "https://www.xfyun.cn",
+      "sourceUrl": "https://www.xfyun.cn/doc/spark/HTTP%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.html",
+      "note": "做语音类应用优先"
+    },
+    {
+      "platform": "DeepSeek API",
+      "channel": "api",
+      "kind": "trial",
+      "headline": "新用户赠送额度（历史 100–500 万 token）",
+      "details": [
+        "单价全网最低之一",
+        "上下文 128K 起"
+      ],
+      "gate": "手机号注册",
+      "applyUrl": "https://platform.deepseek.com",
+      "sourceUrl": "https://api-docs.deepseek.com/zh-cn/",
+      "note": "额度不大但便宜，用完也花不了几个钱"
+    },
+    {
+      "platform": "MiniMax",
+      "channel": "api",
+      "kind": "trial",
+      "headline": "15 元赠金（约 2 个月）",
+      "details": [
+        "全模态：文本、语音克隆、视频",
+        "海螺同源模型"
+      ],
+      "gate": "实名注册",
+      "applyUrl": "https://www.minimaxi.com",
+      "sourceUrl": "https://www.minimaxi.com",
+      "note": "语音克隆是差异化能力"
+    }
+  ],
+  "overseasPlatforms": [
+    {
+      "platform": "OpenRouter",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "20+ 个免费模型，免费账号 50 次/天",
+      "details": [
+        "充值过 $10 后升到 1000 次/天，均 20 次/分",
+        "一个 key 通吃 500+ 模型",
+        "无需信用卡"
+      ],
+      "gate": "无需信用卡",
+      "applyUrl": "https://openrouter.ai",
+      "sourceUrl": "https://openrouter.ai/docs/guides/overview/models",
+      "note": "免费模型高峰期会挤；页面上方「实时免费模型」就是拉它的接口算出来的"
+    },
+    {
+      "platform": "Google AI Studio（Gemini）",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "Gemini Flash 约 1500 次/天，不限期",
+      "details": [
+        "免费层含 Flash 与部分 Pro",
+        "无需信用卡"
+      ],
+      "gate": "Google 账号",
+      "applyUrl": "https://aistudio.google.com",
+      "sourceUrl": "https://ai.google.dev/pricing",
+      "note": "海外最稳的免费兜底；免费层 prompt 可能被用于训练，别喂敏感内容"
+    },
+    {
+      "platform": "Groq",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "30 RPM，约 1000–14400 次/天",
+      "details": [
+        "Llama / GPT-OSS 全系免费层",
+        "自研 LPU，几百到上千 token/秒"
+      ],
+      "gate": "无需信用卡",
+      "applyUrl": "https://console.groq.com",
+      "sourceUrl": "https://console.groq.com/docs/rate-limits",
+      "note": "日请求上限才是真瓶颈"
+    },
+    {
+      "platform": "Cerebras",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "约 100 万 token/天，极快",
+      "details": [
+        "Llama 系免费层",
+        "2000 tok/s 级吞吐"
+      ],
+      "gate": "无需信用卡",
+      "applyUrl": "https://cloud.cerebras.ai",
+      "sourceUrl": "https://www.cerebras.ai/inference",
+      "note": "速度另一极，适合低延迟场景"
+    },
+    {
+      "platform": "GitHub Models",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "GPT / Llama / Mistral 免费原型调用",
+      "details": [
+        "按账户档位限速",
+        "直接在 GitHub 里试模型"
+      ],
+      "gate": "GitHub 账号",
+      "applyUrl": "https://github.com/marketplace?type=models",
+      "sourceUrl": "https://docs.github.com/en/github-models",
+      "note": "适合原型验证，别上生产"
+    },
+    {
+      "platform": "Cloudflare Workers AI",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "1 万神经元/天",
+      "details": [
+        "各类开源小模型",
+        "跑在边缘节点"
+      ],
+      "gate": "Cloudflare 账号",
+      "applyUrl": "https://developers.cloudflare.com/workers-ai/",
+      "sourceUrl": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "note": "计费口径特殊（神经元），适合轻量工具"
+    },
+    {
+      "platform": "Mistral",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "免费层（1 RPM 级限流）",
+      "details": [
+        "Mistral / Mixtral 全系",
+        "无需信用卡"
+      ],
+      "gate": "无需信用卡",
+      "applyUrl": "https://console.mistral.ai",
+      "sourceUrl": "https://mistral.ai/pricing",
+      "note": "限流很紧，只够低频用"
+    },
+    {
+      "platform": "Cohere",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "Command 系 trial key，限速不限期",
+      "details": [
+        "RAG / 工具调用文档齐全",
+        "无需信用卡"
+      ],
+      "gate": "无需信用卡",
+      "applyUrl": "https://dashboard.cohere.com",
+      "sourceUrl": "https://docs.cohere.com/docs/rate-limits",
+      "note": "做检索增强的经典选择"
+    },
+    {
+      "platform": "NVIDIA NIM",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "模型目录免费试用（1000 credit 起）",
+      "details": [
+        "覆盖大量开源模型",
+        "无需信用卡"
+      ],
+      "gate": "无需信用卡",
+      "applyUrl": "https://build.nvidia.com",
+      "sourceUrl": "https://docs.nvidia.com/nim/",
+      "note": "大参数模型在免费档偏慢"
+    },
+    {
+      "platform": "Hugging Face",
+      "channel": "api",
+      "kind": "permanent",
+      "headline": "数千托管模型的少量免费推理",
+      "details": [
+        "冷门开源模型第一站",
+        "无需信用卡"
+      ],
+      "gate": "无需信用卡",
+      "applyUrl": "https://huggingface.co/inference-api",
+      "sourceUrl": "https://huggingface.co/docs/inference-providers/index",
+      "note": "免费额度小，适合冷门模型验证"
+    },
+    {
+      "platform": "Together AI",
+      "channel": "api",
+      "kind": "trial",
+      "headline": "少量起始赠金（用完需 $5 起充）",
+      "details": [
+        "开源模型目录广",
+        "注册即可"
+      ],
+      "gate": "无需信用卡注册",
+      "applyUrl": "https://together.ai",
+      "sourceUrl": "https://docs.together.ai/",
+      "note": "白嫖期短，适合一次性爆发测试"
+    },
+    {
+      "platform": "Fireworks AI",
+      "channel": "api",
+      "kind": "trial",
+      "headline": "$1 赠金",
+      "details": [
+        "低延迟生产级",
+        "绑卡后限速才放开"
+      ],
+      "gate": "绑卡才有完整限速",
+      "applyUrl": "https://fireworks.ai",
+      "sourceUrl": "https://fireworks.ai/pricing",
+      "note": "白嫖期很短"
+    },
+    {
+      "platform": "Novita / DeepInfra / SambaNova",
+      "channel": "api",
+      "kind": "trial",
+      "headline": "少量起始赠金",
+      "details": [
+        "同类试用额度平台",
+        "适合一次性大爆发测试"
+      ],
+      "gate": "注册即可",
+      "applyUrl": "https://novita.ai",
+      "sourceUrl": "https://novita.ai",
+      "note": "额度用完必须绑卡"
+    }
+  ],
+  "mediaByPlatform": {
+    "WorkBuddy": [
+      "office",
+      "text"
+    ],
+    "即梦 AI（字节）": [
+      "image",
+      "video"
+    ],
+    "可灵 AI（快手）": [
+      "video"
+    ],
+    "通义万相（阿里）": [
+      "image",
+      "video"
+    ],
+    "豆包（字节）": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "海螺 AI（MiniMax）": [
+      "video",
+      "audio"
+    ],
+    "Vidu（清华系）": [
+      "video"
+    ],
+    "文心一格（百度）": [
+      "image"
+    ],
+    "腾讯元宝": [
+      "text"
+    ],
+    "DeepSeek": [
+      "text"
+    ],
+    "Kimi（月之暗面）": [
+      "text"
+    ],
+    "通义千问（阿里）": [
+      "text",
+      "office",
+      "image"
+    ],
+    "文心助手（原文心一言）": [
+      "text",
+      "image"
+    ],
+    "智谱清言": [
+      "text"
+    ],
+    "智谱清影": [
+      "video"
+    ],
+    "讯飞星火": [
+      "text",
+      "audio"
+    ],
+    "秘塔 AI 搜索": [
+      "text"
+    ],
+    "纳米 AI 搜索（360）": [
+      "text"
+    ],
+    "天工（昆仑万维）": [
+      "text",
+      "office"
+    ],
+    "剪映（字节）": [
+      "video",
+      "audio"
+    ],
+    "腾讯智影": [
+      "video"
+    ],
+    "讯飞听见": [
+      "audio"
+    ],
+    "通义听悟（阿里）": [
+      "audio"
+    ],
+    "飞书妙记": [
+      "audio",
+      "office"
+    ],
+    "WPS AI": [
+      "office"
+    ],
+    "办公小浣熊（商汤）": [
+      "office"
+    ],
+    "商量 SenseChat（商汤）": [
+      "text",
+      "image"
+    ],
+    "智谱 AI（GLM）": [
+      "text"
+    ],
+    "硅基流动 SiliconFlow": [
+      "text",
+      "image"
+    ],
+    "火山引擎 · 方舟（豆包）": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "阿里云百炼 DashScope": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "百度千帆": [
+      "text",
+      "image"
+    ],
+    "腾讯混元 TokenHub": [
+      "text",
+      "image",
+      "video"
+    ],
+    "魔搭 ModelScope": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "Kimi API（月之暗面）": [
+      "text"
+    ],
+    "讯飞星火 API": [
+      "text",
+      "audio",
+      "image"
+    ],
+    "DeepSeek API": [
+      "text"
+    ],
+    "MiniMax": [
+      "text",
+      "audio",
+      "video"
+    ],
+    "OpenRouter": [
+      "text",
+      "image"
+    ],
+    "Google AI Studio（Gemini）": [
+      "text",
+      "image",
+      "video"
+    ],
+    "Groq": [
+      "text",
+      "audio"
+    ],
+    "Cerebras": [
+      "text"
+    ],
+    "GitHub Models": [
+      "text"
+    ],
+    "Cloudflare Workers AI": [
+      "text",
+      "image"
+    ],
+    "Mistral": [
+      "text"
+    ],
+    "Cohere": [
+      "text"
+    ],
+    "NVIDIA NIM": [
+      "text",
+      "image"
+    ],
+    "Hugging Face": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "Together AI": [
+      "text",
+      "image"
+    ],
+    "Fireworks AI": [
+      "text",
+      "image"
+    ],
+    "Novita / DeepInfra / SambaNova": [
+      "text",
+      "image"
+    ]
+  }
+}

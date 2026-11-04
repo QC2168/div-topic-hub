@@ -1,0 +1,57 @@
+{
+  "version": "https://json-schema.org/draft/2020-12/schema",
+  "title": "免费额度榜单 data/free-tier.json",
+  "description": "B站 Toy「AI 免费额度图鉴」与 div-topic-hub /free 页面共用的数据源。改数据只改这一个文件，改完跑 node scripts/validate-data.mjs 自检。",
+  "type": "object",
+  "required": ["verifiedAt", "domesticApp", "domesticApi", "overseasPlatforms", "mediaByPlatform"],
+  "properties": {
+    "verifiedAt": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "人工核实日期。改动任何条目时都要同步更新。"
+    },
+    "author": {
+      "type": "object",
+      "description": "B站作者信息，可选。mid 留空则 Toy 不显示「去关注作者」入口；bvid/aid 留空则三连核验入口收起。",
+      "properties": {
+        "mid": { "type": "string", "description": "B站用户号（纯数字字符串），如 \"9527\"。" },
+        "name": { "type": "string", "description": "UP 主昵称，仅用于展示。" },
+        "bvid": { "type": "string", "pattern": "^$|^BV1[A-HJ-NP-Za-km-z1-9]{9}$", "description": "绑定投稿视频的 BV 号，用于「去看视频」和三连核验。" },
+        "aid": { "type": "integer", "minimum": 0, "description": "同一视频的 av 号，可选，和 bvid 二选一即可。" }
+      }
+    },
+    "domesticApp": { "$ref": "#/$defs/entryList", "description": "国内 · 应用：打开网页/App 直接能用。" },
+    "domesticApi": { "$ref": "#/$defs/entryList", "description": "国内 · 开发者 API。" },
+    "overseasPlatforms": { "$ref": "#/$defs/entryList", "description": "海外 · 平台。" },
+    "mediaByPlatform": {
+      "type": "object",
+      "description": "平台名 → 内容类型数组。没配的平台按 [\"text\"] 兜底。",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "enum": ["text", "image", "video", "audio", "office"] },
+        "minItems": 1
+      }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "required": ["platform", "channel", "kind", "headline", "details", "gate", "applyUrl", "sourceUrl", "note"],
+      "properties": {
+        "platform": { "type": "string", "description": "平台全名，全库唯一（mediaByPlatform 靠它对键）。" },
+        "channel": { "enum": ["app", "api"] },
+        "kind": {
+          "enum": ["daily", "permanent", "quota", "trial"],
+          "description": "daily=每天领 / permanent=长期免费 / quota=一次性 / trial=试用金"
+        },
+        "headline": { "type": "string", "minLength": 4, "description": "卡片主标题：一句话说清能白嫖到什么。" },
+        "details": { "type": "array", "items": { "type": "string" }, "minItems": 1, "description": "明细 2–4 条。" },
+        "gate": { "type": "string", "description": "使用门槛。" },
+        "applyUrl": { "type": "string", "pattern": "^https://" },
+        "sourceUrl": { "type": "string", "pattern": "^https://", "description": "核实依据链接。" },
+        "note": { "type": "string", "description": "坑位提示。写清楚限额、清零时间、水印等。" }
+      }
+    },
+    "entryList": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/entry" } }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "选题雷达 Side Panel",
+  "version": "0.1.0",
+  "description": "在浏览器右侧边栏常驻 B 站科技区黑马 + AI 新资讯，一键拆解成选题。",
+  "permissions": ["sidePanel"],
+  "host_permissions": [
+    "http://localhost:3110/*",
+    "http://127.0.0.1:3110/*"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "打开选题雷达"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
