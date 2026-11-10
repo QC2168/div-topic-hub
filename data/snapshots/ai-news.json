@@ -3,21 +3,21 @@
   "dataset": "ai-news",
   "name": "AI 与开发者资讯",
   "description": "GitHub 飙升、AI 快讯（官方 RSS）、Hacker News、arXiv 新论文、HuggingFace 榜单五类合并",
-  "generatedAt": "2026-11-10T19:13:46.177Z",
-  "fetchedAt": "2026-11-10T19:13:34.089Z",
+  "generatedAt": "2026-11-10T19:29:10.269Z",
+  "fetchedAt": "2026-11-10T19:28:32.172Z",
   "mode": "refresh",
-  "count": 371,
+  "count": 360,
   "counts": {
     "github": 42,
     "ai-board": 36,
-    "paper": 72,
-    "community": 62,
-    "ai-news": 159
+    "paper": 70,
+    "community": 60,
+    "ai-news": 152
   },
   "staleAfterMinutes": 1440,
-  "ageMinutes": 0,
-  "contentHash": "sha256:7473552611e7fa26",
-  "collectMs": 5004,
+  "ageMinutes": 1,
+  "contentHash": "sha256:e61ae0b1fad4a380",
+  "collectMs": 3241,
   "warnings": [],
   "items": [
     {
@@ -30,7 +30,7 @@
       "cover": "https://github.com/pingdotgg.png?size=80",
       "summary": "",
       "metrics": {
-        "stars": 55472,
+        "stars": 55486,
         "starsToday": 13448
       },
       "comments": [],
@@ -51,8 +51,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.532Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 172.97
     },
     {
@@ -65,7 +65,7 @@
       "cover": "https://github.com/mattpocock.png?size=80",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
       "metrics": {
-        "stars": 320710,
+        "stars": 320720,
         "starsToday": 9800
       },
       "comments": [],
@@ -86,8 +86,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 172.73
     },
     {
@@ -100,7 +100,7 @@
       "cover": "https://github.com/cloudflare.png?size=80",
       "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "metrics": {
-        "stars": 68986,
+        "stars": 69003,
         "starsToday": 10695
       },
       "comments": [],
@@ -121,8 +121,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 170.06
     },
     {
@@ -135,7 +135,7 @@
       "cover": "https://github.com/vercel-labs.png?size=80",
       "summary": "Computer use CLI for AI agents",
       "metrics": {
-        "stars": 21245,
+        "stars": 21249,
         "starsToday": 12120
       },
       "comments": [],
@@ -156,8 +156,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 168.89
     },
     {
@@ -170,7 +170,7 @@
       "cover": "https://github.com/D4Vinci.png?size=80",
       "summary": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "metrics": {
-        "stars": 101035,
+        "stars": 101040,
         "starsToday": 8226
       },
       "comments": [],
@@ -191,8 +191,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.532Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 167.06
     },
     {
@@ -205,7 +205,7 @@
       "cover": "https://github.com/NVIDIA.png?size=80",
       "summary": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "metrics": {
-        "stars": 11382,
+        "stars": 11385,
         "starsToday": 10159
       },
       "comments": [],
@@ -226,8 +226,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 164.58
     },
     {
@@ -240,7 +240,7 @@
       "cover": "https://github.com/milind-soni.png?size=80",
       "summary": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "metrics": {
-        "stars": 20555,
+        "stars": 20557,
         "starsToday": 8325
       },
       "comments": [],
@@ -261,8 +261,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 163.09
     },
     {
@@ -275,7 +275,7 @@
       "cover": "https://github.com/thedotmack.png?size=80",
       "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "metrics": {
-        "stars": 115747,
+        "stars": 115749,
         "starsToday": 5130
       },
       "comments": [],
@@ -296,8 +296,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.532Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 160.24
     },
     {
@@ -310,7 +310,7 @@
       "cover": "https://github.com/anthropics.png?size=80",
       "summary": "Public repository for Agent Skills",
       "metrics": {
-        "stars": 192106,
+        "stars": 192113,
         "starsToday": 3796
       },
       "comments": [],
@@ -331,8 +331,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 156.98
     },
     {
@@ -366,8 +366,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 154.74
     },
     {
@@ -380,7 +380,7 @@
       "cover": "https://github.com/vercel-labs.png?size=80",
       "summary": "Browser automation CLI for AI agents",
       "metrics": {
-        "stars": 49079,
+        "stars": 49090,
         "starsToday": 2994
       },
       "comments": [],
@@ -401,8 +401,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 149.82
     },
     {
@@ -415,7 +415,7 @@
       "cover": "https://github.com/sherlock-project.png?size=80",
       "summary": "Hunt down social media accounts by username across social networks",
       "metrics": {
-        "stars": 108720,
+        "stars": 108735,
         "starsToday": 2387
       },
       "comments": [],
@@ -436,8 +436,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.254Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.539Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 148.45
     },
     {
@@ -450,7 +450,7 @@
       "cover": "https://github.com/meta.png?size=80",
       "summary": "An open source design system that's fully customizable and agent ready",
       "metrics": {
-        "stars": 22360,
+        "stars": 22378,
         "starsToday": 3111
       },
       "comments": [],
@@ -471,9 +471,9 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.254Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 148.35
+      "publishedAt": "2026-11-10T19:28:33.538Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 148.36
     },
     {
       "id": "gh:max-sixty/worktrunk",
@@ -506,8 +506,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 142.84
     },
     {
@@ -520,7 +520,7 @@
       "cover": "https://github.com/The-PR-Agent.png?size=80",
       "summary": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
       "metrics": {
-        "stars": 15846,
+        "stars": 15848,
         "starsToday": 1822
       },
       "comments": [],
@@ -541,8 +541,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.531Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 139.33
     },
     {
@@ -571,8 +571,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.532Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.937Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 138.51
     },
     {
@@ -585,7 +585,7 @@
       "cover": "https://github.com/debpalash.png?size=80",
       "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "metrics": {
-        "stars": 107083,
+        "stars": 107092,
         "starsToday": 1211
       },
       "comments": [],
@@ -606,8 +606,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 138.1
     },
     {
@@ -620,7 +620,7 @@
       "cover": "https://github.com/ZhuLinsen.png?size=80",
       "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "metrics": {
-        "stars": 69532,
+        "stars": 69533,
         "starsToday": 1062
       },
       "comments": [],
@@ -641,8 +641,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 134.98
     },
     {
@@ -655,7 +655,7 @@
       "cover": "https://github.com/homeassistant-ai.png?size=80",
       "summary": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "metrics": {
-        "stars": 6499,
+        "stars": 6505,
         "starsToday": 792
       },
       "comments": [],
@@ -671,8 +671,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.254Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.539Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 124.35
     },
     {
@@ -685,7 +685,7 @@
       "cover": "https://github.com/addyosmani.png?size=80",
       "summary": "Production-grade engineering skills for AI coding agents.",
       "metrics": {
-        "stars": 115008,
+        "stars": 115014,
         "starsToday": 465
       },
       "comments": [],
@@ -706,8 +706,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.254Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.539Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 123.76
     },
     {
@@ -720,7 +720,7 @@
       "cover": "https://github.com/garrytan.png?size=80",
       "summary": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
       "metrics": {
-        "stars": 32462,
+        "stars": 32464,
         "starsToday": 558
       },
       "comments": [],
@@ -741,8 +741,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:35.887Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.405Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 123.23
     },
     {
@@ -755,7 +755,7 @@
       "cover": "https://github.com/anthropics.png?size=80",
       "summary": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "metrics": {
-        "stars": 20394,
+        "stars": 20397,
         "starsToday": 530
       },
       "comments": [],
@@ -776,8 +776,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.254Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.539Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 121.24
     },
     {
@@ -790,7 +790,7 @@
       "cover": "https://github.com/google-deepmind.png?size=80",
       "summary": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "metrics": {
-        "stars": 17274,
+        "stars": 17275,
         "starsToday": 453
       },
       "comments": [],
@@ -811,8 +811,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.254Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.539Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 118.42
     },
     {
@@ -825,7 +825,7 @@
       "cover": "https://github.com/ranxianglei.png?size=80",
       "summary": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "metrics": {
-        "stars": 6180,
+        "stars": 6185,
         "starsToday": 374
       },
       "comments": [],
@@ -841,8 +841,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.254Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.539Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 112.84
     },
     {
@@ -876,8 +876,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 112.55
     },
     {
@@ -890,7 +890,7 @@
       "cover": "https://github.com/Imbad0202.png?size=80",
       "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "metrics": {
-        "stars": 56340,
+        "stars": 56341,
         "starsToday": 242
       },
       "comments": [],
@@ -906,8 +906,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 112
     },
     {
@@ -920,7 +920,7 @@
       "cover": "https://github.com/rohitg00.png?size=80",
       "summary": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
       "metrics": {
-        "stars": 78263,
+        "stars": 78268,
         "starsToday": 187
       },
       "comments": [],
@@ -936,8 +936,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 108.96
     },
     {
@@ -950,7 +950,7 @@
       "cover": "https://github.com/we-promise.png?size=80",
       "summary": "The personal finance app for everyone (by everyone)",
       "metrics": {
-        "stars": 11743,
+        "stars": 11751,
         "starsToday": 184
       },
       "comments": [],
@@ -966,8 +966,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.254Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.539Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 103.77
     },
     {
@@ -980,7 +980,7 @@
       "cover": "https://github.com/tokio-rs.png?size=80",
       "summary": "A batteries-included framework for building web apps",
       "metrics": {
-        "stars": 6708,
+        "stars": 6711,
         "starsToday": 192
       },
       "comments": [],
@@ -991,9 +991,9 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.254Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 102.95
+      "publishedAt": "2026-11-10T19:28:33.539Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 102.96
     },
     {
       "id": "gh:every-app/open-seo",
@@ -1021,8 +1021,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:35.887Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.405Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 102.46
     },
     {
@@ -1035,7 +1035,7 @@
       "cover": "https://github.com/OpenBMB.png?size=80",
       "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "metrics": {
-        "stars": 42203,
+        "stars": 42204,
         "starsToday": 135
       },
       "comments": [],
@@ -1051,8 +1051,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 102.43
     },
     {
@@ -1076,8 +1076,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:35.887Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.405Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 100.52
     },
     {
@@ -1090,7 +1090,7 @@
       "cover": "https://github.com/fosrl.png?size=80",
       "summary": "Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.",
       "metrics": {
-        "stars": 23563,
+        "stars": 23564,
         "starsToday": 125
       },
       "comments": [],
@@ -1106,8 +1106,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:35.887Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.405Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 99.75
     },
     {
@@ -1120,7 +1120,7 @@
       "cover": "https://github.com/ashishpatel26.png?size=80",
       "summary": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, a",
       "metrics": {
-        "stars": 39627,
+        "stars": 39628,
         "starsToday": 112
       },
       "comments": [],
@@ -1136,8 +1136,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 99.45
     },
     {
@@ -1166,8 +1166,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:35.887Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.405Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 96.7
     },
     {
@@ -1191,8 +1191,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 89.88
     },
     {
@@ -1205,7 +1205,7 @@
       "cover": "https://github.com/rlaope.png?size=80",
       "summary": "⚚ The ultrawork agent with AI coworkers wired into you",
       "metrics": {
-        "stars": 5353,
+        "stars": 5354,
         "starsToday": 59
       },
       "comments": [],
@@ -1216,8 +1216,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 84.61
     },
     {
@@ -1230,7 +1230,7 @@
       "cover": "https://github.com/a-ghorbani.png?size=80",
       "summary": "An app that brings language models directly to your phone.",
       "metrics": {
-        "stars": 9173,
+        "stars": 9174,
         "starsToday": 50
       },
       "comments": [],
@@ -1241,8 +1241,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:35.887Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.405Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 83.54
     },
     {
@@ -1266,8 +1266,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:35.887Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.405Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 83.16
     },
     {
@@ -1280,7 +1280,7 @@
       "cover": "https://github.com/mantrakp04.png?size=80",
       "summary": "A free Chromium browser for the Mac: Arc's sidebar, Dia's polish. Chat on Discord: discord.gg/TdhuXrbcA6",
       "metrics": {
-        "stars": 1631,
+        "stars": 1632,
         "starsToday": 64
       },
       "comments": [],
@@ -1291,8 +1291,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:35.887Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.405Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 82.73
     },
     {
@@ -1303,10 +1303,10 @@
       "author": "speridlabs",
       "url": "https://huggingface.co/speridlabs/idol",
       "cover": null,
-      "summary": "image-to-3d · 下载 2.6万 · 1818 赞",
+      "summary": "image-to-3d · 下载 2.6万 · 1822 赞",
       "metrics": {
-        "trendingScore": 913,
-        "like": 1818,
+        "trendingScore": 914,
+        "like": 1822,
         "downloads": 26470
       },
       "comments": [],
@@ -1323,8 +1323,8 @@
         }
       ],
       "publishedAt": "2026-10-28T15:55:17.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 78.41
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 78.42
     },
     {
       "id": "hf-model:xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
@@ -1334,10 +1334,10 @@
       "author": "xtools-at",
       "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
       "cover": null,
-      "summary": "text-generation · 下载 1.4万 · 1157 赞",
+      "summary": "text-generation · 下载 1.4万 · 1160 赞",
       "metrics": {
-        "trendingScore": 906,
-        "like": 1157,
+        "trendingScore": 909,
+        "like": 1160,
         "downloads": 14378
       },
       "comments": [],
@@ -1354,8 +1354,8 @@
         }
       ],
       "publishedAt": "2026-10-30T10:21:29.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 77.54
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 77.57
     },
     {
       "id": "hf-paper:2611.12806",
@@ -1379,8 +1379,8 @@
         }
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 75.78
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 75.75
     },
     {
       "id": "hf-model:moonshotai/Kimi-K3.1-Pro",
@@ -1390,10 +1390,10 @@
       "author": "moonshotai",
       "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
       "cover": null,
-      "summary": "image-text-to-text · 下载 3.1万 · 1848 赞",
+      "summary": "image-text-to-text · 下载 3.1万 · 1852 赞",
       "metrics": {
-        "trendingScore": 609,
-        "like": 1848,
+        "trendingScore": 611,
+        "like": 1852,
         "downloads": 30721
       },
       "comments": [],
@@ -1410,8 +1410,8 @@
         }
       ],
       "publishedAt": "2026-11-02T04:13:51.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 74.74
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 74.77
     },
     {
       "id": "hf-model:ccore/Qwen3.5-4B-3D-Coder",
@@ -1436,7 +1436,7 @@
         }
       ],
       "publishedAt": "2026-10-25T05:43:34.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 72.09
     },
     {
@@ -1449,8 +1449,8 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 348,
-        "reply": 62
+        "points": 367,
+        "reply": 64
       },
       "comments": [],
       "badges": [
@@ -1466,8 +1466,8 @@
         }
       ],
       "publishedAt": "2026-11-10T16:37:44.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 71.77
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 71.7
     },
     {
       "id": "hf-model:black-forest-labs/flux-3-image-klein-comfy",
@@ -1479,7 +1479,7 @@
       "cover": null,
       "summary": "image-to-image · 下载 125.2万 · 2862 赞",
       "metrics": {
-        "trendingScore": 237,
+        "trendingScore": 236,
         "like": 2862,
         "downloads": 1251688
       },
@@ -1492,8 +1492,8 @@
         }
       ],
       "publishedAt": "2026-10-14T12:00:13.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 70.58
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 70.54
     },
     {
       "id": "hf-model:ricursiveAI/Ripple-65B-Preview",
@@ -1523,7 +1523,7 @@
         }
       ],
       "publishedAt": "2026-11-04T02:41:21.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 69.93
     },
     {
@@ -1536,7 +1536,7 @@
       "cover": null,
       "summary": "text-to-image · 下载 78.3万 · 281 赞",
       "metrics": {
-        "trendingScore": 225,
+        "trendingScore": 220,
         "like": 281,
         "downloads": 782946
       },
@@ -1549,8 +1549,8 @@
         }
       ],
       "publishedAt": "2026-10-28T11:26:05.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 69.47
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 69.26
     },
     {
       "id": "hf-paper:2611.12762",
@@ -1574,38 +1574,8 @@
         }
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 68.77
-    },
-    {
-      "id": "hn:50442426",
-      "platform": "hn",
-      "category": "community",
-      "title": "Blender 5.3 released with Gaussian Splat support",
-      "author": "amlib",
-      "url": "https://www.blender.org/download/releases/5-3/",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 281,
-        "reply": 37
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🐴 12 小时内",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 3 小时新帖",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-10T16:15:43.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 68.17
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 68.74
     },
     {
       "id": "hf-model:Viggle/Viggle-Remake",
@@ -1630,8 +1600,33 @@
         }
       ],
       "publishedAt": "2026-10-22T19:06:17.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 68.09
+    },
+    {
+      "id": "hn:50442426",
+      "platform": "hn",
+      "category": "community",
+      "title": "Blender 5.3 released with Gaussian Splat support",
+      "author": "amlib",
+      "url": "https://www.blender.org/download/releases/5-3/",
+      "cover": null,
+      "summary": "",
+      "metrics": {
+        "points": 293,
+        "reply": 40
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "dark-horse",
+          "label": "🐴 12 小时内",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-10T16:15:43.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 68.05
     },
     {
       "id": "hn:50439193",
@@ -1643,8 +1638,8 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 485,
-        "reply": 158
+        "points": 491,
+        "reply": 159
       },
       "comments": [],
       "badges": [
@@ -1655,8 +1650,8 @@
         }
       ],
       "publishedAt": "2026-11-10T12:11:12.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 68.07
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 67.95
     },
     {
       "id": "hf-model:webAI-Official/TwIL-8B",
@@ -1681,7 +1676,7 @@
         }
       ],
       "publishedAt": "2026-10-14T16:50:12.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 67.32
     },
     {
@@ -1712,7 +1707,7 @@
         }
       ],
       "publishedAt": "2026-11-06T19:31:28.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 67.24
     },
     {
@@ -1725,7 +1720,7 @@
       "cover": null,
       "summary": "automatic-speech-recognition · 下载 7.2万 · 3148 赞",
       "metrics": {
-        "trendingScore": 243,
+        "trendingScore": 242.5,
         "like": 3148,
         "downloads": 72455
       },
@@ -1738,21 +1733,21 @@
         }
       ],
       "publishedAt": "2026-10-07T22:50:21.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 67.1
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 67.08
     },
     {
-      "id": "hn:50442303",
+      "id": "hn:50441707",
       "platform": "hn",
       "category": "community",
-      "title": "Gemini 4 Carbon is now available",
-      "author": "meetpateltech",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "title": "Smart home devices should work without the internet",
+      "author": "skittleson",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 236,
-        "reply": 128
+        "points": 290,
+        "reply": 126
       },
       "comments": [],
       "badges": [
@@ -1762,9 +1757,9 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-10T16:07:15.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 65.7
+      "publishedAt": "2026-11-10T15:25:20.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 66.13
     },
     {
       "id": "hf-paper:2611.12886",
@@ -1788,21 +1783,21 @@
         }
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 65.67
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 65.64
     },
     {
-      "id": "hn:50441707",
+      "id": "hn:50442303",
       "platform": "hn",
       "category": "community",
-      "title": "Smart home devices should work without the internet",
-      "author": "skittleson",
-      "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "title": "Gemini 4 Carbon is now available",
+      "author": "meetpateltech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 266,
-        "reply": 120
+        "points": 238,
+        "reply": 132
       },
       "comments": [],
       "badges": [
@@ -1812,9 +1807,9 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-10T15:25:20.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 65.58
+      "publishedAt": "2026-11-10T16:07:15.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 65.21
     },
     {
       "id": "hf-model:LiquidAI/LFM3-1.7B",
@@ -1833,7 +1828,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-23T21:35:42.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 64.73
     },
     {
@@ -1844,17 +1839,17 @@
       "author": "mradermacher",
       "url": "https://huggingface.co/mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
       "cover": null,
-      "summary": "下载 24.9万 · 230 赞",
+      "summary": "下载 24.9万 · 231 赞",
       "metrics": {
-        "trendingScore": 158,
-        "like": 230,
+        "trendingScore": 159,
+        "like": 231,
         "downloads": 249249
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-31T09:45:48.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 64.62
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 64.68
     },
     {
       "id": "hf-model:VideoRebirthAI/hyperflow-h3-flash",
@@ -1879,7 +1874,7 @@
         }
       ],
       "publishedAt": "2026-11-04T13:54:24.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 63.56
     },
     {
@@ -1892,8 +1887,8 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 638,
-        "reply": 221
+        "points": 644,
+        "reply": 223
       },
       "comments": [],
       "badges": [
@@ -1909,8 +1904,8 @@
         }
       ],
       "publishedAt": "2026-11-10T06:01:08.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 63.53
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 63.5
     },
     {
       "id": "hf-model:ccore/Qwen3.5-4B-GLB-3D-Coder",
@@ -1920,17 +1915,17 @@
       "author": "ccore",
       "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
       "cover": null,
-      "summary": "text-generation · 下载 4.3万 · 300 赞",
+      "summary": "text-generation · 下载 4.3万 · 301 赞",
       "metrics": {
-        "trendingScore": 167,
-        "like": 300,
+        "trendingScore": 168,
+        "like": 301,
         "downloads": 43008
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-01T22:30:01.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 62.86
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 62.91
     },
     {
       "id": "hf-model:mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
@@ -1955,7 +1950,7 @@
         }
       ],
       "publishedAt": "2026-11-07T05:50:30.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 62.25
     },
     {
@@ -1966,10 +1961,10 @@
       "author": "MiniMaxAI",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
       "cover": null,
-      "summary": "text-to-image · 下载 667 · 272 赞",
+      "summary": "text-to-image · 下载 667 · 278 赞",
       "metrics": {
-        "trendingScore": 271,
-        "like": 272,
+        "trendingScore": 277,
+        "like": 278,
         "downloads": 667
       },
       "comments": [],
@@ -1981,8 +1976,8 @@
         }
       ],
       "publishedAt": "2026-11-03T06:34:36.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 62.03
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 62.24
     },
     {
       "id": "hn:50431058",
@@ -2011,8 +2006,35 @@
         }
       ],
       "publishedAt": "2026-11-09T19:58:59.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 60.55
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 60.47
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "platform": "rss",
+      "category": "ai-news",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "author": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "cover": null,
+      "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+      "metrics": {},
+      "comments": [],
+      "badges": [
+        {
+          "key": "brand-new",
+          "label": "📰 今日更新",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🆕 近 3 日",
+          "tone": "neutral"
+        }
+      ],
+      "publishedAt": "2026-11-10T19:23:34.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.75
     },
     {
       "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
@@ -2038,7 +2060,7 @@
         }
       ],
       "publishedAt": "2026-11-10T19:04:05.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 59.75
     },
     {
@@ -2065,7 +2087,7 @@
         }
       ],
       "publishedAt": "2026-11-10T19:03:52.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 59.75
     },
     {
@@ -2092,7 +2114,7 @@
         }
       ],
       "publishedAt": "2026-11-10T18:49:52.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 59.75
     },
     {
@@ -2119,8 +2141,8 @@
         }
       ],
       "publishedAt": "2026-11-10T18:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.69
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.63
     },
     {
       "id": "hf-model:baidu/ERNIE-5.5-Flash-Base",
@@ -2139,7 +2161,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-21T08:40:58.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 59.59
     },
     {
@@ -2166,35 +2188,8 @@
         }
       ],
       "publishedAt": "2026-11-10T17:32:47.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.58
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-      "author": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-      "cover": null,
-      "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
-      "metrics": {},
-      "comments": [],
-      "badges": [
-        {
-          "key": "brand-new",
-          "label": "📰 今日更新",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-10T17:30:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.57
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.52
     },
     {
       "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
@@ -2220,8 +2215,35 @@
         }
       ],
       "publishedAt": "2026-11-10T17:30:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.57
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.51
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "platform": "rss",
+      "category": "ai-news",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "author": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "cover": null,
+      "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+      "metrics": {},
+      "comments": [],
+      "badges": [
+        {
+          "key": "brand-new",
+          "label": "📰 今日更新",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🆕 近 3 日",
+          "tone": "neutral"
+        }
+      ],
+      "publishedAt": "2026-11-10T17:30:00.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.51
     },
     {
       "id": "hf-space:huggingface/moe-blogpost",
@@ -2250,7 +2272,7 @@
         }
       ],
       "publishedAt": "2026-10-09T15:24:25.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 59.49
     },
     {
@@ -2277,8 +2299,33 @@
         }
       ],
       "publishedAt": "2026-11-10T17:04:19.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.46
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.4
+    },
+    {
+      "id": "hn:50424581",
+      "platform": "hn",
+      "category": "community",
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "author": "vismit2000",
+      "url": "https://www.foldableflight.com",
+      "cover": null,
+      "summary": "",
+      "metrics": {
+        "points": 1169,
+        "reply": 166
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 破 500 分",
+          "tone": "error"
+        }
+      ],
+      "publishedAt": "2026-11-09T12:19:22.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.23
     },
     {
       "id": "rss:https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
@@ -2304,33 +2351,8 @@
         }
       ],
       "publishedAt": "2026-11-10T16:20:30.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.28
-    },
-    {
-      "id": "hn:50424581",
-      "platform": "hn",
-      "category": "community",
-      "title": "Foldable Flight: The Best Paper Airplanes",
-      "author": "vismit2000",
-      "url": "https://www.foldableflight.com",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 1168,
-        "reply": 166
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 破 500 分",
-          "tone": "error"
-        }
-      ],
-      "publishedAt": "2026-11-09T12:19:22.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.28
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.22
     },
     {
       "id": "rss:https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
@@ -2356,8 +2378,8 @@
         }
       ],
       "publishedAt": "2026-11-10T16:03:47.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.21
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.15
     },
     {
       "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
@@ -2383,8 +2405,8 @@
         }
       ],
       "publishedAt": "2026-11-10T16:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.13
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
@@ -2410,8 +2432,8 @@
         }
       ],
       "publishedAt": "2026-11-10T15:54:08.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.17
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59.11
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
@@ -2437,8 +2459,8 @@
         }
       ],
       "publishedAt": "2026-11-10T15:29:30.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.07
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 59
     },
     {
       "id": "hn:50429906",
@@ -2462,8 +2484,34 @@
         }
       ],
       "publishedAt": "2026-11-09T18:56:29.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 59.06
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.98
+    },
+    {
+      "id": "hf-model:tencent/Qwen3.8-27B-DSpine-b16",
+      "platform": "huggingface",
+      "category": "ai-board",
+      "title": "tencent/Qwen3.8-27B-DSpine-b16",
+      "author": "tencent",
+      "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+      "cover": null,
+      "summary": "text-generation · 下载 2627 · 162 赞",
+      "metrics": {
+        "trendingScore": 158,
+        "like": 162,
+        "downloads": 2627
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "brand-new",
+          "label": "🌱 一周内新发布",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-07T14:20:29.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.69
     },
     {
       "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
@@ -2489,8 +2537,8 @@
         }
       ],
       "publishedAt": "2026-11-10T14:06:54.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.72
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.66
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
@@ -2516,8 +2564,8 @@
         }
       ],
       "publishedAt": "2026-11-10T14:05:10.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.71
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.65
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
@@ -2543,8 +2591,8 @@
         }
       ],
       "publishedAt": "2026-11-10T14:01:39.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.7
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.64
     },
     {
       "id": "rss:https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
@@ -2570,8 +2618,8 @@
         }
       ],
       "publishedAt": "2026-11-10T14:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.69
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.63
     },
     {
       "id": "rss:https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
@@ -2597,35 +2645,8 @@
         }
       ],
       "publishedAt": "2026-11-10T14:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.69
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Spotify&#8217;s AI DJ gets new voices, personalities, and an option for less chatter",
-      "author": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
-      "cover": null,
-      "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
-      "metrics": {},
-      "comments": [],
-      "badges": [
-        {
-          "key": "brand-new",
-          "label": "📰 今日更新",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-10T14:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.69
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.63
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
@@ -2651,34 +2672,35 @@
         }
       ],
       "publishedAt": "2026-11-10T14:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.69
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.63
     },
     {
-      "id": "hf-model:tencent/Qwen3.8-27B-DSpine-b16",
-      "platform": "huggingface",
-      "category": "ai-board",
-      "title": "tencent/Qwen3.8-27B-DSpine-b16",
-      "author": "tencent",
-      "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+      "id": "rss:https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "platform": "rss",
+      "category": "ai-news",
+      "title": "Spotify&#8217;s AI DJ gets new voices, personalities, and an option for less chatter",
+      "author": "TechCrunch AI",
+      "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
       "cover": null,
-      "summary": "text-generation · 下载 2627 · 162 赞",
-      "metrics": {
-        "trendingScore": 158,
-        "like": 162,
-        "downloads": 2627
-      },
+      "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+      "metrics": {},
       "comments": [],
       "badges": [
         {
           "key": "brand-new",
-          "label": "🌱 一周内新发布",
-          "tone": "success"
+          "label": "📰 今日更新",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🆕 近 3 日",
+          "tone": "neutral"
         }
       ],
-      "publishedAt": "2026-11-07T14:20:29.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.69
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.63
     },
     {
       "id": "rss:https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
@@ -2704,8 +2726,8 @@
         }
       ],
       "publishedAt": "2026-11-10T13:30:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.57
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.51
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
@@ -2731,8 +2753,8 @@
         }
       ],
       "publishedAt": "2026-11-10T13:30:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.57
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.51
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
@@ -2758,8 +2780,8 @@
         }
       ],
       "publishedAt": "2026-11-10T13:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.44
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.38
     },
     {
       "id": "rss:https://deepmind.google/blog/introducing-alphaproof-code/",
@@ -2785,8 +2807,8 @@
         }
       ],
       "publishedAt": "2026-11-10T12:02:28.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.2
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.14
     },
     {
       "id": "rss:https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
@@ -2812,8 +2834,8 @@
         }
       ],
       "publishedAt": "2026-11-10T12:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 58.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 58.13
     },
     {
       "id": "hf-model:PrunaAI/P-H3-Image",
@@ -2825,15 +2847,45 @@
       "cover": null,
       "summary": "text-to-image · 下载 1180 · 194 赞",
       "metrics": {
-        "trendingScore": 162,
+        "trendingScore": 158,
         "like": 194,
         "downloads": 1180
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-27T09:16:58.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.88
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.65
+    },
+    {
+      "id": "hn:50439695",
+      "platform": "hn",
+      "category": "community",
+      "title": "Ableton Live 13",
+      "author": "phaser",
+      "url": "https://www.ableton.com/en/live/",
+      "cover": null,
+      "summary": "",
+      "metrics": {
+        "points": 193,
+        "reply": 231
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 讨论破 200",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 12 小时内",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-10T12:58:04.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.64
     },
     {
       "id": "rss:https://openai.com/index/introducing-businesses-chatgpt",
@@ -2859,38 +2911,8 @@
         }
       ],
       "publishedAt": "2026-11-10T10:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.69
-    },
-    {
-      "id": "hn:50439695",
-      "platform": "hn",
-      "category": "community",
-      "title": "Ableton Live 13",
-      "author": "phaser",
-      "url": "https://www.ableton.com/en/live/",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 188,
-        "reply": 223
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 讨论破 200",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 12 小时内",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-10T12:58:04.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.62
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.63
     },
     {
       "id": "rss:https://openai.com/index/closing-ai-guidance-gap-education",
@@ -2916,8 +2938,8 @@
         }
       ],
       "publishedAt": "2026-11-10T09:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.44
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.38
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/509017.html",
@@ -2943,8 +2965,8 @@
         }
       ],
       "publishedAt": "2026-11-10T08:33:25.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.33
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.27
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/508996.html",
@@ -2970,8 +2992,8 @@
         }
       ],
       "publishedAt": "2026-11-10T07:57:45.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.18
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.12
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/508998.html",
@@ -2997,8 +3019,8 @@
         }
       ],
       "publishedAt": "2026-11-10T07:56:29.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.18
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.12
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/508991.html",
@@ -3024,8 +3046,33 @@
         }
       ],
       "publishedAt": "2026-11-10T07:50:26.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.15
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.09
+    },
+    {
+      "id": "gh:google-labs-code/stitch-skills",
+      "platform": "github",
+      "category": "github",
+      "title": "google-labs-code/stitch-skills",
+      "author": "google-labs-code",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "cover": "https://github.com/google-labs-code.png?size=80",
+      "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "metrics": {
+        "stars": 8724,
+        "starsToday": 8
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "brand-new",
+          "label": "🌱 新项目",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-10T19:28:33.405Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.04
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/508985.html",
@@ -3051,8 +3098,8 @@
         }
       ],
       "publishedAt": "2026-11-10T07:33:19.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.08
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57.02
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/10/muse-ember/",
@@ -3078,8 +3125,8 @@
         }
       ],
       "publishedAt": "2026-11-10T07:28:21.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.06
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 57
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/508919.html",
@@ -3105,33 +3152,8 @@
         }
       ],
       "publishedAt": "2026-11-10T07:26:53.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.06
-    },
-    {
-      "id": "gh:google-labs-code/stitch-skills",
-      "platform": "github",
-      "category": "github",
-      "title": "google-labs-code/stitch-skills",
-      "author": "google-labs-code",
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "cover": "https://github.com/google-labs-code.png?size=80",
-      "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "metrics": {
-        "stars": 8724,
-        "starsToday": 8
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "brand-new",
-          "label": "🌱 新项目",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-10T19:13:35.887Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.04
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 56.99
     },
     {
       "id": "hn:50429068",
@@ -3143,8 +3165,8 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 850,
-        "reply": 968
+        "points": 852,
+        "reply": 972
       },
       "comments": [],
       "badges": [
@@ -3160,8 +3182,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:01:10.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 57.03
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 56.98
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/508912.html",
@@ -3187,8 +3209,8 @@
         }
       ],
       "publishedAt": "2026-11-10T07:03:43.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 56.96
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 56.9
     },
     {
       "id": "rss:https://openai.com/index/ai-effect-on-freelance-work",
@@ -3214,8 +3236,8 @@
         }
       ],
       "publishedAt": "2026-11-10T07:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 56.94
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 56.88
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
@@ -3241,8 +3263,8 @@
         }
       ],
       "publishedAt": "2026-11-10T07:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 56.94
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 56.88
     },
     {
       "id": "hn:50433659",
@@ -3266,8 +3288,8 @@
         }
       ],
       "publishedAt": "2026-11-09T23:08:13.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 56.68
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 56.58
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
@@ -3293,8 +3315,8 @@
         }
       ],
       "publishedAt": "2026-11-10T05:34:14.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 56.59
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 56.52
     },
     {
       "id": "rss:https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
@@ -3320,8 +3342,8 @@
         }
       ],
       "publishedAt": "2026-11-10T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 56.44
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 56.38
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/10/yonkers-rises/",
@@ -3347,8 +3369,8 @@
         }
       ],
       "publishedAt": "2026-11-10T03:53:04.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 56.16
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 56.1
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/508828.html",
@@ -3374,60 +3396,38 @@
         }
       ],
       "publishedAt": "2026-11-10T02:48:22.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.89
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.83
     },
     {
-      "id": "hn:50441338",
+      "id": "hn:50438318",
       "platform": "hn",
       "category": "community",
-      "title": "The Hardest Tarball?",
-      "author": "thatslast",
-      "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
+      "title": "AI usage generates a fragile codebase",
+      "author": "plun9",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 124,
-        "reply": 17
+        "points": 202,
+        "reply": 260
       },
       "comments": [],
       "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 讨论破 200",
+          "tone": "warning"
+        },
         {
           "key": "dark-horse",
           "label": "🐴 12 小时内",
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-10T15:00:39.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.67
-    },
-    {
-      "id": "rss:https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "cover": null,
-      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at producti",
-      "metrics": {},
-      "comments": [],
-      "badges": [
-        {
-          "key": "brand-new",
-          "label": "📰 今日更新",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-10T00:28:49.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 55.59
+      "publishedAt": "2026-11-10T10:25:58.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.7
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
@@ -3453,8 +3453,8 @@
         }
       ],
       "publishedAt": "2026-11-10T01:27:12.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.56
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.49
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/508798.html",
@@ -3480,89 +3480,33 @@
         }
       ],
       "publishedAt": "2026-11-10T01:27:09.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.56
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.49
     },
     {
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "What could China get from Jensen Huang?",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "id": "hn:50441338",
+      "platform": "hn",
+      "category": "community",
+      "title": "The Hardest Tarball?",
+      "author": "thatslast",
+      "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
       "cover": null,
-      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range ",
-      "metrics": {},
+      "summary": "",
+      "metrics": {
+        "points": 124,
+        "reply": 19
+      },
       "comments": [],
       "badges": [
         {
-          "key": "brand-new",
-          "label": "📰 今日更新",
+          "key": "dark-horse",
+          "label": "🐴 12 小时内",
           "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
         }
       ],
-      "publishedAt": "2026-11-09T23:51:58.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 55.44
-    },
-    {
-      "id": "rss:https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Here’s what Trump said he knew about Jensen Huang",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
-      "cover": null,
-      "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"&#8203;&#8203;unfaithful\" to his wife, and the company",
-      "metrics": {},
-      "comments": [],
-      "badges": [
-        {
-          "key": "brand-new",
-          "label": "📰 今日更新",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-09T23:47:46.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 55.42
-    },
-    {
-      "id": "rss:https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "cover": null,
-      "summary": "The leather-jacketed CEO of Nvidia, Jensen Huang, has acknowledged an affair with Megaspeed exec Alice Huang, spurring an investigation by his company and intense discussions worldwide. Recent reporting noted that since last year, US intelligence reports had identified Alice Huan",
-      "metrics": {},
-      "comments": [],
-      "badges": [
-        {
-          "key": "brand-new",
-          "label": "📰 今日更新",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-09T23:07:59.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 55.25
+      "publishedAt": "2026-11-10T15:00:39.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.23
     },
     {
       "id": "rss:https://huggingface.co/blog/hub-gcp-marketplace",
@@ -3588,8 +3532,8 @@
         }
       ],
       "publishedAt": "2026-11-10T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.13
     },
     {
       "id": "rss:https://huggingface.co/blog/decision",
@@ -3615,8 +3559,8 @@
         }
       ],
       "publishedAt": "2026-11-10T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.13
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/9/llm-anthropic/",
@@ -3642,8 +3586,8 @@
         }
       ],
       "publishedAt": "2026-11-09T23:58:46.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.13
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
@@ -3669,38 +3613,33 @@
         }
       ],
       "publishedAt": "2026-11-09T23:57:21.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.18
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.12
     },
     {
-      "id": "hn:50438318",
+      "id": "hn:50439284",
       "platform": "hn",
       "category": "community",
-      "title": "AI usage generates a fragile codebase",
-      "author": "plun9",
-      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "title": "What's new in the .NET 11 runtime",
+      "author": "stevefan1999",
+      "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
       "cover": null,
-      "summary": "",
+      "summary": "https:&#x2F;&#x2F;devblogs.microsoft.com&#x2F;dotnet&#x2F;announcing-dotnet-11&#x2F;",
       "metrics": {
-        "points": 188,
-        "reply": 246
+        "points": 165,
+        "reply": 114
       },
       "comments": [],
       "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 讨论破 200",
-          "tone": "warning"
-        },
         {
           "key": "dark-horse",
           "label": "🐴 12 小时内",
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-10T10:25:58.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.06
+      "publishedAt": "2026-11-10T12:20:07.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55.08
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
@@ -3726,33 +3665,8 @@
         }
       ],
       "publishedAt": "2026-11-09T23:28:37.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 55.06
-    },
-    {
-      "id": "hn:50439284",
-      "platform": "hn",
-      "category": "community",
-      "title": "What's new in the .NET 11 runtime",
-      "author": "stevefan1999",
-      "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
-      "cover": null,
-      "summary": "https:&#x2F;&#x2F;devblogs.microsoft.com&#x2F;dotnet&#x2F;announcing-dotnet-11&#x2F;",
-      "metrics": {
-        "points": 160,
-        "reply": 107
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🐴 12 小时内",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-10T12:20:07.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.98
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 55
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
@@ -3778,8 +3692,8 @@
         }
       ],
       "publishedAt": "2026-11-09T22:46:09.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.89
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.82
     },
     {
       "id": "hn:50429426",
@@ -3803,8 +3717,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:24:38.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.84
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.76
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
@@ -3830,8 +3744,8 @@
         }
       ],
       "publishedAt": "2026-11-09T22:23:42.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.79
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.73
     },
     {
       "id": "rss:https://www.qbitai.com/2026/11/508787.html",
@@ -3857,8 +3771,8 @@
         }
       ],
       "publishedAt": "2026-11-09T22:11:49.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.74
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.68
     },
     {
       "id": "hf-paper:2611.11558",
@@ -3882,8 +3796,8 @@
         }
       ],
       "publishedAt": "2026-11-08T18:59:37.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.55
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.52
     },
     {
       "id": "rss:https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
@@ -3909,8 +3823,8 @@
         }
       ],
       "publishedAt": "2026-11-09T20:29:39.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.32
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.25
     },
     {
       "id": "hn:50418016",
@@ -3923,7 +3837,7 @@
       "summary": "https:&#x2F;&#x2F;www.axios.com&#x2F;2026&#x2F;11&#x2F;08&#x2F;nvidia-ceo-jensen-huang-aff... , https:&#x2F;&#x2F;archive.ph&#x2F;Hxn5h https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;11&#x2F;06&#x2F;us&#x2F;politics&#x2F;chinese-spy-a... , https:&#x2F;&#x2F;archive.ph&#x2F;atMcp https:&#x2F;&#x2F;",
       "metrics": {
         "points": 973,
-        "reply": 1256
+        "reply": 1258
       },
       "comments": [],
       "badges": [
@@ -3939,33 +3853,8 @@
         }
       ],
       "publishedAt": "2026-11-08T22:20:09.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.29
-    },
-    {
-      "id": "hn:50439000",
-      "platform": "hn",
-      "category": "community",
-      "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
-      "author": "CoderLuii",
-      "url": "https://github.com/HolyArrs/HolyArrs",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 157,
-        "reply": 124
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🐴 12 小时内",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-10T11:51:19.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.26
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.24
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
@@ -3991,8 +3880,8 @@
         }
       ],
       "publishedAt": "2026-11-09T20:09:06.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.23
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.17
     },
     {
       "id": "rss:https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
@@ -4018,8 +3907,33 @@
         }
       ],
       "publishedAt": "2026-11-09T19:51:47.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.16
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.1
+    },
+    {
+      "id": "hn:50439000",
+      "platform": "hn",
+      "category": "community",
+      "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
+      "author": "CoderLuii",
+      "url": "https://github.com/HolyArrs/HolyArrs",
+      "cover": null,
+      "summary": "",
+      "metrics": {
+        "points": 158,
+        "reply": 125
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "dark-horse",
+          "label": "🐴 12 小时内",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-10T11:51:19.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 54.08
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
@@ -4035,39 +3949,42 @@
       "badges": [
         {
           "key": "brand-new",
-          "label": "📰 今日更新",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
           "label": "🆕 近 3 日",
           "tone": "neutral"
         }
       ],
       "publishedAt": "2026-11-09T19:24:51.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 54.05
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 53.98
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-      "author": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "id": "hf-space:thea2026/image-to-video",
+      "platform": "huggingface",
+      "category": "ai-board",
+      "title": "thea2026/image-to-video",
+      "author": "thea2026",
+      "url": "https://huggingface.co/spaces/thea2026/image-to-video",
       "cover": null,
-      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
-      "metrics": {},
+      "summary": "可直接打开的 AI 应用 · gradio · 457 赞",
+      "metrics": {
+        "trendingScore": 283,
+        "like": 457
+      },
       "comments": [],
       "badges": [
         {
+          "key": "hot",
+          "label": "🔥 趋势榜",
+          "tone": "warning"
+        },
+        {
           "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
+          "label": "🌱 一周内新发布",
+          "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-09T18:00:00.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
+      "publishedAt": "2026-11-06T12:40:54.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 53.97
     },
     {
@@ -4089,82 +4006,8 @@
         }
       ],
       "publishedAt": "2026-11-09T19:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 53.94
-    },
-    {
-      "id": "hf-space:thea2026/image-to-video",
-      "platform": "huggingface",
-      "category": "ai-board",
-      "title": "thea2026/image-to-video",
-      "author": "thea2026",
-      "url": "https://huggingface.co/spaces/thea2026/image-to-video",
-      "cover": null,
-      "summary": "可直接打开的 AI 应用 · gradio · 451 赞",
-      "metrics": {
-        "trendingScore": 280,
-        "like": 451
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 趋势榜",
-          "tone": "warning"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 一周内新发布",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-06T12:40:54.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 53.87
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-      "author": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-      "cover": null,
-      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
-      "metrics": {},
-      "comments": [],
-      "badges": [
-        {
-          "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-09T18:09:52.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 53.73
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-      "author": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-      "cover": null,
-      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
-      "metrics": {},
-      "comments": [],
-      "badges": [
-        {
-          "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-09T16:56:54.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 53.71
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 53.88
     },
     {
       "id": "hn:50422069",
@@ -4193,8 +4036,8 @@
         }
       ],
       "publishedAt": "2026-11-09T07:04:25.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 53.68
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 53.63
     },
     {
       "id": "rss:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
@@ -4215,38 +4058,8 @@
         }
       ],
       "publishedAt": "2026-11-09T15:05:57.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 52.97
-    },
-    {
-      "id": "hn:50415628",
-      "platform": "hn",
-      "category": "community",
-      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
-      "author": "TheWiggles",
-      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 894,
-        "reply": 485
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 破 500 分",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 讨论破 200",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-08T18:16:07.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 52.81
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 52.91
     },
     {
       "id": "hf-space:joelniklaus/harness-leaderboard",
@@ -4256,10 +4069,10 @@
       "author": "joelniklaus",
       "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
       "cover": null,
-      "summary": "可直接打开的 AI 应用 · docker · 265 赞",
+      "summary": "可直接打开的 AI 应用 · docker · 266 赞",
       "metrics": {
-        "trendingScore": 248,
-        "like": 265
+        "trendingScore": 249,
+        "like": 266
       },
       "comments": [],
       "badges": [
@@ -4270,8 +4083,8 @@
         }
       ],
       "publishedAt": "2026-10-15T06:00:13.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 52.72
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 52.75
     },
     {
       "id": "hn:50431144",
@@ -4283,7 +4096,7 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 364,
+        "points": 365,
         "reply": 264
       },
       "comments": [],
@@ -4295,8 +4108,8 @@
         }
       ],
       "publishedAt": "2026-11-09T20:04:55.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 52.64
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 52.6
     },
     {
       "id": "hn:50437790",
@@ -4308,7 +4121,7 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 165,
+        "points": 169,
         "reply": 104
       },
       "comments": [],
@@ -4320,8 +4133,8 @@
         }
       ],
       "publishedAt": "2026-11-10T09:04:39.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 52.47
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 52.57
     },
     {
       "id": "rss:https://openai.com/index/control-room",
@@ -4342,30 +4155,8 @@
         }
       ],
       "publishedAt": "2026-11-09T13:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 52.44
-    },
-    {
-      "id": "rss:https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "author": "HuggingFace Blog",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "cover": null,
-      "summary": "",
-      "metrics": {},
-      "comments": [],
-      "badges": [
-        {
-          "key": "brand-new",
-          "label": "🆕 近 3 日",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-09T12:34:29.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 52.34
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 52.38
     },
     {
       "id": "hf-paper:2611.10304",
@@ -4389,33 +4180,30 @@
         }
       ],
       "publishedAt": "2026-11-06T23:04:32.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 52.31
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 52.28
     },
     {
-      "id": "hf-paper:2611.08452",
-      "platform": "huggingface",
-      "category": "paper",
-      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
-      "author": "google",
-      "url": "https://huggingface.co/papers/2611.08452",
+      "id": "rss:https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "platform": "rss",
+      "category": "ai-news",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "author": "HuggingFace Blog",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
       "cover": null,
-      "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifac",
-      "metrics": {
-        "upvotes": 26,
-        "reply": 1
-      },
+      "summary": "",
+      "metrics": {},
       "comments": [],
       "badges": [
         {
-          "key": "hot",
-          "label": "⭐ 社区高票",
-          "tone": "warning"
+          "key": "brand-new",
+          "label": "🆕 近 3 日",
+          "tone": "neutral"
         }
       ],
-      "publishedAt": "2026-11-05T18:45:36.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 52.3
+      "publishedAt": "2026-11-09T12:34:29.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 52.27
     },
     {
       "id": "hn:50434310",
@@ -4427,14 +4215,14 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 307,
-        "reply": 157
+        "points": 308,
+        "reply": 159
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-10T00:10:46.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 52.09
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 52.03
     },
     {
       "id": "hn:50436410",
@@ -4446,14 +4234,14 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 249,
-        "reply": 112
+        "points": 250,
+        "reply": 114
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-10T05:24:45.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 52.01
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 51.92
     },
     {
       "id": "hn:50427362",
@@ -4465,7 +4253,7 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 575,
+        "points": 576,
         "reply": 331
       },
       "comments": [],
@@ -4482,8 +4270,33 @@
         }
       ],
       "publishedAt": "2026-11-09T16:00:45.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 51.81
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 51.77
+    },
+    {
+      "id": "hn:50438480",
+      "platform": "hn",
+      "category": "community",
+      "title": "What constant surveillance is doing to children and parents",
+      "author": "FinnLobsien",
+      "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+      "cover": null,
+      "summary": "https:&#x2F;&#x2F;archive.is&#x2F;opw0i , https:&#x2F;&#x2F;wallhop.io&#x2F;https:&#x2F;&#x2F;www.theatlantic.com&#x2F;magazine&#x2F;2026...",
+      "metrics": {
+        "points": 137,
+        "reply": 131
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "dark-horse",
+          "label": "🐴 12 小时内",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-10T10:47:18.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 51.44
     },
     {
       "id": "hn:50418176",
@@ -4495,7 +4308,7 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 752,
+        "points": 753,
         "reply": 228
       },
       "comments": [],
@@ -4512,8 +4325,8 @@
         }
       ],
       "publishedAt": "2026-11-08T22:35:35.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 51.3
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 51.27
     },
     {
       "id": "rss:https://openai.com/index/coderabbit-codex-daybreak",
@@ -4534,8 +4347,8 @@
         }
       ],
       "publishedAt": "2026-11-09T08:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 51.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 51.13
     },
     {
       "id": "rss:https://openai.com/index/kuken",
@@ -4556,21 +4369,21 @@
         }
       ],
       "publishedAt": "2026-11-09T08:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 51.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 51.13
     },
     {
-      "id": "hn:50438480",
+      "id": "hn:50437752",
       "platform": "hn",
       "category": "community",
-      "title": "What constant surveillance is doing to children and parents",
-      "author": "FinnLobsien",
-      "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+      "title": "Fossil CO2 emissions decrease in 2026",
+      "author": "giuliomagnifico",
+      "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/fossil-co2-emissions-decrease-in-2026/",
       "cover": null,
-      "summary": "https:&#x2F;&#x2F;archive.is&#x2F;opw0i , https:&#x2F;&#x2F;wallhop.io&#x2F;https:&#x2F;&#x2F;www.theatlantic.com&#x2F;magazine&#x2F;2026...",
+      "summary": "",
       "metrics": {
-        "points": 131,
-        "reply": 121
+        "points": 144,
+        "reply": 171
       },
       "comments": [],
       "badges": [
@@ -4580,9 +4393,9 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-10T10:47:18.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 51.13
+      "publishedAt": "2026-11-10T08:59:41.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.65
     },
     {
       "id": "hn:50429734",
@@ -4600,33 +4413,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T18:45:43.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.67
-    },
-    {
-      "id": "hn:50437752",
-      "platform": "hn",
-      "category": "community",
-      "title": "Fossil CO2 emissions decrease in 2026",
-      "author": "giuliomagnifico",
-      "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/fossil-co2-emissions-decrease-in-2026/",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 142,
-        "reply": 168
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🐴 12 小时内",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-10T08:59:41.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.66
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.6
     },
     {
       "id": "rss:https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
@@ -4647,8 +4435,8 @@
         }
       ],
       "publishedAt": "2026-11-09T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.44
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.38
     },
     {
       "id": "rss:https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
@@ -4669,8 +4457,8 @@
         }
       ],
       "publishedAt": "2026-11-09T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.44
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.38
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/9/hn-50421091/",
@@ -4691,8 +4479,8 @@
         }
       ],
       "publishedAt": "2026-11-09T04:32:33.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.33
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.27
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/9/details-summary/",
@@ -4713,8 +4501,8 @@
         }
       ],
       "publishedAt": "2026-11-09T04:25:05.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.3
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.24
     },
     {
       "id": "arxiv:2611.12886",
@@ -4735,8 +4523,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:59:54.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.15
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.1
     },
     {
       "id": "arxiv:2611.12885",
@@ -4757,8 +4545,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:59:45.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.15
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.1
     },
     {
       "id": "arxiv:2611.12884",
@@ -4779,8 +4567,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:59:40.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.15
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.1
     },
     {
       "id": "arxiv:2611.12883",
@@ -4801,8 +4589,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:59:36.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.15
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.1
     },
     {
       "id": "arxiv:2611.12880",
@@ -4823,8 +4611,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:59:13.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.15
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.1
     },
     {
       "id": "arxiv:2611.12879",
@@ -4845,8 +4633,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:59:01.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.15
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.1
     },
     {
       "id": "arxiv:2611.12878",
@@ -4867,8 +4655,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:58:41.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.15
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.1
     },
     {
       "id": "arxiv:2611.12875",
@@ -4889,8 +4677,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:58:02.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.15
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.1
     },
     {
       "id": "arxiv:2611.12872",
@@ -4911,8 +4699,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:57:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.14
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.09
     },
     {
       "id": "arxiv:2611.12871",
@@ -4933,8 +4721,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:56:15.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.14
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.09
     },
     {
       "id": "arxiv:2611.12870",
@@ -4955,8 +4743,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:55:04.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.14
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.09
     },
     {
       "id": "arxiv:2611.12869",
@@ -4977,8 +4765,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:53:57.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.13
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.08
     },
     {
       "id": "arxiv:2611.12865",
@@ -4999,8 +4787,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:52:20.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.13
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.08
     },
     {
       "id": "arxiv:2611.12864",
@@ -5021,8 +4809,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:51:03.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.12
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.08
     },
     {
       "id": "arxiv:2611.12856",
@@ -5043,8 +4831,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:45:28.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.11
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.06
     },
     {
       "id": "arxiv:2611.12855",
@@ -5065,8 +4853,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:45:06.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.11
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.06
     },
     {
       "id": "arxiv:2611.12852",
@@ -5087,8 +4875,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:44:37.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.1
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.05
     },
     {
       "id": "arxiv:2611.12835",
@@ -5109,8 +4897,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:33:13.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.07
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.02
     },
     {
       "id": "arxiv:2611.12834",
@@ -5131,8 +4919,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:33:13.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.07
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.02
     },
     {
       "id": "arxiv:2611.12832",
@@ -5153,8 +4941,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:30:41.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.06
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 50.01
     },
     {
       "id": "arxiv:2611.12825",
@@ -5175,8 +4963,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:25:42.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.04
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.99
     },
     {
       "id": "arxiv:2611.12820",
@@ -5197,8 +4985,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:22:19.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.03
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.98
     },
     {
       "id": "arxiv:2611.12817",
@@ -5219,8 +5007,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:21:18.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.03
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.98
     },
     {
       "id": "arxiv:2611.12816",
@@ -5241,8 +5029,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:19:57.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.02
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.97
     },
     {
       "id": "arxiv:2611.12815",
@@ -5263,8 +5051,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:19:40.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.02
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.97
     },
     {
       "id": "arxiv:2611.12814",
@@ -5285,8 +5073,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:19:30.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 50.02
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.97
     },
     {
       "id": "arxiv:2611.12805",
@@ -5307,8 +5095,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:11:45.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.99
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.94
     },
     {
       "id": "arxiv:2611.12799",
@@ -5329,8 +5117,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:07:42.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.98
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.93
     },
     {
       "id": "arxiv:2611.12798",
@@ -5351,33 +5139,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:05:57.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.97
-    },
-    {
-      "id": "hn:50437106",
-      "platform": "hn",
-      "category": "community",
-      "title": "Fireworks AI security breach impacts Notion and their customers",
-      "author": "werrett",
-      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 147,
-        "reply": 55
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🐴 12 小时内",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-10T07:19:38.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.96
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.92
     },
     {
       "id": "arxiv:2611.12796",
@@ -5398,8 +5161,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:03:03.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.96
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.92
     },
     {
       "id": "arxiv:2611.12791",
@@ -5420,8 +5183,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:58:38.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.95
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.9
     },
     {
       "id": "arxiv:2611.12777",
@@ -5442,8 +5205,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:50:05.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.92
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.87
     },
     {
       "id": "arxiv:2611.12775",
@@ -5464,8 +5227,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:48:31.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.92
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.87
     },
     {
       "id": "arxiv:2611.12769",
@@ -5486,8 +5249,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:41:08.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.89
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.84
     },
     {
       "id": "arxiv:2611.12763",
@@ -5508,8 +5271,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:38:16.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.88
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.83
     },
     {
       "id": "arxiv:2611.12762",
@@ -5530,8 +5293,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:38:05.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.88
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.83
     },
     {
       "id": "arxiv:2611.12760",
@@ -5552,8 +5315,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:37:36.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.88
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.83
     },
     {
       "id": "arxiv:2611.12755",
@@ -5574,8 +5337,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:35:38.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.87
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.82
     },
     {
       "id": "arxiv:2611.12750",
@@ -5596,8 +5359,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:31:47.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.86
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.81
     },
     {
       "id": "arxiv:2611.12747",
@@ -5618,8 +5381,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:29:32.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.85
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.8
     },
     {
       "id": "hf-paper:2611.11450",
@@ -5643,8 +5406,8 @@
         }
       ],
       "publishedAt": "2026-11-08T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.66
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.62
     },
     {
       "id": "gh:figma/mcp-server-guide",
@@ -5667,8 +5430,8 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-10T19:13:36.224Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "publishedAt": "2026-11-10T19:28:33.484Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 49.6
     },
     {
@@ -5698,8 +5461,8 @@
         }
       ],
       "publishedAt": "2026-11-09T00:10:50.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.29
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.25
     },
     {
       "id": "hn:50428907",
@@ -5717,8 +5480,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T17:51:31.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.11
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 49.04
     },
     {
       "id": "hn:50432831",
@@ -5736,8 +5499,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T21:56:57.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 49.08
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 48.99
     },
     {
       "id": "hn:50424704",
@@ -5761,27 +5524,8 @@
         }
       ],
       "publishedAt": "2026-11-09T12:30:20.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 48.82
-    },
-    {
-      "id": "hn:50434264",
-      "platform": "hn",
-      "category": "community",
-      "title": "Horible public key tricks",
-      "author": "Curiositry",
-      "url": "https://maurycyz.com/projects/badcert/",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 232,
-        "reply": 82
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-10T00:07:17.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 48.81
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 48.76
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
@@ -5802,8 +5546,27 @@
         }
       ],
       "publishedAt": "2026-11-08T22:26:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 48.8
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 48.74
+    },
+    {
+      "id": "hn:50434264",
+      "platform": "hn",
+      "category": "community",
+      "title": "Horible public key tricks",
+      "author": "Curiositry",
+      "url": "https://maurycyz.com/projects/badcert/",
+      "cover": null,
+      "summary": "",
+      "metrics": {
+        "points": 232,
+        "reply": 82
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-11-10T00:07:17.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 48.72
     },
     {
       "id": "hn:50426582",
@@ -5827,8 +5590,8 @@
         }
       ],
       "publishedAt": "2026-11-09T15:01:03.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 48.33
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 48.26
     },
     {
       "id": "hn:50418975",
@@ -5857,8 +5620,8 @@
         }
       ],
       "publishedAt": "2026-11-08T23:44:36.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 48.05
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 48.01
     },
     {
       "id": "hn:50435660",
@@ -5870,14 +5633,14 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 189,
+        "points": 190,
         "reply": 179
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-10T03:20:06.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 47.77
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 47.72
     },
     {
       "id": "hf-space:fendouai/free-ai-humanizer",
@@ -5895,38 +5658,27 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-28T01:31:54.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 47.01
     },
     {
-      "id": "hn:50416158",
+      "id": "hn:50437106",
       "platform": "hn",
       "category": "community",
-      "title": "Outlook.com is rejecting email from domains without DMARC",
-      "author": "xmddmx",
-      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "author": "werrett",
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 542,
-        "reply": 364
+        "points": 148,
+        "reply": 55
       },
       "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 破 500 分",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 讨论破 200",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-08T19:20:32.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 46.98
+      "badges": [],
+      "publishedAt": "2026-11-10T07:19:38.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 46.89
     },
     {
       "id": "hn:50429475",
@@ -5939,7 +5691,7 @@
       "summary": "",
       "metrics": {
         "points": 341,
-        "reply": 562
+        "reply": 564
       },
       "comments": [],
       "badges": [
@@ -5950,8 +5702,8 @@
         }
       ],
       "publishedAt": "2026-11-09T18:27:58.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 46.39
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 46.32
     },
     {
       "id": "hn:50428724",
@@ -5975,8 +5727,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:36:20.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 46.11
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 46.04
     },
     {
       "id": "hn:50416801",
@@ -6000,8 +5752,8 @@
         }
       ],
       "publishedAt": "2026-11-08T20:26:43.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 45.99
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 45.95
     },
     {
       "id": "hf-space:speridlabs/idol",
@@ -6019,7 +5771,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-28T16:05:01.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 45.9
     },
     {
@@ -6038,8 +5790,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T17:58:46.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 45.62
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 45.55
     },
     {
       "id": "hn:50420035",
@@ -6057,8 +5809,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T01:58:21.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 45.57
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 45.53
     },
     {
       "id": "hn:50428801",
@@ -6070,7 +5822,7 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 323,
+        "points": 324,
         "reply": 302
       },
       "comments": [],
@@ -6082,8 +5834,8 @@
         }
       ],
       "publishedAt": "2026-11-09T17:42:55.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 45.54
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 45.51
     },
     {
       "id": "hn:50426175",
@@ -6096,7 +5848,7 @@
       "summary": "https:&#x2F;&#x2F;www.cell.com&#x2F;cell-reports-physical-science&#x2F;fulltext&#x2F;...",
       "metrics": {
         "points": 345,
-        "reply": 243
+        "reply": 245
       },
       "comments": [],
       "badges": [
@@ -6107,8 +5859,8 @@
         }
       ],
       "publishedAt": "2026-11-09T14:31:39.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 45.45
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 45.39
     },
     {
       "id": "hf-paper:2611.10329",
@@ -6132,8 +5884,8 @@
         }
       ],
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 44.56
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 44.53
     },
     {
       "id": "hn:50430621",
@@ -6145,14 +5897,14 @@
       "cover": null,
       "summary": "",
       "metrics": {
-        "points": 173,
+        "points": 174,
         "reply": 101
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T19:35:16.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 43.97
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 43.96
     },
     {
       "id": "hf-space:hugging-apps/bfs-best-face-swap",
@@ -6170,7 +5922,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-09-27T18:26:19.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 43.61
     },
     {
@@ -6189,7 +5941,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-09-28T17:30:26.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 43.51
     },
     {
@@ -6211,8 +5963,8 @@
         }
       ],
       "publishedAt": "2026-11-07T23:57:46.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 43.18
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 43.12
     },
     {
       "id": "hf-paper:2611.11890",
@@ -6236,8 +5988,8 @@
         }
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 42.77
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 42.74
     },
     {
       "id": "hn:50433079",
@@ -6255,8 +6007,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T22:19:12.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 42.76
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 42.68
     },
     {
       "id": "hn:50418182",
@@ -6274,8 +6026,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-08T22:36:03.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 42.49
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 42.45
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/7/hn-50407316/",
@@ -6296,27 +6048,8 @@
         }
       ],
       "publishedAt": "2026-11-07T19:34:24.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 42.09
-    },
-    {
-      "id": "hn:50416053",
-      "platform": "hn",
-      "category": "community",
-      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
-      "author": "indigodaddy",
-      "url": "https://duxlabs.dev/",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 342,
-        "reply": 145
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-08T19:08:51.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 41.88
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 42.02
     },
     {
       "id": "hf-space:YuyaoTechnology/MatterSeek",
@@ -6334,7 +6067,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-28T12:30:03.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 41.81
     },
     {
@@ -6353,8 +6086,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T11:31:05.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 41.21
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 41.15
     },
     {
       "id": "hf-space:PrunaAI/P-H3-Image",
@@ -6366,14 +6099,52 @@
       "cover": null,
       "summary": "可直接打开的 AI 应用 · gradio · 86 赞",
       "metrics": {
-        "trendingScore": 71,
+        "trendingScore": 70,
         "like": 86
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T15:16:32.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 40.86
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 40.73
+    },
+    {
+      "id": "hf-space:umaircxnd/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+      "platform": "huggingface",
+      "category": "ai-board",
+      "title": "umaircxnd/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+      "author": "umaircxnd",
+      "url": "https://huggingface.co/spaces/umaircxnd/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
+      "cover": null,
+      "summary": "可直接打开的 AI 应用 · gradio · 114 赞",
+      "metrics": {
+        "trendingScore": 69,
+        "like": 114
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-10-29T19:18:06.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 40.59
+    },
+    {
+      "id": "hf-space:FelyaHuhing/qwen-image-21-uncensored",
+      "platform": "huggingface",
+      "category": "ai-board",
+      "title": "FelyaHuhing/qwen-image-21-uncensored",
+      "author": "FelyaHuhing",
+      "url": "https://huggingface.co/spaces/FelyaHuhing/qwen-image-21-uncensored",
+      "cover": null,
+      "summary": "可直接打开的 AI 应用 · gradio · 91 赞",
+      "metrics": {
+        "trendingScore": 69,
+        "like": 91
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-10-18T09:54:02.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 40.59
     },
     {
       "id": "hn:50426899",
@@ -6397,8 +6168,8 @@
         }
       ],
       "publishedAt": "2026-11-09T15:23:57.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 40.64
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 40.58
     },
     {
       "id": "hn:50416363",
@@ -6422,46 +6193,8 @@
         }
       ],
       "publishedAt": "2026-11-08T19:37:42.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 40.62
-    },
-    {
-      "id": "hf-space:umaircxnd/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
-      "platform": "huggingface",
-      "category": "ai-board",
-      "title": "umaircxnd/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
-      "author": "umaircxnd",
-      "url": "https://huggingface.co/spaces/umaircxnd/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow",
-      "cover": null,
-      "summary": "可直接打开的 AI 应用 · gradio · 114 赞",
-      "metrics": {
-        "trendingScore": 69,
-        "like": 114
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-10-29T19:18:06.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 40.59
-    },
-    {
-      "id": "hf-space:FelyaHuhing/qwen-image-21-uncensored",
-      "platform": "huggingface",
-      "category": "ai-board",
-      "title": "FelyaHuhing/qwen-image-21-uncensored",
-      "author": "FelyaHuhing",
-      "url": "https://huggingface.co/spaces/FelyaHuhing/qwen-image-21-uncensored",
-      "cover": null,
-      "summary": "可直接打开的 AI 应用 · gradio · 91 赞",
-      "metrics": {
-        "trendingScore": 69,
-        "like": 91
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-10-18T09:54:02.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 40.59
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 40.58
     },
     {
       "id": "hf-paper:2611.12870",
@@ -6485,8 +6218,8 @@
         }
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 40.25
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 40.22
     },
     {
       "id": "hf-paper:2611.12324",
@@ -6499,7 +6232,7 @@
       "summary": "有代码　World models enable agents to plan and learn from imagined experience, but in an unfamiliar environment they must learn its mechanics from limited interaction. A mechanic is a rule for how an action or an interaction changes part of the environment. Each occurrence of a mechanic that the model o",
       "metrics": {
         "upvotes": 3,
-        "reply": 1
+        "reply": 2
       },
       "comments": [],
       "badges": [
@@ -6510,8 +6243,8 @@
         }
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 40.25
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 40.22
     },
     {
       "id": "hf-space:a-test-user-in-the-wrold/qwen-image-21-uncensored",
@@ -6529,33 +6262,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-11T14:32:05.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 39.28
-    },
-    {
-      "id": "hf-paper:2610.42148",
-      "platform": "huggingface",
-      "category": "paper",
-      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
-      "author": "NationalUniversityofSingapore",
-      "url": "https://huggingface.co/papers/2610.42148",
-      "cover": null,
-      "summary": "LLM agent systems、categorical reasoning、System One execution · 有代码　Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference e",
-      "metrics": {
-        "upvotes": 30,
-        "reply": 1
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "⭐ 社区高票",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-10-30T17:59:38.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 38.78
     },
     {
       "id": "hn:50425303",
@@ -6568,13 +6276,13 @@
       "summary": "",
       "metrics": {
         "points": 187,
-        "reply": 167
+        "reply": 168
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T13:27:01.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 38.26
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 38.2
     },
     {
       "id": "hn:50426681",
@@ -6587,7 +6295,7 @@
       "summary": "https:&#x2F;&#x2F;twitter.com&#x2F;shaharglazner&#x2F;status&#x2F;2119796029256032278 , https:&#x2F;&#x2F;nitter.cf&#x2F;shaharglazner&#x2F;article&#x2F;2119796029256032278",
       "metrics": {
         "points": 176,
-        "reply": 288
+        "reply": 289
       },
       "comments": [],
       "badges": [
@@ -6598,8 +6306,8 @@
         }
       ],
       "publishedAt": "2026-11-09T15:07:23.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 37.98
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 37.92
     },
     {
       "id": "hf-space:Guaryn/qwen-image-2.1-uncensored-aio-loras",
@@ -6617,7 +6325,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-20T11:23:06.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 37.75
     },
     {
@@ -6636,27 +6344,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T15:39:01.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 37.72
-    },
-    {
-      "id": "hn:50429545",
-      "platform": "hn",
-      "category": "community",
-      "title": "DeepX claims inference up to 100B parameters at less than 5 W",
-      "author": "giuliomagnifico",
-      "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
-      "cover": null,
-      "summary": "",
-      "metrics": {
-        "points": 154,
-        "reply": 24
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-09T18:33:58.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 37.38
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 37.66
     },
     {
       "id": "hf-space:LiquidAI/LFM3-Omni-2B-WebGPU",
@@ -6674,7 +6363,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-29T22:00:03.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 37.38
     },
     {
@@ -6693,8 +6382,27 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-09-29T08:12:24.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 37.38
+    },
+    {
+      "id": "hn:50429545",
+      "platform": "hn",
+      "category": "community",
+      "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+      "author": "giuliomagnifico",
+      "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+      "cover": null,
+      "summary": "",
+      "metrics": {
+        "points": 154,
+        "reply": 24
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-11-09T18:33:58.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 37.32
     },
     {
       "id": "hn:50429430",
@@ -6707,13 +6415,13 @@
       "summary": "",
       "metrics": {
         "points": 153,
-        "reply": 88
+        "reply": 89
       },
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T18:25:01.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 37.27
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 37.2
     },
     {
       "id": "hf-space:linoyts/qwen-image-2-1-realtime",
@@ -6731,7 +6439,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-23T12:50:26.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 37.18
     },
     {
@@ -6756,8 +6464,8 @@
         }
       ],
       "publishedAt": "2026-11-05T16:19:52.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 36.61
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 36.58
     },
     {
       "id": "hn:50422168",
@@ -6775,8 +6483,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-09T07:20:37.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 36.54
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 36.5
     },
     {
       "id": "hn:50416456",
@@ -6794,8 +6502,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-08T19:48:32.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 36
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 35.97
     },
     {
       "id": "rss:https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
@@ -6810,8 +6518,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-06T19:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 35.94
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 35.88
     },
     {
       "id": "hf-paper:2611.10690",
@@ -6835,8 +6543,8 @@
         }
       ],
       "publishedAt": "2026-11-07T12:21:25.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 35.79
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 35.76
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/6/nilay-patel/",
@@ -6851,8 +6559,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-06T17:13:12.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 35.5
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 35.44
     },
     {
       "id": "rss:https://huggingface.co/blog/allenai/toyblocks",
@@ -6867,8 +6575,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-06T14:00:48.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 34.7
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 34.63
     },
     {
       "id": "hn:50416471",
@@ -6886,8 +6594,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-08T19:49:46.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 34.42
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 34.39
     },
     {
       "id": "hf-paper:2611.11344",
@@ -6911,8 +6619,8 @@
         }
       ],
       "publishedAt": "2026-11-08T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 34
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 33.97
     },
     {
       "id": "hn:50418818",
@@ -6930,8 +6638,27 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-08T23:28:01.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 33.76
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 33.73
+    },
+    {
+      "id": "hn:50420857",
+      "platform": "hn",
+      "category": "community",
+      "title": "A Critique of GPUI",
+      "author": "ByteAtATime",
+      "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
+      "cover": null,
+      "summary": "",
+      "metrics": {
+        "points": 138,
+        "reply": 101
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-11-09T03:51:10.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 33.16
     },
     {
       "id": "rss:https://openai.com/index/partnering-with-hacktron",
@@ -6946,8 +6673,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-06T08:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 33.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 33.13
     },
     {
       "id": "hf-paper:2611.11740",
@@ -6971,8 +6698,8 @@
         }
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 32.42
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 32.39
     },
     {
       "id": "hf-paper:2611.12875",
@@ -6996,8 +6723,33 @@
         }
       ],
       "publishedAt": "2026-11-09T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 32.42
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 32.39
+    },
+    {
+      "id": "hf-paper:2611.08935",
+      "platform": "huggingface",
+      "category": "paper",
+      "title": "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
+      "author": "antgroup",
+      "url": "https://huggingface.co/papers/2611.08935",
+      "cover": null,
+      "summary": "retrieval-augmented generation (RAG)、multimodal agentic RAG、policy models　Reliable dermatology AI requires access to verifiable evidence distributed across heterogeneous textual and visual sources. However, conventional retrieval-augmented generation (RAG) typically relies on one-shot retrieval from",
+      "metrics": {
+        "upvotes": 3,
+        "reply": 2
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "dark-horse",
+          "label": "🆕 有票但不多",
+          "tone": "neutral"
+        }
+      ],
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 31.22
     },
     {
       "id": "hf-paper:2611.10123",
@@ -7021,33 +6773,8 @@
         }
       ],
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 31.25
-    },
-    {
-      "id": "hf-paper:2611.08935",
-      "platform": "huggingface",
-      "category": "paper",
-      "title": "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
-      "author": "antgroup",
-      "url": "https://huggingface.co/papers/2611.08935",
-      "cover": null,
-      "summary": "retrieval-augmented generation (RAG)、multimodal agentic RAG、policy models　Reliable dermatology AI requires access to verifiable evidence distributed across heterogeneous textual and visual sources. However, conventional retrieval-augmented generation (RAG) typically relies on one-shot retrieval from",
-      "metrics": {
-        "upvotes": 3,
-        "reply": 1
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🆕 有票但不多",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 31.25
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 31.22
     },
     {
       "id": "rss:https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
@@ -7062,8 +6789,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 31.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 31.13
     },
     {
       "id": "rss:https://huggingface.co/blog/open-asr-leaderboard-liva",
@@ -7078,8 +6805,33 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 31.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 31.13
+    },
+    {
+      "id": "hf-paper:2611.10556",
+      "platform": "huggingface",
+      "category": "paper",
+      "title": "onóna: Twin Embeddings with Tied Unembeddings",
+      "author": null,
+      "url": "https://huggingface.co/papers/2611.10556",
+      "cover": null,
+      "summary": "weight tying、language models、tied output head　Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softmax. We introduce onóna, a two-table parameterization that increases output expressiveness while preserving input-output weight sharing.",
+      "metrics": {
+        "upvotes": 2,
+        "reply": 2
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "dark-horse",
+          "label": "🆕 有票但不多",
+          "tone": "neutral"
+        }
+      ],
+      "publishedAt": "2026-11-07T00:00:00.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 30.97
     },
     {
       "id": "rss:https://openai.com/index/cultfit-builds-with-codex",
@@ -7094,8 +6846,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T20:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 30.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 30.13
     },
     {
       "id": "hf-paper:2611.05791",
@@ -7119,8 +6871,8 @@
         }
       ],
       "publishedAt": "2026-11-04T00:57:24.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 29.95
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 29.92
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/5/paul-ford/",
@@ -7135,8 +6887,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T17:34:03.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 29.59
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 29.52
     },
     {
       "id": "rss:https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
@@ -7151,8 +6903,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T17:05:16.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 29.47
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 29.4
     },
     {
       "id": "rss:https://openai.com/index/australian-universities-ai-native-graduates",
@@ -7167,8 +6919,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T17:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 29.44
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 29.38
     },
     {
       "id": "rss:https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
@@ -7183,8 +6935,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T16:01:08.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 29.2
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 29.14
     },
     {
       "id": "hf-paper:2611.09195",
@@ -7208,8 +6960,8 @@
         }
       ],
       "publishedAt": "2026-11-06T09:17:27.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 29.16
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 29.13
     },
     {
       "id": "hf-paper:2611.08969",
@@ -7233,8 +6985,8 @@
         }
       ],
       "publishedAt": "2026-11-06T04:30:15.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 28.56
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 28.53
     },
     {
       "id": "rss:https://openai.com/index/introducing-gpt-6-cyber",
@@ -7249,8 +7001,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T09:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 27.44
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 27.38
     },
     {
       "id": "rss:https://openai.com/index/merge-builds-with-openai",
@@ -7265,37 +7017,21 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T08:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 27.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 27.13
     },
     {
-      "id": "rss:https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Clearing up a robot’s fuzzy memory",
-      "author": "MIT News AI",
-      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
-      "cover": null,
-      "summary": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
-      "metrics": {},
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 26.44
-    },
-    {
-      "id": "hf-paper:2611.10987",
+      "id": "hf-paper:2611.02810",
       "platform": "huggingface",
       "category": "paper",
-      "title": "Horizon-Scalable Q-Learning",
-      "author": "UTEXAS",
-      "url": "https://huggingface.co/papers/2611.10987",
+      "title": "TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation",
+      "author": "uts-research",
+      "url": "https://huggingface.co/papers/2611.02810",
       "cover": null,
-      "summary": "off-policy state-action value functions、Q-functions、offline datasets · 有代码　Learning accurate off-policy state-action value functions (Q-functions) from offline datasets becomes harder as the task horizon grows. One-step temporal-difference (TD) learning bootstraps after every transition, so small pe",
+      "summary": "retrieval-augmented generation、language models、hallucinations · 有代码　This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance of language models. Despite the remarkable progress, current RAG approaches are still far from satisfactory due t",
       "metrics": {
-        "upvotes": 1,
-        "reply": 1
+        "upvotes": 7,
+        "reply": 2
       },
       "comments": [],
       "badges": [
@@ -7305,9 +7041,9 @@
           "tone": "neutral"
         }
       ],
-      "publishedAt": "2026-11-07T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 26.42
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 27.05
     },
     {
       "id": "hf-paper:2512.23818",
@@ -7331,18 +7067,18 @@
         }
       ],
       "publishedAt": "2026-11-07T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 26.42
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 26.39
     },
     {
-      "id": "hf-paper:2611.10556",
+      "id": "hf-paper:2611.10987",
       "platform": "huggingface",
       "category": "paper",
-      "title": "onóna: Twin Embeddings with Tied Unembeddings",
-      "author": null,
-      "url": "https://huggingface.co/papers/2611.10556",
+      "title": "Horizon-Scalable Q-Learning",
+      "author": "UTEXAS",
+      "url": "https://huggingface.co/papers/2611.10987",
       "cover": null,
-      "summary": "weight tying、language models、tied output head　Weight tying reduces the parameter cost of language models, but the usual tied output head is limited to a single softmax. We introduce onóna, a two-table parameterization that increases output expressiveness while preserving input-output weight sharing.",
+      "summary": "off-policy state-action value functions、Q-functions、offline datasets · 有代码　Learning accurate off-policy state-action value functions (Q-functions) from offline datasets becomes harder as the task horizon grows. One-step temporal-difference (TD) learning bootstraps after every transition, so small pe",
       "metrics": {
         "upvotes": 1,
         "reply": 1
@@ -7356,8 +7092,24 @@
         }
       ],
       "publishedAt": "2026-11-07T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 26.42
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 26.39
+    },
+    {
+      "id": "rss:https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "platform": "rss",
+      "category": "ai-news",
+      "title": "Clearing up a robot’s fuzzy memory",
+      "author": "MIT News AI",
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "cover": null,
+      "summary": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+      "metrics": {},
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 26.38
     },
     {
       "id": "rss:https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
@@ -7372,33 +7124,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T02:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 25.69
-    },
-    {
-      "id": "hf-paper:2611.02810",
-      "platform": "huggingface",
-      "category": "paper",
-      "title": "TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation",
-      "author": "uts-research",
-      "url": "https://huggingface.co/papers/2611.02810",
-      "cover": null,
-      "summary": "retrieval-augmented generation、language models、hallucinations · 有代码　This paper studies retrieval-augmented generation (RAG), which leverages external knowledge to improve the performance of language models. Despite the remarkable progress, current RAG approaches are still far from satisfactory due t",
-      "metrics": {
-        "upvotes": 6,
-        "reply": 1
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🆕 有票但不多",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-02T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 25.57
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 25.63
     },
     {
       "id": "rss:https://openai.com/ads/customers/flipsnack",
@@ -7413,8 +7140,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T00:45:15.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 25.38
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 25.32
     },
     {
       "id": "rss:https://openai.com/index/franklin-templeton",
@@ -7429,8 +7156,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 25.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 25.13
     },
     {
       "id": "rss:https://huggingface.co/blog/phonon-tts",
@@ -7445,8 +7172,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-05T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 25.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 25.13
     },
     {
       "id": "rss:https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
@@ -7461,8 +7188,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-04T18:07:05.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 23.72
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 23.66
     },
     {
       "id": "rss:https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
@@ -7477,8 +7204,33 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-04T17:50:10.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 23.65
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 23.59
+    },
+    {
+      "id": "hf-paper:2611.09709",
+      "platform": "huggingface",
+      "category": "paper",
+      "title": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
+      "author": "TheCacheIsALie",
+      "url": "https://huggingface.co/papers/2611.09709",
+      "cover": null,
+      "summary": "有代码　RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YO",
+      "metrics": {
+        "upvotes": 1,
+        "reply": 2
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "dark-horse",
+          "label": "🆕 有票但不多",
+          "tone": "neutral"
+        }
+      ],
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 23.39
     },
     {
       "id": "hf-paper:2501.08686",
@@ -7502,33 +7254,8 @@
         }
       ],
       "publishedAt": "2026-11-06T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 23.42
-    },
-    {
-      "id": "hf-paper:2611.09709",
-      "platform": "huggingface",
-      "category": "paper",
-      "title": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
-      "author": "TheCacheIsALie",
-      "url": "https://huggingface.co/papers/2611.09709",
-      "cover": null,
-      "summary": "有代码　RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YO",
-      "metrics": {
-        "upvotes": 1,
-        "reply": 1
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🆕 有票但不多",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 23.42
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 23.39
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/4/datasette-llm/",
@@ -7543,8 +7270,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-04T15:26:02.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 23.05
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 22.99
     },
     {
       "id": "rss:https://openai.com/index/openai-to-acquire-pierre",
@@ -7559,8 +7286,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-04T14:30:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 22.82
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 22.76
     },
     {
       "id": "hf-paper:2610.36980",
@@ -7584,7 +7311,7 @@
         }
       ],
       "publishedAt": "2026-10-27T10:33:06.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 21.97
     },
     {
@@ -7600,8 +7327,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-04T08:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 21.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 21.13
     },
     {
       "id": "rss:https://openai.com/index/daybreak-red-aws-govcloud",
@@ -7616,24 +7343,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-04T07:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 20.94
-    },
-    {
-      "id": "rss:https://openai.com/index/introducing-images-2-6",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Introducing Images 2.6",
-      "author": "OpenAI",
-      "url": "https://openai.com/index/introducing-images-2-6",
-      "cover": null,
-      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "metrics": {},
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-04T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T18:06:50.037Z",
-      "score": 19.47
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 20.88
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/4/datasette-apps/",
@@ -7648,8 +7359,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-04T00:29:36.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 19.32
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 19.25
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/3/datasette-agent/",
@@ -7664,8 +7375,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T23:13:45.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 18.94
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/3/llm/",
@@ -7680,8 +7391,33 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T21:41:42.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 18.62
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 18.55
+    },
+    {
+      "id": "hf-paper:2611.01112",
+      "platform": "huggingface",
+      "category": "paper",
+      "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
+      "author": null,
+      "url": "https://huggingface.co/papers/2611.01112",
+      "cover": null,
+      "summary": "vision-language models、robot policies、zero-shot manipulation · 有代码　Vision-language models can interpret instructions and plan manipulation tasks, yet struggle when acting directly as robot policies. On RoboDojo, a large planning-execution gap separates high-level task decisions from physical executi",
+      "metrics": {
+        "upvotes": 4,
+        "reply": 2
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "dark-horse",
+          "label": "🆕 有票但不多",
+          "tone": "neutral"
+        }
+      ],
+      "publishedAt": "2026-10-31T00:00:00.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 18.17
     },
     {
       "id": "rss:https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
@@ -7696,8 +7432,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T19:30:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 18.07
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 18.01
     },
     {
       "id": "rss:https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
@@ -7712,8 +7448,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T17:01:49.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 17.45
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 17.39
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/3/hn-50354278/",
@@ -7728,8 +7464,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T16:42:02.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 17.37
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 17.31
     },
     {
       "id": "rss:https://huggingface.co/blog/ibm-research/palette-deck-building",
@@ -7744,8 +7480,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T16:35:36.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 17.34
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 17.28
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
@@ -7760,8 +7496,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T16:29:48.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 17.32
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 17.26
     },
     {
       "id": "hf-paper:2611.09987",
@@ -7785,33 +7521,8 @@
         }
       ],
       "publishedAt": "2026-11-02T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 16
-    },
-    {
-      "id": "hf-paper:2611.01112",
-      "platform": "huggingface",
-      "category": "paper",
-      "title": "Auriga Technical Report: A Task-Agnostic Agent Harness for Zero-Shot Embodied Manipulation",
-      "author": null,
-      "url": "https://huggingface.co/papers/2611.01112",
-      "cover": null,
-      "summary": "vision-language models、robot policies、zero-shot manipulation · 有代码　Vision-language models can interpret instructions and plan manipulation tasks, yet struggle when acting directly as robot policies. On RoboDojo, a large planning-execution gap separates high-level task decisions from physical executi",
-      "metrics": {
-        "upvotes": 3,
-        "reply": 1
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🆕 有票但不多",
-          "tone": "neutral"
-        }
-      ],
-      "publishedAt": "2026-10-31T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 15.65
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 15.97
     },
     {
       "id": "hf-paper:2610.37570",
@@ -7835,7 +7546,7 @@
         }
       ],
       "publishedAt": "2026-10-27T17:15:15.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 15.65
     },
     {
@@ -7851,8 +7562,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T05:32:25.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 14.58
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 14.52
     },
     {
       "id": "rss:https://simonwillison.net/2026/Nov/3/october-newsletter/",
@@ -7867,24 +7578,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T05:28:59.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 14.56
-    },
-    {
-      "id": "rss:https://huggingface.co/blog/transformers-mic",
-      "platform": "rss",
-      "category": "ai-news",
-      "title": "Transformers Model Integration Contracts",
-      "author": "HuggingFace Blog",
-      "url": "https://huggingface.co/blog/transformers-mic",
-      "cover": null,
-      "summary": "",
-      "metrics": {},
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-03T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 13.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 14.5
     },
     {
       "id": "rss:https://huggingface.co/blog/cwe-bench",
@@ -7899,8 +7594,24 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-03T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 13.19
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 13.13
+    },
+    {
+      "id": "rss:https://huggingface.co/blog/transformers-mic",
+      "platform": "rss",
+      "category": "ai-news",
+      "title": "Transformers Model Integration Contracts",
+      "author": "HuggingFace Blog",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "cover": null,
+      "summary": "",
+      "metrics": {},
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 13.13
     },
     {
       "id": "rss:https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
@@ -7915,8 +7626,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-02T19:55:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 12.17
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 12.11
     },
     {
       "id": "rss:https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
@@ -7931,8 +7642,8 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-11-02T05:35:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
-      "score": 8.59
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
+      "score": 8.53
     },
     {
       "id": "rss:https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
@@ -7947,7 +7658,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-30T20:15:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -7963,7 +7674,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-30T19:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -7979,7 +7690,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-30T14:18:30.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -7995,7 +7706,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-29T13:37:07.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8011,7 +7722,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8027,7 +7738,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8043,7 +7754,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-29T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8059,7 +7770,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-28T17:00:58.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8075,7 +7786,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-28T16:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8091,7 +7802,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-28T04:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8107,7 +7818,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-27T20:55:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8123,7 +7834,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-27T17:35:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8139,7 +7850,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-27T17:16:52.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8155,7 +7866,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-27T16:01:38.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8171,7 +7882,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-26T19:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8187,7 +7898,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-23T21:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8203,7 +7914,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-23T19:35:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8219,7 +7930,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-23T18:51:33.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8235,7 +7946,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-23T04:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8251,7 +7962,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-23T00:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8267,7 +7978,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-22T22:24:34.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8283,7 +7994,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-22T20:45:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8299,7 +8010,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-22T14:30:24.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8315,7 +8026,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-21T17:35:36.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8331,7 +8042,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-21T16:23:53.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8347,7 +8058,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-21T16:04:43.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8363,7 +8074,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-19T18:20:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8379,7 +8090,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-18T04:00:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8395,7 +8106,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-16T18:11:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8411,7 +8122,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-15T16:08:03.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8427,7 +8138,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-14T16:14:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8443,7 +8154,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-14T16:14:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8459,7 +8170,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-14T16:14:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8475,7 +8186,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-14T02:00:14.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8491,7 +8202,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-13T19:43:07.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8507,7 +8218,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-13T16:01:58.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8523,7 +8234,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-13T16:01:52.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8539,7 +8250,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-07T20:19:57.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8555,7 +8266,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-06T19:57:04.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8571,7 +8282,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-06T15:05:11.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8587,7 +8298,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-05T21:08:00.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8603,7 +8314,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-10-02T14:57:41.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8619,7 +8330,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-09-30T20:01:45.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8635,7 +8346,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-09-30T15:03:07.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     },
     {
@@ -8651,7 +8362,7 @@
       "comments": [],
       "badges": [],
       "publishedAt": "2026-09-29T18:38:27.000Z",
-      "fetchedAt": "2026-11-10T19:13:34.089Z",
+      "fetchedAt": "2026-11-10T19:28:32.172Z",
       "score": 0
     }
   ]
