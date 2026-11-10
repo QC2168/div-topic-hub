@@ -139,12 +139,63 @@ site/api/radar/free-tier.json ← 静态端点（线上给 Toy 用，脚本生�
 重新导出。推上 master 后 CI 会自动重建并发布；每天早上 9 点也会定时刷新一次
 OpenRouter 零价模型榜（人工核实的静态条目不会变，只有实时榜会动）。
 
-**线上地址**（GitHub Pages，见 `.github/workflows/free-tier.yml`）：
+**线上地址**（GitHub Pages，见 `.github/workflows/publish.yml`）：
 `https://<用户名>.github.io/div-topic-hub/api/radar/free-tier.json`
 
 国内访问 GitHub Pages 不稳定时，把同一个仓库接到 EdgeOne Pages / Cloudflare Pages
-（构建命令留空、输出目录填 `site` 即可，`site/_headers` 已带 CORS 头），
+（构建命令留空、输出目录填 `site` 即可，`site/_headers` 是构建时从 `deploy/_headers` 复制进去的），
 然后把 Toy 端 `assets/js/core.js` 的 `REMOTE_API` 指到新地址。
+
+## 数据端点与 Agent Skill
+
+网站之外，同一批数据还以**静态 JSON 快照**的形式发布，供任意程序或 agent 读取。
+快照每天 09:00（北京时间）由 Actions 采集并重建，不需要任何服务器。
+
+| 路径 | 内容 |
+| --- | --- |
+| `/api/v1/datasets.json` | 数据集目录：条数、新鲜度、contentHash。程序化调用**先读这里** |
+| `/api/v1/bilibili.json` | B站黑马（约 100 条） |
+| `/api/v1/ai-news.json` | GitHub / AI 快讯 / HN / arXiv / HuggingFace（约 360 条） |
+| `/api/v1/hot-search.json` | 抖音 / 微博 / 百度热搜（约 150 条） |
+| `/api/v1/free-tier.json` | 白嫖榜单（与旧地址 `/api/radar/free-tier.json` 内容完全相同） |
+| `/llms.txt` | 给 LLM 爬虫的入口说明 |
+
+字段定义见 `skills/div-topic-hub/references/data-contract.md`——网站前端与快照共用同一份结构，
+所以只需要记一套。
+
+**装到任意 agent**：
+
+```bash
+npx skills add QC2168/div-topic-hub -g -y     # 装到用户级 skill 目录，Claude Code / Codex / Cursor 等通用
+node ~/.claude/skills/div-topic-hub/scripts/hub.mjs list bilibili --limit 10
+```
+
+不想装也行，直接跑仓库里的零依赖 CLI（只要 Node 18+）：
+
+```bash
+node skills/div-topic-hub/scripts/hub.mjs datasets        # 目录与新鲜度
+node skills/div-topic-hub/scripts/hub.mjs list hot-search --limit 20
+node skills/div-topic-hub/scripts/hub.mjs search "AI 编程" --dataset ai-news
+node skills/div-topic-hub/scripts/hub.mjs doctor          # 连通性自检
+```
+
+管道调用时自动输出 JSON，终端里才打印人类可读格式，所以 agent 不需要记得加 `--json`。
+
+**本地生成与发布**：
+
+```bash
+bun run snapshot         # 真采集 → 落库 → 写 data/snapshots/*.json
+bun run snapshot:db      # 不采集，用现有 SQLite 重新导出（改字段/断网时用）
+bun run snapshot:probe   # 只探活：逐数据集打印条数与耗时，不写库不落盘
+bun run site:build       # 导出白嫖榜单 + 合成 site/ + 产物体检
+```
+
+`data/snapshots/` 随每天的快照一起提交进仓库，所以能 diff、能回滚到某一天的榜单。
+
+**阈值守卫**：条数掉到上次一半以下时保留上一版而不是覆盖，线上继续是旧的好数据；
+发布后 `freshness` 步骤会读线上 `datasets.json`，任一数据集超过 26 小时未更新就让 workflow 变红。
+B站 对非中国数据中心 IP 有 412 风控，Actions 上有可能拿不到——真发生就在本机跑一次
+`bun run snapshot` 再 `git push` 补采，CI 下一轮会自动以你的文件为新基线。
 
 ## 存储
 
@@ -180,24 +231,41 @@ OpenRouter 零价模型榜（人工核实的静态条目不会变，只有实时
 app/
 ├── components/radar/{RadarView,FeedList,TopicWorkspace}.vue
 ├── composables/{useRadar,useHostBridge}.ts
-├── pages/{index,ai-news,pool,settings}.vue
+├── pages/{index,ai-news,free,pool,settings}.vue
 ├── utils/{format,markdown}.ts
 server/
-├── api/radar/{bilibili,ai-news}.get.ts · refresh.post.ts
+├── api/radar/{bilibili,ai-news,hot-search,free-tier}.get.ts · refresh.post.ts
 ├── api/ai/analyze.post.ts · api/feed.get.ts · api/topics/* · api/settings*
-└── utils/{db,collect,bilibili,ai-news,hackernews,arxiv,score,deepseek,repo,settings}.ts
-shared/types.ts        # 前后端共享契约
-adapters/              # 三端插件壳
+└── utils/{db,collect,bilibili,ai-news,hackernews,arxiv,hot-topic,score,deepseek,repo,settings}.ts
+shared/{types,free-tier}.ts   # 前后端共享契约
+scripts/                      # 站点之外的离线脚本（零依赖优先）
+├── collect-snapshot.ts       # 采集 → data/snapshots/*.json（需 Bun）
+├── build-site.mjs            # 快照 + 白嫖榜单 → site/
+├── validate-site.mjs         # 产物体检（count/contentHash/双写一致性）
+├── validate-data.mjs         # 白嫖榜单源数据体检
+└── export-free-tier.mjs      # 白嫖榜单 → site/api/radar/free-tier.json
+data/
+├── free-tier.json            # 人工维护（唯一真源）
+├── free-tier.schema.json     # 文档性质，实际校验在 validate-data.mjs
+└── snapshots/                # 每日快照，随提交入库
+deploy/_headers               # CORS / 缓存头源文件（构建时复制进 site/）
+site/                         # 发布产物，整目录 gitignore，随时可删重建
+skills/div-topic-hub/         # Agent Skill：SKILL.md + 零依赖 CLI + 数据契约
+adapters/                     # 三端插件壳
+.github/workflows/publish.yml # 唯一 Pages 入口：采集 → 合成 → 发布 → 提交快照
 ```
 
 ## 常用命令
 
 ```bash
-bun run dev        # 开发
-bun run build      # 生产构建
-bun run preview    # 预览产物
-bun run typecheck  # vue-tsc 类型检查
-bun run lint       # eslint
+bun run dev              # 开发
+bun run build            # 生产构建
+bun run preview          # 预览产物
+bun run typecheck        # vue-tsc 类型检查
+bun run lint             # eslint
+bun run snapshot         # 采集并生成每日快照
+bun run snapshot:probe   # 只探活，看各源当前能不能采到
+bun run site:build       # 合成静态站点并体检
 ```
 
 ## 已知取舍

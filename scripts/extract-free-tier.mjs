@@ -20,7 +20,13 @@ function cutArray(name) {
   let end = -1
   for (let i = bracket; i < src.length; i++) {
     if (src[i] === '[') depth++
-    else if (src[i] === ']') { depth--; if (depth === 0) { end = i; break } }
+    else if (src[i] === ']') {
+      depth--
+      if (depth === 0) {
+        end = i
+        break
+      }
+    }
   }
   const body = src.slice(bracket, end + 1)
   // TS 数组字面量本身是合法 JS（对象键都带引号或是不带引号的合法标识符）
@@ -36,7 +42,13 @@ function cutObject(name) {
   let end = -1
   for (let i = brace; i < src.length; i++) {
     if (src[i] === '{') depth++
-    else if (src[i] === '}') { depth--; if (depth === 0) { end = i; break } }
+    else if (src[i] === '}') {
+      depth--
+      if (depth === 0) {
+        end = i
+        break
+      }
+    }
   }
   const body = src.slice(brace, end + 1)
   // eslint-disable-next-line no-new-func

@@ -16,7 +16,8 @@ const errors = []
 const warns = []
 const Kinds = new Set(['daily', 'permanent', 'quota', 'trial'])
 const Channels = new Set(['app', 'api'])
-const Medias = new Set(['text', 'image', 'video', 'audio', 'office'])
+// media 枚举（text/image/video/audio/office）目前**没有**在这里校验，只由类型系统兜住。
+// 曾经定义一个 Medias 集合却从未使用，等于给自己一个「已校验」的错觉，所以删掉了。
 
 function checkUrl(v, label) {
   if (typeof v !== 'string' || !/^https:\/\//.test(v)) errors.push(`${label}：URL 必须是 https 开头（拿到 ${JSON.stringify(v)}）`)
@@ -36,7 +37,10 @@ function checkEntry(e, group, i) {
 
 for (const [group, key] of [['国内应用', 'domesticApp'], ['国内API', 'domesticApi'], ['海外平台', 'overseasPlatforms']]) {
   const list = data[key]
-  if (!Array.isArray(list) || list.length === 0) { errors.push(`${group}：缺失或为空数组`); continue }
+  if (!Array.isArray(list) || list.length === 0) {
+    errors.push(`${group}：缺失或为空数组`)
+    continue
+  }
   list.forEach((e, i) => checkEntry(e, group, i))
   // 平台名不许重复——mediaByPlatform 按 platform 键映射，重名会互相覆盖
   const names = list.map(e => e.platform)

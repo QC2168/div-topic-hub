@@ -1,0 +1,161 @@
+name: 静态数据端点
+
+# 唯一的 Pages 发布入口。
+#
+# 为什么必须只有一个：upload-pages-artifact 上传的是整个目录，deploy-pages 是**整站替换**。
+# 如果这里再拆一个 workflow 各自上传 site/，后跑的那个会把对方刚发布的文件从线上抹掉
+# （改一次 data/ 就丢掉 /api/v1/*.json，反之亦然）。过去 free-tier.yml 就是唯一的入口，
+# 现在它并进来了。
+#
+# 触发路径是**显式列举**而不是 `data/**`：本 workflow 每天会把快照提交回仓库，
+# 若用 `data/**` 就是 commit → push → 再次触发 的死循环。加上提交信息里的 [skip ci]，
+# 是双重保险。
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # UTC 01:00 = 北京 09:00
+  push:
+    branches: [master, main]
+    paths:
+      - 'data/free-tier.json'
+      - 'scripts/**'
+      - 'server/utils/**'
+      - 'shared/**'
+      - 'deploy/**'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: '只跑探针：逐数据集打印条数与耗时，不发布'
+        type: boolean
+        default: false
+      skip_collect:
+        description: '跳过采集，直接用仓库里已有的快照发布'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 不 cancel-in-progress：archive 步骤要往仓库提交，跑到一半被取消会留下不一致状态。
+# 宁可排队等前一轮（每天只有一次定时触发，积压风险很低）。
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # 手动触发时可以先跑这个，确认当前网络能不能拿到各家数据。
+  # 采集器只打各平台公开接口，B站有 412 风控（针对非中国数据中心 IP），
+  # 结果因 runner 出口 IP 而异，所以这件事必须实测而不是猜。
+  probe:
+    if: github.event_name == 'workflow_dispatch' && inputs.probe
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.3
+
+      # 再强调一次：不需要 bun install。server/utils 下零 npm 依赖，只用 node 内置模块。
+      - name: 逐数据集探针
+        run: bun scripts/collect-snapshot.ts --probe
+
+  export:
+    if: github.event_name != 'workflow_dispatch' || !inputs.probe
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.4.3
+
+      # 人工维护的白嫖榜单体检：结构、URL、平台名重复都会在这里拦下
+      - name: 数据体检
+        run: node scripts/validate-data.mjs
+
+      # 采集 → 落库 → 写 data/snapshots/*.json。
+      # 阈值守卫会让「条数骤降」的数据集保留上一版而不是覆盖，所以这里不需要 try/catch。
+      - name: 采集并生成快照
+        if: github.event_name != 'workflow_dispatch' || !inputs.skip_collect
+        run: bun scripts/collect-snapshot.ts
+
+      # OpenRouter 拉失败不阻断：models 落成空数组 + warnings，静态清单照常上线
+      - name: 导出白嫖榜单
+        run: node scripts/export-free-tier.mjs
+
+      - name: 合成站点
+        run: node scripts/build-site.mjs
+
+      # 坏产物绝不进 Pages：count 与 items 脱节、contentHash 对不上、双写不一致都会拦下
+      - name: 产物体检
+        run: node scripts/validate-site.mjs
+
+      # 提交放在上传之前：万一 push 被分支保护挡住，宁可这一轮不发布，
+      # 也不要出现「线上更新了但仓库里没有」的状态。
+      - name: 提交快照
+        if: github.event_name != 'workflow_dispatch' || !inputs.skip_collect
+        continue-on-error: true
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # 用 status 而不是 diff：diff 只看已跟踪文件，首次运行时快照还是 untracked，会被漏掉
+          if [ -z "$(git status --porcelain -- data/snapshots)" ]; then
+            echo "快照无变化，跳过提交"
+            exit 0
+          fi
+          git add data/snapshots
+          git commit -m "chore(data): 每日快照 $(date -u +%Y-%m-%d) [skip ci]"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: export
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # 发布之后再验一遍**线上真实内容**：采集被守卫拦下时页面照常上线（沿用旧数据），
+  # 如果不在这里显式失败，数据停更会静默发生，没人会注意到。
+  freshness:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检查线上数据新鲜度
+        run: |
+          set -euo pipefail
+          URL="https://qc2168.github.io/div-topic-hub/api/v1/datasets.json?t=$(date +%s)"
+          curl -sS --retry 3 --retry-delay 5 "$URL" -o datasets.json
+          node -e '
+            const catalog = JSON.parse(require("node:fs").readFileSync("datasets.json", "utf8"));
+            const LIMIT = 1560; // 26 小时：日更节奏下给 2 小时余量
+            let bad = 0;
+            for (const entry of catalog.datasets ?? []) {
+              if (entry.schema !== "div-topic-hub/v1") continue;
+              const age = entry.ageMinutes;
+              const label = `::${age > LIMIT ? "error" : "notice"}::${entry.id} 线上数据 ageMinutes=${age}${age > LIMIT ? "（超过 26 小时，采集很可能被上游风控或守卫拦下）" : ""}`;
+              console.log(label);
+              if (typeof age === "number" && age > LIMIT) bad += 1;
+            }
+            if (bad > 0) {
+              console.error("有 " + bad + " 个数据集超过 26 小时未更新，检查上一轮采集日志（可用 workflow_dispatch 跑探针）");
+              process.exit(1);
+            }
+            console.log("全部数据集新鲜度正常");
+          '

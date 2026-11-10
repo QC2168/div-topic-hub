@@ -8,7 +8,9 @@
  * OpenRouter 拉取失败只降级不整体 500——静态清单照样可用，
  * 但失败的警告原样透传，页面会显示「实时榜暂时拿不到」而不是装作没这回事。
  */
-import { AUTHOR_INFO, DOMESTIC_API_TIERS, DOMESTIC_APP_TIERS, OVERSEAS_FREE_TIERS, TIER_VERIFIED_AT, fetchOpenRouterFreeModels, type FreeModel } from '../../utils/free-tier'
+// FreeModel 是类型，直接从共享契约取：utils/free-tier 只是把它 import 进来用，没有 re-export
+import type { FreeModel } from '#shared/free-tier'
+import { AUTHOR_INFO, DOMESTIC_API_TIERS, DOMESTIC_APP_TIERS, OVERSEAS_FREE_TIERS, TIER_VERIFIED_AT, fetchOpenRouterFreeModels } from '../../utils/free-tier'
 
 export default defineEventHandler(async (event) => {
   const query = getQuery(event)

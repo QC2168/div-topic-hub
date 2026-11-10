@@ -360,38 +360,88 @@ export async function collectAiNews(): Promise<CollectOutcome> {
   return { items: dedupe(items).sort((a, b) => b.score - a.score), warnings }
 }
 
+/* ── 按数据集编排（快照导出与站点共用） ── */
+
+/**
+ * 三个数据集：分别对应 site 上的一组分类，也对应快照里的三个 JSON 文件。
+ *
+ * 拆出来是为了让快照脚本能单独跑某一块（比如只想刷热搜），并且让 warnings 按数据集
+ * 归因——refreshAll 原来把三块告警混成一个数组，快照里就没法说清「是哪一类出的问题」。
+ */
+export type DatasetId = 'bilibili' | 'ai-news' | 'hot-search'
+
+export interface DatasetCollectResult {
+  id: DatasetId
+  /** 该数据集是否整体采集成功（部分子源失败仍算成功，细节在 warnings 里） */
+  ok: boolean
+  items: FeedItem[]
+  warnings: string[]
+  /** 采集耗时（毫秒） */
+  ms: number
+  /** 开始采集的时刻，热搜清理需要用它算「早于本次」的截止时间 */
+  startedAt: number
+}
+
+const DATASETS: Record<DatasetId, { label: string, run: () => Promise<CollectOutcome> }> = {
+  'bilibili': { label: 'B站', run: collectBilibili },
+  'ai-news': { label: 'AI 资讯', run: collectAiNews },
+  'hot-search': { label: '全网热搜', run: collectHotSearch }
+}
+
+export const DATASET_IDS = Object.keys(DATASETS) as DatasetId[]
+
+/** 并行跑一个或多个数据集，单个失败只体现在该条结果的 ok/warnings 里，不影响其他。 */
+export async function collectAll(only?: DatasetId[]): Promise<DatasetCollectResult[]> {
+  const ids = only === undefined || only.length === 0 ? DATASET_IDS : only
+  return Promise.all(ids.map(async (id) => {
+    const startedAt = Date.now()
+    const meta = DATASETS[id]
+    try {
+      const outcome = await meta.run()
+      return { id, ok: true, items: outcome.items, warnings: outcome.warnings, ms: Date.now() - startedAt, startedAt }
+    } catch (error) {
+      return {
+        id,
+        ok: false,
+        items: [],
+        warnings: [`${meta.label}采集整体失败：${errorText(error)}`],
+        ms: Date.now() - startedAt,
+        startedAt
+      }
+    }
+  }))
+}
+
 /** 全量采集并落库，返回条数与告警。 */
-export async function refreshAll(): Promise<{ bilibili: number, aiNews: number, hotSearch: number, warnings: string[], fetchedAt: string }> {
-  const hotStartedAt = Date.now()
-  const [bili, news, hot] = await Promise.allSettled([collectBilibili(), collectAiNews(), collectHotSearch()])
+export async function refreshAll(only?: DatasetId[]): Promise<{
+  bilibili: number
+  aiNews: number
+  hotSearch: number
+  warnings: string[]
+  fetchedAt: string
+  /** 逐数据集的明细（快照导出要按数据集归因告警与耗时） */
+  datasets: DatasetCollectResult[]
+}> {
+  const results = await collectAll(only)
   const warnings: string[] = []
-  let bilibili = 0
-  let aiNews = 0
-  let hotSearch = 0
+  const counts: Record<DatasetId, number> = { 'bilibili': 0, 'ai-news': 0, 'hot-search': 0 }
 
-  if (bili.status === 'fulfilled') {
-    bilibili = upsertFeedItems(bili.value.items)
-    warnings.push(...bili.value.warnings)
-  } else {
-    warnings.push(`B站采集整体失败：${errorText(bili.reason)}`)
+  for (const result of results) {
+    if (result.ok) {
+      counts[result.id] = upsertFeedItems(result.items)
+      // 热搜是「当下快照」而不是累积资料：不清就会越攒越多（实测微博能涨到 66 条）。
+      // 只删早于本次采集的记录，所以只在采集成功后调用——失败还删就变成「一出错页面就空了」。
+      if (result.id === 'hot-search') pruneHotSearch(new Date(result.startedAt - 1_000).toISOString())
+    }
+    warnings.push(...result.warnings)
   }
 
-  if (news.status === 'fulfilled') {
-    aiNews = upsertFeedItems(news.value.items)
-    warnings.push(...news.value.warnings)
-  } else {
-    warnings.push(`AI 资讯采集整体失败：${errorText(news.reason)}`)
+  return {
+    bilibili: counts.bilibili,
+    aiNews: counts['ai-news'],
+    hotSearch: counts['hot-search'],
+    warnings,
+    fetchedAt: new Date().toISOString(),
+    datasets: results
   }
-
-  if (hot.status === 'fulfilled') {
-    hotSearch = upsertFeedItems(hot.value.items)
-    // 热搜是「当下快照」而不是累积资料：不清就会越攒越多（实测微博能涨到 66 条）。
-    // 只删早于本次采集的记录，所以只在采集成功后调用——失败还删就变成「一出错页面就空了」。
-    pruneHotSearch(new Date(hotStartedAt - 1_000).toISOString())
-    warnings.push(...hot.value.warnings)
-  } else {
-    warnings.push(`热搜采集整体失败：${errorText(hot.reason)}`)
-  }
-
-  return { bilibili, aiNews, hotSearch, warnings, fetchedAt: new Date().toISOString() }
 }

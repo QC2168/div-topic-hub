@@ -1,0 +1,20 @@
+# Cloudflare Pages / EdgeOne Pages 认这个文件；
+# GitHub Pages 不认，但它本来就对所有资源默认带 Access-Control-Allow-Origin: *。
+#
+# 放在 deploy/ 而不是 site/ 里，是有意的：site/ 是纯生成物（.gitignore 整个忽略，
+# 随时可以删掉重建），而这份配置属于源文件、必须进版本库，否则干净克隆的 CI 拿不到它。
+
+/api/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Max-Age: 86400
+
+# 数据集文件靠 ?v=<contentHash> 绕缓存（内容变 URL 就变），所以可以长缓存；
+# 目录清单是固定 URL、靠客户端加 ?t=，给它一个短 TTL 兜底。
+/api/v1/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Cache-Control: public, max-age=86400
+
+/api/v1/datasets.json
+  Cache-Control: public, max-age=300

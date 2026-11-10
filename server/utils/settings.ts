@@ -1,6 +1,11 @@
 /** 设置读写（含 API Key 掩码规则），路由层只做搬运。 */
-import type { HubSettings, RssFeedConfig } from '#shared/types'
-import { BUILTIN_RSS_FEEDS, DEFAULT_SETTINGS } from '#shared/types'
+/**
+ * 用相对路径而不是 `#shared/types`：这是全服务端唯一的**值导入**（其余全是 `import type`，
+ * 转译时被擦除），而 `#shared` 是 Nuxt 的 tsconfig 别名，在 Nuxt 之外（scripts/ 下的
+ * 快照脚本用 Bun 直接跑）解析不到。改成相对路径后两边都能加载，Vite/Nitro 同样认相对路径。
+ */
+import type { HubSettings, RssFeedConfig } from '../../shared/types'
+import { BUILTIN_RSS_FEEDS, DEFAULT_SETTINGS } from '../../shared/types'
 import { readSetting, writeSetting } from './db'
 
 export function maskKey(key: string): string {

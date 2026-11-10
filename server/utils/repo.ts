@@ -116,7 +116,11 @@ export function upsertFeedItems(items: FeedItem[]): number {
 export interface FeedQuery {
   /** 不传 = 全部 */
   categories?: FeedCategory[]
-  limit?: number
+  /**
+   * 不传 = 200；传 `null` = 不限条数（快照导出专用，见 listAllFeedItems）。
+   * 其余值夹在 1..500，防止调用方顺手把首页拉爆。
+   */
+  limit?: number | null
   /** 只要最近 N 小时内抓到的 */
   freshWithinHours?: number
   /**
@@ -131,6 +135,21 @@ export interface FeedQuery {
 export const DEFAULT_MAX_AGE_DAYS = 45
 
 export function listFeedItems(query: FeedQuery = {}): FeedItem[] {
+  return runFeedQuery(query)
+}
+
+/**
+ * 快照导出专用：一次拿全量，不分页。
+ *
+ * 为什么不在脚本里直接写 SQL：rowToItem 的 JSON 反序列化、45 天时效闸门、排序规则
+ * 全都在本文件里。另写一份 SQL 等于把 schema 知识复制成两份，下次加列就会静默出错。
+ * 正式接口继续走 listFeedItems（夹 500 条），这里只给导出链路开一个明确的缺口。
+ */
+export function listAllFeedItems(query: Omit<FeedQuery, 'limit'> = {}): FeedItem[] {
+  return runFeedQuery({ ...query, limit: null })
+}
+
+function runFeedQuery(query: FeedQuery): FeedItem[] {
   const conditions: string[] = []
   const params: (string | number | null)[] = []
 
@@ -149,12 +168,12 @@ export function listFeedItems(query: FeedQuery = {}): FeedItem[] {
   }
 
   const where = conditions.length === 0 ? '' : `WHERE ${conditions.join(' AND ')}`
-  const limit = Math.min(Math.max(query.limit ?? 200, 1), 500)
-  params.push(limit)
+  const limit = query.limit === null ? null : Math.min(Math.max(query.limit ?? 200, 1), 500)
+  const bound = params.map(value => sqlValue(value))
 
-  const rows = useDb()
-    .prepare(`SELECT * FROM feed_items ${where} ORDER BY score DESC, COALESCE(published_at, fetched_at) DESC LIMIT ?`)
-    .all(...params.map(value => sqlValue(value))) as unknown as FeedRow[]
+  const sql = `SELECT * FROM feed_items ${where} ORDER BY score DESC, COALESCE(published_at, fetched_at) DESC${limit === null ? '' : ' LIMIT ?'}`
+  const statement = useDb().prepare(sql)
+  const rows = (limit === null ? statement.all(...bound) : statement.all(...bound, limit)) as unknown as FeedRow[]
 
   return rows.map(rowToItem)
 }

@@ -8,7 +8,11 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "snapshot": "bun scripts/collect-snapshot.ts",
+    "snapshot:probe": "bun scripts/collect-snapshot.ts --probe",
+    "snapshot:db": "bun scripts/collect-snapshot.ts --from-db",
+    "site:build": "node scripts/export-free-tier.mjs && node scripts/build-site.mjs && node scripts/validate-site.mjs"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.147",
