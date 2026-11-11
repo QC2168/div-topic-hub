@@ -1,0 +1,64 @@
+name: 部署网站到 Vercel
+
+# 为什么不用 Vercel 的 Git 集成：
+# 实测这条链路是断的——Vercel 账号侧存的 GitHub 凭据返回 401 Bad credentials，
+# 于是 /v9/projects/{id}/link 报 repo_not_found（它拿不到仓库列表），
+# 在 GitHub 上装 App 也补不上这个洞。
+#
+# 换成 token 直连之后行为完全可预期：Actions 带着自己的凭据调 Vercel API，
+# 上传源码由 Vercel 按 vercel.json 构建（bun install + nuxt generate）。
+# 注意这里**不预构建**，故意让 Vercel 构建，保证「线上产物 = Vercel 记录的那次构建」。
+#
+# 数据不在这条线上：站点运行时去 GitHub Pages 读 /api/v1/*.json，
+# 数据每天由 publish.yml 重建。所以这个 workflow 只在**代码变了**时才需要跑。
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - 'app/**'
+      - 'shared/**'
+      - 'public/**'
+      - 'nuxt.config.ts'
+      - 'package.json'
+      - 'bun.lock'
+      - 'vercel.json'
+      - '.github/workflows/deploy-web.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# 连续推两次时没必要都发：取消旧的那次，只发最新的代码
+concurrency:
+  group: vercel-web
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 没配 token 时优雅跳过，而不是每 push 一次红一次
+      - name: 检查 VERCEL_TOKEN
+        id: guard
+        env:
+          TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::notice::未配置 VERCEL_TOKEN，跳过 Vercel 部署（手动跑 vercel deploy --prod 即可）"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 部署到生产
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          npx --yes vercel@latest deploy --prod --yes \
+            --token "$VERCEL_TOKEN" \
+            --scope toms-projects-d39c2103 \
+            --project div-topic-hub
