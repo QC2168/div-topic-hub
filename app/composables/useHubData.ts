@@ -63,7 +63,8 @@ export const useHubData = createSharedComposable(() => {
   async function envelope<T>(id: string, force: boolean): Promise<SnapshotEnvelope<T>> {
     const url = `${base}/api/v1/${id}.json${cacheKey(force)}`
     const res = await fetch(url, { headers: { accept: 'application/json' } })
-    if (!res.ok) throw new Error(`读取 ${id} 快照失败（HTTP ${res.status}）`)
+    // 把 URL 带进错误信息：国内网络下 Pages 偶尔连不上，用户得知道卡在哪一步
+    if (!res.ok) throw new Error(`读取 ${id} 快照失败（HTTP ${res.status}）· ${url}`)
     return await res.json() as SnapshotEnvelope<T>
   }
 
@@ -121,7 +122,7 @@ export const useHubData = createSharedComposable(() => {
     const res = await fetch(`${base}/api/v1/free-tier.json${cacheKey(options.force === true)}`, {
       headers: { accept: 'application/json' }
     })
-    if (!res.ok) throw new Error(`读取白嫖榜单失败（HTTP ${res.status}）`)
+    if (!res.ok) throw new Error(`读取白嫖榜单失败（HTTP ${res.status}）· ${base}/api/v1/free-tier.json`)
     return await res.json() as FreeTierSnapshot
   }
 
@@ -130,7 +131,7 @@ export const useHubData = createSharedComposable(() => {
     const res = await fetch(`${base}/api/v1/datasets.json${cacheKey(false)}`, {
       headers: { accept: 'application/json' }
     })
-    if (!res.ok) throw new Error(`读取数据集目录失败（HTTP ${res.status}）`)
+    if (!res.ok) throw new Error(`读取数据集目录失败（HTTP ${res.status}）· ${base}/api/v1/datasets.json`)
     return await res.json() as {
       generatedAt: string
       baseUrl: string
