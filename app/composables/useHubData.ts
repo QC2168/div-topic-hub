@@ -7,8 +7,10 @@
  * 网站本身可以纯静态部署，也永远不会出现「打开是空列表」。
  *
  * ── 地址 ──
- * 默认指向线上数据端（runtimeConfig.public.hubBase）。如果哪天把网站也挂到同一个
- * Pages 上，把 hubBase 设成空字符串即可走同源相对路径，连跨域都不用。
+ * 指向线上数据端（runtimeConfig.public.hubBase，可用 NUXT_PUBLIC_HUB_BASE 覆盖）。
+ * 网站部署在 Vercel、数据留在 GitHub Pages，两者同源不成立，所以这里**不接受空值**：
+ * 空值会退回到 DEFAULT_HUB_BASE，否则就会变成「拿 Vercel 自己的域名去要 /api/v1」
+ * ——那个路径不存在，页面会静默全空。（Vercel 上真的踩到过这个坑。）
  */
 import type { FeedItem } from '#shared/types'
 import type { FreeModel, FreeTierEntry } from '#shared/free-tier'
@@ -50,9 +52,12 @@ export interface FeedBundle {
 
 const FEED_DATASETS = ['bilibili', 'ai-news'] as const
 
+/** 数据端的规范地址；也是 hubBase 为空时的兜底 */
+export const DEFAULT_HUB_BASE = 'https://qc2168.github.io/div-topic-hub'
+
 export const useHubData = createSharedComposable(() => {
   const config = useRuntimeConfig()
-  const base = String(config.public.hubBase ?? '').replace(/\/$/, '')
+  const base = String(config.public.hubBase || DEFAULT_HUB_BASE).replace(/\/$/, '')
   const feedState = useState<FeedBundle | null>('hub-feed', () => null)
 
   /** 不加 force 时按「今天」做缓存键：同一天内走浏览器/CDN 缓存，跨天自动换 URL */
