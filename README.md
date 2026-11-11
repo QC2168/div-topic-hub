@@ -218,6 +218,30 @@ agent、B站 Toy、网站读的是同一份文件。这意味着网站可以纯�
 要长期留稿就在选题池里导出 Markdown。设计取舍的细节见 `app/composables/useHubData.ts`
 与 `useTopics.ts` 顶部注释。
 
+## 部署（网站）
+
+网站是**纯静态**的（`nuxt generate`），托管在 Vercel：<https://div-topic-hub.vercel.app>。
+数据不在 Vercel，仍在 GitHub Pages 的那套 `/api/v1/*.json`——所以「改界面」和「换数据」
+是两条独立的线，互不影响，也不会出现两边各有一份数据要同步的问题。
+
+```bash
+vercel deploy --prod --yes     # 手动发一版（改完代码）
+vercel env ls                  # 看生产环境变量
+```
+
+`vercel.json` 里定死了构建方式：`framework: null` + `bun install` + `bun run generate`，
+产物目录 `.output/public`。之所以不用 Vercel 默认的 `nuxt build`：那会把它变成 SSR 函数，
+而这个站每次请求拿到的都是同一份静态文件，没必要为它跑 serverless。
+
+**生产环境变量**：`NUXT_PUBLIC_HUB_BASE=https://qc2168.github.io/div-topic-hub`。
+必须显式设——首次部署时它被序列化成了空串，页面于是去 `div-topic-hub.vercel.app/api/v1/...`
+要数据，那个路径不存在，所有列表**静默为空**且不报错。代码里另有 `DEFAULT_HUB_BASE` 兜底，
+但环境变量才是第一道防线。
+
+**自动部署**：需要 Vercel 账号里连上 GitHub（Account Settings → Login Connections），
+再 `vercel git connect`。只装 GitHub App 不够——Vercel 那边得有你的 GitHub 身份，
+否则 `git connect` 会报 `Failed to connect ... make sure you have access`。
+
 ## 存储
 
 `bun:sqlite`（Bun 下）自动回落 `node:sqlite`（Node 24），零依赖。
