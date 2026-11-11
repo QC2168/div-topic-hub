@@ -26,7 +26,6 @@ interface HotResponse {
 }
 
 const toast = useToast()
-const { embedded } = useHostBridge()
 
 const data = ref<HotResponse>({ baidu: [], douyin: [], weibo: [], fetchedAt: null, warnings: [] })
 const loading = ref(false)
@@ -74,23 +73,26 @@ const cnStats = computed(() => ({
     .filter(item => isAiRelated(item.title)).length
 }))
 
-const linkText = ref('')
-const resolving = ref(false)
-const resolved = ref<FeedItem | null>(null)
-const panelOpen = computed({
-  get: () => resolved.value !== null,
-  set: (value: boolean) => {
-    if (!value) resolved.value = null
-  }
-})
+/**
+ * 「粘一条抖音链接解析」原来走服务端（要绕 CORS、还要解分享页），
+ * 现在网站是纯前端的，这条路走不通了，所以整块移除。
+ * 服务端接口 /api/douyin/resolve 仍然保留，供本地跑 Nitro 或脚本调用。
+ */
+
+const hub = useHubData()
 
 async function loadHot(force = false) {
   const target = force ? refreshing : loading
   target.value = true
   try {
-    data.value = await $fetch<HotResponse>('/api/radar/hot-search', {
-      query: force ? { refresh: '1' } : {}
-    })
+    const snapshot = await hub.hotSearch({ force })
+    data.value = {
+      baidu: snapshot.baidu,
+      douyin: snapshot.douyin,
+      weibo: snapshot.weibo,
+      fetchedAt: snapshot.fetchedAt,
+      warnings: snapshot.warnings
+    }
     if (data.value.warnings.length > 0) {
       toast.add({
         title: '部分源降级',
@@ -111,14 +113,12 @@ async function loadHot(force = false) {
   }
 }
 
-/** 海外榜来自采集库，和国内热搜不是一条链路 */
-async function loadHf() {
+/** 海外榜与国内热搜在同一次采集里，但落在不同的快照文件（ai-news.json） */
+async function loadHf(force = false) {
   hfLoading.value = true
   try {
-    const res = await $fetch<{ items: FeedItem[] }>('/api/feed', {
-      query: { category: 'ai-board,paper', limit: 200 }
-    })
-    hfItems.value = res.items.filter(item => item.platform === 'huggingface')
+    const snapshot = await hub.aiNews({ force })
+    hfItems.value = snapshot.items.filter(item => item.platform === 'huggingface')
   } catch (error) {
     toast.add({
       title: '海外 AI 榜加载失败',
@@ -131,11 +131,18 @@ async function loadHf() {
   }
 }
 
+/** 「刷新」= 绕过缓存重新拉快照，不会触发采集（采集由每天 09:00 的 Actions 负责） */
 async function refreshAll() {
   refreshing.value = true
   try {
-    await $fetch('/api/radar/refresh', { method: 'POST' })
-    await Promise.all([loadHot(), loadHf()])
+    await Promise.all([loadHot(true), loadHf(true)])
+    const at = data.value.fetchedAt === null ? '未知时间' : new Date(data.value.fetchedAt).toLocaleString('zh-CN')
+    toast.add({
+      title: '已拉取最新快照',
+      description: `采集于 ${at}`,
+      icon: 'i-lucide-refresh-cw',
+      color: 'success'
+    })
   } catch (error) {
     toast.add({
       title: '刷新失败',
@@ -145,33 +152,6 @@ async function refreshAll() {
     })
   } finally {
     refreshing.value = false
-  }
-}
-
-async function resolveLink() {
-  const text = linkText.value.trim()
-  if (text === '') {
-    toast.add({ title: '先把链接粘进来', icon: 'i-lucide-clipboard', color: 'neutral' })
-    return
-  }
-  resolving.value = true
-  try {
-    const res = await $fetch<{ item: FeedItem }>('/api/douyin/resolve', {
-      method: 'POST',
-      body: { text }
-    })
-    resolved.value = res.item
-    linkText.value = ''
-  } catch (error) {
-    const detail = error as { statusMessage?: string, message?: string }
-    toast.add({
-      title: '这条没解析出来',
-      description: detail.statusMessage ?? detail.message ?? '未知错误',
-      icon: 'i-lucide-circle-slash',
-      color: 'error'
-    })
-  } finally {
-    resolving.value = false
   }
 }
 
@@ -224,32 +204,6 @@ onMounted(() => {
     </UDashboardNavbar>
 
     <div class="min-h-0 flex-1 overflow-y-auto">
-      <!-- 抖音单条链接解析 -->
-      <section class="border-b border-default px-4 py-3">
-        <div class="mb-2 flex items-baseline justify-between">
-          <span class="text-sm font-medium text-highlighted">粘一条抖音链接，直接拆解</span>
-          <span class="text-xs text-dimmed">走分享页公开数据，不破签名</span>
-        </div>
-        <UTextarea
-          v-model="linkText"
-          :rows="2"
-          placeholder="把 App 里「分享 → 复制链接」的整段文案粘进来，例如：7.68 复制打开抖音，看看…… https://v.douyin.com/xxxxx/"
-          class="w-full"
-          autoresize
-          :ui="{ base: 'text-xs' }"
-        />
-        <div class="mt-2 flex items-center gap-2">
-          <UButton
-            label="解析这条"
-            icon="i-lucide-link"
-            size="xs"
-            :loading="resolving"
-            @click="resolveLink"
-          />
-          <span class="text-xs text-dimmed">拿不到的字段会留空并说明，不会编数字</span>
-        </div>
-      </section>
-
       <!-- 国内 -->
       <section class="border-b border-default">
         <header class="flex flex-wrap items-center justify-between gap-2 border-b border-default px-4 py-2">
@@ -429,20 +383,8 @@ onMounted(() => {
       </section>
 
       <p v-if="data.fetchedAt" class="border-t border-default px-4 py-2 text-[11px] text-dimmed">
-        国内抓取于 {{ new Date(data.fetchedAt).toLocaleString('zh-CN') }} · 海外榜跟随全量采集 · 热榜 10 分钟内视为新鲜
+        数据采集于 {{ new Date(data.fetchedAt).toLocaleString('zh-CN') }} · 每天 09:00 自动更新一次 · 热榜超过 2 小时就算旧
       </p>
     </div>
   </UDashboardPanel>
-
-  <!-- 解析出来的抖音视频，直接进拆解台 -->
-  <USlideover v-model:open="panelOpen" :ui="{ content: embedded ? 'max-w-full' : 'max-w-2xl' }">
-    <template #content>
-      <TopicWorkspace
-        v-if="resolved"
-        :key="resolved.id"
-        :item="resolved"
-        @close="resolved = null"
-      />
-    </template>
-  </USlideover>
 </template>

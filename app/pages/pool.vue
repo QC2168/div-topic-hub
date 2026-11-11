@@ -6,8 +6,9 @@ useSeoMeta({ title: '我的选题池 · 选题雷达' })
 
 const toast = useToast()
 const { exportTopicToHost, copyMarkdown, busy: hostBusy } = useHostBridge()
+const store = useTopics()
 
-const topics = ref<SavedTopic[]>([])
+const topics = store.topics
 const loading = ref(true)
 const expandedId = ref<number | null>(null)
 const statusFilter = ref<TopicStatus | 'all'>('all')
@@ -34,17 +35,11 @@ const filtered = computed(() =>
     : topics.value.filter(topic => topic.status === statusFilter.value)
 )
 
-async function loadTopics() {
+function loadTopics() {
   loading.value = true
   try {
-    topics.value = await $fetch<SavedTopic[]>('/api/topics')
-  } catch (error) {
-    toast.add({
-      title: '读取选题池失败',
-      description: String(error),
-      color: 'error',
-      icon: 'i-lucide-x'
-    })
+    // localStorage 读取是同步的；外面套一层 loading 只是让首屏不闪
+    store.load()
   } finally {
     loading.value = false
   }
@@ -54,13 +49,7 @@ onMounted(loadTopics)
 
 async function updateStatus(topic: SavedTopic, status: string) {
   try {
-    const updated = await $fetch<SavedTopic>(`/api/topics/${topic.id}`, {
-      method: 'PUT',
-      body: { status }
-    })
-    topics.value = topics.value.map(item =>
-      item.id === updated.id ? updated : item
-    )
+    store.setStatus(topic.id, status as TopicStatus)
   } catch (error) {
     toast.add({
       title: '更新失败',
@@ -73,8 +62,7 @@ async function updateStatus(topic: SavedTopic, status: string) {
 
 async function removeTopic(topic: SavedTopic) {
   try {
-    await $fetch(`/api/topics/${topic.id}`, { method: 'DELETE' })
-    topics.value = topics.value.filter(item => item.id !== topic.id)
+    store.remove(topic.id)
     toast.add({
       title: '已从选题池移除',
       icon: 'i-lucide-trash-2',

@@ -16,21 +16,14 @@
  * 规则变得勤（即梦一个月调三次、魔搭一年改过计量方式），过期了要人工更新。
  * 不把静态数据伪装成实时，是这个页面最重要的底线。
  */
-import type { FreeModel, FreeTierEntry, MediaType } from '#shared/free-tier'
+import type { FreeTierEntry, MediaType } from '#shared/free-tier'
 import { MEDIA_LABELS } from '#shared/free-tier'
 
 useSeoMeta({ title: '白嫖榜单 · 选题雷达' })
 
-interface FreeTierResponse {
-  overseas: { models: FreeModel[], fetchedAt: string | null, rateLimitNote: string }
-  domestic: { app: FreeTierEntry[], api: FreeTierEntry[], verifiedAt: string }
-  overseasPlatforms: { entries: FreeTierEntry[], verifiedAt: string }
-  warnings: string[]
-}
-
 const toast = useToast()
 
-const data = ref<FreeTierResponse | null>(null)
+const data = ref<FreeTierSnapshot | null>(null)
 const loading = ref(false)
 const refreshing = ref(false)
 
@@ -75,13 +68,14 @@ const textCount = computed(() => allDomestic.value.filter(e => e.media.includes(
 const overseasModels = computed(() => data.value?.overseas.models ?? [])
 const filteredTotal = computed(() => domesticApp.value.length + domesticApi.value.length + overseasEntries.value.length)
 
+const hub = useHubData()
+
 async function load(force = false) {
   const target = force ? refreshing : loading
   target.value = true
   try {
-    data.value = await $fetch<FreeTierResponse>('/api/radar/free-tier', {
-      query: force ? { refresh: '1' } : {}
-    })
+    // 白嫖榜单的静态快照与旧的服务端接口**字段完全同形**，所以这里只需要换取数方式
+    data.value = await hub.freeTier({ force })
     if (data.value.warnings.length > 0) {
       toast.add({
         title: '实时榜暂时拿不到',

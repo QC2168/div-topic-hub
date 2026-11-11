@@ -163,6 +163,10 @@ OpenRouter 零价模型榜（人工核实的静态条目不会变，只有实时
 字段定义见 `skills/div-topic-hub/references/data-contract.md`——网站前端与快照共用同一份结构，
 所以只需要记一套。
 
+网站读的就是这份数据：`nuxt.config.ts` 里 `runtimeConfig.public.hubBase` 默认指向 Pages，
+本机想改指向（比如换镜像、或本地起个静态服务器验证产物）用 `NUXT_PUBLIC_HUB_BASE=http://localhost:8080 bun run dev`。
+把它设成空字符串则走同源相对路径——适合「网站和数据一起挂到同一个 Pages」的未来方案。
+
 **装到任意 agent**：
 
 ```bash
@@ -202,23 +206,36 @@ bun run site:build       # 导出白嫖榜单 + 合成 site/ + 产物体检
 workflow 靠 `freshness` 步骤变红，此时在本机跑一次 `bun run snapshot` 再 `git push` 补采即可，
 CI 下一轮会自动以你的文件为新基线。脚本不需要改。
 
-**网站本身不在这条链路上**：选题雷达 UI 走自己的 Nitro 接口读本地 SQLite，
-是"有服务才能用"；GitHub Pages 上只有数据端点和目录页，没有网站界面。
-换句话说，agent 和 B站 Toy 读静态 JSON，网站读实时接口，两条链路共用同一个采集器与数据库。
+**网站也走这条链路**：选题雷达 UI 不再有自己的采集服务，页面直接 fetch 上面这几个
+`/api/v1/*.json`（`runtimeConfig.public.hubBase` 指向 Pages）。所以只有一个事实来源——
+agent、B站 Toy、网站读的是同一份文件。这意味着网站可以纯静态部署，代价是**刷新不再触发采集**，
+前端那个「刷新」按钮只是绕过 CDN 重新拉一次文件；真正的采集节奏由 Actions 决定（每天 09:00）。
+
+选题池、DeepSeek Key 这些「用户私有数据」随之降到浏览器 localStorage，换设备不同步——
+要长期留稿就在选题池里导出 Markdown。设计取舍的细节见 `app/composables/useHubData.ts`
+与 `useTopics.ts` 顶部注释。
 
 ## 存储
 
 `bun:sqlite`（Bun 下）自动回落 `node:sqlite`（Node 24），零依赖。
 
 ```text
-.data/topic-hub.sqlite
+.data/topic-hub.sqlite          ← 只在「采集侧」用（本机 dev / Actions）
 ├── feed_items    采集缓存（按爆发分排序，抓取超 7 天 / 发布超 45 天自动清理）
-├── saved_topics  选题池 + AI 拆解稿（永久保留）
-├── settings      Key / RSS / UP 主 / 采集间隔
-└── fetch_log     每次采集的结果，便于排查
+├── up_fans       UP 主粉丝快照，用来算「涨粉异常」
+├── fetch_log     每次采集的结果，便于排查
+└── saved_topics / settings
+                  服务端接口（/api/topics、/api/settings）还在，但前端已不再调用，
+                  留着是给本地脚本和旧接口用的；网站的用户数据不在库里
 ```
 
-删掉 `.data/` 即可重置。
+```text
+浏览器 localStorage            ← 「看」的一侧，网站纯静态后数据都在这
+├── div-topic-hub:topics      选题池 + AI 拆解稿
+└── div-topic-hub:settings    DeepSeek Key / Base URL / 模型
+```
+
+删掉 `.data/` 即可重置采集缓存；清浏览器站点数据会清空选题池，所以重要稿件请导出。
 
 ## 跨端接入
 

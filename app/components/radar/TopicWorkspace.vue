@@ -9,6 +9,8 @@ const emit = defineEmits<{ close: [] }>()
 
 const toast = useToast()
 const { exportTopicToHost, copyMarkdown, hostLabel, busy: hostBusy } = useHostBridge()
+const store = useTopics()
+const ai = useAiAnalyze()
 
 const analysis = ref('')
 const analyzing = ref(false)
@@ -21,11 +23,10 @@ const abortController = shallowRef<AbortController | null>(null)
 const analysisHtml = computed(() => renderMarkdownLite(analysis.value))
 const hasAnalysis = computed(() => analysis.value.trim() !== '')
 
-async function loadSavedTopic(): Promise<void> {
+function loadSavedTopic(): void {
   try {
-    const topics = await $fetch<SavedTopic[]>('/api/topics')
-    const matched = topics.find(topic => topic.sourceItemId === props.item.id)
-    if (matched !== undefined) {
+    const matched = store.findByItemId(props.item.id)
+    if (matched !== null) {
       savedTopic.value = matched
       if (matched.aiAnalysisMd !== null && matched.aiAnalysisMd !== '') {
         analysis.value = matched.aiAnalysisMd
@@ -36,17 +37,17 @@ async function loadSavedTopic(): Promise<void> {
   }
 }
 
-async function resetForItem(): Promise<void> {
+function resetForItem(): void {
   abortController.value?.abort()
   analysis.value = ''
   analyzing.value = false
   editing.value = false
   savedTopic.value = null
-  await loadSavedTopic()
+  loadSavedTopic()
 }
 
 watch(() => props.item.id, () => {
-  void resetForItem()
+  resetForItem()
 }, { immediate: true })
 
 onBeforeUnmount(() => abortController.value?.abort())
@@ -72,29 +73,12 @@ async function analyze() {
   abortController.value = controller
 
   try {
-    const res = await fetch('/api/ai/analyze', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      // 同时带 itemId 与完整 item：采集库里的走 id 查库，抖音链接解析出来的
-      // 那条视频从没入库，只能靠请求体里的对象。后端优先用 item，两条路都通。
-      body: JSON.stringify({ itemId: props.item.id, item: props.item }),
-      signal: controller.signal
-    })
-
-    if (!res.ok || res.body === null) {
-      const detail = await res.json().catch(() => null) as { statusMessage?: string, message?: string } | null
-      throw new Error(detail?.statusMessage ?? detail?.message ?? `请求失败（HTTP ${res.status}）`)
-    }
-
-    const reader = res.body.getReader()
-    const decoder = new TextDecoder()
-    while (true) {
-      const { done, value } = await reader.read()
-      if (done) break
-      analysis.value += decoder.decode(value, { stream: true })
-      await nextTick()
-      scrollToBottom()
-    }
+    // 直接调 DeepSeek（它的 CORS 允许浏览器来源），Key 只存在本机 localStorage，
+    // 不经过任何中转服务，所以网站可以纯静态部署
+    await ai.analyze(props.item, (text) => {
+      analysis.value += text
+      void nextTick(() => scrollToBottom())
+    }, controller.signal)
   } catch (error) {
     if ((error as Error).name === 'AbortError') {
       toast.add({ title: '已中断生成', icon: 'i-lucide-square', color: 'neutral' })
@@ -112,20 +96,14 @@ async function analyze() {
   }
 }
 
-async function saveToPool() {
+function saveToPool() {
   saving.value = true
   try {
-    if (savedTopic.value === null) {
-      savedTopic.value = await $fetch<SavedTopic>('/api/topics', {
-        method: 'POST',
-        body: { itemId: props.item.id, item: props.item }
-      })
-    }
+    // 写本机 localStorage，持久化在 useTopics 里同步完成，所以这里不用 await
+    savedTopic.value = store.save(props.item)
     if (hasAnalysis.value) {
-      savedTopic.value = await $fetch<SavedTopic>(`/api/topics/${savedTopic.value.id}`, {
-        method: 'PUT',
-        body: { aiAnalysisMd: analysis.value }
-      })
+      const updated = store.setAnalysis(savedTopic.value.id, analysis.value)
+      if (updated !== null) savedTopic.value = updated
     }
     toast.add({
       title: '已收入选题池',

@@ -4,14 +4,14 @@
  * 100% 宽度让给信息流（详情靠 USlideover 抽屉）。
  */
 import type { NavigationMenuItem } from '@nuxt/ui'
-import type { SavedTopic } from '#shared/types'
 
 const route = useRoute()
 const { embedded, hostLabel, detect } = useHostBridge()
 
 const sidebarOpen = ref(true)
 
-const { data: topics } = await useFetch<SavedTopic[]>('/api/topics', { key: 'sidebar-topics', default: () => [] })
+// 选题池现在存在浏览器 localStorage，不再读 /api/topics
+const { topics } = useTopics()
 
 const links = computed<NavigationMenuItem[][]>(() => [[{
   label: '圈内黑马',

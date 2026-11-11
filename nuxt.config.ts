@@ -24,10 +24,20 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   runtimeConfig: {
-    // 只作为兜底：正式配置写在「源与 AI 设置」页，存本地 SQLite
+    // 服务端接口（/api/ai/analyze、/api/settings/test）的兜底配置。
+    // 前端已经改成浏览器直连 DeepSeek + Key 存 localStorage，所以这几个值
+    // 只对「有人直接调服务端接口」或本机脚本有用，网站跑起来用不到它们
     deepseekApiKey: '',
     deepseekBaseUrl: 'https://api.deepseek.com',
-    deepseekModel: 'deepseek-chat'
+    deepseekModel: 'deepseek-chat',
+    public: {
+      /**
+       * 快照数据端地址。网站不再有采集服务，页面直接读这里的 /api/v1/*.json。
+       * 如果哪天把网站也挂到同一个 Pages 上，把它设成空字符串即可走同源相对路径。
+       * 可用 NUXT_PUBLIC_HUB_BASE 覆盖。
+       */
+      hubBase: 'https://qc2168.github.io/div-topic-hub'
+    }
   },
 
   routeRules: {

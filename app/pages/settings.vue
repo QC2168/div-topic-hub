@@ -1,33 +1,42 @@
 <script setup lang="ts">
-import type { HubSettings, RssFeedConfig } from '#shared/types'
+import type { RssFeedConfig } from '#shared/types'
+import { BUILTIN_RSS_FEEDS } from '#shared/types'
 
 useSeoMeta({ title: '源与 AI 设置 · 选题雷达' })
 
-interface SettingsView extends Omit<HubSettings, 'deepseekApiKey'> {
-  hasApiKey: boolean
-  apiKeyMasked: string
-  builtinRssFeeds?: RssFeedConfig[]
-}
-
+// 设置全部落在本机浏览器：DeepSeek 由前端直连、数据由每日快照提供，
+// 所以这一页不需要任何服务端接口
 const toast = useToast()
-
-const { data, refresh } = await useFetch<SettingsView>('/api/settings', {
-  key: 'hub-settings'
-})
+const local = useLocalSettings()
+const ai = useAiAnalyze()
+const hub = useHubData()
 
 const apiKeyInput = ref('')
-const baseUrl = ref(data.value?.deepseekBaseUrl ?? 'https://api.deepseek.com')
-const model = ref(data.value?.deepseekModel ?? 'deepseek-chat')
-const rssFeeds = ref<RssFeedConfig[]>(
-  structuredClone(data.value?.rssFeeds ?? [])
-)
-const upUidsText = ref((data.value?.upUids ?? []).join(', '))
-const autoRefreshMinutes = ref(data.value?.autoRefreshMinutes ?? 30)
-const builtinFeeds = ref<RssFeedConfig[]>(data.value?.builtinRssFeeds ?? [])
-
+const baseUrl = ref(local.settings.value.deepseekBaseUrl)
+const model = ref(local.settings.value.deepseekModel)
 const saving = ref(false)
 const testing = ref(false)
 const testResult = ref<string | null>(null)
+
+interface CatalogView {
+  generatedAt: string
+  datasets: Array<{
+    id: string
+    name: string
+    count: number
+    fetchedAt: string | null
+    ageMinutes: number | null
+    stale: boolean
+  }>
+}
+
+const catalog = ref<CatalogView | null>(null)
+const catalogError = ref<string | null>(null)
+/** 数据端地址：模板里别直接读 composable 返回的普通字段，包成 ref 类型才稳 */
+const dataBase = ref('')
+
+/** 包成 ref 而不是模板里直接用导入常量：模板对 import 绑定会按「可能是 ref」加 .value */
+const builtinFeeds = ref<RssFeedConfig[]>(BUILTIN_RSS_FEEDS)
 
 const MODEL_OPTIONS = [
   { label: 'deepseek-chat（快，日常拆解够用）', value: 'deepseek-chat' },
@@ -37,49 +46,47 @@ const MODEL_OPTIONS = [
   }
 ]
 
-watch(data, (value) => {
-  if (value === null || value === undefined) return
-  baseUrl.value = value.deepseekBaseUrl
-  model.value = value.deepseekModel
-  rssFeeds.value = structuredClone(value.rssFeeds)
-  upUidsText.value = value.upUids.join(', ')
-  autoRefreshMinutes.value = value.autoRefreshMinutes
-  builtinFeeds.value = value.builtinRssFeeds ?? []
+const hasApiKey = computed(() => local.settings.value.deepseekApiKey !== '')
+const maskedKey = computed(() => local.masked())
+
+onMounted(async () => {
+  local.load()
+  dataBase.value = hub.base
+  baseUrl.value = local.settings.value.deepseekBaseUrl
+  model.value = local.settings.value.deepseekModel
+  try {
+    catalog.value = await hub.catalog()
+  } catch (error) {
+    catalogError.value = error instanceof Error ? error.message : String(error)
+  }
 })
 
-function parseUids(text: string): number[] {
-  return text
-    .split(/[,\s，、]+/)
-    .map(part => Number(part.replace(/\D/g, '')))
-    .filter(uid => Number.isFinite(uid) && uid > 0)
+/** 把表单上的值写进 localStorage。测试连接也先落盘，避免「测的是旧的 key」 */
+function applyForm(): void {
+  const next: Parameters<typeof local.save>[0] = {
+    deepseekBaseUrl: baseUrl.value.trim() === '' ? 'https://api.deepseek.com' : baseUrl.value.trim(),
+    deepseekModel: model.value
+  }
+  if (apiKeyInput.value.trim() !== '') next.deepseekApiKey = apiKeyInput.value.trim()
+  local.save(next)
+  apiKeyInput.value = ''
 }
 
-async function save() {
+function save() {
   saving.value = true
   testResult.value = null
   try {
-    const payload: Record<string, unknown> = {
-      deepseekBaseUrl: baseUrl.value,
-      deepseekModel: model.value,
-      rssFeeds: rssFeeds.value.filter(feed => feed.url.trim() !== ''),
-      upUids: parseUids(upUidsText.value),
-      autoRefreshMinutes: autoRefreshMinutes.value
-    }
-    if (apiKeyInput.value.trim() !== '') {
-      payload.deepseekApiKey = apiKeyInput.value.trim()
-    }
-    await $fetch('/api/settings', { method: 'PUT', body: payload })
-    apiKeyInput.value = ''
-    await refresh()
+    applyForm()
     toast.add({
-      title: '设置已保存',
+      title: '设置已保存到本机',
+      description: '只存这个浏览器，换设备要重填',
       icon: 'i-lucide-check',
       color: 'success'
     })
   } catch (error) {
     toast.add({
       title: '保存失败',
-      description: String(error),
+      description: error instanceof Error ? error.message : String(error),
       icon: 'i-lucide-x',
       color: 'error'
     })
@@ -88,38 +95,23 @@ async function save() {
   }
 }
 
-async function clearKey() {
-  try {
-    await $fetch('/api/settings', {
-      method: 'PUT',
-      body: { clearApiKey: true }
-    })
-    await refresh()
-    toast.add({
-      title: '已清除 API Key',
-      icon: 'i-lucide-trash-2',
-      color: 'success'
-    })
-  } catch (error) {
-    toast.add({
-      title: '操作失败',
-      description: String(error),
-      icon: 'i-lucide-x',
-      color: 'error'
-    })
-  }
+function clearKey() {
+  local.clearApiKey()
+  apiKeyInput.value = ''
+  testResult.value = null
+  toast.add({
+    title: '已清除本机 API Key',
+    icon: 'i-lucide-trash-2',
+    color: 'success'
+  })
 }
 
 async function testConnection() {
   testing.value = true
   testResult.value = null
   try {
-    const result = await $fetch<{
-      ok: boolean
-      latencyMs: number
-      model: string
-      availableModels: string[]
-    }>('/api/settings/test', { method: 'POST' })
+    applyForm()
+    const result = await ai.testConnection()
     testResult.value = `连接成功 · ${result.latencyMs}ms · 模型 ${result.model}`
     toast.add({
       title: 'DeepSeek 连接正常',
@@ -163,15 +155,15 @@ async function testConnection() {
         <!-- DeepSeek -->
         <UPageCard
           title="DeepSeek 拆解"
-          description="Key 只存在本机 SQLite（.data/topic-hub.sqlite），不会上传到任何第三方。"
+          description="Key 只存在这台机器的浏览器里（localStorage），不上传任何服务器，请求由浏览器直连 api.deepseek.com。"
           variant="subtle"
         >
           <div class="space-y-4">
             <UFormField
               label="API Key"
               :description="
-                data?.hasApiKey
-                  ? `当前已配置：${data.apiKeyMasked}`
+                hasApiKey
+                  ? `当前已配置：${maskedKey}`
                   : '还没有配置，AI 拆解按钮会提示去配置'
               "
             >
@@ -184,7 +176,7 @@ async function testConnection() {
                   class="min-w-0 flex-1"
                 />
                 <UButton
-                  v-if="data?.hasApiKey"
+                  v-if="hasApiKey"
                   label="清除"
                   color="error"
                   variant="ghost"
@@ -236,16 +228,53 @@ async function testConnection() {
           </div>
         </UPageCard>
 
-        <!-- 数据源 -->
+        <!-- 数据来源 -->
         <UPageCard
-          title="AI 资讯源"
-          description="GitHub 趋势、Hacker News、arXiv 为内置通道；下面是可叠加的自定义 RSS。某个源改版导致解析为空时，会在列表顶部提示「源降级」。"
+          title="数据来源"
+          description="页面上的热点不是实时抓的，而是读每天自动重建一次的静态快照。"
           variant="subtle"
         >
           <div class="space-y-4">
-            <div v-if="builtinFeeds.length > 0" class="space-y-2">
+            <div class="rounded-lg border border-default bg-elevated/30 px-3 py-2.5 text-xs text-toned">
+              <p>
+                数据端：<code class="rounded bg-elevated px-1 py-0.5">{{ dataBase || '同源（相对路径）' }}</code>
+              </p>
+              <p
+                v-if="catalog"
+                class="mt-1 text-dimmed"
+              >
+                最近一次重建：{{ fmtAge(catalog.generatedAt) }}
+              </p>
+              <p
+                v-else-if="catalogError"
+                class="mt-1 text-error"
+              >
+                {{ catalogError }}
+              </p>
+            </div>
+
+            <div v-if="catalog" class="space-y-1.5">
+              <div
+                v-for="dataset in catalog.datasets"
+                :key="dataset.id"
+                class="flex items-center justify-between gap-2 rounded border border-default px-2.5 py-1.5 text-xs"
+              >
+                <span class="text-toned">{{ dataset.name }}</span>
+                <span class="flex items-center gap-2">
+                  <span class="text-dimmed">{{ dataset.count }} 条</span>
+                  <UBadge
+                    :label="dataset.stale ? '偏旧' : '新鲜'"
+                    :color="dataset.stale ? 'warning' : 'success'"
+                    variant="subtle"
+                    size="sm"
+                  />
+                </span>
+              </div>
+            </div>
+
+            <div class="space-y-2">
               <p class="text-xs font-medium text-toned">
-                内置 RSS（始终启用，共 {{ builtinFeeds.length }} 个）
+                内置 RSS（随仓库版本走，共 {{ builtinFeeds.length }} 个）
               </p>
               <div class="flex flex-wrap gap-1.5">
                 <UBadge
@@ -257,51 +286,38 @@ async function testConnection() {
                   size="sm"
                 />
               </div>
-              <p class="text-[11px] text-dimmed">
-                内置源随版本升级，不需要手动维护；想加自己的源写在下面。
-              </p>
             </div>
-            <RssFeedEditor v-model="rssFeeds" />
+
+            <p class="text-[11px] leading-relaxed text-dimmed">
+              数据由仓库里的 GitHub Actions 每天定时采集并生成 JSON，采集源写在
+              <code class="rounded bg-elevated px-1 py-0.5">shared/types.ts</code>
+              的 <code class="rounded bg-elevated px-1 py-0.5">BUILTIN_RSS_FEEDS</code> 和
+              <code class="rounded bg-elevated px-1 py-0.5">scripts/collect-snapshot.ts</code>
+              里。改源要改仓库，这一页不提供在线编辑。
+            </p>
           </div>
         </UPageCard>
 
-        <!-- B站与节奏 -->
+        <!-- 本机存储 -->
         <UPageCard
-          title="B 站与采集节奏"
-          description="除了科技区 / 知识区榜单，还可以钉住具体 UP 主，把 TA 的近期投稿一起抓进来。"
+          title="本机存储"
+          description="选题池和这一页的设置都存在浏览器本地，不经过任何服务器。"
           variant="subtle"
         >
-          <div class="space-y-4">
-            <UFormField
-              label="监控的 UP 主 UID"
-              description="填 UID 数字，多个用逗号分隔（在 UP 主主页地址栏 space.bilibili.com/ 后面那串数字）"
-            >
-              <UInput
-                v-model="upUidsText"
-                placeholder="如 12345678, 87654321"
-                class="w-full"
-              />
-            </UFormField>
-
-            <UFormField
-              label="自动采集间隔（分钟）"
-              description="打开页面时若缓存超过这个时长会自动刷新，5~720 之间"
-            >
-              <UInput
-                v-model.number="autoRefreshMinutes"
-                type="number"
-                min="5"
-                max="720"
-                class="w-40"
-              />
-            </UFormField>
+          <div class="space-y-2 text-xs leading-relaxed text-toned">
+            <p>
+              好处是网站可以纯静态跑；代价是换电脑、换浏览器、清缓存就没了，也没法多端同步。
+            </p>
+            <p>
+              要长期留稿，用选题池详情里的「复制 Markdown」或「发送到宿主」导出去。
+            </p>
+            <p class="text-dimmed">
+              存储键：<code class="rounded bg-elevated px-1 py-0.5">div-topic-hub:topics</code>
+              （选题池）、<code class="rounded bg-elevated px-1 py-0.5">div-topic-hub:settings</code>
+              （本页设置）
+            </p>
           </div>
         </UPageCard>
-
-        <p class="px-1 text-xs text-dimmed">
-          数据文件：<code class="rounded bg-elevated px-1 py-0.5">.data/topic-hub.sqlite</code>
-          （删掉即可重置；采集缓存保留 7 天，选题池永久保留）
-        </p>
       </div>
     </div>
   </UDashboardPanel>

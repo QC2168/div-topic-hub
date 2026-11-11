@@ -82,12 +82,8 @@ onMounted(async () => {
     if (matched !== undefined) onSelect(matched)
   }
 
-  // 缓存为空或超过 30 分钟，自动补一次采集（避免用户面对空列表）
-  const fetchedAt = radar.fetchedAt.value === null ? 0 : Date.parse(radar.fetchedAt.value)
-  const stale = Date.now() - fetchedAt > 30 * 60_000
-  if (stale && !radar.refreshing.value) {
-    void radar.refresh()
-  }
+  // 以前这里还有一段「缓存超 30 分钟就自动补一次采集」——现在数据是每日快照，
+  // 采集由 Actions 负责，前端再触发只会白跑一次请求并弹一条无意义的提示，所以删掉。
 })
 
 watch(filteredItems, (list) => {

@@ -25,9 +25,22 @@ watch(() => props.selectedId, async () => {
   el?.scrollIntoView({ block: 'nearest' })
 })
 
+/**
+ * 封面图：静态部署没有服务端，只能让浏览器直连 CDN。
+ * B 站 CDN 会拦带站外 Referer 的请求，所以 <img> 上带 referrerpolicy="no-referrer"，
+ * 让它按「直接访问」处理；万一还是被拦，onerror 把这张图藏掉，不影响列表本身。
+ */
+const failedCovers = ref<Set<string>>(new Set())
+
 function coverUrl(url: string | null): string | null {
   if (url === null || url === '') return null
-  return `/api/img?url=${encodeURIComponent(url)}`
+  if (failedCovers.value.has(url)) return null
+  return url.startsWith('//') ? `https:${url}` : url
+}
+
+function markCoverFailed(url: string | null): void {
+  if (url === null) return
+  failedCovers.value = new Set(failedCovers.value).add(url)
 }
 
 /** 形态分布：只跟当前筛选结果走，样本不足时自动隐藏 */
@@ -173,7 +186,9 @@ const toneClass: Record<string, string> = {
               :src="coverUrl(item.cover) as string"
               alt=""
               loading="lazy"
+              referrerpolicy="no-referrer"
               class="hidden h-12 w-20 shrink-0 rounded object-cover sm:block"
+              @error="markCoverFailed(item.cover)"
             >
           </div>
         </div>
