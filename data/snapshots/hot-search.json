@@ -3,38 +3,38 @@
   "dataset": "hot-search",
   "name": "全网热搜",
   "description": "抖音热榜、微博热搜、百度热搜的当下快照。只有热度与名次，没有播放量与发布时间",
-  "generatedAt": "2026-11-16T07:27:09.319Z",
-  "fetchedAt": "2026-11-16T07:26:29.694Z",
+  "generatedAt": "2026-11-20T07:52:50.885Z",
+  "fetchedAt": "2026-11-20T07:52:08.734Z",
   "mode": "refresh",
-  "count": 149,
+  "count": 150,
   "counts": {
-    "hot-search": 149
+    "hot-search": 150
   },
   "staleAfterMinutes": 120,
   "ageMinutes": 1,
-  "contentHash": "sha256:9e218a54dc8af8d0",
-  "collectMs": 1681,
+  "contentHash": "sha256:8df71a88a5c386c5",
+  "collectMs": 3480,
   "warnings": [],
   "items": [
     {
-      "id": "douyin:hot:习近平将同普京特朗普会晤",
+      "id": "douyin:hot:中俄美元首和平宣言",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "习近平将同普京特朗普会晤",
+      "title": "中俄美元首和平宣言",
       "author": null,
-      "url": "https://www.douyin.com/search/%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E5%90%8C%E6%99%AE%E4%BA%AC%E7%89%B9%E6%9C%97%E6%99%AE%E4%BC%9A%E6%99%A4",
+      "url": "https://www.douyin.com/search/%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%92%8C%E5%B9%B3%E5%AE%A3%E8%A8%80",
       "cover": null,
       "summary": "抖音热榜第 1 位",
       "metrics": {
-        "heat": 11995938,
+        "heat": 10976604,
         "rank": 1,
-        "videoCount": 3
+        "videoCount": 4
       },
       "comments": [],
       "badges": [
         {
           "key": "hot",
-          "label": "🔥 热度 1199.6万",
+          "label": "🔥 热度 1097.7万",
           "tone": "error"
         },
         {
@@ -49,28 +49,59 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 80.79
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 80.4
     },
     {
-      "id": "douyin:hot:第一视角记录APEC瞬间",
+      "id": "douyin:hot:U17男足首战对阵西班牙",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "第一视角记录APEC瞬间",
+      "title": "U17男足首战对阵西班牙",
       "author": null,
-      "url": "https://www.douyin.com/search/%E7%AC%AC%E4%B8%80%E8%A7%86%E8%A7%92%E8%AE%B0%E5%BD%95APEC%E7%9E%AC%E9%97%B4",
+      "url": "https://www.douyin.com/search/U17%E7%94%B7%E8%B6%B3%E9%A6%96%E6%88%98%E5%AF%B9%E9%98%B5%E8%A5%BF%E7%8F%AD%E7%89%99",
       "cover": null,
       "summary": "抖音热榜第 2 位",
       "metrics": {
-        "heat": 11798745,
+        "heat": 10968087,
         "rank": 2,
+        "videoCount": 5
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 热度 1096.8万",
+          "tone": "error"
+        },
+        {
+          "key": "dark-horse",
+          "label": "📈 前十",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 80.4
+    },
+    {
+      "id": "douyin:hot:APEC的创新也在烟火日常中",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "APEC的创新也在烟火日常中",
+      "author": null,
+      "url": "https://www.douyin.com/search/APEC%E7%9A%84%E5%88%9B%E6%96%B0%E4%B9%9F%E5%9C%A8%E7%83%9F%E7%81%AB%E6%97%A5%E5%B8%B8%E4%B8%AD",
+      "cover": null,
+      "summary": "抖音热榜第 3 位",
+      "metrics": {
+        "heat": 10957034,
+        "rank": 3,
         "videoCount": 1
       },
       "comments": [],
       "badges": [
         {
           "key": "hot",
-          "label": "🔥 热度 1179.9万",
+          "label": "🔥 热度 1095.7万",
           "tone": "error"
         },
         {
@@ -80,51 +111,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 80.72
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 80.4
     },
     {
-      "id": "douyin:hot:10月国民经济运行总体平稳向新向优",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "10月国民经济运行总体平稳向新向优",
-      "author": null,
-      "url": "https://www.douyin.com/search/10%E6%9C%88%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E8%BF%90%E8%A1%8C%E6%80%BB%E4%BD%93%E5%B9%B3%E7%A8%B3%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98",
-      "cover": null,
-      "summary": "抖音热榜第 3 位",
-      "metrics": {
-        "heat": 11461869,
-        "rank": 3,
-        "videoCount": 4
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 热度 1146.2万",
-          "tone": "error"
-        },
-        {
-          "key": "dark-horse",
-          "label": "📈 前十",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 80.59
-    },
-    {
-      "id": "baidu:hot:习近平将同普京特朗普在深圳会晤",
+      "id": "baidu:hot:外交部回应日方最新表态",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "习近平将同普京特朗普在深圳会晤",
+      "title": "外交部回应日方最新表态",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%B0%86%E5%90%8C%E6%99%AE%E4%BA%AC%E7%89%B9%E6%9C%97%E6%99%AE%E5%9C%A8%E6%B7%B1%E5%9C%B3%E4%BC%9A%E6%99%A4",
-      "cover": "https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg",
-      "summary": "百度热搜第 1 位",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%97%A5%E6%96%B9%E6%9C%80%E6%96%B0%E8%A1%A8%E6%80%81",
+      "cover": "https://gips1.baidu.com/it/u=3557259683,289962814&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "11月20日，外交部发言人郭嘉昆主持例行记者会，回应日本首相高市早苗最新表态。郭嘉昆表示，日方当前紧迫的是在台湾问题上尽快纠正错误言行，在历史问题上采取正确态度，并在对华认知上真正做到客观理性，将中日四个政治文件落实到行动上。",
       "metrics": {
-        "heat": 7808179,
+        "heat": 7808101,
         "rank": 1
       },
       "comments": [],
@@ -141,20 +141,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 78.93
     },
     {
-      "id": "baidu:hot:三军仪仗队整装待发迎接APEC参会元首",
+      "id": "baidu:hot:12306迎来重大更新",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "三军仪仗队整装待发迎接APEC参会元首",
+      "title": "12306迎来重大更新",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E4%B8%89%E5%86%9B%E4%BB%AA%E4%BB%97%E9%98%9F%E6%95%B4%E8%A3%85%E5%BE%85%E5%8F%91%E8%BF%8E%E6%8E%A5APEC%E5%8F%82%E4%BC%9A%E5%85%83%E9%A6%96",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/df3e4906ef6de11f7bef88d807bd27af",
-      "summary": "11月16日，三军仪仗队整装待发迎接APEC参会元首，一起近距离感受！",
+      "url": "https://www.baidu.com/s?wd=12306%E8%BF%8E%E6%9D%A5%E9%87%8D%E5%A4%A7%E6%9B%B4%E6%96%B0",
+      "cover": "https://gips3.baidu.com/it/u=18124338,3543546078&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "11月20日起，铁路部门将在12306App系统通知中新增候补兑现情况和列车运行调整等业务场景的信息通知服务。旅客办理购票、退票、候补等业务或遇列车运行调整时，可通过App系统通知、微信或支付宝及短信等多渠道及时获取相关信息。",
       "metrics": {
-        "heat": 7712286,
+        "heat": 7712150,
         "rank": 2
       },
       "comments": [],
@@ -166,20 +166,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 78.87
     },
     {
-      "id": "baidu:hot:外国友人眼中的APEC“中国年”",
+      "id": "baidu:hot:APEC合作如何惠及百姓生活",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "外国友人眼中的APEC“中国年”",
+      "title": "APEC合作如何惠及百姓生活",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E5%9B%BD%E5%8F%8B%E4%BA%BA%E7%9C%BC%E4%B8%AD%E7%9A%84APEC%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%B9%B4%E2%80%9D",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/96c2169107a3ae1fc9369f3a179c9e2b",
-      "summary": "APEC领导人非正式会议即将在深圳举行。创新是发展的强大动力。从移动支付到新能源汽车、从高铁到人工智能……中国创新正在被越来越多外国友人看见、体验、赞叹。",
+      "url": "https://www.baidu.com/s?wd=APEC%E5%90%88%E4%BD%9C%E5%A6%82%E4%BD%95%E6%83%A0%E5%8F%8A%E7%99%BE%E5%A7%93%E7%94%9F%E6%B4%BB",
+      "cover": "https://gips2.baidu.com/it/u=927660442,3837877963&fm=3028&app=3028&f=JPEG&fmt=auto&q=100&size=f1138_640",
+      "summary": "从购物车里的全球好物，到说走就走的跨境旅途，再到绿色低碳的生活日常，APEC合作正把区域开放的成果落地生根，转化为百姓可感可及的美好生活。",
       "metrics": {
-        "heat": 7617978,
+        "heat": 7615710,
         "rank": 3
       },
       "comments": [],
@@ -191,139 +191,139 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 78.82
     },
     {
-      "id": "douyin:hot:火箭147:119奇才",
+      "id": "douyin:hot:特朗普结束亚洲行返回白宫",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "火箭147:119奇才",
+      "title": "特朗普结束亚洲行返回白宫",
       "author": null,
-      "url": "https://www.douyin.com/search/%E7%81%AB%E7%AE%AD147%3A119%E5%A5%87%E6%89%8D",
+      "url": "https://www.douyin.com/search/%E7%89%B9%E6%9C%97%E6%99%AE%E7%BB%93%E6%9D%9F%E4%BA%9A%E6%B4%B2%E8%A1%8C%E8%BF%94%E5%9B%9E%E7%99%BD%E5%AE%AB",
       "cover": null,
       "summary": "抖音热榜第 4 位",
       "metrics": {
-        "heat": 11175364,
+        "heat": 10935821,
         "rank": 4,
-        "videoCount": 3
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 热度 1117.5万",
-          "tone": "error"
-        },
-        {
-          "key": "dark-horse",
-          "label": "📈 前十",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 76.48
-    },
-    {
-      "id": "douyin:hot:墨西哥总统辛鲍姆抵达深圳",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "墨西哥总统辛鲍姆抵达深圳",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%80%BB%E7%BB%9F%E8%BE%9B%E9%B2%8D%E5%A7%86%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3",
-      "cover": null,
-      "summary": "抖音热榜第 5 位",
-      "metrics": {
-        "heat": 10541597,
-        "rank": 5,
-        "videoCount": 6
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 热度 1054.2万",
-          "tone": "error"
-        },
-        {
-          "key": "dark-horse",
-          "label": "📈 前十",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 76.23
-    },
-    {
-      "id": "douyin:hot:草靶子糖葫芦是冬日的第一份甜蜜",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "草靶子糖葫芦是冬日的第一份甜蜜",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E8%8D%89%E9%9D%B6%E5%AD%90%E7%B3%96%E8%91%AB%E8%8A%A6%E6%98%AF%E5%86%AC%E6%97%A5%E7%9A%84%E7%AC%AC%E4%B8%80%E4%BB%BD%E7%94%9C%E8%9C%9C",
-      "cover": null,
-      "summary": "抖音热榜第 6 位",
-      "metrics": {
-        "heat": 10389300,
-        "rank": 6,
-        "videoCount": 3
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 热度 1038.9万",
-          "tone": "error"
-        },
-        {
-          "key": "dark-horse",
-          "label": "📈 前十",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 76.17
-    },
-    {
-      "id": "douyin:hot:欧国联英格兰3:2西班牙",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "欧国联英格兰3:2西班牙",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E6%AC%A7%E5%9B%BD%E8%81%94%E8%8B%B1%E6%A0%BC%E5%85%B03%3A2%E8%A5%BF%E7%8F%AD%E7%89%99",
-      "cover": null,
-      "summary": "抖音热榜第 7 位",
-      "metrics": {
-        "heat": 9229214,
-        "rank": 7,
         "videoCount": 5
       },
       "comments": [],
       "badges": [
         {
+          "key": "hot",
+          "label": "🔥 热度 1093.6万",
+          "tone": "error"
+        },
+        {
           "key": "dark-horse",
           "label": "📈 前十",
           "tone": "primary"
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 76.39
+    },
+    {
+      "id": "douyin:hot:APEC外宾游深圳邂逅地道美食",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "APEC外宾游深圳邂逅地道美食",
+      "author": null,
+      "url": "https://www.douyin.com/search/APEC%E5%A4%96%E5%AE%BE%E6%B8%B8%E6%B7%B1%E5%9C%B3%E9%82%82%E9%80%85%E5%9C%B0%E9%81%93%E7%BE%8E%E9%A3%9F",
+      "cover": null,
+      "summary": "抖音热榜第 5 位",
+      "metrics": {
+        "heat": 10339060,
+        "rank": 5,
+        "videoCount": 5
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 热度 1033.9万",
+          "tone": "error"
+        },
+        {
+          "key": "dark-horse",
+          "label": "📈 前十",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 76.14
+    },
+    {
+      "id": "douyin:hot:APEC晚宴荔枝冰酒厂家回应",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "APEC晚宴荔枝冰酒厂家回应",
+      "author": null,
+      "url": "https://www.douyin.com/search/APEC%E6%99%9A%E5%AE%B4%E8%8D%94%E6%9E%9D%E5%86%B0%E9%85%92%E5%8E%82%E5%AE%B6%E5%9B%9E%E5%BA%94",
+      "cover": null,
+      "summary": "抖音热榜第 6 位",
+      "metrics": {
+        "heat": 10333061,
+        "rank": 6,
+        "videoCount": 7
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 热度 1033.3万",
+          "tone": "error"
+        },
+        {
+          "key": "dark-horse",
+          "label": "📈 前十",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 76.14
+    },
+    {
+      "id": "douyin:hot:普京用中文向APEC与会者致谢",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "普京用中文向APEC与会者致谢",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E6%99%AE%E4%BA%AC%E7%94%A8%E4%B8%AD%E6%96%87%E5%90%91APEC%E4%B8%8E%E4%BC%9A%E8%80%85%E8%87%B4%E8%B0%A2",
+      "cover": null,
+      "summary": "抖音热榜第 7 位",
+      "metrics": {
+        "heat": 9226415,
+        "rank": 7,
+        "videoCount": 3
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "dark-horse",
+          "label": "📈 前十",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 75.65
     },
     {
-      "id": "douyin:hot:詹皇迎里程碑 76人力克步行者",
+      "id": "douyin:hot:朱雀三号回收发动机再次点火",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "詹皇迎里程碑 76人力克步行者",
+      "title": "朱雀三号回收发动机再次点火",
       "author": null,
-      "url": "https://www.douyin.com/search/%E8%A9%B9%E7%9A%87%E8%BF%8E%E9%87%8C%E7%A8%8B%E7%A2%91%2076%E4%BA%BA%E5%8A%9B%E5%85%8B%E6%AD%A5%E8%A1%8C%E8%80%85",
+      "url": "https://www.douyin.com/search/%E6%9C%B1%E9%9B%80%E4%B8%89%E5%8F%B7%E5%9B%9E%E6%94%B6%E5%8F%91%E5%8A%A8%E6%9C%BA%E5%86%8D%E6%AC%A1%E7%82%B9%E7%81%AB",
       "cover": null,
       "summary": "抖音热榜第 8 位",
       "metrics": {
-        "heat": 9218635,
+        "heat": 9202687,
         "rank": 8,
         "videoCount": 5
       },
@@ -336,22 +336,22 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 75.65
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 75.64
     },
     {
-      "id": "douyin:hot:DeepSeek因算力不足限额",
+      "id": "douyin:hot:谢谢你深圳",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "DeepSeek因算力不足限额",
+      "title": "谢谢你深圳",
       "author": null,
-      "url": "https://www.douyin.com/search/DeepSeek%E5%9B%A0%E7%AE%97%E5%8A%9B%E4%B8%8D%E8%B6%B3%E9%99%90%E9%A2%9D",
+      "url": "https://www.douyin.com/search/%E8%B0%A2%E8%B0%A2%E4%BD%A0%E6%B7%B1%E5%9C%B3",
       "cover": null,
       "summary": "抖音热榜第 9 位",
       "metrics": {
-        "heat": 9211706,
+        "heat": 9177603,
         "rank": 9,
-        "videoCount": 6
+        "videoCount": 1
       },
       "comments": [],
       "badges": [
@@ -362,22 +362,22 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 75.64
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 75.63
     },
     {
-      "id": "douyin:hot:不穿贵的只穿帅的",
+      "id": "douyin:hot:APEC现场中国相机成主流",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "不穿贵的只穿帅的",
+      "title": "APEC现场中国相机成主流",
       "author": null,
-      "url": "https://www.douyin.com/search/%E4%B8%8D%E7%A9%BF%E8%B4%B5%E7%9A%84%E5%8F%AA%E7%A9%BF%E5%B8%85%E7%9A%84",
+      "url": "https://www.douyin.com/search/APEC%E7%8E%B0%E5%9C%BA%E4%B8%AD%E5%9B%BD%E7%9B%B8%E6%9C%BA%E6%88%90%E4%B8%BB%E6%B5%81",
       "cover": null,
       "summary": "抖音热榜第 10 位",
       "metrics": {
-        "heat": 9208386,
+        "heat": 9174088,
         "rank": 10,
-        "videoCount": 3
+        "videoCount": 1
       },
       "comments": [],
       "badges": [
@@ -388,20 +388,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 75.64
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 75.63
     },
     {
-      "id": "baidu:hot:中国女保镖贴身保护墨西哥总统",
+      "id": "baidu:hot:特朗普在深圳27小时超出计划",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "中国女保镖贴身保护墨西哥总统",
+      "title": "特朗普在深圳27小时超出计划",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E4%BF%9D%E9%95%96%E8%B4%B4%E8%BA%AB%E4%BF%9D%E6%8A%A4%E5%A2%A8%E8%A5%BF%E5%93%A5%E6%80%BB%E7%BB%9F",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/5ad9d2e7eeeddd4bf38af5d2768de5bb",
-      "summary": "11月16日，墨西哥总统辛鲍姆抵达广东省深圳市，中方女保镖贴身保护。据悉，她曾多次执行外宾警卫任务。",
+      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%9C%A8%E6%B7%B1%E5%9C%B327%E5%B0%8F%E6%97%B6%E8%B6%85%E5%87%BA%E8%AE%A1%E5%88%92",
+      "cover": "https://gips0.baidu.com/it/u=4117566621,4018265798&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "11月19日，三国元首在深圳举行中俄美会晤，发表《中俄美元首和平宣言》。美方领导人受访给会晤打12分，因议程丰富在深多停留3小时。",
       "metrics": {
-        "heat": 7520228,
+        "heat": 7524170,
         "rank": 4
       },
       "comments": [],
@@ -413,20 +413,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 74.76
     },
     {
-      "id": "baidu:hot:叶璇：大部分真人演员还不如AI",
+      "id": "baidu:hot:日方称中方接待高市早苗符合惯例",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "叶璇：大部分真人演员还不如AI",
+      "title": "日方称中方接待高市早苗符合惯例",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E5%8F%B6%E7%92%87%EF%BC%9A%E5%A4%A7%E9%83%A8%E5%88%86%E7%9C%9F%E4%BA%BA%E6%BC%94%E5%91%98%E8%BF%98%E4%B8%8D%E5%A6%82AI",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/7ef49366ebb0c0dd42359ff2e84eea7a",
-      "summary": "11月14日，叶璇新剧《少夫人来自东北3》和《华丽人生：逆风者》同日上线。她在受访时表示，两部剧同期上线是“自己赢自己”。谈及AI对短剧行业的冲击，叶璇直言大部分真人演员不如AI，但真正顶端的真人剧AI还达不到，被取代是必然，呼吁演员看书充实自己。",
+      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%96%B9%E7%A7%B0%E4%B8%AD%E6%96%B9%E6%8E%A5%E5%BE%85%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E7%AC%A6%E5%90%88%E6%83%AF%E4%BE%8B",
+      "cover": "https://gips3.baidu.com/it/u=4033739786,15547948&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "11月19日，日本官房长官‌木原稔‌称APEC会议期间中方接待首相‌高市早苗‌‌符合往年惯例‌。针对日媒炒作接机仪式，外交部回应称中方根据‌国际惯例‌对所有参会方作适当安排。",
       "metrics": {
-        "heat": 7429009,
+        "heat": 7428880,
         "rank": 5
       },
       "comments": [],
@@ -438,20 +438,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 74.71
     },
     {
-      "id": "baidu:hot:看到这种花请立刻报警",
+      "id": "baidu:hot:网店挂出1分钱睡衣引200万人下单",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "看到这种花请立刻报警",
+      "title": "网店挂出1分钱睡衣引200万人下单",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E7%9C%8B%E5%88%B0%E8%BF%99%E7%A7%8D%E8%8A%B1%E8%AF%B7%E7%AB%8B%E5%88%BB%E6%8A%A5%E8%AD%A6",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/931b5bc01aadf58adb3827310de2f926",
-      "summary": "牡丹罂粟，是罂粟科罂粟属植物鸦片罂粟的一个变种，因其花朵为重瓣且形态酷似牡丹而得名。尽管牡丹罂粟结实率较低，但仍属于受管制的毒品原植物，在中国非法种植将承担法律责任。看到这种花请立刻报警！",
+      "url": "https://www.baidu.com/s?wd=%E7%BD%91%E5%BA%97%E6%8C%82%E5%87%BA1%E5%88%86%E9%92%B1%E7%9D%A1%E8%A1%A3%E5%BC%95200%E4%B8%87%E4%BA%BA%E4%B8%8B%E5%8D%95",
+      "cover": "https://gips0.baidu.com/it/u=1436679685,3677190890&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "近日，一网店以1分钱包邮出售原价131.3元的珊瑚绒睡衣，引来超200万人下单。因商品价格异常、店铺缺少评价且客服未回应，网友质疑其借低价收集个人信息。20日，平台已取消异常订单并自动退款。",
       "metrics": {
-        "heat": 7327763,
+        "heat": 7332880,
         "rank": 6
       },
       "comments": [],
@@ -463,20 +463,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 74.65
     },
     {
-      "id": "baidu:hot:羽绒服为什么越卖越贵",
+      "id": "baidu:hot:亮相APEC晚宴的荔枝冰酒已全线售罄",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "羽绒服为什么越卖越贵",
+      "title": "亮相APEC晚宴的荔枝冰酒已全线售罄",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E7%BE%BD%E7%BB%92%E6%9C%8D%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E5%8D%96%E8%B6%8A%E8%B4%B5",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/5027a8a0b8724a395da9c22f99dfd0bd",
-      "summary": "近日，新闻报道指出羽绒服越卖越贵的主因是品牌溢价。业内老板透露，波司登等国内品牌溢价3到7倍，始祖鸟等进口品牌溢价超10倍。",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%AE%E7%9B%B8APEC%E6%99%9A%E5%AE%B4%E7%9A%84%E8%8D%94%E6%9E%9D%E5%86%B0%E9%85%92%E5%B7%B2%E5%85%A8%E7%BA%BF%E5%94%AE%E7%BD%84",
+      "cover": "https://gips1.baidu.com/it/u=4269213279,1252707460&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "11月18日晚，亚太经合组织第33次领导人非正式会议欢迎晚宴在深圳国际交流中心举行，广州从化的悦荔荔枝冰酒被选为宴会用酒。随着晚宴菜单曝光，产品销量大增，悦荔荔枝冰酒目前已全线售罄，预计15天左右恢复供货。",
       "metrics": {
-        "heat": 7234573,
+        "heat": 7237561,
         "rank": 7
       },
       "comments": [],
@@ -488,20 +488,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 74.59
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 74.6
     },
     {
-      "id": "baidu:hot:收到offer后辞职 被新公司拒录了",
+      "id": "baidu:hot:上证50指数探底回升收红",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "收到offer后辞职 被新公司拒录了",
+      "title": "上证50指数探底回升收红",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E6%94%B6%E5%88%B0offer%E5%90%8E%E8%BE%9E%E8%81%8C%20%E8%A2%AB%E6%96%B0%E5%85%AC%E5%8F%B8%E6%8B%92%E5%BD%95%E4%BA%86",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/1785c6b5bce71acf1e9a439eaed5391f",
-      "summary": "江苏小王收到新公司录用通知书，他从原单位辞职后却遭遇新公司单方毁约、无端拒录。法院审理认为该公司应当承担缔约过失责任，综合各方面因素，酌定被告公司赔偿小王1.5个月的工资损失30000元。",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E8%AF%8150%E6%8C%87%E6%95%B0%E6%8E%A2%E5%BA%95%E5%9B%9E%E5%8D%87%E6%94%B6%E7%BA%A2",
+      "cover": "https://gips0.baidu.com/it/u=2276412499,995070974&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "11月20日，A股市场普跌调整，超5200只个股下跌，沪指跌1.23%险守3500点。当日上证50指数尾盘探底回升收红，多只红利股逆势拉升创历史新高。",
       "metrics": {
-        "heat": 7141375,
+        "heat": 7139476,
         "rank": 8
       },
       "comments": [],
@@ -513,20 +513,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 74.54
     },
     {
-      "id": "baidu:hot:买不起显卡 年轻人又挤进网吧包夜",
+      "id": "baidu:hot:看50年的中国 为什么要来深圳",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "买不起显卡 年轻人又挤进网吧包夜",
+      "title": "看50年的中国 为什么要来深圳",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E4%B9%B0%E4%B8%8D%E8%B5%B7%E6%98%BE%E5%8D%A1%20%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%8F%88%E6%8C%A4%E8%BF%9B%E7%BD%91%E5%90%A7%E5%8C%85%E5%A4%9C",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/5c7fa351c9667b0fc648e33be5a7d00e",
-      "summary": "近日，七彩虹宣布大幅上调RTX 50系列显卡价格，单卡最高涨3300元，华硕等厂商暂停放货跟进。目前降价被推迟至2028年，大批买不起显卡的年轻人被迫转向网吧与云游戏。",
+      "url": "https://www.baidu.com/s?wd=%E7%9C%8B50%E5%B9%B4%E7%9A%84%E4%B8%AD%E5%9B%BD%20%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%9D%A5%E6%B7%B1%E5%9C%B3",
+      "cover": "https://gips1.baidu.com/it/u=1602549901,294263872&fm=3028&app=3028&f=PNG&fmt=auto&q=96&size=f1138_640",
+      "summary": "当世界的目光聚焦深圳，“深圳奇迹”“深圳经验”成为各国人士的热议话题。深圳何以代表这五十年的中国？深圳能为亚太、为世界带来怎样的启示？创新、绿色、便利，成为三个高频关键词。",
       "metrics": {
-        "heat": 7039343,
+        "heat": 7047778,
         "rank": 9
       },
       "comments": [],
@@ -538,20 +538,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 74.48
     },
     {
-      "id": "baidu:hot:吴京看10级美颜镜头绷不住了",
+      "id": "baidu:hot:河南人这几天都快被风吹麻了",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "吴京看10级美颜镜头绷不住了",
+      "title": "河南人这几天都快被风吹麻了",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E5%90%B4%E4%BA%AC%E7%9C%8B10%E7%BA%A7%E7%BE%8E%E9%A2%9C%E9%95%9C%E5%A4%B4%E7%BB%B7%E4%B8%8D%E4%BD%8F%E4%BA%86",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/e646209d2f18497def6012b0adf7224f",
-      "summary": "近日，吴京现身酒店被工作人员抢着合影。起初他展露笑容十分亲和，但当他看清镜头中自己被十级美颜大变样后，默默叹气再也笑不出来。网友纷纷调侃国民硬汉被拍成了何猷君。",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E4%BA%BA%E8%BF%99%E5%87%A0%E5%A4%A9%E9%83%BD%E5%BF%AB%E8%A2%AB%E9%A3%8E%E5%90%B9%E9%BA%BB%E4%BA%86",
+      "cover": "https://gips1.baidu.com/it/u=1547503525,2693326922&fm=3028&app=3028&f=PNG&fmt=auto&q=87&size=f1138_640",
+      "summary": "11月20日，受冷空气南下影响，河南多地连发大风预警，其中息县发布橙色预警。今日全省仍有3至4级西北风，阵风5至6级。未来受西北气流控制，晴好天气将持至周末，但昼夜温差普遍超10℃，空气干燥，需注意保暖防火。",
       "metrics": {
-        "heat": 6951257,
+        "heat": 6944663,
         "rank": 10
       },
       "comments": [],
@@ -563,410 +563,410 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 74.42
     },
     {
-      "id": "douyin:hot:茉茉手势舞",
+      "id": "douyin:hot:现货黄金跌破3600美元",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "茉茉手势舞",
+      "title": "现货黄金跌破3600美元",
       "author": null,
-      "url": "https://www.douyin.com/search/%E8%8C%89%E8%8C%89%E6%89%8B%E5%8A%BF%E8%88%9E",
+      "url": "https://www.douyin.com/search/%E7%8E%B0%E8%B4%A7%E9%BB%84%E9%87%91%E8%B7%8C%E7%A0%B43600%E7%BE%8E%E5%85%83",
       "cover": null,
       "summary": "抖音热榜第 11 位",
       "metrics": {
-        "heat": 9203035,
+        "heat": 9142485,
         "rank": 11,
-        "videoCount": 10
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72.64
-    },
-    {
-      "id": "douyin:hot:司空震FMVP新皮肤",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "司空震FMVP新皮肤",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E5%8F%B8%E7%A9%BA%E9%9C%87FMVP%E6%96%B0%E7%9A%AE%E8%82%A4",
-      "cover": null,
-      "summary": "抖音热榜第 12 位",
-      "metrics": {
-        "heat": 9109431,
-        "rank": 12,
         "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72.59
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 72.61
     },
     {
-      "id": "douyin:hot:田小娟复刻神之八秒",
+      "id": "douyin:hot:APEC带给年轻人哪些新机遇",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "田小娟复刻神之八秒",
+      "title": "APEC带给年轻人哪些新机遇",
       "author": null,
-      "url": "https://www.douyin.com/search/%E7%94%B0%E5%B0%8F%E5%A8%9F%E5%A4%8D%E5%88%BB%E7%A5%9E%E4%B9%8B%E5%85%AB%E7%A7%92",
+      "url": "https://www.douyin.com/search/APEC%E5%B8%A6%E7%BB%99%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%93%AA%E4%BA%9B%E6%96%B0%E6%9C%BA%E9%81%87",
       "cover": null,
-      "summary": "抖音热榜第 13 位",
+      "summary": "抖音热榜第 12 位",
       "metrics": {
-        "heat": 9026612,
-        "rank": 13,
+        "heat": 9112408,
+        "rank": 12,
         "videoCount": 1
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72.56
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 72.6
     },
     {
-      "id": "douyin:hot:我家门口新开了一朵茉莉",
+      "id": "douyin:hot:APEC围巾是从哪儿来的",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "我家门口新开了一朵茉莉",
+      "title": "APEC围巾是从哪儿来的",
       "author": null,
-      "url": "https://www.douyin.com/search/%E6%88%91%E5%AE%B6%E9%97%A8%E5%8F%A3%E6%96%B0%E5%BC%80%E4%BA%86%E4%B8%80%E6%9C%B5%E8%8C%89%E8%8E%89",
+      "url": "https://www.douyin.com/search/APEC%E5%9B%B4%E5%B7%BE%E6%98%AF%E4%BB%8E%E5%93%AA%E5%84%BF%E6%9D%A5%E7%9A%84",
+      "cover": null,
+      "summary": "抖音热榜第 13 位",
+      "metrics": {
+        "heat": 9016367,
+        "rank": 13,
+        "videoCount": 13
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 72.55
+    },
+    {
+      "id": "douyin:hot:新昌林丹杯开赛",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "新昌林丹杯开赛",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E6%96%B0%E6%98%8C%E6%9E%97%E4%B8%B9%E6%9D%AF%E5%BC%80%E8%B5%9B",
       "cover": null,
       "summary": "抖音热榜第 14 位",
       "metrics": {
-        "heat": 9004509,
+        "heat": 8628129,
         "rank": 14,
-        "videoCount": 10
+        "videoCount": 6
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72.54
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 72.36
     },
     {
-      "id": "douyin:hot:亚马尔转发争议视频后暂未回应",
+      "id": "douyin:hot:队长哪里都是你迎来最痛的一集",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "亚马尔转发争议视频后暂未回应",
+      "title": "队长哪里都是你迎来最痛的一集",
       "author": null,
-      "url": "https://www.douyin.com/search/%E4%BA%9A%E9%A9%AC%E5%B0%94%E8%BD%AC%E5%8F%91%E4%BA%89%E8%AE%AE%E8%A7%86%E9%A2%91%E5%90%8E%E6%9A%82%E6%9C%AA%E5%9B%9E%E5%BA%94",
+      "url": "https://www.douyin.com/search/%E9%98%9F%E9%95%BF%E5%93%AA%E9%87%8C%E9%83%BD%E6%98%AF%E4%BD%A0%E8%BF%8E%E6%9D%A5%E6%9C%80%E7%97%9B%E7%9A%84%E4%B8%80%E9%9B%86",
       "cover": null,
       "summary": "抖音热榜第 15 位",
       "metrics": {
-        "heat": 8514887,
+        "heat": 8216864,
         "rank": 15,
-        "videoCount": 5
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72.3
-    },
-    {
-      "id": "douyin:hot:快乐的小青蛙跳进我的生活",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "快乐的小青蛙跳进我的生活",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E5%BF%AB%E4%B9%90%E7%9A%84%E5%B0%8F%E9%9D%92%E8%9B%99%E8%B7%B3%E8%BF%9B%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB",
-      "cover": null,
-      "summary": "抖音热榜第 16 位",
-      "metrics": {
-        "heat": 8420029,
-        "rank": 16,
         "videoCount": 10
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72.25
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 72.15
     },
     {
-      "id": "douyin:hot:爱乐之城群像齐舞挑战",
+      "id": "douyin:hot:挑战给妈妈打电话说我爱你",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "爱乐之城群像齐舞挑战",
+      "title": "挑战给妈妈打电话说我爱你",
       "author": null,
-      "url": "https://www.douyin.com/search/%E7%88%B1%E4%B9%90%E4%B9%8B%E5%9F%8E%E7%BE%A4%E5%83%8F%E9%BD%90%E8%88%9E%E6%8C%91%E6%88%98",
+      "url": "https://www.douyin.com/search/%E6%8C%91%E6%88%98%E7%BB%99%E5%A6%88%E5%A6%88%E6%89%93%E7%94%B5%E8%AF%9D%E8%AF%B4%E6%88%91%E7%88%B1%E4%BD%A0",
+      "cover": null,
+      "summary": "抖音热榜第 16 位",
+      "metrics": {
+        "heat": 8051162,
+        "rank": 16,
+        "videoCount": 1
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 72.06
+    },
+    {
+      "id": "douyin:hot:两京十五日今日开播",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "两京十五日今日开播",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E4%B8%A4%E4%BA%AC%E5%8D%81%E4%BA%94%E6%97%A5%E4%BB%8A%E6%97%A5%E5%BC%80%E6%92%AD",
       "cover": null,
       "summary": "抖音热榜第 17 位",
       "metrics": {
-        "heat": 8411002,
+        "heat": 7784462,
         "rank": 17,
         "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72.25
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 71.91
     },
     {
-      "id": "douyin:hot:多喜一家人开播",
+      "id": "douyin:hot:吴克群为小蝴蝶举办生前葬礼",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "多喜一家人开播",
+      "title": "吴克群为小蝴蝶举办生前葬礼",
       "author": null,
-      "url": "https://www.douyin.com/search/%E5%A4%9A%E5%96%9C%E4%B8%80%E5%AE%B6%E4%BA%BA%E5%BC%80%E6%92%AD",
+      "url": "https://www.douyin.com/search/%E5%90%B4%E5%85%8B%E7%BE%A4%E4%B8%BA%E5%B0%8F%E8%9D%B4%E8%9D%B6%E4%B8%BE%E5%8A%9E%E7%94%9F%E5%89%8D%E8%91%AC%E7%A4%BC",
       "cover": null,
       "summary": "抖音热榜第 18 位",
       "metrics": {
-        "heat": 8216886,
+        "heat": 7769071,
         "rank": 18,
         "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72.15
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 71.9
     },
     {
-      "id": "douyin:hot:日本23岁女演员中田乃爱去世",
+      "id": "douyin:hot:豆包眼中的我具象化了",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "日本23岁女演员中田乃爱去世",
+      "title": "豆包眼中的我具象化了",
       "author": null,
-      "url": "https://www.douyin.com/search/%E6%97%A5%E6%9C%AC23%E5%B2%81%E5%A5%B3%E6%BC%94%E5%91%98%E4%B8%AD%E7%94%B0%E4%B9%83%E7%88%B1%E5%8E%BB%E4%B8%96",
+      "url": "https://www.douyin.com/search/%E8%B1%86%E5%8C%85%E7%9C%BC%E4%B8%AD%E7%9A%84%E6%88%91%E5%85%B7%E8%B1%A1%E5%8C%96%E4%BA%86",
       "cover": null,
       "summary": "抖音热榜第 19 位",
       "metrics": {
-        "heat": 8062405,
+        "heat": 7765634,
         "rank": 19,
-        "videoCount": 1
+        "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72.06
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 71.9
     },
     {
-      "id": "douyin:hot:所有人进入暑假时代",
+      "id": "douyin:hot:多喜一家人父亲下跪求儿子",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "所有人进入暑假时代",
+      "title": "多喜一家人父亲下跪求儿子",
       "author": null,
-      "url": "https://www.douyin.com/search/%E6%89%80%E6%9C%89%E4%BA%BA%E8%BF%9B%E5%85%A5%E6%9A%91%E5%81%87%E6%97%B6%E4%BB%A3",
+      "url": "https://www.douyin.com/search/%E5%A4%9A%E5%96%9C%E4%B8%80%E5%AE%B6%E4%BA%BA%E7%88%B6%E4%BA%B2%E4%B8%8B%E8%B7%AA%E6%B1%82%E5%84%BF%E5%AD%90",
       "cover": null,
       "summary": "抖音热榜第 20 位",
       "metrics": {
-        "heat": 7952229,
+        "heat": 7747316,
         "rank": 20,
-        "videoCount": 10
+        "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 72
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 71.89
     },
     {
-      "id": "baidu:hot:那些与气象相关的不靠谱说法",
+      "id": "baidu:hot:解锁食物背后的健康真相",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "那些与气象相关的不靠谱说法",
+      "title": "解锁食物背后的健康真相",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E9%82%A3%E4%BA%9B%E4%B8%8E%E6%B0%94%E8%B1%A1%E7%9B%B8%E5%85%B3%E7%9A%84%E4%B8%8D%E9%9D%A0%E8%B0%B1%E8%AF%B4%E6%B3%95",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/85334e2095e0967b242b86d32669a08a",
-      "summary": "中国气象局聚焦台风、暴雨、雷电、高温、降雪等气象灾害推出8期科普漫画，用卡通形象生动活泼地进行讲解，有效传播气象灾害防御知识。",
+      "url": "https://www.baidu.com/s?wd=%E8%A7%A3%E9%94%81%E9%A3%9F%E7%89%A9%E8%83%8C%E5%90%8E%E7%9A%84%E5%81%A5%E5%BA%B7%E7%9C%9F%E7%9B%B8",
+      "cover": "https://gips0.baidu.com/it/u=1320245156,3661334621&fm=3028&app=3028&f=JPEG&fmt=auto&q=75&size=f1138_640",
+      "summary": "北京网络辟谣优秀作品展播，北京青年报《五味辟谣图鉴》以酸甜苦辣咸为线索，拆解各类饮食健康谣言，带你读懂科学膳食知识。",
       "metrics": {
-        "heat": 6852098,
+        "heat": 6858284,
         "rank": 11
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 71.36
     },
     {
-      "id": "baidu:hot:相恋19年才发现男友是女的",
+      "id": "baidu:hot:“全球最大医院”原党委书记被双开",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "相恋19年才发现男友是女的",
+      "title": "“全球最大医院”原党委书记被双开",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E7%9B%B8%E6%81%8B19%E5%B9%B4%E6%89%8D%E5%8F%91%E7%8E%B0%E7%94%B7%E5%8F%8B%E6%98%AF%E5%A5%B3%E7%9A%84",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/68a6ef9315be4949b6564117920e6ea7",
-      "summary": "近日，广东佛山禅城法院一审宣判，赵某因诈骗罪获刑七年三个月并处罚金7万元。此前，赵某自2006年起隐瞒女性身份与柳女士恋爱19年，2019年起以找风水师、父亲生病等理由索要46万余元用于赌博等。法院认定其虚构身份致柳女士陷入错误认知，扣除已退1.8万元，责令其继续退赔44.2万元。",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%85%A8%E7%90%83%E6%9C%80%E5%A4%A7%E5%8C%BB%E9%99%A2%E2%80%9D%E5%8E%9F%E5%85%9A%E5%A7%94%E4%B9%A6%E8%AE%B0%E8%A2%AB%E5%8F%8C%E5%BC%80",
+      "cover": "https://gips2.baidu.com/it/u=314815767,2638547831&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "河南省纪委监委通报，经河南省委批准，郑州大学第一附属医院原党委书记王成增因严重违纪违法被开除党籍、开除公职。",
       "metrics": {
-        "heat": 6752697,
+        "heat": 6753914,
         "rank": 12
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 71.29
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 71.3
     },
     {
-      "id": "baidu:hot:虞书欣新造型被指擦边",
+      "id": "baidu:hot:难怪马天宇选择和张萌断联",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "虞书欣新造型被指擦边",
+      "title": "难怪马天宇选择和张萌断联",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E8%99%9E%E4%B9%A6%E6%AC%A3%E6%96%B0%E9%80%A0%E5%9E%8B%E8%A2%AB%E6%8C%87%E6%93%A6%E8%BE%B9",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/507ee91617afaaf0c36785a7f37fdd3f",
-      "summary": "近日，虞书欣分享“真空围裙”造型营业照，因大面积露背被指涉嫌擦边、带坏未成年，引发争议。虞书欣随后火速删除该组照片，但批评声仍未停止。此前，虞书欣近期已多次陷入舆论风波，风评大不如前。",
+      "url": "https://www.baidu.com/s?wd=%E9%9A%BE%E6%80%AA%E9%A9%AC%E5%A4%A9%E5%AE%87%E9%80%89%E6%8B%A9%E5%92%8C%E5%BC%A0%E8%90%8C%E6%96%AD%E8%81%94",
+      "cover": "http://f7.baidu.com/it/u=1029118280,3779959741&fm=222&app=106&f=JPEG",
+      "summary": "此前，马天宇与张萌断联引发猜测。近日，马天宇在谈及人际关系时表示，自己情绪复杂，在关系中常面临无法被共情的失望，因而40年来可能未遇到深刻交情。他认为做自己的好朋友、哄自己开心更重要。",
       "metrics": {
-        "heat": 6665719,
+        "heat": 6663403,
         "rank": 13
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 71.24
     },
     {
-      "id": "baidu:hot:第二代iPhone Duo曝光",
+      "id": "baidu:hot:优先招35岁以上员工的老板回应停业",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "第二代iPhone Duo曝光",
+      "title": "优先招35岁以上员工的老板回应停业",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%BA%8C%E4%BB%A3iPhone%20Duo%E6%9B%9D%E5%85%89",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/dc0ea6eafc8430328d932383a6c22212",
-      "summary": "11月16日消息，据彭博社记者马克·古尔曼披露，苹果计划于2027年秋季推出第二代折叠屏手机iPhone Duo 2，目前正全力推进外屏面容ID研发。",
+      "url": "https://www.baidu.com/s?wd=%E4%BC%98%E5%85%88%E6%8B%9B35%E5%B2%81%E4%BB%A5%E4%B8%8A%E5%91%98%E5%B7%A5%E7%9A%84%E8%80%81%E6%9D%BF%E5%9B%9E%E5%BA%94%E5%81%9C%E4%B8%9A",
+      "cover": "https://gips0.baidu.com/it/u=3953640775,3264679898&fm=3028&app=3028&f=PNG&fmt=auto&q=94&size=f1138_640",
+      "summary": "近日，老板回应其优先招35岁以上员工的餐厅闭店。其坦言经营一年亏损百万，互联网上的感动与现实完全相反。此前，该餐厅因关照弱势群体在网络上引发感动。尽管给予员工稍好待遇，但仍有半数员工要求仲裁，部分门店未开满三个月即关闭。",
       "metrics": {
-        "heat": 6572055,
+        "heat": 6562749,
         "rank": 14
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 71.18
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 71.17
     },
     {
-      "id": "baidu:hot:离婚前游戏账号卖了88万 该平分吗",
+      "id": "baidu:hot:泽连斯基摊手回应特朗普称普京为朋友",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "离婚前游戏账号卖了88万 该平分吗",
+      "title": "泽连斯基摊手回应特朗普称普京为朋友",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E7%A6%BB%E5%A9%9A%E5%89%8D%E6%B8%B8%E6%88%8F%E8%B4%A6%E5%8F%B7%E5%8D%96%E4%BA%8688%E4%B8%87%20%E8%AF%A5%E5%B9%B3%E5%88%86%E5%90%97",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/6c5486b043eda95578341f75267effd5",
-      "summary": "近日，湖北一律师讲述了一起特殊的离婚财产分割案。此前，男方在离婚前一个月以88万元将游戏账号及装备出售给朋友，女方庭审时突然出示证据要求分割。法官称首次接触此类财产分割。最终法院综合考虑男方多年投入，判决女方分得三分之一。",
+      "url": "https://www.baidu.com/s?wd=%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E6%91%8A%E6%89%8B%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E6%99%AE%E4%BA%AC%E4%B8%BA%E6%9C%8B%E5%8F%8B",
+      "cover": "https://gips0.baidu.com/it/u=3540016102,971265544&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "11月19日德国柏林，泽连斯基和欧洲多国领导人出席记者会。泽连斯基被问如何看待特朗普称普京为“朋友”，他苦笑摊手，未回答便走下讲台。",
       "metrics": {
-        "heat": 6468183,
+        "heat": 6475539,
         "rank": 15
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 71.11
     },
     {
-      "id": "baidu:hot:千万粉科普号自曝一条视频成本百万",
+      "id": "baidu:hot:厦门大学收到捐款1亿元",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "千万粉科普号自曝一条视频成本百万",
+      "title": "厦门大学收到捐款1亿元",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E5%8D%83%E4%B8%87%E7%B2%89%E7%A7%91%E6%99%AE%E5%8F%B7%E8%87%AA%E6%9B%9D%E4%B8%80%E6%9D%A1%E8%A7%86%E9%A2%91%E6%88%90%E6%9C%AC%E7%99%BE%E4%B8%87",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/902c6e30bd7003a385cc06d6fd7e52e6",
-      "summary": "近日，千万粉丝科普号“星球研究所”主编桢公子透露，团队单支视频制作成本近百万，周期约3个月且废稿率近半。",
+      "url": "https://www.baidu.com/s?wd=%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6%E6%94%B6%E5%88%B0%E6%8D%90%E6%AC%BE1%E4%BA%BF%E5%85%83",
+      "cover": "https://gips3.baidu.com/it/u=3663089147,3987862858&fm=3028&app=3028&f=PNG&fmt=auto&q=94&size=f1138_640",
+      "summary": "近日，罕王实业集团向厦门大学捐赠1亿元，专项支持智能制造学院大楼建设。罕王集团曾于2021年及今年4月累计向厦大捐赠1000万元设立相关教育奖项。今年9月6日，厦门大学智能制造学院正式成立。",
       "metrics": {
-        "heat": 6368369,
+        "heat": 6381143,
         "rank": 16
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 71.04
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 71.05
     },
     {
-      "id": "baidu:hot:19岁中国留学生被骗至泰国已成功解救",
+      "id": "baidu:hot:白居易笔下的名场面在西安具象化了",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "19岁中国留学生被骗至泰国已成功解救",
+      "title": "白居易笔下的名场面在西安具象化了",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=19%E5%B2%81%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E8%A2%AB%E9%AA%97%E8%87%B3%E6%B3%B0%E5%9B%BD%E5%B7%B2%E6%88%90%E5%8A%9F%E8%A7%A3%E6%95%91",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/c503f982e6c959d9c314546f9129cf6c",
-      "summary": "当地时间11月14日，泰国移民局于春武里府芭堤雅，成功解救一名遭跨国电信诈骗团伙诱骗至泰国的19岁中国留学生余某。据悉，电诈团伙曾索要1000万泰铢，并威胁砍掉留学生手臂。案件后续侦办情况有待泰国警方进一步披露。",
+      "url": "https://www.baidu.com/s?wd=%E7%99%BD%E5%B1%85%E6%98%93%E7%AC%94%E4%B8%8B%E7%9A%84%E5%90%8D%E5%9C%BA%E9%9D%A2%E5%9C%A8%E8%A5%BF%E5%AE%89%E5%85%B7%E8%B1%A1%E5%8C%96%E4%BA%86",
+      "cover": "https://gips0.baidu.com/it/u=1858065203,3735856573&fm=3028&app=3028&f=PNG&fmt=auto&q=96&size=f1138_640",
+      "summary": "近日，“何以中国・诗词里的千年文脉”主题采访团走进西安华清宫，实景舞剧《长恨歌》将白居易笔下的经典诗词名场面具象呈现。当天飘着小雨，演员依旧身着华服，在山水之间起舞表演。",
       "metrics": {
-        "heat": 6285664,
+        "heat": 6277559,
         "rank": 17
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 70.98
     },
     {
-      "id": "baidu:hot:中俄美元首即将会晤 释放强烈信号",
+      "id": "baidu:hot:王毅外长记者会有多火",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "中俄美元首即将会晤 释放强烈信号",
+      "title": "王毅外长记者会有多火",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%8D%B3%E5%B0%86%E4%BC%9A%E6%99%A4%20%E9%87%8A%E6%94%BE%E5%BC%BA%E7%83%88%E4%BF%A1%E5%8F%B7",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/59c0ac51f320db19bb8e5ba6c79d26f0",
-      "summary": "11月19日，国家主席习近平将同俄罗斯总统普京、美国总统特朗普在深圳举行中俄美元首会晤。三国通过相互协调稳定大国关系的努力，不仅是对“大国必然走向对抗”旧叙事的有力回应，更进一步向动荡世界释放出明确信号：国际社会完全可以通过对话沟通，为多极化时代找到一条新时期大国和平共处的新路。",
+      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E6%AF%85%E5%A4%96%E9%95%BF%E8%AE%B0%E8%80%85%E4%BC%9A%E6%9C%89%E5%A4%9A%E7%81%AB",
+      "cover": "https://gips0.baidu.com/it/u=2239701862,597724020&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "深圳APEC会议记者会11月19日晚举行，中共中央政治局委员、外交部长王毅介绍情况。现场现生动一幕：王毅入场时响起热烈掌声，外长微笑鞠躬回应。",
       "metrics": {
-        "heat": 6185851,
+        "heat": 6189951,
         "rank": 18
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 70.91
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 70.92
     },
     {
-      "id": "baidu:hot:满大街的银杏树 为啥还是濒危树种",
+      "id": "baidu:hot:500元以下的羽绒服到底能不能买",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "满大街的银杏树 为啥还是濒危树种",
+      "title": "500元以下的羽绒服到底能不能买",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E6%BB%A1%E5%A4%A7%E8%A1%97%E7%9A%84%E9%93%B6%E6%9D%8F%E6%A0%91%20%E4%B8%BA%E5%95%A5%E8%BF%98%E6%98%AF%E6%BF%92%E5%8D%B1%E6%A0%91%E7%A7%8D",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/d96b56351b7cd6e71801f2c741839ecb",
-      "summary": "秋末冬初，遍地金黄的银杏常让人心生疑惑：随处可见为何仍是濒危物种。银杏存续已有2.7亿年，野生种群只零星分布在国内少数区域，自然更新困难。街边银杏大多是人工繁育，基因趋同，一旦遭遇病害极易大规模受损，因此它的保护等级没有下调。",
+      "url": "https://www.baidu.com/s?wd=500%E5%85%83%E4%BB%A5%E4%B8%8B%E7%9A%84%E7%BE%BD%E7%BB%92%E6%9C%8D%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E4%B9%B0",
+      "cover": "https://gips0.baidu.com/it/u=1418627482,546032170&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "专业人士表示，500元以下羽绒服从成本上讲可行，关键看具体品质。建议认准新国标，通过按压回弹、闻气味辨别，并重点查看绒子含量等指标。",
       "metrics": {
-        "heat": 6088222,
+        "heat": 6093847,
         "rank": 19
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 70.84
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 70.85
     },
     {
-      "id": "baidu:hot:女孩做短剧亏60万后北上打工还债",
+      "id": "baidu:hot:外国人在华强北买“疯”了",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "女孩做短剧亏60万后北上打工还债",
+      "title": "外国人在华强北买“疯”了",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%A9%E5%81%9A%E7%9F%AD%E5%89%A7%E4%BA%8F60%E4%B8%87%E5%90%8E%E5%8C%97%E4%B8%8A%E6%89%93%E5%B7%A5%E8%BF%98%E5%80%BA",
-      "cover": "https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg",
-      "summary": "百度热搜第 20 位",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%9C%A8%E5%8D%8E%E5%BC%BA%E5%8C%97%E4%B9%B0%E2%80%9C%E7%96%AF%E2%80%9D%E4%BA%86",
+      "cover": "https://gips0.baidu.com/it/u=3888596167,2626025169&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "近日，APEC期间，外国游客扎堆深圳华强北，先买AI眼镜再戴着逛吃喝。商户马坤潮称，华强北上午设计、下午打样、次日量产、一周出海的速度，让外国游客直呼不可思议。",
       "metrics": {
-        "heat": 5989574,
+        "heat": 5990075,
         "rank": 20
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 70.77
     },
     {
-      "id": "weibo:hot:中俄美元首会晤将在深圳举行",
+      "id": "weibo:hot:A股",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "中俄美元首会晤将在深圳举行",
+      "title": "A股",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E5%B0%86%E5%9C%A8%E6%B7%B1%E5%9C%B3%E4%B8%BE%E8%A1%8C",
+      "url": "https://s.weibo.com/weibo?q=A%E8%82%A1",
       "cover": null,
-      "summary": "微博热搜第 1 位",
+      "summary": "微博热搜第 1 位 · 新",
       "metrics": {
-        "heat": 1015872,
+        "heat": 1122504,
         "rank": 1
       },
       "comments": [],
@@ -983,20 +983,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 70.07
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 70.5
     },
     {
-      "id": "weibo:hot:女子假扮男性与女友恋爱19年",
+      "id": "weibo:hot:12306迎来重大更新",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "女子假扮男性与女友恋爱19年",
+      "title": "12306迎来重大更新",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E5%81%87%E6%89%AE%E7%94%B7%E6%80%A7%E4%B8%8E%E5%A5%B3%E5%8F%8B%E6%81%8B%E7%88%B119%E5%B9%B4",
+      "url": "https://s.weibo.com/weibo?q=12306%E8%BF%8E%E6%9D%A5%E9%87%8D%E5%A4%A7%E6%9B%B4%E6%96%B0",
       "cover": null,
-      "summary": "微博热搜第 2 位 · 新",
+      "summary": "微博热搜第 2 位 · 热",
       "metrics": {
-        "heat": 800134,
+        "heat": 823210,
         "rank": 2
       },
       "comments": [],
@@ -1008,560 +1008,600 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 69.03
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 69.16
     },
     {
-      "id": "douyin:hot:现货黄金涨破3900美元后回落",
+      "id": "douyin:hot:闺蜜你说的理想型我拼出来了",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "现货黄金涨破3900美元后回落",
+      "title": "闺蜜你说的理想型我拼出来了",
       "author": null,
-      "url": "https://www.douyin.com/search/%E7%8E%B0%E8%B4%A7%E9%BB%84%E9%87%91%E6%B6%A8%E7%A0%B43900%E7%BE%8E%E5%85%83%E5%90%8E%E5%9B%9E%E8%90%BD",
+      "url": "https://www.douyin.com/search/%E9%97%BA%E8%9C%9C%E4%BD%A0%E8%AF%B4%E7%9A%84%E7%90%86%E6%83%B3%E5%9E%8B%E6%88%91%E6%8B%BC%E5%87%BA%E6%9D%A5%E4%BA%86",
       "cover": null,
       "summary": "抖音热榜第 21 位",
       "metrics": {
-        "heat": 7915396,
+        "heat": 7745388,
         "rank": 21,
         "videoCount": 5
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.98
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.89
     },
     {
-      "id": "douyin:hot:专访Bin父母",
+      "id": "douyin:hot:任重蒋欣也表面心连心上了",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "专访Bin父母",
+      "title": "任重蒋欣也表面心连心上了",
       "author": null,
-      "url": "https://www.douyin.com/search/%E4%B8%93%E8%AE%BFBin%E7%88%B6%E6%AF%8D",
+      "url": "https://www.douyin.com/search/%E4%BB%BB%E9%87%8D%E8%92%8B%E6%AC%A3%E4%B9%9F%E8%A1%A8%E9%9D%A2%E5%BF%83%E8%BF%9E%E5%BF%83%E4%B8%8A%E4%BA%86",
       "cover": null,
       "summary": "抖音热榜第 22 位",
       "metrics": {
-        "heat": 7832741,
+        "heat": 7732453,
         "rank": 22,
+        "videoCount": 1
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.88
+    },
+    {
+      "id": "douyin:hot:声生不息天涯共此时首期舞台",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "声生不息天涯共此时首期舞台",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF%E5%A4%A9%E6%B6%AF%E5%85%B1%E6%AD%A4%E6%97%B6%E9%A6%96%E6%9C%9F%E8%88%9E%E5%8F%B0",
+      "cover": null,
+      "summary": "抖音热榜第 23 位",
+      "metrics": {
+        "heat": 7731352,
+        "rank": 23,
         "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.94
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.88
     },
     {
-      "id": "douyin:hot:马刺豪取12连胜",
+      "id": "douyin:hot:刘耀文翻唱Love Love Love",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "马刺豪取12连胜",
+      "title": "刘耀文翻唱Love Love Love",
       "author": null,
-      "url": "https://www.douyin.com/search/%E9%A9%AC%E5%88%BA%E8%B1%AA%E5%8F%9612%E8%BF%9E%E8%83%9C",
+      "url": "https://www.douyin.com/search/%E5%88%98%E8%80%80%E6%96%87%E7%BF%BB%E5%94%B1Love%20Love%20Love",
       "cover": null,
-      "summary": "抖音热榜第 23 位",
+      "summary": "抖音热榜第 24 位",
       "metrics": {
-        "heat": 7814647,
-        "rank": 23,
-        "videoCount": 2
+        "heat": 7731228,
+        "rank": 24,
+        "videoCount": 1
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.93
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.88
     },
     {
-      "id": "douyin:hot:天鹅湖转了一个圈圈",
+      "id": "douyin:hot:天津羊肉雪梨饺子太鲜了",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "天鹅湖转了一个圈圈",
+      "title": "天津羊肉雪梨饺子太鲜了",
       "author": null,
-      "url": "https://www.douyin.com/search/%E5%A4%A9%E9%B9%85%E6%B9%96%E8%BD%AC%E4%BA%86%E4%B8%80%E4%B8%AA%E5%9C%88%E5%9C%88",
+      "url": "https://www.douyin.com/search/%E5%A4%A9%E6%B4%A5%E7%BE%8A%E8%82%89%E9%9B%AA%E6%A2%A8%E9%A5%BA%E5%AD%90%E5%A4%AA%E9%B2%9C%E4%BA%86",
       "cover": null,
-      "summary": "抖音热榜第 24 位",
+      "summary": "抖音热榜第 25 位",
       "metrics": {
-        "heat": 7806129,
-        "rank": 24,
+        "heat": 7729123,
+        "rank": 25,
+        "videoCount": 1
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.88
+    },
+    {
+      "id": "douyin:hot:青稚白小纯敞开心扉改善关系",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "青稚白小纯敞开心扉改善关系",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E9%9D%92%E7%A8%9A%E7%99%BD%E5%B0%8F%E7%BA%AF%E6%95%9E%E5%BC%80%E5%BF%83%E6%89%89%E6%94%B9%E5%96%84%E5%85%B3%E7%B3%BB",
+      "cover": null,
+      "summary": "抖音热榜第 26 位",
+      "metrics": {
+        "heat": 7728739,
+        "rank": 26,
+        "videoCount": 1
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.88
+    },
+    {
+      "id": "douyin:hot:原来人一寒心脸是会跟着变的",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "原来人一寒心脸是会跟着变的",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E5%8E%9F%E6%9D%A5%E4%BA%BA%E4%B8%80%E5%AF%92%E5%BF%83%E8%84%B8%E6%98%AF%E4%BC%9A%E8%B7%9F%E7%9D%80%E5%8F%98%E7%9A%84",
+      "cover": null,
+      "summary": "抖音热榜第 27 位",
+      "metrics": {
+        "heat": 7724295,
+        "rank": 27,
+        "videoCount": 5
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.88
+    },
+    {
+      "id": "douyin:hot:麻辣烫糖葫芦魔性摇",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "麻辣烫糖葫芦魔性摇",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E9%BA%BB%E8%BE%A3%E7%83%AB%E7%B3%96%E8%91%AB%E8%8A%A6%E9%AD%94%E6%80%A7%E6%91%87",
+      "cover": null,
+      "summary": "抖音热榜第 28 位",
+      "metrics": {
+        "heat": 7721543,
+        "rank": 28,
         "videoCount": 10
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.92
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.88
     },
     {
-      "id": "douyin:hot:冯恩鹤收到自己的表情包礼物",
+      "id": "douyin:hot:父母讲述电竞冠军Knight成长路",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "冯恩鹤收到自己的表情包礼物",
+      "title": "父母讲述电竞冠军Knight成长路",
       "author": null,
-      "url": "https://www.douyin.com/search/%E5%86%AF%E6%81%A9%E9%B9%A4%E6%94%B6%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E8%A1%A8%E6%83%85%E5%8C%85%E7%A4%BC%E7%89%A9",
+      "url": "https://www.douyin.com/search/%E7%88%B6%E6%AF%8D%E8%AE%B2%E8%BF%B0%E7%94%B5%E7%AB%9E%E5%86%A0%E5%86%9BKnight%E6%88%90%E9%95%BF%E8%B7%AF",
       "cover": null,
-      "summary": "抖音热榜第 25 位",
+      "summary": "抖音热榜第 29 位",
       "metrics": {
-        "heat": 7796406,
-        "rank": 25,
-        "videoCount": 2
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.92
-    },
-    {
-      "id": "douyin:hot:用我的方式庆祝BLG夺冠",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "用我的方式庆祝BLG夺冠",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E7%94%A8%E6%88%91%E7%9A%84%E6%96%B9%E5%BC%8F%E5%BA%86%E7%A5%9DBLG%E5%A4%BA%E5%86%A0",
-      "cover": null,
-      "summary": "抖音热榜第 26 位",
-      "metrics": {
-        "heat": 7764834,
-        "rank": 26,
-        "videoCount": 2
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.9
-    },
-    {
-      "id": "douyin:hot:管泽元谈BLG夺冠",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "管泽元谈BLG夺冠",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E7%AE%A1%E6%B3%BD%E5%85%83%E8%B0%88BLG%E5%A4%BA%E5%86%A0",
-      "cover": null,
-      "summary": "抖音热榜第 27 位",
-      "metrics": {
-        "heat": 7764778,
-        "rank": 27,
-        "videoCount": 1
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.9
-    },
-    {
-      "id": "douyin:hot:吕德华获王者荣耀年度最热主播",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "吕德华获王者荣耀年度最热主播",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E5%90%95%E5%BE%B7%E5%8D%8E%E8%8E%B7%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E5%B9%B4%E5%BA%A6%E6%9C%80%E7%83%AD%E4%B8%BB%E6%92%AD",
-      "cover": null,
-      "summary": "抖音热榜第 28 位",
-      "metrics": {
-        "heat": 7754269,
-        "rank": 28,
+        "heat": 7717121,
+        "rank": 29,
         "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.9
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.87
     },
     {
-      "id": "douyin:hot:Doinb谈BLG夺冠",
+      "id": "douyin:hot:组团看万妖太燃爽",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "Doinb谈BLG夺冠",
+      "title": "组团看万妖太燃爽",
       "author": null,
-      "url": "https://www.douyin.com/search/Doinb%E8%B0%88BLG%E5%A4%BA%E5%86%A0",
-      "cover": null,
-      "summary": "抖音热榜第 29 位",
-      "metrics": {
-        "heat": 7753430,
-        "rank": 29,
-        "videoCount": 1
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.89
-    },
-    {
-      "id": "douyin:hot:复联5官宣唐尼桃总海总来华",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "复联5官宣唐尼桃总海总来华",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E5%A4%8D%E8%81%945%E5%AE%98%E5%AE%A3%E5%94%90%E5%B0%BC%E6%A1%83%E6%80%BB%E6%B5%B7%E6%80%BB%E6%9D%A5%E5%8D%8E",
+      "url": "https://www.douyin.com/search/%E7%BB%84%E5%9B%A2%E7%9C%8B%E4%B8%87%E5%A6%96%E5%A4%AA%E7%87%83%E7%88%BD",
       "cover": null,
       "summary": "抖音热榜第 30 位",
       "metrics": {
-        "heat": 7746361,
+        "heat": 7716274,
         "rank": 30,
         "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.89
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.87
     },
     {
-      "id": "douyin:hot:张元英像管不住后排的纪律委员",
+      "id": "douyin:hot:找到了我的本命旅游地",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "张元英像管不住后排的纪律委员",
+      "title": "找到了我的本命旅游地",
       "author": null,
-      "url": "https://www.douyin.com/search/%E5%BC%A0%E5%85%83%E8%8B%B1%E5%83%8F%E7%AE%A1%E4%B8%8D%E4%BD%8F%E5%90%8E%E6%8E%92%E7%9A%84%E7%BA%AA%E5%BE%8B%E5%A7%94%E5%91%98",
+      "url": "https://www.douyin.com/search/%E6%89%BE%E5%88%B0%E4%BA%86%E6%88%91%E7%9A%84%E6%9C%AC%E5%91%BD%E6%97%85%E6%B8%B8%E5%9C%B0",
       "cover": null,
       "summary": "抖音热榜第 31 位",
       "metrics": {
-        "heat": 7744700,
+        "heat": 7714553,
         "rank": 31,
-        "videoCount": 1
+        "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.89
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.87
     },
     {
-      "id": "douyin:hot:你知不知道这舞谁还没跳",
+      "id": "douyin:hot:为了梦想再苦也不停止脚步",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "你知不知道这舞谁还没跳",
+      "title": "为了梦想再苦也不停止脚步",
       "author": null,
-      "url": "https://www.douyin.com/search/%E4%BD%A0%E7%9F%A5%E4%B8%8D%E7%9F%A5%E9%81%93%E8%BF%99%E8%88%9E%E8%B0%81%E8%BF%98%E6%B2%A1%E8%B7%B3",
+      "url": "https://www.douyin.com/search/%E4%B8%BA%E4%BA%86%E6%A2%A6%E6%83%B3%E5%86%8D%E8%8B%A6%E4%B9%9F%E4%B8%8D%E5%81%9C%E6%AD%A2%E8%84%9A%E6%AD%A5",
       "cover": null,
       "summary": "抖音热榜第 32 位",
       "metrics": {
-        "heat": 7741247,
+        "heat": 7714278,
         "rank": 32,
         "videoCount": 10
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.89
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.87
     },
     {
-      "id": "douyin:hot:全员严肃学习赵露思穿搭",
+      "id": "douyin:hot:王子璇的清醒可可卷好上头",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "全员严肃学习赵露思穿搭",
+      "title": "王子璇的清醒可可卷好上头",
       "author": null,
-      "url": "https://www.douyin.com/search/%E5%85%A8%E5%91%98%E4%B8%A5%E8%82%83%E5%AD%A6%E4%B9%A0%E8%B5%B5%E9%9C%B2%E6%80%9D%E7%A9%BF%E6%90%AD",
+      "url": "https://www.douyin.com/search/%E7%8E%8B%E5%AD%90%E7%92%87%E7%9A%84%E6%B8%85%E9%86%92%E5%8F%AF%E5%8F%AF%E5%8D%B7%E5%A5%BD%E4%B8%8A%E5%A4%B4",
       "cover": null,
       "summary": "抖音热榜第 33 位",
       "metrics": {
-        "heat": 7738225,
+        "heat": 7712803,
         "rank": 33,
-        "videoCount": 3
+        "videoCount": 2
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.89
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.87
     },
     {
-      "id": "douyin:hot:雪化作泪滴",
+      "id": "douyin:hot:跟随赵露思开启冷都女时代",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "雪化作泪滴",
+      "title": "跟随赵露思开启冷都女时代",
       "author": null,
-      "url": "https://www.douyin.com/search/%E9%9B%AA%E5%8C%96%E4%BD%9C%E6%B3%AA%E6%BB%B4",
+      "url": "https://www.douyin.com/search/%E8%B7%9F%E9%9A%8F%E8%B5%B5%E9%9C%B2%E6%80%9D%E5%BC%80%E5%90%AF%E5%86%B7%E9%83%BD%E5%A5%B3%E6%97%B6%E4%BB%A3",
       "cover": null,
       "summary": "抖音热榜第 34 位",
       "metrics": {
-        "heat": 7736552,
+        "heat": 7710531,
         "rank": 34,
+        "videoCount": 9
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.87
+    },
+    {
+      "id": "douyin:hot:咪也喝上奶奶牌鸡骨草了",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "咪也喝上奶奶牌鸡骨草了",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E5%92%AA%E4%B9%9F%E5%96%9D%E4%B8%8A%E5%A5%B6%E5%A5%B6%E7%89%8C%E9%B8%A1%E9%AA%A8%E8%8D%89%E4%BA%86",
+      "cover": null,
+      "summary": "抖音热榜第 35 位",
+      "metrics": {
+        "heat": 7703173,
+        "rank": 35,
         "videoCount": 10
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.89
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.87
     },
     {
-      "id": "douyin:hot:灵山审美已经next level了",
+      "id": "douyin:hot:谁还没跳茉茉手势舞",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "灵山审美已经next level了",
+      "title": "谁还没跳茉茉手势舞",
       "author": null,
-      "url": "https://www.douyin.com/search/%E7%81%B5%E5%B1%B1%E5%AE%A1%E7%BE%8E%E5%B7%B2%E7%BB%8Fnext%20level%E4%BA%86",
-      "cover": null,
-      "summary": "抖音热榜第 35 位",
-      "metrics": {
-        "heat": 7731741,
-        "rank": 35,
-        "videoCount": 3
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.88
-    },
-    {
-      "id": "douyin:hot:乐子神来全国各地",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "乐子神来全国各地",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E4%B9%90%E5%AD%90%E7%A5%9E%E6%9D%A5%E5%85%A8%E5%9B%BD%E5%90%84%E5%9C%B0",
+      "url": "https://www.douyin.com/search/%E8%B0%81%E8%BF%98%E6%B2%A1%E8%B7%B3%E8%8C%89%E8%8C%89%E6%89%8B%E5%8A%BF%E8%88%9E",
       "cover": null,
       "summary": "抖音热榜第 36 位",
       "metrics": {
-        "heat": 7730166,
+        "heat": 7700972,
         "rank": 36,
-        "videoCount": 3
+        "videoCount": 10
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.88
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.87
     },
     {
-      "id": "douyin:hot:罗圈村千年银杏树进入最佳观赏期",
+      "id": "douyin:hot:无畏契约狐狸套入手不亏",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "罗圈村千年银杏树进入最佳观赏期",
+      "title": "无畏契约狐狸套入手不亏",
       "author": null,
-      "url": "https://www.douyin.com/search/%E7%BD%97%E5%9C%88%E6%9D%91%E5%8D%83%E5%B9%B4%E9%93%B6%E6%9D%8F%E6%A0%91%E8%BF%9B%E5%85%A5%E6%9C%80%E4%BD%B3%E8%A7%82%E8%B5%8F%E6%9C%9F",
+      "url": "https://www.douyin.com/search/%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6%E7%8B%90%E7%8B%B8%E5%A5%97%E5%85%A5%E6%89%8B%E4%B8%8D%E4%BA%8F",
       "cover": null,
       "summary": "抖音热榜第 37 位",
       "metrics": {
-        "heat": 7728349,
+        "heat": 7699164,
         "rank": 37,
         "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.88
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.86
     },
     {
-      "id": "douyin:hot:最有安全感的覆面系出现了",
+      "id": "douyin:hot:变身王子璇同款可可女孩",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "最有安全感的覆面系出现了",
+      "title": "变身王子璇同款可可女孩",
       "author": null,
-      "url": "https://www.douyin.com/search/%E6%9C%80%E6%9C%89%E5%AE%89%E5%85%A8%E6%84%9F%E7%9A%84%E8%A6%86%E9%9D%A2%E7%B3%BB%E5%87%BA%E7%8E%B0%E4%BA%86",
+      "url": "https://www.douyin.com/search/%E5%8F%98%E8%BA%AB%E7%8E%8B%E5%AD%90%E7%92%87%E5%90%8C%E6%AC%BE%E5%8F%AF%E5%8F%AF%E5%A5%B3%E5%AD%A9",
       "cover": null,
       "summary": "抖音热榜第 38 位",
       "metrics": {
-        "heat": 7724188,
+        "heat": 7689723,
         "rank": 38,
-        "videoCount": 10
+        "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.88
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.86
     },
     {
-      "id": "douyin:hot:今年冬天一定要穿成冷都男",
+      "id": "douyin:hot:伪史论为什么越离谱越有人信",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "今年冬天一定要穿成冷都男",
+      "title": "伪史论为什么越离谱越有人信",
       "author": null,
-      "url": "https://www.douyin.com/search/%E4%BB%8A%E5%B9%B4%E5%86%AC%E5%A4%A9%E4%B8%80%E5%AE%9A%E8%A6%81%E7%A9%BF%E6%88%90%E5%86%B7%E9%83%BD%E7%94%B7",
+      "url": "https://www.douyin.com/search/%E4%BC%AA%E5%8F%B2%E8%AE%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E7%A6%BB%E8%B0%B1%E8%B6%8A%E6%9C%89%E4%BA%BA%E4%BF%A1",
       "cover": null,
       "summary": "抖音热榜第 39 位",
       "metrics": {
-        "heat": 7716909,
+        "heat": 7687147,
         "rank": 39,
         "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.87
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.86
     },
     {
-      "id": "douyin:hot:BLG夺冠",
+      "id": "douyin:hot:持械入宋藏着这么多历史彩蛋",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "BLG夺冠",
+      "title": "持械入宋藏着这么多历史彩蛋",
       "author": null,
-      "url": "https://www.douyin.com/search/BLG%E5%A4%BA%E5%86%A0",
+      "url": "https://www.douyin.com/search/%E6%8C%81%E6%A2%B0%E5%85%A5%E5%AE%8B%E8%97%8F%E7%9D%80%E8%BF%99%E4%B9%88%E5%A4%9A%E5%8E%86%E5%8F%B2%E5%BD%A9%E8%9B%8B",
       "cover": null,
       "summary": "抖音热榜第 40 位",
       "metrics": {
-        "heat": 7716322,
+        "heat": 7686074,
         "rank": 40,
-        "videoCount": 11
+        "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.87
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.86
     },
     {
-      "id": "douyin:hot:冷都女为什么好看",
+      "id": "douyin:hot:王子璇还原文吉儿火车换位置事件",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "冷都女为什么好看",
+      "title": "王子璇还原文吉儿火车换位置事件",
       "author": null,
-      "url": "https://www.douyin.com/search/%E5%86%B7%E9%83%BD%E5%A5%B3%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A5%BD%E7%9C%8B",
+      "url": "https://www.douyin.com/search/%E7%8E%8B%E5%AD%90%E7%92%87%E8%BF%98%E5%8E%9F%E6%96%87%E5%90%89%E5%84%BF%E7%81%AB%E8%BD%A6%E6%8D%A2%E4%BD%8D%E7%BD%AE%E4%BA%8B%E4%BB%B6",
       "cover": null,
       "summary": "抖音热榜第 41 位",
       "metrics": {
-        "heat": 7716222,
+        "heat": 7682805,
         "rank": 41,
-        "videoCount": 1
+        "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.87
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.86
     },
     {
-      "id": "douyin:hot:毛孩子律动舞萌翻了",
+      "id": "douyin:hot:超级棒棒糖给我神奇的力量",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "毛孩子律动舞萌翻了",
+      "title": "超级棒棒糖给我神奇的力量",
       "author": null,
-      "url": "https://www.douyin.com/search/%E6%AF%9B%E5%AD%A9%E5%AD%90%E5%BE%8B%E5%8A%A8%E8%88%9E%E8%90%8C%E7%BF%BB%E4%BA%86",
+      "url": "https://www.douyin.com/search/%E8%B6%85%E7%BA%A7%E6%A3%92%E6%A3%92%E7%B3%96%E7%BB%99%E6%88%91%E7%A5%9E%E5%A5%87%E7%9A%84%E5%8A%9B%E9%87%8F",
       "cover": null,
       "summary": "抖音热榜第 42 位",
       "metrics": {
-        "heat": 7715472,
+        "heat": 7673835,
         "rank": 42,
         "videoCount": 10
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.87
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.85
     },
     {
-      "id": "douyin:hot:和张真源约好马上见",
+      "id": "douyin:hot:无声的回响开播",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "和张真源约好马上见",
+      "title": "无声的回响开播",
       "author": null,
-      "url": "https://www.douyin.com/search/%E5%92%8C%E5%BC%A0%E7%9C%9F%E6%BA%90%E7%BA%A6%E5%A5%BD%E9%A9%AC%E4%B8%8A%E8%A7%81",
+      "url": "https://www.douyin.com/search/%E6%97%A0%E5%A3%B0%E7%9A%84%E5%9B%9E%E5%93%8D%E5%BC%80%E6%92%AD",
       "cover": null,
       "summary": "抖音热榜第 43 位",
       "metrics": {
-        "heat": 7711334,
+        "heat": 7672070,
         "rank": 43,
+        "videoCount": 3
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.85
+    },
+    {
+      "id": "douyin:hot:Deft结束兵役重返LCK赛场",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "Deft结束兵役重返LCK赛场",
+      "author": null,
+      "url": "https://www.douyin.com/search/Deft%E7%BB%93%E6%9D%9F%E5%85%B5%E5%BD%B9%E9%87%8D%E8%BF%94LCK%E8%B5%9B%E5%9C%BA",
+      "cover": null,
+      "summary": "抖音热榜第 44 位",
+      "metrics": {
+        "heat": 7670286,
+        "rank": 44,
+        "videoCount": 2
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.85
+    },
+    {
+      "id": "douyin:hot:橘子海剪影宿命感拉满",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "橘子海剪影宿命感拉满",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E6%A9%98%E5%AD%90%E6%B5%B7%E5%89%AA%E5%BD%B1%E5%AE%BF%E5%91%BD%E6%84%9F%E6%8B%89%E6%BB%A1",
+      "cover": null,
+      "summary": "抖音热榜第 45 位",
+      "metrics": {
+        "heat": 7669747,
+        "rank": 45,
+        "videoCount": 10
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.85
+    },
+    {
+      "id": "douyin:hot:我的未来存款让我富了三秒",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "我的未来存款让我富了三秒",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E6%9C%AA%E6%9D%A5%E5%AD%98%E6%AC%BE%E8%AE%A9%E6%88%91%E5%AF%8C%E4%BA%86%E4%B8%89%E7%A7%92",
+      "cover": null,
+      "summary": "抖音热榜第 46 位",
+      "metrics": {
+        "heat": 7669643,
+        "rank": 46,
+        "videoCount": 5
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.85
+    },
+    {
+      "id": "douyin:hot:玩商很高的人生belike",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "玩商很高的人生belike",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E7%8E%A9%E5%95%86%E5%BE%88%E9%AB%98%E7%9A%84%E4%BA%BA%E7%94%9Fbelike",
+      "cover": null,
+      "summary": "抖音热榜第 47 位",
+      "metrics": {
+        "heat": 7668150,
+        "rank": 47,
+        "videoCount": 2
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.85
+    },
+    {
+      "id": "douyin:hot:罗小黑配音花絮太好笑了",
+      "platform": "douyin",
+      "category": "hot-search",
+      "title": "罗小黑配音花絮太好笑了",
+      "author": null,
+      "url": "https://www.douyin.com/search/%E7%BD%97%E5%B0%8F%E9%BB%91%E9%85%8D%E9%9F%B3%E8%8A%B1%E7%B5%AE%E5%A4%AA%E5%A5%BD%E7%AC%91%E4%BA%86",
+      "cover": null,
+      "summary": "抖音热榜第 48 位",
+      "metrics": {
+        "heat": 7666581,
+        "rank": 48,
         "videoCount": 1
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.87
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.85
     },
     {
-      "id": "douyin:hot:吃商极高的人都爱路边饭",
+      "id": "douyin:hot:一杯苹果糖是我的生活良方",
       "platform": "douyin",
       "category": "hot-search",
-      "title": "吃商极高的人都爱路边饭",
+      "title": "一杯苹果糖是我的生活良方",
       "author": null,
-      "url": "https://www.douyin.com/search/%E5%90%83%E5%95%86%E6%9E%81%E9%AB%98%E7%9A%84%E4%BA%BA%E9%83%BD%E7%88%B1%E8%B7%AF%E8%BE%B9%E9%A5%AD",
+      "url": "https://www.douyin.com/search/%E4%B8%80%E6%9D%AF%E8%8B%B9%E6%9E%9C%E7%B3%96%E6%98%AF%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E8%89%AF%E6%96%B9",
       "cover": null,
-      "summary": "抖音热榜第 44 位",
+      "summary": "抖音热榜第 49 位",
       "metrics": {
-        "heat": 7705405,
-        "rank": 44,
+        "heat": 7666133,
+        "rank": 49,
         "videoCount": 3
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.87
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.85
     },
     {
-      "id": "douyin:hot:万妖人有自己的线下局",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "万妖人有自己的线下局",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E4%B8%87%E5%A6%96%E4%BA%BA%E6%9C%89%E8%87%AA%E5%B7%B1%E7%9A%84%E7%BA%BF%E4%B8%8B%E5%B1%80",
-      "cover": null,
-      "summary": "抖音热榜第 45 位",
-      "metrics": {
-        "heat": 7703577,
-        "rank": 45,
-        "videoCount": 3
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.87
-    },
-    {
-      "id": "douyin:hot:萝卜孙恩盛抽象整活大赏",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "萝卜孙恩盛抽象整活大赏",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E8%90%9D%E5%8D%9C%E5%AD%99%E6%81%A9%E7%9B%9B%E6%8A%BD%E8%B1%A1%E6%95%B4%E6%B4%BB%E5%A4%A7%E8%B5%8F",
-      "cover": null,
-      "summary": "抖音热榜第 46 位",
-      "metrics": {
-        "heat": 7702807,
-        "rank": 46,
-        "videoCount": 3
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.87
-    },
-    {
-      "id": "douyin:hot:许飞长文感谢大家支持专辑",
-      "platform": "douyin",
-      "category": "hot-search",
-      "title": "许飞长文感谢大家支持专辑",
-      "author": null,
-      "url": "https://www.douyin.com/search/%E8%AE%B8%E9%A3%9E%E9%95%BF%E6%96%87%E6%84%9F%E8%B0%A2%E5%A4%A7%E5%AE%B6%E6%94%AF%E6%8C%81%E4%B8%93%E8%BE%91",
-      "cover": null,
-      "summary": "抖音热榜第 47 位",
-      "metrics": {
-        "heat": 7695492,
-        "rank": 47,
-        "videoCount": 3
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 68.86
-    },
-    {
-      "id": "weibo:hot:一组图速览什么是APEC",
+      "id": "weibo:hot:APCE深圳会场里的亚太心声",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "一组图速览什么是APEC",
+      "title": "APCE深圳会场里的亚太心声",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E7%BB%84%E5%9B%BE%E9%80%9F%E8%A7%88%E4%BB%80%E4%B9%88%E6%98%AFAPEC",
+      "url": "https://s.weibo.com/weibo?q=APCE%E6%B7%B1%E5%9C%B3%E4%BC%9A%E5%9C%BA%E9%87%8C%E7%9A%84%E4%BA%9A%E5%A4%AA%E5%BF%83%E5%A3%B0",
       "cover": null,
       "summary": "微博热搜第 3 位 · 新",
       "metrics": {
-        "heat": 589527,
+        "heat": 633193,
         "rank": 3
       },
       "comments": [],
@@ -1573,39 +1613,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 67.71
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 68.02
     },
     {
-      "id": "baidu:hot:50克大金镯子 暴跌27000元",
-      "platform": "baidu",
-      "category": "hot-search",
-      "title": "50克大金镯子 暴跌27000元",
-      "author": null,
-      "url": "https://www.baidu.com/s?wd=50%E5%85%8B%E5%A4%A7%E9%87%91%E9%95%AF%E5%AD%90%20%E6%9A%B4%E8%B7%8C27000%E5%85%83",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/b00143499054e762ebe9fd7a2c26bc77",
-      "summary": "北京时间11月16日，国际金价盘中持续震荡，现货黄金由涨转跌，盘中跌破3900美元/盎司，截至发稿，跌超0.4%。据估算，消费者若在年内高点入手50克金镯，截至目前已暴跌超27000元。",
-      "metrics": {
-        "heat": 5903581,
-        "rank": 21
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 67.71
-    },
-    {
-      "id": "weibo:hot:OPPOReno17新品发布会",
+      "id": "weibo:hot:OPPOReno17今日开售",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "OPPOReno17新品发布会",
+      "title": "OPPOReno17今日开售",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=OPPOReno17%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E4%BC%9A",
+      "url": "https://s.weibo.com/weibo?q=OPPOReno17%E4%BB%8A%E6%97%A5%E5%BC%80%E5%94%AE",
       "cover": null,
-      "summary": "微博热搜第 2 位 · 首发",
+      "summary": "微博热搜第 2 位 · 大卖",
       "metrics": {
-        "heat": 588171,
+        "heat": 624452,
         "rank": 2
       },
       "comments": [],
@@ -1617,571 +1638,590 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 67.7
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 67.95
     },
     {
-      "id": "baidu:hot:赵本山问儿子：我和AI像不像",
+      "id": "baidu:hot:李书福：筹办芯位大学",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "赵本山问儿子：我和AI像不像",
+      "title": "李书福：筹办芯位大学",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E8%B5%B5%E6%9C%AC%E5%B1%B1%E9%97%AE%E5%84%BF%E5%AD%90%EF%BC%9A%E6%88%91%E5%92%8CAI%E5%83%8F%E4%B8%8D%E5%83%8F",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/61747374abec365e59be6f8db229984f",
-      "summary": "近日，赵本山《慌啥子嘛》花絮曝光，他问儿子“我和AI像不像”，逗笑众人后脸红。",
+      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E4%B9%A6%E7%A6%8F%EF%BC%9A%E7%AD%B9%E5%8A%9E%E8%8A%AF%E4%BD%8D%E5%A4%A7%E5%AD%A6",
+      "cover": "https://gips1.baidu.com/it/u=2275432580,2890343508&fm=3028&app=3028&f=PNG&fmt=auto&q=96&size=f1138_640",
+      "summary": "11月20日，2026年芯位教育论坛在海南三亚举行。吉利控股集团董事长李书福在演讲时透露，吉利旗下芯位科技筹备建设芯位大学，由吉利人才集团支持其本、硕、博学科建设，吉利控股集团将全面开放产业应用场景，建设高水平全球型新型研究型大学。",
       "metrics": {
-        "heat": 5791948,
+        "heat": 5898338,
+        "rank": 21
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": null,
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 67.71
+    },
+    {
+      "id": "baidu:hot:大模型圈地结束 进入收费时代",
+      "platform": "baidu",
+      "category": "hot-search",
+      "title": "大模型圈地结束 进入收费时代",
+      "author": null,
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9C%88%E5%9C%B0%E7%BB%93%E6%9D%9F%20%E8%BF%9B%E5%85%A5%E6%94%B6%E8%B4%B9%E6%97%B6%E4%BB%A3",
+      "cover": "https://gips2.baidu.com/it/u=553067205,2490186288&fm=3028&app=3028&f=PNG&fmt=auto&q=99&size=f1138_640",
+      "summary": "DeepSeek对免费用户限额、豆包推68元起三档订阅，Kimi、智谱清言、Gemini同步收紧。大模型“圈地”已结束、进入收费时代，平台正借限额分层筛选付费用户。",
+      "metrics": {
+        "heat": 5795501,
         "rank": 22
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 67.63
     },
     {
-      "id": "baidu:hot:曹骏唱跳《爱你》 老实人豁出去了",
+      "id": "baidu:hot:文班亚马跳投式扣篮",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "曹骏唱跳《爱你》 老实人豁出去了",
+      "title": "文班亚马跳投式扣篮",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E6%9B%B9%E9%AA%8F%E5%94%B1%E8%B7%B3%E3%80%8A%E7%88%B1%E4%BD%A0%E3%80%8B%20%E8%80%81%E5%AE%9E%E4%BA%BA%E8%B1%81%E5%87%BA%E5%8E%BB%E4%BA%86",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/0eadc4c257272015bb745bd4b4ba84ec",
-      "summary": "近日，曹骏在上海举办出道30周年特别演出，穿粉色演出服唱跳《爱你》，堪称“男版王心凌”。",
+      "url": "https://www.baidu.com/s?wd=%E6%96%87%E7%8F%AD%E4%BA%9A%E9%A9%AC%E8%B7%B3%E6%8A%95%E5%BC%8F%E6%89%A3%E7%AF%AE",
+      "cover": "https://gips0.baidu.com/it/u=3981222533,2349506742&fm=3028&app=3028&f=PNG&fmt=auto&q=85&size=f1138_640",
+      "summary": "北京时间11月20日，马刺对阵快船比赛中，文班亚马明明能扣篮，却选择了一记奇怪的跳投。赛后亲自解释：扣篮太多导致手指起水泡，快被折磨疯了，能避免尽量避免。",
       "metrics": {
-        "heat": 5711100,
+        "heat": 5700327,
         "rank": 23
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 67.57
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 67.56
     },
     {
-      "id": "baidu:hot:波司登卖不过百元平价羽绒服",
+      "id": "baidu:hot:普京：中俄美元首会晤前所未有",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "波司登卖不过百元平价羽绒服",
+      "title": "普京：中俄美元首会晤前所未有",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E6%B3%A2%E5%8F%B8%E7%99%BB%E5%8D%96%E4%B8%8D%E8%BF%87%E7%99%BE%E5%85%83%E5%B9%B3%E4%BB%B7%E7%BE%BD%E7%BB%92%E6%9C%8D",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/8a841d14de9b99a77db5a6c279ade915",
-      "summary": "近期胖东来、山姆等百元羽绒服遭抢购，北京大学文创店399元鹅绒服卖断货。与之相对，波司登等品牌上探高端市场遇冷，其高端支线月销量均不超百件。因消费者需求回归保暖与性价比，且态度趋谨慎，品牌高端化基础出现松动。",
+      "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%EF%BC%9A%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E5%89%8D%E6%89%80%E6%9C%AA%E6%9C%89",
+      "cover": "https://gips1.baidu.com/it/u=3426465878,3671576423&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "俄罗斯总统普京19日晚间在深圳举行新闻发布会，高度评价此次中俄美元首会晤的历史意义，以及中方所发挥的作用。普京表示，此次三方会晤以前从未有过，希望它能有所延续。",
       "metrics": {
-        "heat": 5617646,
+        "heat": 5619318,
         "rank": 24
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 67.5
     },
     {
-      "id": "baidu:hot:国家统计局：房地产市场出现积极变化",
+      "id": "baidu:hot:《GTA6》一天营收超皇马一年",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "国家统计局：房地产市场出现积极变化",
+      "title": "《GTA6》一天营收超皇马一年",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%AE%B6%E7%BB%9F%E8%AE%A1%E5%B1%80%EF%BC%9A%E6%88%BF%E5%9C%B0%E4%BA%A7%E5%B8%82%E5%9C%BA%E5%87%BA%E7%8E%B0%E7%A7%AF%E6%9E%81%E5%8F%98%E5%8C%96",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/23498e790ec72673a3e3ee478372308e",
-      "summary": "11月16日，国新办发布会介绍2026年10月份国民经济运行情况。国家统计局新闻发言人付凌晖表示，随着各地房地产政策优化调整，房地产市场出现一定积极变化，但受多因素影响部分地区依然承压。",
+      "url": "https://www.baidu.com/s?wd=%E3%80%8AGTA6%E3%80%8B%E4%B8%80%E5%A4%A9%E8%90%A5%E6%94%B6%E8%B6%85%E7%9A%87%E9%A9%AC%E4%B8%80%E5%B9%B4",
+      "cover": "https://gips2.baidu.com/it/u=3163465170,3083495275&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "近日，据分析机构Sensor Tower估算，《GTA6》发售首日售出1910万份，营收约18.4亿美元，折合16.7亿欧元，超过皇马2024/25赛季全年11.61亿欧元收入，相关数据并非官方公布。",
       "metrics": {
-        "heat": 5523080,
+        "heat": 5503678,
         "rank": 25
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 67.42
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 67.41
     },
     {
-      "id": "baidu:hot:音乐圈开始过日子 文艺青年不装了",
+      "id": "baidu:hot:女子1200买冰箱错付成12000 店家消失",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "音乐圈开始过日子 文艺青年不装了",
+      "title": "女子1200买冰箱错付成12000 店家消失",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E9%9F%B3%E4%B9%90%E5%9C%88%E5%BC%80%E5%A7%8B%E8%BF%87%E6%97%A5%E5%AD%90%20%E6%96%87%E8%89%BA%E9%9D%92%E5%B9%B4%E4%B8%8D%E8%A3%85%E4%BA%86",
-      "cover": "https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg",
-      "summary": "百度热搜第 26 位",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%901200%E4%B9%B0%E5%86%B0%E7%AE%B1%E9%94%99%E4%BB%98%E6%88%9012000%20%E5%BA%97%E5%AE%B6%E6%B6%88%E5%A4%B1",
+      "cover": "https://gips3.baidu.com/it/u=2465513619,558769313&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "近日，李女士与炸鸡店老板协商花1200元购买二手冰箱，到家后发现自己误付成12000元。随后联系对方提示账号被注销，原门店已转手，店主将其拉黑后直接人间蒸发。",
       "metrics": {
-        "heat": 5419073,
+        "heat": 5406045,
         "rank": 26
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 67.34
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 67.33
     },
     {
-      "id": "baidu:hot:“不建议小孩玩这个 因为我没玩过”",
+      "id": "baidu:hot:特朗普：我们创造了历史",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "“不建议小孩玩这个 因为我没玩过”",
+      "title": "特朗普：我们创造了历史",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%8D%E5%BB%BA%E8%AE%AE%E5%B0%8F%E5%AD%A9%E7%8E%A9%E8%BF%99%E4%B8%AA%20%E5%9B%A0%E4%B8%BA%E6%88%91%E6%B2%A1%E7%8E%A9%E8%BF%87%E2%80%9D",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/9062a9da22832ea5c9975a3cfbe58dd2",
-      "summary": "近日，湖北宜昌根雕手艺人陈孝东为女儿制作的榫卯木蜗牛走红网络。两个多月前，女儿刷到牵绳木小狗的视频心生喜爱，他便利用根雕废料动手制作。此后他又陆续打造多款榫卯玩具并分享上网，不少网友点赞调侃：“不建议小孩玩这个，因为我没玩过！”",
+      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E6%88%91%E4%BB%AC%E5%88%9B%E9%80%A0%E4%BA%86%E5%8E%86%E5%8F%B2",
+      "cover": "https://gips0.baidu.com/it/u=308596281,2706857430&fm=3028&app=3028&f=JPEG&fmt=auto&q=75&size=f1138_640",
+      "summary": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。特朗普说：“我要祝贺习主席成功举办此次APEC会议。非常成功，巨大的成功。我也很高兴，此次访问期间有机会出席历史上首次美中俄三方会晤。从这个角度来说，今天我们创造了历史。”",
       "metrics": {
-        "heat": 5315498,
+        "heat": 5324130,
         "rank": 27
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 67.26
     },
     {
-      "id": "baidu:hot:宝马首款国产新世代BMW iX3投产",
+      "id": "baidu:hot:任贤齐张信哲领衔两岸明星大合唱",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "宝马首款国产新世代BMW iX3投产",
+      "title": "任贤齐张信哲领衔两岸明星大合唱",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC%E9%A6%96%E6%AC%BE%E5%9B%BD%E4%BA%A7%E6%96%B0%E4%B8%96%E4%BB%A3BMW%20iX3%E6%8A%95%E4%BA%A7",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/406d530a7abf9296f542fbd3a238a939",
-      "summary": "11月16日，宝马中国宣布，首款国产新世代BMW iX3正式在沈阳生产基地全面投产，新车将于本月陆续开启客户交付。",
+      "url": "https://www.baidu.com/s?wd=%E4%BB%BB%E8%B4%A4%E9%BD%90%E5%BC%A0%E4%BF%A1%E5%93%B2%E9%A2%86%E8%A1%94%E4%B8%A4%E5%B2%B8%E6%98%8E%E6%98%9F%E5%A4%A7%E5%90%88%E5%94%B1",
+      "cover": "http://f7.baidu.com/it/u=1646147547,1414699691&fm=222&app=106&f=JPEG",
+      "summary": "近日，任贤齐张信哲领衔两岸明星大合唱《光阴的故事》，各种歌声交织，百听不厌。",
       "metrics": {
-        "heat": 5239332,
+        "heat": 5230735,
         "rank": 28
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 67.19
     },
     {
-      "id": "baidu:hot:香港等到了合法网约车",
+      "id": "baidu:hot:警方介入调查订婚请喝奶茶骗局",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "香港等到了合法网约车",
+      "title": "警方介入调查订婚请喝奶茶骗局",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E9%A6%99%E6%B8%AF%E7%AD%89%E5%88%B0%E4%BA%86%E5%90%88%E6%B3%95%E7%BD%91%E7%BA%A6%E8%BD%A6",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/e0eda461721a83849279f6dbb58b0568",
-      "summary": "截至10月30日，香港运输署已收到8份网约车平台牌照申请。香港拟将网约车车辆许可证上限设为1万个，建立三层发牌制度。此前，香港网约车长期游走灰色地带，的士与白牌车利益拉锯超10年。",
+      "url": "https://www.baidu.com/s?wd=%E8%AD%A6%E6%96%B9%E4%BB%8B%E5%85%A5%E8%B0%83%E6%9F%A5%E8%AE%A2%E5%A9%9A%E8%AF%B7%E5%96%9D%E5%A5%B6%E8%8C%B6%E9%AA%97%E5%B1%80",
+      "cover": "https://gips0.baidu.com/it/u=1090941182,3313807543&fm=3028&app=3028&f=PNG&fmt=auto&q=94&size=f1138_640",
+      "summary": "日前，广州黎女士轻信社媒“订婚请喝奶茶”帖子，为领68元奶茶钱，被诱导购买代金券并在视频监控下下载APP充值，导致工资扣光且透支母亲信用卡，累计损失超1.4万元。目前黎女士已报警，警方已刑事立案。",
       "metrics": {
-        "heat": 5121188,
+        "heat": 5132389,
         "rank": 29
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 67.09
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 67.1
     },
     {
-      "id": "baidu:hot:10月份全国城镇调查失业率为5.1%",
+      "id": "baidu:hot:全妆深圳美得像小说里的A市",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "10月份全国城镇调查失业率为5.1%",
+      "title": "全妆深圳美得像小说里的A市",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=10%E6%9C%88%E4%BB%BD%E5%85%A8%E5%9B%BD%E5%9F%8E%E9%95%87%E8%B0%83%E6%9F%A5%E5%A4%B1%E4%B8%9A%E7%8E%87%E4%B8%BA5.1%25",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/23498e790ec72673a3e3ee478372308e",
-      "summary": "11月16日，国家统计局公布2026年10月份国民经济运行情况，1-10月份，全国城镇调查失业率平均值为5.2%，与上年同期持平。10月份，全国城镇调查失业率为5.1%，比上月下降0.1个百分点。",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%A6%86%E6%B7%B1%E5%9C%B3%E7%BE%8E%E5%BE%97%E5%83%8F%E5%B0%8F%E8%AF%B4%E9%87%8C%E7%9A%84A%E5%B8%82",
+      "cover": "https://gips1.baidu.com/it/u=3235383819,2362610415&fm=3028&app=3028&f=PNG&fmt=auto&q=94&size=f1138_640",
+      "summary": "APEC期间，“全妆”深圳夜景火出圈，网友感叹：像小说里的A市。谈及深圳夜景与平时有何不同，视频拍摄者表示：平常的深圳夜景是鲜活的人间烟火，这次盛会之下是开放自信的城市表达。",
       "metrics": {
-        "heat": 5033418,
+        "heat": 5037938,
         "rank": 30
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 67.02
     },
     {
-      "id": "baidu:hot:莫桑比克一中国超市遭持枪抢劫",
+      "id": "baidu:hot:为何会无意识长时间看手机",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "莫桑比克一中国超市遭持枪抢劫",
+      "title": "为何会无意识长时间看手机",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E8%8E%AB%E6%A1%91%E6%AF%94%E5%85%8B%E4%B8%80%E4%B8%AD%E5%9B%BD%E8%B6%85%E5%B8%82%E9%81%AD%E6%8C%81%E6%9E%AA%E6%8A%A2%E5%8A%AB",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/4cc558b375c2fc916e0e6fc4f656e2a8",
-      "summary": "11月15日，一段莫桑比克一中国超市遭4人持枪抢劫的监控画面在网络流传。经核实，事发地位于莫桑比克中部地区，事发时两名保安被逼跪地。事发后超市负责人已报警，当地警方正处置，现场无人员伤亡。此前，驻莫桑比克使馆多次提醒在莫同胞做好安全防范工作。",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E4%BD%95%E4%BC%9A%E6%97%A0%E6%84%8F%E8%AF%86%E9%95%BF%E6%97%B6%E9%97%B4%E7%9C%8B%E6%89%8B%E6%9C%BA",
+      "cover": "https://gips3.baidu.com/it/u=2033469813,935711557&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "近日，专家表示，无意识长时间刷手机与多巴胺奖赏系统有关，视频内容不可预测的即时奖励容易让人持续观看。戒断类App虽能短期约束行为，但难以解决压力、无聊等背后的情绪问题。",
       "metrics": {
-        "heat": 4955314,
+        "heat": 4927192,
         "rank": 31
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 66.95
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 66.93
     },
     {
-      "id": "baidu:hot:APEC外宾探访华强北惊呼“应有尽有”",
+      "id": "baidu:hot:GTA6彩蛋",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "APEC外宾探访华强北惊呼“应有尽有”",
+      "title": "GTA6彩蛋",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=APEC%E5%A4%96%E5%AE%BE%E6%8E%A2%E8%AE%BF%E5%8D%8E%E5%BC%BA%E5%8C%97%E6%83%8A%E5%91%BC%E2%80%9C%E5%BA%94%E6%9C%89%E5%B0%BD%E6%9C%89%E2%80%9D",
-      "cover": "https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg",
-      "summary": "百度热搜第 32 位",
+      "url": "https://www.baidu.com/s?wd=GTA6%E5%BD%A9%E8%9B%8B",
+      "cover": "https://gips2.baidu.com/it/u=2921364899,3677229018&fm=3028&app=3028&f=PNG&fmt=auto&q=95&size=f1138_640",
+      "summary": "玩家发现《GTA6》彩蛋，GTA5经典角色崔佛现身雷奥奈达州。",
       "metrics": {
-        "heat": 4844901,
+        "heat": 4845215,
         "rank": 32
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 66.85
     },
     {
-      "id": "baidu:hot:沉迷“冷门绝学”的年轻人",
+      "id": "baidu:hot:因150元成被执行人 格力回应",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "沉迷“冷门绝学”的年轻人",
+      "title": "因150元成被执行人 格力回应",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E6%B2%89%E8%BF%B7%E2%80%9C%E5%86%B7%E9%97%A8%E7%BB%9D%E5%AD%A6%E2%80%9D%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/514635744e49760545a4fb04d119de3e",
-      "summary": "11月6日，全国首个冷门绝学学院在中国社会科学院大学成立，80余家单位加入全国冷门绝学联盟。这些濒危且门槛极高的学问吸引了一批年轻人：有人解读西域察合台文古文书，有人拼复马王堆帛书残片，有人采录满通古斯语，还有人教AI破译甲骨文，在古老文字中探寻历史真相。",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%A0150%E5%85%83%E6%88%90%E8%A2%AB%E6%89%A7%E8%A1%8C%E4%BA%BA%20%E6%A0%BC%E5%8A%9B%E5%9B%9E%E5%BA%94",
+      "cover": "https://gips3.baidu.com/it/u=2281668439,667040487&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "11月19日，格力电器回应“因150元成被执行人”称，系诉讼费滞纳产生的程序性记录。事件起因于格力起诉义乌商家违规售卖其售后工作服，经法院调解诉讼费由格力承担。11月17日该案被立案执行，格力于19日收到缴费通知后已及时完成缴费。",
       "metrics": {
-        "heat": 4740222,
+        "heat": 4755257,
         "rank": 33
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 66.76
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 66.77
     },
     {
-      "id": "baidu:hot:美的集团股价创历史新高",
+      "id": "baidu:hot:大人眼中的小事可能是孩子的全世界",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "美的集团股价创历史新高",
+      "title": "大人眼中的小事可能是孩子的全世界",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E7%9A%84%E9%9B%86%E5%9B%A2%E8%82%A1%E4%BB%B7%E5%88%9B%E5%8E%86%E5%8F%B2%E6%96%B0%E9%AB%98",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/f132740d0899ec2b5452966c8f7f1b2a",
-      "summary": "11月16日，早盘家电板块局部异动，美的集团（000333.SZ）股价创历史新高（前复权），截至16日11点，该股报91.30元/股，市值接近7000亿元。长虹美菱(000521.SZ)涨停，华帝股份(002035.SZ)、海信家电(000921.SZ)等涨幅居前。",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E4%BA%BA%E7%9C%BC%E4%B8%AD%E7%9A%84%E5%B0%8F%E4%BA%8B%E5%8F%AF%E8%83%BD%E6%98%AF%E5%AD%A9%E5%AD%90%E7%9A%84%E5%85%A8%E4%B8%96%E7%95%8C",
+      "cover": "https://gips2.baidu.com/it/u=3749447902,200956000&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "一段孩子与妈妈的对话引发共鸣。孩子想给妈妈看画并分享学校趣事，却屡被以“先洗手”“赶紧吃饭”等理由敷衍。孩子感到失落，坦言“怕你又说等会”，并渴望父母能有一天不上班，专心听自己讲话。呼吁每个孩子都值得被世界看见。",
       "metrics": {
-        "heat": 4642549,
+        "heat": 4642682,
         "rank": 34
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 66.67
     },
     {
-      "id": "baidu:hot:景区NPC扮演海鲜悬挂门上走红",
+      "id": "baidu:hot:厉娜发的流水印章盖在马赛克上",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "景区NPC扮演海鲜悬挂门上走红",
+      "title": "厉娜发的流水印章盖在马赛克上",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E6%99%AF%E5%8C%BANPC%E6%89%AE%E6%BC%94%E6%B5%B7%E9%B2%9C%E6%82%AC%E6%8C%82%E9%97%A8%E4%B8%8A%E8%B5%B0%E7%BA%A2",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/618710d6ac94b18a5b3968db88cc7396",
-      "summary": "近日，辽宁省沈阳市一景区多名工作人员被装扮成咸鱼、海龟等悬挂于景区大门上，引发网友调侃传播。11月16日，该景区工作人员回应“NPC扮演海鲜悬挂门上走红”称，该行为非固定节目，而是随机展出用于拍摄宣传视频，目前员工均为园区全职NPC，不再招聘。",
+      "url": "https://www.baidu.com/s?wd=%E5%8E%89%E5%A8%9C%E5%8F%91%E7%9A%84%E6%B5%81%E6%B0%B4%E5%8D%B0%E7%AB%A0%E7%9B%96%E5%9C%A8%E9%A9%AC%E8%B5%9B%E5%85%8B%E4%B8%8A",
+      "cover": "https://gips2.baidu.com/it/u=617725415,3422832021&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "11月20日，歌手厉娜发文回应借贷纠纷并晒出银行流水，因图中“电子印章压在马赛克上”引发网友质疑。招商银行客服回应称，官方渠道出具的流水不会出现此情况，系客户后续自行打码。",
       "metrics": {
-        "heat": 4549974,
+        "heat": 4574110,
         "rank": 35
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 66.58
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 66.6
     },
     {
-      "id": "baidu:hot:特朗普：期待参加中俄美元首会晤",
+      "id": "baidu:hot:GTA6是真经得起放大看",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "特朗普：期待参加中俄美元首会晤",
+      "title": "GTA6是真经得起放大看",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E6%9C%9F%E5%BE%85%E5%8F%82%E5%8A%A0%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/91da1211bf33934bf5b21971e64e1a6b",
-      "summary": "近日，美国总统特朗普表示期待参加中美俄元首会晤，“我即将访问中国，其中一场会晤我想会是与普京总统、习近平主席。我们会谈到很多议题。”",
+      "url": "https://www.baidu.com/s?wd=GTA6%E6%98%AF%E7%9C%9F%E7%BB%8F%E5%BE%97%E8%B5%B7%E6%94%BE%E5%A4%A7%E7%9C%8B",
+      "cover": "https://gips0.baidu.com/it/u=1586185080,3372857661&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "GTA6 5代毛巾细节对比来了！网友锐评：“GTA6是真经得起放大看。”",
       "metrics": {
-        "heat": 4467359,
+        "heat": 4446174,
         "rank": 36
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 66.5
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 66.48
     },
     {
-      "id": "baidu:hot:日本女孩坠楼后直播持续约44分钟",
+      "id": "baidu:hot:马来西亚举重新星出车祸 右臂截肢",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "日本女孩坠楼后直播持续约44分钟",
+      "title": "马来西亚举重新星出车祸 右臂截肢",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E5%A5%B3%E5%AD%A9%E5%9D%A0%E6%A5%BC%E5%90%8E%E7%9B%B4%E6%92%AD%E6%8C%81%E7%BB%AD%E7%BA%A644%E5%88%86%E9%92%9F",
-      "cover": "https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg",
-      "summary": "百度热搜第 37 位",
+      "url": "https://www.baidu.com/s?wd=%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E4%B8%BE%E9%87%8D%E6%96%B0%E6%98%9F%E5%87%BA%E8%BD%A6%E7%A5%B8%20%E5%8F%B3%E8%87%82%E6%88%AA%E8%82%A2",
+      "cover": "https://gips2.baidu.com/it/u=445154644,2035651665&fm=3028&app=3028&f=PNG&fmt=auto&q=99&size=f1138_640",
+      "summary": "11月19日，马来西亚举重总会会长表示，21岁举重运动员哈菲祖丁在交通事故后右臂截肢，目前伤势稳定。此前周一晚，他在高速公路骑行时失控受伤，在吉隆坡医院接受了7小时手术。",
       "metrics": {
-        "heat": 4349256,
+        "heat": 4354406,
         "rank": 37
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 66.38
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 66.39
     },
     {
-      "id": "baidu:hot:《伟大的长征》圆满收官",
+      "id": "baidu:hot:16年老蛋饼摊走红 外国客人占一半",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "《伟大的长征》圆满收官",
+      "title": "16年老蛋饼摊走红 外国客人占一半",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E4%BC%9F%E5%A4%A7%E7%9A%84%E9%95%BF%E5%BE%81%E3%80%8B%E5%9C%86%E6%BB%A1%E6%94%B6%E5%AE%98",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/2a904b4d57a630b9b99c3a294d8fdefc",
-      "summary": "11月16日，60集重大革命题材电视剧《伟大的长征》圆满收官。此前该剧自10月9日开播，集均收视率居CVB上线7年来革命题材剧第一，累计收视12.7亿人次，全媒触达75亿人次，豆瓣评分8.8。该剧全景式呈现长征历程，引发年轻群体共鸣。",
+      "url": "https://www.baidu.com/s?wd=16%E5%B9%B4%E8%80%81%E8%9B%8B%E9%A5%BC%E6%91%8A%E8%B5%B0%E7%BA%A2%20%E5%A4%96%E5%9B%BD%E5%AE%A2%E4%BA%BA%E5%8D%A0%E4%B8%80%E5%8D%8A",
+      "cover": "https://gips0.baidu.com/it/u=690580034,329928245&fm=3028&app=3028&f=PNG&fmt=auto&q=94&size=f1138_640",
+      "summary": "11月中旬，上海黄浦区定兴路一家16年老蛋饼摊走红，外国顾客占一半。此前，该摊因海外背包客旅行分享吸引游客慕名而来。摊主周师傅表示，坚持传统做法不改口味，每天凌晨4点备货，走红未改其心态，且因人手不足已拒绝加盟。",
       "metrics": {
-        "heat": 4260179,
+        "heat": 4253731,
         "rank": 38
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 66.29
     },
     {
-      "id": "baidu:hot:谁还没吃上草垛糖葫芦",
+      "id": "baidu:hot:网红NPC“唐僧”回应走红",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "谁还没吃上草垛糖葫芦",
+      "title": "网红NPC“唐僧”回应走红",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E8%B0%81%E8%BF%98%E6%B2%A1%E5%90%83%E4%B8%8A%E8%8D%89%E5%9E%9B%E7%B3%96%E8%91%AB%E8%8A%A6",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/5f0f674ab3d701fb2aa24040daafddf0",
-      "summary": "近日，外形酷似草垛的特色糖葫芦走红网络，不少网友前去打卡品尝，并在社交平台晒图分享。",
+      "url": "https://www.baidu.com/s?wd=%E7%BD%91%E7%BA%A2NPC%E2%80%9C%E5%94%90%E5%83%A7%E2%80%9D%E5%9B%9E%E5%BA%94%E8%B5%B0%E7%BA%A2",
+      "cover": "https://gips2.baidu.com/it/u=4153886805,3939601071&fm=3028&app=3028&f=PNG&fmt=auto&q=96&size=f1138_640",
+      "summary": "网红NPC“唐僧”闫东凭借“女儿国”互动走红，他受访称早年戏曲行业不景气，曾做驻唱、网约车司机谋生，过往经历都是财富；他认为当下这条路选对了，圆了儿时的明星梦，但主演剧目排练压力大，长期失眠，个人时间十分有限。",
       "metrics": {
-        "heat": 4157373,
+        "heat": 4162992,
         "rank": 39
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 66.19
     },
     {
-      "id": "baidu:hot:人民日报评维修刺客：变味的业绩考核",
+      "id": "baidu:hot:中小机场有的一日运送旅客不足10人",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "人民日报评维修刺客：变味的业绩考核",
+      "title": "中小机场有的一日运送旅客不足10人",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E7%BB%B4%E4%BF%AE%E5%88%BA%E5%AE%A2%EF%BC%9A%E5%8F%98%E5%91%B3%E7%9A%84%E4%B8%9A%E7%BB%A9%E8%80%83%E6%A0%B8",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/2067e05385f71ebaf3d58192e8578a58",
-      "summary": "近日，媒体实测发现，在啄木鸟、天鹅到家、58到家等平台报修燃气灶换电池，多名维修人员小病大修、虚高收费。前维修工人报料称，平台高额抽成、设置最低客单价，不合理考核催生“维修刺客”。人民日报就此发声，呼吁调整考核机制，落实常态化监管。",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%B0%8F%E6%9C%BA%E5%9C%BA%E6%9C%89%E7%9A%84%E4%B8%80%E6%97%A5%E8%BF%90%E9%80%81%E6%97%85%E5%AE%A2%E4%B8%8D%E8%B6%B310%E4%BA%BA",
+      "cover": "https://gips0.baidu.com/it/u=4220494487,4004735404&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "2026年前10个月，重庆仙女山、云南泸沽湖等中小机场客运航班归零，湖北神农架机场日均运送旅客不足10人。受高铁与公路网络冲击，部分中小机场客流锐减。然而，这些机场2026年仍获数百万至上亿元补贴，全国补贴预算达25.84亿元。",
       "metrics": {
-        "heat": 4087298,
+        "heat": 4078344,
         "rank": 40
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 66.11
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 66.1
     },
     {
-      "id": "baidu:hot:美国空管缝缝补补又三年 终于补崩了",
+      "id": "baidu:hot:香蕉由黑返黄背后的故事",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "美国空管缝缝补补又三年 终于补崩了",
+      "title": "香蕉由黑返黄背后的故事",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E7%A9%BA%E7%AE%A1%E7%BC%9D%E7%BC%9D%E8%A1%A5%E8%A1%A5%E5%8F%88%E4%B8%89%E5%B9%B4%20%E7%BB%88%E4%BA%8E%E8%A1%A5%E5%B4%A9%E4%BA%86",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/28d7d41cb48673d8278a5a32993a3921",
-      "summary": "当地时间11月13日，美国FAA空管网络因老旧设备在线路升级中过载异常，触发全美停飞超4小时，两天取消航班超1.5万架次。这背后是美国空管系统普遍老化、升级推进迟缓，管制员人手不足，长期靠局部修补维持运行，资金落地与工程统筹能力存疑。",
+      "url": "https://www.baidu.com/s?wd=%E9%A6%99%E8%95%89%E7%94%B1%E9%BB%91%E8%BF%94%E9%BB%84%E8%83%8C%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B",
+      "cover": "https://gips3.baidu.com/it/u=3903599154,3067537025&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f744_416",
+      "summary": "百度热搜第 41 位",
       "metrics": {
-        "heat": 3983347,
+        "heat": 3979764,
         "rank": 41
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 66
     },
     {
-      "id": "baidu:hot:电影《沙丘》系列重映",
+      "id": "baidu:hot:信用卡近一年减少3400万张",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "电影《沙丘》系列重映",
+      "title": "信用卡近一年减少3400万张",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E5%BD%B1%E3%80%8A%E6%B2%99%E4%B8%98%E3%80%8B%E7%B3%BB%E5%88%97%E9%87%8D%E6%98%A0",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/7dea08e95522e1827f11015a1e6faeee",
-      "summary": "命运复归初始，异星征程再启，重访厄拉科斯，见证英雄史诗。 电影《沙丘》《沙丘2》将分别于11月27日、12月4日以IMAX/CINITY制式在内地重映。",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%A1%E7%94%A8%E5%8D%A1%E8%BF%91%E4%B8%80%E5%B9%B4%E5%87%8F%E5%B0%913400%E4%B8%87%E5%BC%A0",
+      "cover": "https://gips2.baidu.com/it/u=2222403703,1202126962&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "11月18日，央行披露三季度末全国信用卡数量较一年前减少3400万张，已连续16个季度下降。此前2022年监管新规要求银行不得以发卡量为主要考核指标。随后银行开始清理睡眠卡，年内17家信用卡中心终止营业，目前银行已转向深耕存量客户价值。",
       "metrics": {
-        "heat": 3892090,
+        "heat": 3879685,
         "rank": 42
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 65.9
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 65.89
     },
     {
-      "id": "baidu:hot:漫威三巨头首次国内线下同框",
+      "id": "baidu:hot:APEC全家福围巾 大有门道",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "漫威三巨头首次国内线下同框",
+      "title": "APEC全家福围巾 大有门道",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E6%BC%AB%E5%A8%81%E4%B8%89%E5%B7%A8%E5%A4%B4%E9%A6%96%E6%AC%A1%E5%9B%BD%E5%86%85%E7%BA%BF%E4%B8%8B%E5%90%8C%E6%A1%86",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/e78004b1ea6cdf5d0c6e268d18214c09",
-      "summary": "近日，《复仇者联盟5》主创正式官宣来华，唐尼、桃总、海总将迎国内首次线下同框。目前官方预告已发布，引影迷热烈讨论，且有消息称旺达疑似回归。",
+      "url": "https://www.baidu.com/s?wd=APEC%E5%85%A8%E5%AE%B6%E7%A6%8F%E5%9B%B4%E5%B7%BE%20%E5%A4%A7%E6%9C%89%E9%97%A8%E9%81%93",
+      "cover": "https://gips3.baidu.com/it/u=1768322943,3167966003&fm=3028&app=3028&f=PNG&fmt=auto&q=96&size=f1138_640",
+      "summary": "11月19日，亚太经合组织第33次领导人非正式会议在深圳举行，各经济体领导人佩戴特色围巾拍摄“全家福”。该围巾名为“同心合锦”，由香云纱、宋锦、粤绣、苏绣四项非遗技艺汇于一身，并巧妙融入21根蚕丝线，寓意21个成员经济体紧密合作、互利共赢。",
       "metrics": {
-        "heat": 3802356,
+        "heat": 3808803,
         "rank": 43
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 65.8
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 65.81
     },
     {
-      "id": "baidu:hot:“流星雨之王”将迎来极大期",
+      "id": "baidu:hot:女友捂死3岁女儿 生父回应冷血不哭",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "“流星雨之王”将迎来极大期",
+      "title": "女友捂死3岁女儿 生父回应冷血不哭",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%B5%81%E6%98%9F%E9%9B%A8%E4%B9%8B%E7%8E%8B%E2%80%9D%E5%B0%86%E8%BF%8E%E6%9D%A5%E6%9E%81%E5%A4%A7%E6%9C%9F",
-      "cover": "https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg",
-      "summary": "百度热搜第 44 位",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%8F%8B%E6%8D%82%E6%AD%BB3%E5%B2%81%E5%A5%B3%E5%84%BF%20%E7%94%9F%E7%88%B6%E5%9B%9E%E5%BA%94%E5%86%B7%E8%A1%80%E4%B8%8D%E5%93%AD",
+      "cover": "https://gips2.baidu.com/it/u=1630367262,300383465&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "3岁女童被生父女友捂死案11月18日宣判，邱某犯故意杀人罪被判无期徒刑。女童生父尹先生回应网友说他“冷血不哭”的质疑。",
       "metrics": {
-        "heat": 3705756,
+        "heat": 3681471,
         "rank": 44
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 65.69
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 65.66
     },
     {
-      "id": "baidu:hot:辽宁鞍山通报“建筑垃圾非法倾倒”",
+      "id": "baidu:hot:APEC红蓝围巾是怎么分的",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "辽宁鞍山通报“建筑垃圾非法倾倒”",
+      "title": "APEC红蓝围巾是怎么分的",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E8%BE%BD%E5%AE%81%E9%9E%8D%E5%B1%B1%E9%80%9A%E6%8A%A5%E2%80%9C%E5%BB%BA%E7%AD%91%E5%9E%83%E5%9C%BE%E9%9D%9E%E6%B3%95%E5%80%BE%E5%80%92%E2%80%9D",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/7dc7175b28ced3ae66ae3b76b60b8f75",
-      "summary": "11月15日，央视《财经调查》曝光鞍山市存在建筑垃圾非法倾倒问题。11月16日，鞍山市城管局通报，事发后鞍山市委、市政府连夜部署，组建专项工作组，在全市范围开展排查整治工作。",
+      "url": "https://www.baidu.com/s?wd=APEC%E7%BA%A2%E8%93%9D%E5%9B%B4%E5%B7%BE%E6%98%AF%E6%80%8E%E4%B9%88%E5%88%86%E7%9A%84",
+      "cover": "https://gips3.baidu.com/it/u=3482927304,3420003414&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f1138_640",
+      "summary": "近日APEC合影出炉后，领导人红蓝围巾怎么分引发关注。设计团队表示，围巾颜色全凭领导人自己挑选。该款围巾名为“同心合锦”，红蓝两色分别采用顺德香云纱与苏州宋锦。",
       "metrics": {
-        "heat": 3597649,
+        "heat": 3587247,
         "rank": 45
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 65.56
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 65.55
     },
     {
-      "id": "baidu:hot:APEC成员墨西哥2028年将再任东道主",
+      "id": "baidu:hot:全国多地延长婚假",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "APEC成员墨西哥2028年将再任东道主",
+      "title": "全国多地延长婚假",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=APEC%E6%88%90%E5%91%98%E5%A2%A8%E8%A5%BF%E5%93%A52028%E5%B9%B4%E5%B0%86%E5%86%8D%E4%BB%BB%E4%B8%9C%E9%81%93%E4%B8%BB",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/5727c7ab80df55b881cf674ebc3cab1c",
-      "summary": "2028年，墨西哥将再次担任亚太经合组织（APEC）东道主。此前，墨西哥曾在洛斯卡沃斯举办过APEC第10次领导人非正式会议。作为中国在拉美地区的重要贸易伙伴，近年来中墨双边贸易与投资稳步增长，2025年中墨贸易总额达1093.7亿美元。",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E5%A4%9A%E5%9C%B0%E5%BB%B6%E9%95%BF%E5%A9%9A%E5%81%87",
+      "cover": "https://gips1.baidu.com/it/u=3213779519,2313967683&fm=3028&app=3028&f=PNG&fmt=auto&q=100&size=f1138_640",
+      "summary": "近日，全国已有29个省区市完成婚假延长的地方立法或政策修订，山西、甘肃婚假最长达30天，四川婚假20天，婚检可额外增加5天，河南、黑龙江等地婚假叠加婚检奖励后可达25至28天。",
       "metrics": {
-        "heat": 3511528,
+        "heat": 3515436,
         "rank": 46
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 65.45
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 65.46
     },
     {
-      "id": "baidu:hot:APEC来了 深圳准备好了",
+      "id": "baidu:hot:湖北云梦秦墓有重要发现",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "APEC来了 深圳准备好了",
+      "title": "湖北云梦秦墓有重要发现",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=APEC%E6%9D%A5%E4%BA%86%20%E6%B7%B1%E5%9C%B3%E5%87%86%E5%A4%87%E5%A5%BD%E4%BA%86",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/9d6f6f9953118a09ba76050f0c3424ea",
-      "summary": "APEC来了，迎接世界的不仅是会议场馆，还有入境口岸与城市中的普通人。主播骑遇未来之城，让我们跟随主播们的镜头，一同感受这里的迎宾氛围。",
+      "url": "https://www.baidu.com/s?wd=%E6%B9%96%E5%8C%97%E4%BA%91%E6%A2%A6%E7%A7%A6%E5%A2%93%E6%9C%89%E9%87%8D%E8%A6%81%E5%8F%91%E7%8E%B0",
+      "cover": "https://gips2.baidu.com/it/u=783911740,2729559595&fm=3028&app=3028&f=PNG&fmt=auto&q=94&size=f1138_640",
+      "summary": "11月18日，国家文物局发布最新考古成果，湖北省云梦县老虎墩墓地出土大批简牍及漆木器。此次首次发现秦代“亭”一级机构守御器簿及女性道德教化材料，以微观视角呈现秦代基层治理与社会生活，填补了相关领域空白。",
       "metrics": {
-        "heat": 3406810,
+        "heat": 3416032,
         "rank": 47
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 65.32
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 65.34
     },
     {
-      "id": "baidu:hot:深圳主打一个听劝",
+      "id": "baidu:hot:东莞情侣拖行李箱来水贝买黄金",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "深圳主打一个听劝",
+      "title": "东莞情侣拖行李箱来水贝买黄金",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E6%B7%B1%E5%9C%B3%E4%B8%BB%E6%89%93%E4%B8%80%E4%B8%AA%E5%90%AC%E5%8A%9D",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/845279d19c556b29f6a305e817b770cc",
-      "summary": "深圳主打一个听劝！市民、网友提出各类诉求后，当地快速响应整改：为小动物开通鲲鹏径一号桥，连夜改造不合理盲道，还开通“晨曦特快”，满足大家坐地铁看海上日出的心愿，收获众多网友点赞。",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%9C%E8%8E%9E%E6%83%85%E4%BE%A3%E6%8B%96%E8%A1%8C%E6%9D%8E%E7%AE%B1%E6%9D%A5%E6%B0%B4%E8%B4%9D%E4%B9%B0%E9%BB%84%E9%87%91",
+      "cover": "https://gips3.baidu.com/it/u=3903599154,3067537025&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f744_416",
+      "summary": "百度热搜第 48 位",
       "metrics": {
-        "heat": 3299100,
+        "heat": 3296772,
         "rank": 48
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
       "score": 65.18
     },
     {
-      "id": "baidu:hot:落后小渔村变成现代化国际大都市",
+      "id": "baidu:hot:泰总理路过深圳南头古城摄影馆驻足",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "落后小渔村变成现代化国际大都市",
+      "title": "泰总理路过深圳南头古城摄影馆驻足",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E8%90%BD%E5%90%8E%E5%B0%8F%E6%B8%94%E6%9D%91%E5%8F%98%E6%88%90%E7%8E%B0%E4%BB%A3%E5%8C%96%E5%9B%BD%E9%99%85%E5%A4%A7%E9%83%BD%E5%B8%82",
-      "cover": "https://fyb-2.cdn.bcebos.com/hotboard_image/bc791a5511c6787bff3a3b8ceba37abb",
-      "summary": "几十年间，深圳从一个落后的小渔村发展成为现代化国际大都市，是中国人民创造的世界发展史上的一个奇迹，也是中国坚定不移奉行互利共赢开放战略的重要窗口。",
+      "url": "https://www.baidu.com/s?wd=%E6%B3%B0%E6%80%BB%E7%90%86%E8%B7%AF%E8%BF%87%E6%B7%B1%E5%9C%B3%E5%8D%97%E5%A4%B4%E5%8F%A4%E5%9F%8E%E6%91%84%E5%BD%B1%E9%A6%86%E9%A9%BB%E8%B6%B3",
+      "cover": "https://gips3.baidu.com/it/u=3903599154,3067537025&fm=3028&app=3028&f=PNG&fmt=auto&q=75&size=f744_416",
+      "summary": "百度热搜第 49 位",
       "metrics": {
-        "heat": 3196080,
+        "heat": 3224459,
         "rank": 49
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 65.05
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 65.08
     },
     {
-      "id": "baidu:hot:安徽一游乐设施故障游客被困空中",
+      "id": "baidu:hot:GTA6全载具整理",
       "platform": "baidu",
       "category": "hot-search",
-      "title": "安徽一游乐设施故障游客被困空中",
+      "title": "GTA6全载具整理",
       "author": null,
-      "url": "https://www.baidu.com/s?wd=%E5%AE%89%E5%BE%BD%E4%B8%80%E6%B8%B8%E4%B9%90%E8%AE%BE%E6%96%BD%E6%95%85%E9%9A%9C%E6%B8%B8%E5%AE%A2%E8%A2%AB%E5%9B%B0%E7%A9%BA%E4%B8%AD",
-      "cover": "https://fyb-1.cdn.bcebos.com/fyb/de6163834f53ca92c1273fff98ac9078.jpeg",
-      "summary": "百度热搜第 50 位",
+      "url": "https://www.baidu.com/s?wd=GTA6%E5%85%A8%E8%BD%BD%E5%85%B7%E6%95%B4%E7%90%86",
+      "cover": "https://gips1.baidu.com/it/u=4053074560,340475031&fm=3028&app=3028&f=PNG&fmt=auto&q=99&size=f1138_640",
+      "summary": "近日，《侠盗猎车手 6》（GTA 6）已正式发售，全载具整理出炉。",
       "metrics": {
-        "heat": 3103587,
+        "heat": 3121747,
         "rank": 50
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 64.92
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 64.94
     },
     {
-      "id": "weibo:hot:年轻人的性生活为什么越来越少了",
+      "id": "weibo:hot:日方称中方接待高市早苗符合惯例",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "年轻人的性生活为什么越来越少了",
+      "title": "日方称中方接待高市早苗符合惯例",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E6%80%A7%E7%94%9F%E6%B4%BB%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%B0%91%E4%BA%86",
+      "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%96%B9%E7%A7%B0%E4%B8%AD%E6%96%B9%E6%8E%A5%E5%BE%85%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E7%AC%A6%E5%90%88%E6%83%AF%E4%BE%8B",
       "cover": null,
       "summary": "微博热搜第 4 位 · 新",
       "metrics": {
-        "heat": 544297,
+        "heat": 623691,
         "rank": 4
       },
       "comments": [],
@@ -2193,20 +2233,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 63.36
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 63.95
     },
     {
-      "id": "weibo:hot:赵本山祖孙三代唱慌啥子嘛",
+      "id": "weibo:hot:曝青稚选择白小纯的原因",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "赵本山祖孙三代唱慌啥子嘛",
+      "title": "曝青稚选择白小纯的原因",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E8%B5%B5%E6%9C%AC%E5%B1%B1%E7%A5%96%E5%AD%99%E4%B8%89%E4%BB%A3%E5%94%B1%E6%85%8C%E5%95%A5%E5%AD%90%E5%98%9B",
+      "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E9%9D%92%E7%A8%9A%E9%80%89%E6%8B%A9%E7%99%BD%E5%B0%8F%E7%BA%AF%E7%9A%84%E5%8E%9F%E5%9B%A0",
       "cover": null,
       "summary": "微博热搜第 5 位 · 新",
       "metrics": {
-        "heat": 525551,
+        "heat": 548976,
         "rank": 5
       },
       "comments": [],
@@ -2218,20 +2258,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 63.21
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 63.4
     },
     {
-      "id": "weibo:hot:AI演员方桃子代言美瞳广告被罚",
+      "id": "weibo:hot:泽连斯基回应特朗普称普京为朋友",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "AI演员方桃子代言美瞳广告被罚",
+      "title": "泽连斯基回应特朗普称普京为朋友",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=AI%E6%BC%94%E5%91%98%E6%96%B9%E6%A1%83%E5%AD%90%E4%BB%A3%E8%A8%80%E7%BE%8E%E7%9E%B3%E5%B9%BF%E5%91%8A%E8%A2%AB%E7%BD%9A",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E6%99%AE%E4%BA%AC%E4%B8%BA%E6%9C%8B%E5%8F%8B",
       "cover": null,
-      "summary": "微博热搜第 6 位 · 新",
+      "summary": "微博热搜第 6 位",
       "metrics": {
-        "heat": 478369,
+        "heat": 541436,
         "rank": 6
       },
       "comments": [],
@@ -2243,45 +2283,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 62.8
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 63.34
     },
     {
-      "id": "weibo:hot:央视见证大众8x智能辅助驾驶实力",
+      "id": "weibo:hot:Knight黄金左手是这样来的",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "央视见证大众8x智能辅助驾驶实力",
+      "title": "Knight黄金左手是这样来的",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E8%A7%81%E8%AF%81%E5%A4%A7%E4%BC%978x%E6%99%BA%E8%83%BD%E8%BE%85%E5%8A%A9%E9%A9%BE%E9%A9%B6%E5%AE%9E%E5%8A%9B",
+      "url": "https://s.weibo.com/weibo?q=Knight%E9%BB%84%E9%87%91%E5%B7%A6%E6%89%8B%E6%98%AF%E8%BF%99%E6%A0%B7%E6%9D%A5%E7%9A%84",
       "cover": null,
-      "summary": "微博热搜第 5 位 · 火热",
+      "summary": "微博热搜第 7 位 · 新",
       "metrics": {
-        "heat": 467038,
-        "rank": 5
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "📈 前十",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 62.69
-    },
-    {
-      "id": "weibo:hot:胖东来羊毛衫进价97售价133",
-      "platform": "weibo",
-      "category": "hot-search",
-      "title": "胖东来羊毛衫进价97售价133",
-      "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E8%83%96%E4%B8%9C%E6%9D%A5%E7%BE%8A%E6%AF%9B%E8%A1%AB%E8%BF%9B%E4%BB%B797%E5%94%AE%E4%BB%B7133",
-      "cover": null,
-      "summary": "微博热搜第 7 位",
-      "metrics": {
-        "heat": 365050,
+        "heat": 474676,
         "rank": 7
       },
       "comments": [],
@@ -2293,20 +2308,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 61.62
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 62.76
     },
     {
-      "id": "weibo:hot:A股还要调整多久",
+      "id": "weibo:hot:MAMA红毯",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "A股还要调整多久",
+      "title": "MAMA红毯",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E8%BF%98%E8%A6%81%E8%B0%83%E6%95%B4%E5%A4%9A%E4%B9%85",
+      "url": "https://s.weibo.com/weibo?q=MAMA%E7%BA%A2%E6%AF%AF",
       "cover": null,
-      "summary": "微博热搜第 8 位 · 新",
+      "summary": "微博热搜第 8 位",
       "metrics": {
-        "heat": 328505,
+        "heat": 437891,
         "rank": 8
       },
       "comments": [],
@@ -2318,20 +2333,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 61.17
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 62.41
     },
     {
-      "id": "weibo:hot:A股调整近4300股下跌",
+      "id": "weibo:hot:2026APEC东道主成果清单",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "A股调整近4300股下跌",
+      "title": "2026APEC东道主成果清单",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E8%B0%83%E6%95%B4%E8%BF%914300%E8%82%A1%E4%B8%8B%E8%B7%8C",
+      "url": "https://s.weibo.com/weibo?q=2026APEC%E4%B8%9C%E9%81%93%E4%B8%BB%E6%88%90%E6%9E%9C%E6%B8%85%E5%8D%95",
       "cover": null,
-      "summary": "微博热搜第 9 位 · 新",
+      "summary": "微博热搜第 9 位",
       "metrics": {
-        "heat": 320028,
+        "heat": 432432,
         "rank": 9
       },
       "comments": [],
@@ -2343,20 +2358,20 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 61.05
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 62.36
     },
     {
-      "id": "weibo:hot:奔跑吧大湾区篇官宣嘉宾阵容",
+      "id": "weibo:hot:华为星芒阔直板配置汇总",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "奔跑吧大湾区篇官宣嘉宾阵容",
+      "title": "华为星芒阔直板配置汇总",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%A5%94%E8%B7%91%E5%90%A7%E5%A4%A7%E6%B9%BE%E5%8C%BA%E7%AF%87%E5%AE%98%E5%AE%A3%E5%98%89%E5%AE%BE%E9%98%B5%E5%AE%B9",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E6%98%9F%E8%8A%92%E9%98%94%E7%9B%B4%E6%9D%BF%E9%85%8D%E7%BD%AE%E6%B1%87%E6%80%BB",
       "cover": null,
-      "summary": "微博热搜第 10 位",
+      "summary": "微博热搜第 10 位 · 新",
       "metrics": {
-        "heat": 287922,
+        "heat": 412728,
         "rank": 10
       },
       "comments": [],
@@ -2368,768 +2383,768 @@
         }
       ],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 60.59
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 62.16
     },
     {
-      "id": "weibo:hot:黄仁勋要夺回英伟达",
+      "id": "weibo:hot:股市",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "黄仁勋要夺回英伟达",
+      "title": "股市",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E8%A6%81%E5%A4%BA%E5%9B%9E%E8%8B%B1%E4%BC%9F%E8%BE%BE",
+      "url": "https://s.weibo.com/weibo?q=%E8%82%A1%E5%B8%82",
       "cover": null,
-      "summary": "微博热搜第 11 位 · 新",
+      "summary": "微博热搜第 11 位 · 沸",
       "metrics": {
-        "heat": 287510,
+        "heat": 393365,
         "rank": 11
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.59
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 58.95
     },
     {
-      "id": "weibo:hot:虞书欣围裙照删除了",
+      "id": "weibo:hot:文吉儿一靠近王子璇就转身",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "虞书欣围裙照删除了",
+      "title": "文吉儿一靠近王子璇就转身",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3%E5%9B%B4%E8%A3%99%E7%85%A7%E5%88%A0%E9%99%A4%E4%BA%86",
+      "url": "https://s.weibo.com/weibo?q=%E6%96%87%E5%90%89%E5%84%BF%E4%B8%80%E9%9D%A0%E8%BF%91%E7%8E%8B%E5%AD%90%E7%92%87%E5%B0%B1%E8%BD%AC%E8%BA%AB",
       "cover": null,
       "summary": "微博热搜第 12 位 · 热",
       "metrics": {
-        "heat": 286337,
+        "heat": 368827,
         "rank": 12
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.57
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 58.67
     },
     {
-      "id": "weibo:hot:DeepSeek使用额度已达上限",
+      "id": "weibo:hot:曝郑恺高中成绩一直班级倒数十名",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "DeepSeek使用额度已达上限",
+      "title": "曝郑恺高中成绩一直班级倒数十名",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=DeepSeek%E4%BD%BF%E7%94%A8%E9%A2%9D%E5%BA%A6%E5%B7%B2%E8%BE%BE%E4%B8%8A%E9%99%90",
+      "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E9%83%91%E6%81%BA%E9%AB%98%E4%B8%AD%E6%88%90%E7%BB%A9%E4%B8%80%E7%9B%B4%E7%8F%AD%E7%BA%A7%E5%80%92%E6%95%B0%E5%8D%81%E5%90%8D",
       "cover": null,
-      "summary": "微博热搜第 13 位 · 新",
+      "summary": "微博热搜第 13 位 · 热",
       "metrics": {
-        "heat": 284628,
+        "heat": 359940,
         "rank": 13
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.54
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 58.56
     },
     {
-      "id": "weibo:hot:14岁日本女孩直播从阳台坠落",
+      "id": "weibo:hot:孙俪女儿拉丁舞比赛被人撞倒2次",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "14岁日本女孩直播从阳台坠落",
+      "title": "孙俪女儿拉丁舞比赛被人撞倒2次",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=14%E5%B2%81%E6%97%A5%E6%9C%AC%E5%A5%B3%E5%AD%A9%E7%9B%B4%E6%92%AD%E4%BB%8E%E9%98%B3%E5%8F%B0%E5%9D%A0%E8%90%BD",
+      "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E4%BF%AA%E5%A5%B3%E5%84%BF%E6%8B%89%E4%B8%81%E8%88%9E%E6%AF%94%E8%B5%9B%E8%A2%AB%E4%BA%BA%E6%92%9E%E5%80%922%E6%AC%A1",
       "cover": null,
-      "summary": "微博热搜第 14 位 · 热",
+      "summary": "微博热搜第 14 位 · 新",
       "metrics": {
-        "heat": 283497,
+        "heat": 336088,
         "rank": 14
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.53
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 58.26
     },
     {
-      "id": "weibo:hot:曝厉娜卷入借贷纠纷",
+      "id": "weibo:hot:文班亚马跳投式扣篮",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "曝厉娜卷入借贷纠纷",
+      "title": "文班亚马跳投式扣篮",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E5%8E%89%E5%A8%9C%E5%8D%B7%E5%85%A5%E5%80%9F%E8%B4%B7%E7%BA%A0%E7%BA%B7",
+      "url": "https://s.weibo.com/weibo?q=%E6%96%87%E7%8F%AD%E4%BA%9A%E9%A9%AC%E8%B7%B3%E6%8A%95%E5%BC%8F%E6%89%A3%E7%AF%AE",
       "cover": null,
-      "summary": "微博热搜第 15 位 · 新",
+      "summary": "微博热搜第 15 位",
       "metrics": {
-        "heat": 281450,
+        "heat": 332307,
         "rank": 15
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.49
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 58.22
     },
     {
-      "id": "weibo:hot:享界V8连发100张海报",
+      "id": "weibo:hot:张萌和许飞吃了4个小时的饭",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "享界V8连发100张海报",
+      "title": "张萌和许飞吃了4个小时的饭",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E4%BA%AB%E7%95%8CV8%E8%BF%9E%E5%8F%91100%E5%BC%A0%E6%B5%B7%E6%8A%A5",
+      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%90%8C%E5%92%8C%E8%AE%B8%E9%A3%9E%E5%90%83%E4%BA%864%E4%B8%AA%E5%B0%8F%E6%97%B6%E7%9A%84%E9%A5%AD",
       "cover": null,
-      "summary": "微博热搜第 16 位 · 新",
+      "summary": "微博热搜第 16 位",
       "metrics": {
-        "heat": 281146,
+        "heat": 327680,
         "rank": 16
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.49
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 58.15
     },
     {
-      "id": "weibo:hot:Lisa赌场表演争议",
+      "id": "weibo:hot:女友捂死3岁女儿生父回应冷血不哭",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "Lisa赌场表演争议",
+      "title": "女友捂死3岁女儿生父回应冷血不哭",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=Lisa%E8%B5%8C%E5%9C%BA%E8%A1%A8%E6%BC%94%E4%BA%89%E8%AE%AE",
+      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%8F%8B%E6%8D%82%E6%AD%BB3%E5%B2%81%E5%A5%B3%E5%84%BF%E7%94%9F%E7%88%B6%E5%9B%9E%E5%BA%94%E5%86%B7%E8%A1%80%E4%B8%8D%E5%93%AD",
       "cover": null,
-      "summary": "微博热搜第 17 位",
+      "summary": "微博热搜第 17 位 · 热",
       "metrics": {
-        "heat": 279113,
+        "heat": 314873,
         "rank": 17
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.46
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 57.98
     },
     {
-      "id": "weibo:hot:蒋欣李光洁回复王安宇",
+      "id": "weibo:hot:于适优雅之家同款打卡照",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "蒋欣李光洁回复王安宇",
+      "title": "于适优雅之家同款打卡照",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E8%92%8B%E6%AC%A3%E6%9D%8E%E5%85%89%E6%B4%81%E5%9B%9E%E5%A4%8D%E7%8E%8B%E5%AE%89%E5%AE%87",
+      "url": "https://s.weibo.com/weibo?q=%E4%BA%8E%E9%80%82%E4%BC%98%E9%9B%85%E4%B9%8B%E5%AE%B6%E5%90%8C%E6%AC%BE%E6%89%93%E5%8D%A1%E7%85%A7",
       "cover": null,
-      "summary": "微博热搜第 18 位",
+      "summary": "微博热搜第 18 位 · 新",
       "metrics": {
-        "heat": 277694,
+        "heat": 307442,
         "rank": 18
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.44
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 57.88
     },
     {
-      "id": "weibo:hot:高迪好友力挺高迪",
+      "id": "weibo:hot:厉娜戴了情侣对戒",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "高迪好友力挺高迪",
+      "title": "厉娜戴了情侣对戒",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%BF%AA%E5%A5%BD%E5%8F%8B%E5%8A%9B%E6%8C%BA%E9%AB%98%E8%BF%AA",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E6%88%B4%E4%BA%86%E6%83%85%E4%BE%A3%E5%AF%B9%E6%88%92",
       "cover": null,
       "summary": "微博热搜第 19 位",
       "metrics": {
-        "heat": 276471,
+        "heat": 295671,
         "rank": 19
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.42
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 57.71
     },
     {
-      "id": "weibo:hot:A股行情",
+      "id": "weibo:hot:华为星芒品牌发布会",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "A股行情",
+      "title": "华为星芒品牌发布会",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E8%A1%8C%E6%83%85",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E6%98%9F%E8%8A%92%E5%93%81%E7%89%8C%E5%8F%91%E5%B8%83%E4%BC%9A",
       "cover": null,
-      "summary": "微博热搜第 20 位 · 新",
+      "summary": "微博热搜第 20 位",
       "metrics": {
-        "heat": 276136,
+        "heat": 285211,
         "rank": 20
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 57.41
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 57.55
     },
     {
-      "id": "weibo:hot:王子璇好能读懂文吉儿的言下之意",
+      "id": "weibo:hot:童家堡首发",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "王子璇好能读懂文吉儿的言下之意",
+      "title": "童家堡首发",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%AD%90%E7%92%87%E5%A5%BD%E8%83%BD%E8%AF%BB%E6%87%82%E6%96%87%E5%90%89%E5%84%BF%E7%9A%84%E8%A8%80%E4%B8%8B%E4%B9%8B%E6%84%8F",
+      "url": "https://s.weibo.com/weibo?q=%E7%AB%A5%E5%AE%B6%E5%A0%A1%E9%A6%96%E5%8F%91",
       "cover": null,
-      "summary": "微博热搜第 21 位 · 热",
+      "summary": "微博热搜第 21 位 · 新",
       "metrics": {
-        "heat": 270485,
+        "heat": 283396,
         "rank": 21
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 54.32
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 54.52
     },
     {
-      "id": "weibo:hot:曝iPhone20苹果明年重头戏",
+      "id": "weibo:hot:杨超越8年前就说了郑雨的台词",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "曝iPhone20苹果明年重头戏",
+      "title": "杨超越8年前就说了郑雨的台词",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E6%9B%9DiPhone20%E8%8B%B9%E6%9E%9C%E6%98%8E%E5%B9%B4%E9%87%8D%E5%A4%B4%E6%88%8F",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%A8%E8%B6%85%E8%B6%8A8%E5%B9%B4%E5%89%8D%E5%B0%B1%E8%AF%B4%E4%BA%86%E9%83%91%E9%9B%A8%E7%9A%84%E5%8F%B0%E8%AF%8D",
       "cover": null,
-      "summary": "微博热搜第 22 位 · 热",
+      "summary": "微博热搜第 22 位",
       "metrics": {
-        "heat": 268675,
+        "heat": 278147,
         "rank": 22
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 54.29
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 54.44
     },
     {
-      "id": "weibo:hot:当年跑男撕名牌误闯其他节目直播",
+      "id": "weibo:hot:金价跌至7字头专家不建议盲目抄底",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "当年跑男撕名牌误闯其他节目直播",
+      "title": "金价跌至7字头专家不建议盲目抄底",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%BD%93%E5%B9%B4%E8%B7%91%E7%94%B7%E6%92%95%E5%90%8D%E7%89%8C%E8%AF%AF%E9%97%AF%E5%85%B6%E4%BB%96%E8%8A%82%E7%9B%AE%E7%9B%B4%E6%92%AD",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B7%E8%B7%8C%E8%87%B37%E5%AD%97%E5%A4%B4%E4%B8%93%E5%AE%B6%E4%B8%8D%E5%BB%BA%E8%AE%AE%E7%9B%B2%E7%9B%AE%E6%8A%84%E5%BA%95",
       "cover": null,
       "summary": "微博热搜第 23 位",
       "metrics": {
-        "heat": 268178,
+        "heat": 272048,
         "rank": 23
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 54.28
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 54.35
     },
     {
-      "id": "weibo:hot:北大399元羽绒服充绒量为20.5G",
+      "id": "weibo:hot:厉娜吵完架把许飞的氧气瓶带走了",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "北大399元羽绒服充绒量为20.5G",
+      "title": "厉娜吵完架把许飞的氧气瓶带走了",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E5%A4%A7399%E5%85%83%E7%BE%BD%E7%BB%92%E6%9C%8D%E5%85%85%E7%BB%92%E9%87%8F%E4%B8%BA20.5G",
+      "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E5%90%B5%E5%AE%8C%E6%9E%B6%E6%8A%8A%E8%AE%B8%E9%A3%9E%E7%9A%84%E6%B0%A7%E6%B0%94%E7%93%B6%E5%B8%A6%E8%B5%B0%E4%BA%86",
       "cover": null,
-      "summary": "微博热搜第 24 位",
+      "summary": "微博热搜第 24 位 · 热",
       "metrics": {
-        "heat": 259039,
+        "heat": 264781,
         "rank": 24
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 54.13
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 54.23
     },
     {
-      "id": "weibo:hot:北大399元羽绒服全网刷屏",
+      "id": "weibo:hot:小米18",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "北大399元羽绒服全网刷屏",
+      "title": "小米18",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%8C%97%E5%A4%A7399%E5%85%83%E7%BE%BD%E7%BB%92%E6%9C%8D%E5%85%A8%E7%BD%91%E5%88%B7%E5%B1%8F",
+      "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B318",
       "cover": null,
       "summary": "微博热搜第 25 位",
       "metrics": {
-        "heat": 246057,
+        "heat": 262593,
         "rank": 25
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.91
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 54.19
     },
     {
-      "id": "weibo:hot:后会友期 删减",
+      "id": "weibo:hot:Jennie现在走的路线有点太夸张",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "后会友期 删减",
+      "title": "Jennie现在走的路线有点太夸张",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%20%E5%88%A0%E5%87%8F",
+      "url": "https://s.weibo.com/weibo?q=Jennie%E7%8E%B0%E5%9C%A8%E8%B5%B0%E7%9A%84%E8%B7%AF%E7%BA%BF%E6%9C%89%E7%82%B9%E5%A4%AA%E5%A4%B8%E5%BC%A0",
       "cover": null,
       "summary": "微博热搜第 26 位",
       "metrics": {
-        "heat": 237633,
+        "heat": 257242,
         "rank": 26
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.76
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 54.1
     },
     {
-      "id": "weibo:hot:豆包把水印标反了",
+      "id": "weibo:hot:PEL",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "豆包把水印标反了",
+      "title": "PEL",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E8%B1%86%E5%8C%85%E6%8A%8A%E6%B0%B4%E5%8D%B0%E6%A0%87%E5%8F%8D%E4%BA%86",
+      "url": "https://s.weibo.com/weibo?q=PEL",
       "cover": null,
-      "summary": "微博热搜第 27 位",
+      "summary": "微博热搜第 27 位 · 新",
       "metrics": {
-        "heat": 218252,
+        "heat": 251240,
         "rank": 27
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.39
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 54
     },
     {
-      "id": "weibo:hot:DeepSeek因算力不足限额",
+      "id": "weibo:hot:妈妈放弃四千五选两千二清闲",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "DeepSeek因算力不足限额",
+      "title": "妈妈放弃四千五选两千二清闲",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=DeepSeek%E5%9B%A0%E7%AE%97%E5%8A%9B%E4%B8%8D%E8%B6%B3%E9%99%90%E9%A2%9D",
+      "url": "https://s.weibo.com/weibo?q=%E5%A6%88%E5%A6%88%E6%94%BE%E5%BC%83%E5%9B%9B%E5%8D%83%E4%BA%94%E9%80%89%E4%B8%A4%E5%8D%83%E4%BA%8C%E6%B8%85%E9%97%B2",
       "cover": null,
       "summary": "微博热搜第 28 位",
       "metrics": {
-        "heat": 217238,
+        "heat": 249978,
         "rank": 28
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.37
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.98
     },
     {
-      "id": "weibo:hot:厉娜 几胎都晚安",
+      "id": "weibo:hot:李勒优花400做美甲被晋妈数落",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "厉娜 几胎都晚安",
+      "title": "李勒优花400做美甲被晋妈数落",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%20%E5%87%A0%E8%83%8E%E9%83%BD%E6%99%9A%E5%AE%89",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%8B%92%E4%BC%98%E8%8A%B1400%E5%81%9A%E7%BE%8E%E7%94%B2%E8%A2%AB%E6%99%8B%E5%A6%88%E6%95%B0%E8%90%BD",
       "cover": null,
       "summary": "微博热搜第 29 位",
       "metrics": {
-        "heat": 212998,
+        "heat": 248674,
         "rank": 29
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.28
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.96
     },
     {
-      "id": "weibo:hot:郑钦文年终排名世界第22",
+      "id": "weibo:hot:同居生孩分手男方一口气提8项诉求",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "郑钦文年终排名世界第22",
+      "title": "同居生孩分手男方一口气提8项诉求",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E9%83%91%E9%92%A6%E6%96%87%E5%B9%B4%E7%BB%88%E6%8E%92%E5%90%8D%E4%B8%96%E7%95%8C%E7%AC%AC22",
+      "url": "https://s.weibo.com/weibo?q=%E5%90%8C%E5%B1%85%E7%94%9F%E5%AD%A9%E5%88%86%E6%89%8B%E7%94%B7%E6%96%B9%E4%B8%80%E5%8F%A3%E6%B0%94%E6%8F%908%E9%A1%B9%E8%AF%89%E6%B1%82",
       "cover": null,
       "summary": "微博热搜第 30 位 · 新",
       "metrics": {
-        "heat": 212622,
+        "heat": 242911,
         "rank": 30
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.28
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.85
     },
     {
-      "id": "weibo:hot:赵本山唱慌啥子嘛担心跟AI不像",
+      "id": "weibo:hot:星芒",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "赵本山唱慌啥子嘛担心跟AI不像",
+      "title": "星芒",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E8%B5%B5%E6%9C%AC%E5%B1%B1%E5%94%B1%E6%85%8C%E5%95%A5%E5%AD%90%E5%98%9B%E6%8B%85%E5%BF%83%E8%B7%9FAI%E4%B8%8D%E5%83%8F",
+      "url": "https://s.weibo.com/weibo?q=%E6%98%9F%E8%8A%92",
       "cover": null,
-      "summary": "微博热搜第 31 位",
+      "summary": "微博热搜第 31 位 · 新",
       "metrics": {
-        "heat": 212060,
+        "heat": 235457,
         "rank": 31
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.26
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.72
     },
     {
-      "id": "weibo:hot:女孩坠落后直播仍持了约44分钟",
+      "id": "weibo:hot:喜人奇妙夜3",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "女孩坠落后直播仍持了约44分钟",
+      "title": "喜人奇妙夜3",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%A9%E5%9D%A0%E8%90%BD%E5%90%8E%E7%9B%B4%E6%92%AD%E4%BB%8D%E6%8C%81%E4%BA%86%E7%BA%A644%E5%88%86%E9%92%9F",
+      "url": "https://s.weibo.com/weibo?q=%E5%96%9C%E4%BA%BA%E5%A5%87%E5%A6%99%E5%A4%9C3",
       "cover": null,
-      "summary": "微博热搜第 32 位 · 新",
+      "summary": "微博热搜第 32 位",
       "metrics": {
-        "heat": 209502,
+        "heat": 231561,
         "rank": 32
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.21
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.65
     },
     {
-      "id": "weibo:hot:虞书欣的美商",
+      "id": "weibo:hot:纯稚 倒贴",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "虞书欣的美商",
+      "title": "纯稚 倒贴",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3%E7%9A%84%E7%BE%8E%E5%95%86",
+      "url": "https://s.weibo.com/weibo?q=%E7%BA%AF%E7%A8%9A%20%E5%80%92%E8%B4%B4",
       "cover": null,
-      "summary": "微博热搜第 33 位 · 新",
+      "summary": "微博热搜第 33 位",
       "metrics": {
-        "heat": 206863,
+        "heat": 225860,
         "rank": 33
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.16
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.54
     },
     {
-      "id": "weibo:hot:第五人格",
+      "id": "weibo:hot:李勒优 晋妈",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "第五人格",
+      "title": "李勒优 晋妈",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E7%AC%AC%E4%BA%94%E4%BA%BA%E6%A0%BC",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%8B%92%E4%BC%98%20%E6%99%8B%E5%A6%88",
       "cover": null,
       "summary": "微博热搜第 34 位",
       "metrics": {
-        "heat": 205726,
+        "heat": 224108,
         "rank": 34
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.13
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.5
     },
     {
-      "id": "weibo:hot:DeepSeek长对话超7天不活跃就断",
+      "id": "weibo:hot:华为星芒OSTAO1Pro价格",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "DeepSeek长对话超7天不活跃就断",
+      "title": "华为星芒OSTAO1Pro价格",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=DeepSeek%E9%95%BF%E5%AF%B9%E8%AF%9D%E8%B6%857%E5%A4%A9%E4%B8%8D%E6%B4%BB%E8%B7%83%E5%B0%B1%E6%96%AD",
+      "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E6%98%9F%E8%8A%92OSTAO1Pro%E4%BB%B7%E6%A0%BC",
       "cover": null,
       "summary": "微博热搜第 35 位 · 新",
       "metrics": {
-        "heat": 204720,
+        "heat": 222739,
         "rank": 35
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 53.11
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.48
     },
     {
-      "id": "weibo:hot:华为最平整的折叠屏要来了",
+      "id": "weibo:hot:老师跟文吉儿聊完前后反差",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "华为最平整的折叠屏要来了",
+      "title": "老师跟文吉儿聊完前后反差",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E6%9C%80%E5%B9%B3%E6%95%B4%E7%9A%84%E6%8A%98%E5%8F%A0%E5%B1%8F%E8%A6%81%E6%9D%A5%E4%BA%86",
+      "url": "https://s.weibo.com/weibo?q=%E8%80%81%E5%B8%88%E8%B7%9F%E6%96%87%E5%90%89%E5%84%BF%E8%81%8A%E5%AE%8C%E5%89%8D%E5%90%8E%E5%8F%8D%E5%B7%AE",
       "cover": null,
       "summary": "微博热搜第 36 位",
       "metrics": {
-        "heat": 197590,
+        "heat": 221999,
         "rank": 36
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 52.96
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.46
     },
     {
-      "id": "weibo:hot:知情人回应日本14岁女孩直播时坠亡",
+      "id": "weibo:hot:严浩翔嘉人 审美",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "知情人回应日本14岁女孩直播时坠亡",
+      "title": "严浩翔嘉人 审美",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E7%9F%A5%E6%83%85%E4%BA%BA%E5%9B%9E%E5%BA%94%E6%97%A5%E6%9C%AC14%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%9B%B4%E6%92%AD%E6%97%B6%E5%9D%A0%E4%BA%A1",
+      "url": "https://s.weibo.com/weibo?q=%E4%B8%A5%E6%B5%A9%E7%BF%94%E5%98%89%E4%BA%BA%20%E5%AE%A1%E7%BE%8E",
       "cover": null,
-      "summary": "微博热搜第 37 位 · 新",
+      "summary": "微博热搜第 37 位",
       "metrics": {
-        "heat": 192855,
+        "heat": 221911,
         "rank": 37
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 52.85
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.46
     },
     {
-      "id": "weibo:hot:亚马尔转发含歧视内容应有道歉",
+      "id": "weibo:hot:特朗普回到美国",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "亚马尔转发含歧视内容应有道歉",
+      "title": "特朗普回到美国",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E4%BA%9A%E9%A9%AC%E5%B0%94%E8%BD%AC%E5%8F%91%E5%90%AB%E6%AD%A7%E8%A7%86%E5%86%85%E5%AE%B9%E5%BA%94%E6%9C%89%E9%81%93%E6%AD%89",
+      "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E5%9B%9E%E5%88%B0%E7%BE%8E%E5%9B%BD",
       "cover": null,
-      "summary": "微博热搜第 38 位 · 新",
+      "summary": "微博热搜第 38 位",
       "metrics": {
-        "heat": 180679,
+        "heat": 218353,
         "rank": 38
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 52.57
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.39
     },
     {
-      "id": "weibo:hot:有教师拿出精神类诊断要求卸任班主任",
+      "id": "weibo:hot:CPA等成绩",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "有教师拿出精神类诊断要求卸任班主任",
+      "title": "CPA等成绩",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E6%9C%89%E6%95%99%E5%B8%88%E6%8B%BF%E5%87%BA%E7%B2%BE%E7%A5%9E%E7%B1%BB%E8%AF%8A%E6%96%AD%E8%A6%81%E6%B1%82%E5%8D%B8%E4%BB%BB%E7%8F%AD%E4%B8%BB%E4%BB%BB",
+      "url": "https://s.weibo.com/weibo?q=CPA%E7%AD%89%E6%88%90%E7%BB%A9",
       "cover": null,
       "summary": "微博热搜第 39 位 · 新",
       "metrics": {
-        "heat": 178043,
+        "heat": 205102,
         "rank": 39
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 52.51
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 53.12
     },
     {
-      "id": "weibo:hot:同事跑路前有什么征兆",
+      "id": "weibo:hot:青稚白小纯这些话我只在偶像剧里听到过",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "同事跑路前有什么征兆",
+      "title": "青稚白小纯这些话我只在偶像剧里听到过",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%90%8C%E4%BA%8B%E8%B7%91%E8%B7%AF%E5%89%8D%E6%9C%89%E4%BB%80%E4%B9%88%E5%BE%81%E5%85%86",
+      "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E7%99%BD%E5%B0%8F%E7%BA%AF%E8%BF%99%E4%BA%9B%E8%AF%9D%E6%88%91%E5%8F%AA%E5%9C%A8%E5%81%B6%E5%83%8F%E5%89%A7%E9%87%8C%E5%90%AC%E5%88%B0%E8%BF%87",
       "cover": null,
-      "summary": "微博热搜第 40 位",
+      "summary": "微博热搜第 40 位 · 新",
       "metrics": {
-        "heat": 176188,
+        "heat": 198226,
         "rank": 40
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 52.46
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.97
     },
     {
-      "id": "weibo:hot:领克全系车挑战17项极限安全测试",
+      "id": "weibo:hot:马天宇李明德案未当庭宣判",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "领克全系车挑战17项极限安全测试",
+      "title": "马天宇李明德案未当庭宣判",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E9%A2%86%E5%85%8B%E5%85%A8%E7%B3%BB%E8%BD%A6%E6%8C%91%E6%88%9817%E9%A1%B9%E6%9E%81%E9%99%90%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95",
+      "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E5%A4%A9%E5%AE%87%E6%9D%8E%E6%98%8E%E5%BE%B7%E6%A1%88%E6%9C%AA%E5%BD%93%E5%BA%AD%E5%AE%A3%E5%88%A4",
       "cover": null,
       "summary": "微博热搜第 41 位 · 新",
       "metrics": {
-        "heat": 172644,
+        "heat": 194085,
         "rank": 41
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 52.37
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.88
     },
     {
-      "id": "weibo:hot:深圳废弃外卖盒做成长凳亮相APEC",
+      "id": "weibo:hot:刘琳全程脱稿配音俄语",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "深圳废弃外卖盒做成长凳亮相APEC",
+      "title": "刘琳全程脱稿配音俄语",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E6%B7%B1%E5%9C%B3%E5%BA%9F%E5%BC%83%E5%A4%96%E5%8D%96%E7%9B%92%E5%81%9A%E6%88%90%E9%95%BF%E5%87%B3%E4%BA%AE%E7%9B%B8APEC",
+      "url": "https://s.weibo.com/weibo?q=%E5%88%98%E7%90%B3%E5%85%A8%E7%A8%8B%E8%84%B1%E7%A8%BF%E9%85%8D%E9%9F%B3%E4%BF%84%E8%AF%AD",
       "cover": null,
       "summary": "微博热搜第 42 位",
       "metrics": {
-        "heat": 172529,
+        "heat": 187241,
         "rank": 42
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 52.37
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.72
     },
     {
-      "id": "weibo:hot:贺峻霖一等奖学金",
+      "id": "weibo:hot:蔡天凤前夫当庭供称父亲才是真凶",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "贺峻霖一等奖学金",
+      "title": "蔡天凤前夫当庭供称父亲才是真凶",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E8%B4%BA%E5%B3%BB%E9%9C%96%E4%B8%80%E7%AD%89%E5%A5%96%E5%AD%A6%E9%87%91",
+      "url": "https://s.weibo.com/weibo?q=%E8%94%A1%E5%A4%A9%E5%87%A4%E5%89%8D%E5%A4%AB%E5%BD%93%E5%BA%AD%E4%BE%9B%E7%A7%B0%E7%88%B6%E4%BA%B2%E6%89%8D%E6%98%AF%E7%9C%9F%E5%87%B6",
       "cover": null,
-      "summary": "微博热搜第 43 位",
+      "summary": "微博热搜第 43 位 · 新",
       "metrics": {
-        "heat": 172523,
+        "heat": 187082,
         "rank": 43
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 52.37
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.72
     },
     {
-      "id": "weibo:hot:张晓龙三胎首曝光",
+      "id": "weibo:hot:注会成绩",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "张晓龙三胎首曝光",
+      "title": "注会成绩",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%99%93%E9%BE%99%E4%B8%89%E8%83%8E%E9%A6%96%E6%9B%9D%E5%85%89",
+      "url": "https://s.weibo.com/weibo?q=%E6%B3%A8%E4%BC%9A%E6%88%90%E7%BB%A9",
       "cover": null,
-      "summary": "微博热搜第 44 位",
+      "summary": "微博热搜第 44 位 · 新",
       "metrics": {
-        "heat": 153201,
+        "heat": 186916,
         "rank": 44
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 51.85
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.72
     },
     {
-      "id": "weibo:hot:方博回应王楚钦一输球就被喷",
+      "id": "weibo:hot:AI改造电视为什么突然火了",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "方博回应王楚钦一输球就被喷",
+      "title": "AI改造电视为什么突然火了",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E6%96%B9%E5%8D%9A%E5%9B%9E%E5%BA%94%E7%8E%8B%E6%A5%9A%E9%92%A6%E4%B8%80%E8%BE%93%E7%90%83%E5%B0%B1%E8%A2%AB%E5%96%B7",
+      "url": "https://s.weibo.com/weibo?q=AI%E6%94%B9%E9%80%A0%E7%94%B5%E8%A7%86%E4%B8%BA%E4%BB%80%E4%B9%88%E7%AA%81%E7%84%B6%E7%81%AB%E4%BA%86",
       "cover": null,
-      "summary": "微博热搜第 45 位",
+      "summary": "微博热搜第 45 位 · 新",
       "metrics": {
-        "heat": 151818,
+        "heat": 186540,
         "rank": 45
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 51.81
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.71
     },
     {
-      "id": "weibo:hot:黄仁勋辞任100小时传出回归消息",
+      "id": "weibo:hot:4AM首发",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "黄仁勋辞任100小时传出回归消息",
+      "title": "4AM首发",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E4%BB%BB100%E5%B0%8F%E6%97%B6%E4%BC%A0%E5%87%BA%E5%9B%9E%E5%BD%92%E6%B6%88%E6%81%AF",
+      "url": "https://s.weibo.com/weibo?q=4AM%E9%A6%96%E5%8F%91",
       "cover": null,
-      "summary": "微博热搜第 46 位",
+      "summary": "微博热搜第 46 位 · 新",
       "metrics": {
-        "heat": 149983,
+        "heat": 186163,
         "rank": 46
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 51.76
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.7
     },
     {
-      "id": "weibo:hot:林栋哲你爸妈过不到一块去了",
+      "id": "weibo:hot:MAMA",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "林栋哲你爸妈过不到一块去了",
+      "title": "MAMA",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E6%9E%97%E6%A0%8B%E5%93%B2%E4%BD%A0%E7%88%B8%E5%A6%88%E8%BF%87%E4%B8%8D%E5%88%B0%E4%B8%80%E5%9D%97%E5%8E%BB%E4%BA%86",
+      "url": "https://s.weibo.com/weibo?q=MAMA",
       "cover": null,
-      "summary": "微博热搜第 47 位 · 新",
+      "summary": "微博热搜第 47 位",
       "metrics": {
-        "heat": 143732,
+        "heat": 185861,
         "rank": 47
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 51.58
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.69
     },
     {
-      "id": "weibo:hot:白鹿尖叫之夜官宣微指断层",
+      "id": "weibo:hot:妈妈回应女童胃里取出6斤头发",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "白鹿尖叫之夜官宣微指断层",
+      "title": "妈妈回应女童胃里取出6斤头发",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E5%B0%96%E5%8F%AB%E4%B9%8B%E5%A4%9C%E5%AE%98%E5%AE%A3%E5%BE%AE%E6%8C%87%E6%96%AD%E5%B1%82",
+      "url": "https://s.weibo.com/weibo?q=%E5%A6%88%E5%A6%88%E5%9B%9E%E5%BA%94%E5%A5%B3%E7%AB%A5%E8%83%83%E9%87%8C%E5%8F%96%E5%87%BA6%E6%96%A4%E5%A4%B4%E5%8F%91",
       "cover": null,
       "summary": "微博热搜第 48 位",
       "metrics": {
-        "heat": 138917,
+        "heat": 185426,
         "rank": 48
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 51.43
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.68
     },
     {
-      "id": "weibo:hot:英伟达机器人学习工程师辞职",
+      "id": "weibo:hot:金价7字头大哥火速下单200克金条",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "英伟达机器人学习工程师辞职",
+      "title": "金价7字头大哥火速下单200克金条",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%BE%9E%E8%81%8C",
+      "url": "https://s.weibo.com/weibo?q=%E9%87%91%E4%BB%B77%E5%AD%97%E5%A4%B4%E5%A4%A7%E5%93%A5%E7%81%AB%E9%80%9F%E4%B8%8B%E5%8D%95200%E5%85%8B%E9%87%91%E6%9D%A1",
       "cover": null,
-      "summary": "微博热搜第 49 位",
+      "summary": "微博热搜第 49 位 · 新",
       "metrics": {
-        "heat": 138659,
+        "heat": 185285,
         "rank": 49
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 51.42
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.68
     },
     {
-      "id": "weibo:hot:Knight夺冠前看了24年决赛",
+      "id": "weibo:hot:普通人用AI就能做GTA6了",
       "platform": "weibo",
       "category": "hot-search",
-      "title": "Knight夺冠前看了24年决赛",
+      "title": "普通人用AI就能做GTA6了",
       "author": null,
-      "url": "https://s.weibo.com/weibo?q=Knight%E5%A4%BA%E5%86%A0%E5%89%8D%E7%9C%8B%E4%BA%8624%E5%B9%B4%E5%86%B3%E8%B5%9B",
+      "url": "https://s.weibo.com/weibo?q=%E6%99%AE%E9%80%9A%E4%BA%BA%E7%94%A8AI%E5%B0%B1%E8%83%BD%E5%81%9AGTA6%E4%BA%86",
       "cover": null,
       "summary": "微博热搜第 50 位 · 新",
       "metrics": {
-        "heat": 138330,
+        "heat": 184780,
         "rank": 50
       },
       "comments": [],
       "badges": [],
       "publishedAt": null,
-      "fetchedAt": "2026-11-16T07:26:29.694Z",
-      "score": 51.41
+      "fetchedAt": "2026-11-20T07:52:08.734Z",
+      "score": 52.67
     }
   ]
 }
