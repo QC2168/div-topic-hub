@@ -3,8 +3,8 @@
   "dataset": "bilibili",
   "name": "B站黑马",
   "description": "B 站科技区/知识区的上升期视频，按「播放速度 × 互动率 × 新鲜度」算爆发分排序",
-  "generatedAt": "2026-11-21T07:48:37.424Z",
-  "fetchedAt": "2026-11-21T07:47:59.920Z",
+  "generatedAt": "2026-11-24T10:32:18.996Z",
+  "fetchedAt": "2026-11-24T10:31:39.628Z",
   "mode": "refresh",
   "count": 100,
   "counts": {
@@ -13,44 +13,44 @@
   },
   "staleAfterMinutes": 1440,
   "ageMinutes": 1,
-  "contentHash": "sha256:9d2c769dd5968d36",
-  "collectMs": 37495,
+  "contentHash": "sha256:1ed7e8dfd1d632bc",
+  "collectMs": 39361,
   "warnings": [],
   "items": [
     {
-      "id": "bili:BV1SAWC6YEFg",
+      "id": "bili:BV121yjzQEWf",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "美国野心滔天？把战火烧到鸭绿江？！那么 你将面对中朝军民合力反击！",
-      "author": "MoNet_Team",
-      "url": "https://www.bilibili.com/video/BV1SAWC6YEFg",
-      "cover": "https://i0.hdslb.com/bfs/archive/c64eaa817a2ba04742076c90cef5686c4c0b8da8.jpg",
-      "summary": "1950年11月24日，麦克阿瑟飞到前线对军长说：打到鸭绿江，小伙子们就能回家过圣诞。一个月后的12月24日，第二次战役结束，联合国军退回了三八线附近。 本片为历史题材地图动画，以一张朝鲜半岛战术地图一镜到底的形式回顾 1950 至 1953 年中国人民志愿军抗美援朝的主要战役。内容依据公开出版的史料与研究整理，为配合音乐节奏，部分战役进程、时间节点、部队位置与进攻路线有所简化与艺术化处理，不作为严谨的史学依据，难免存在疏漏，欢迎指正。 片中地图只取朝鲜半岛与中国东北局部，战线推移、占领区范围、箭头走",
+      "title": "扎堆产卵 同类相食！蝗虫诡异行为原理被中国科学家破解！【主播说三农】",
+      "author": "央视农业",
+      "url": "https://www.bilibili.com/video/BV121yjzQEWf",
+      "cover": "https://i1.hdslb.com/bfs/archive/341a263d685600c6dbfc439076c93fbf7945911f.jpg",
+      "summary": "",
       "metrics": {
-        "play": 4083974,
-        "like": 418851,
-        "reply": 6740,
-        "danmaku": 15184,
-        "favorite": 171673,
-        "coin": 88367,
-        "share": 5566,
-        "fans": 45999
+        "play": 1776265,
+        "like": 156205,
+        "reply": 5620,
+        "danmaku": 3723,
+        "favorite": 15035,
+        "coin": 10052,
+        "share": 4113,
+        "fans": 4038003
       },
       "comments": [
         {
-          "author": "无云的夜空",
-          "content": "这一战简直是治好了老蒋的抑郁症 老蒋：我还以为只是我太菜了，原来你们这帮美国佬也打不过啊[doge]",
-          "likes": 629
+          "author": "茨木贼可爱",
+          "content": "这种昆虫的进化树有点过于离谱了，虽然说能从恐龙时代延误下来的虫类都有自己本事，但你蝗虫的本事有点超纲了，你看看隔壁的鳄鱼叔叔，万年来屁事不学[doge_金箍]",
+          "likes": 4595
         },
         {
-          "author": "200斤的肥宅君",
-          "content": "[怪我咯]当年安东地区 被轰炸中国参战主要原因 哥们跨过鸭绿江 你看这距离[怪我咯]换谁不疯了",
-          "likes": 1888
+          "author": "呦呦鹿が鳴",
+          "content": "怪不得虫族是宇宙强族之一[doge]",
+          "likes": 592
         },
         {
-          "author": "哦无了捏捏",
-          "content": "美国鬼子可比日本鬼子难打多了 ，当时还有严寒，解放军当时的意志比苏联人还狠，零下40度追着号称世界第一军队打",
-          "likes": 1995
+          "author": "喵喵队闯大货",
+          "content": "这个种群的生存逻辑是真的高效，不愧是能肘击人类上万年的存在。[笑哭]",
+          "likes": 1430
         }
       ],
       "badges": [
@@ -60,54 +60,111 @@
           "tone": "error"
         },
         {
-          "key": "breakout",
-          "label": "🐣 小号爆款",
-          "tone": "success"
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-23T02:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 160.62
+    },
+    {
+      "id": "bili:BV1FmyWzeErv",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "大牙|| 肖8选择题精讲带背（第三套卷），全网讲解最清晰，专治零基础！",
+      "author": "大牙考研",
+      "url": "https://www.bilibili.com/video/BV1FmyWzeErv",
+      "cover": "https://i1.hdslb.com/bfs/archive/29505d522b48846011e22a495bbc4bfe63516ab6.jpg",
+      "summary": "",
+      "metrics": {
+        "play": 1043690,
+        "like": 57379,
+        "reply": 3257,
+        "danmaku": 30923,
+        "favorite": 29088,
+        "coin": 67503,
+        "share": 1201,
+        "fans": 1972187
+      },
+      "comments": [
+        {
+          "author": "安徽文科仌",
+          "content": "资本来到这个世间每个毛孔都沾染了罪恶和血[喜极而泣]免费的公益讲解动了多少机构的蛋糕",
+          "likes": 259
+        },
+        {
+          "author": "宥宥kuikui",
+          "content": "@哔哩哔哩大会员 @哔哩哔哩直播 @哔哩哔哩创作中心 @哔哩哔哩课堂 @哔哩哔哩漫画 @哔哩哔哩弹幕网 别封我爱师，我只是想上岸，你们资本的争斗别拿我垫背！封了我就卸载哔站",
+          "likes": 134
+        },
+        {
+          "author": "夜市肥肥",
+          "content": "有些人生活过得一地鸡毛，不考虑自己的问题，把这一切都归咎于政府，在弹幕上阴阳怪气带节奏，你不看视频我们其他人还要看，别给我把视频搞没了，现在好了评论区和弹幕也没了",
+          "likes": 104
+        }
+      ],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
         },
         {
           "key": "interactive",
           "label": "⚡ 互动率极高",
           "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-14T10:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 178.26
+      "publishedAt": "2026-11-20T09:21:07.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 157.08
     },
     {
-      "id": "bili:BV1p5sm6vEJe",
+      "id": "bili:BV1x9s66RE3D",
       "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "最败家的一次",
-      "author": "白菜家的AMD",
-      "url": "https://www.bilibili.com/video/BV1p5sm6vEJe",
-      "cover": "https://i0.hdslb.com/bfs/archive/0c9d04aefd1d7025e5b90ab013f18fa71fb365dc.jpg",
+      "category": "bili-knowledge",
+      "title": "为什么你会间接性看不惯身边的朋友？",
+      "author": "灵魂手术刀Ling",
+      "url": "https://www.bilibili.com/video/BV1x9s66RE3D",
+      "cover": "https://i0.hdslb.com/bfs/archive/f4b552ddf9a3a7a0708f62c45b0a3c377c076271.jpg",
       "summary": "",
       "metrics": {
-        "play": 3068562,
-        "like": 217935,
-        "reply": 10922,
-        "danmaku": 3957,
-        "favorite": 42655,
-        "coin": 5939,
-        "share": 33769,
-        "fans": 119199
+        "play": 2273531,
+        "like": 128104,
+        "reply": 3536,
+        "danmaku": 457,
+        "favorite": 58580,
+        "coin": 7229,
+        "share": 10951,
+        "fans": 163509
       },
       "comments": [
         {
-          "author": "解憂雜貨鋪1995",
-          "content": "不敢想打4399得有多爽",
-          "likes": 804
+          "author": "比心biuu",
+          "content": "那说明靠的太近",
+          "likes": 1938
         },
         {
-          "author": "炎先",
-          "content": "自从电脑配件涨价后我已经很久没刷到电脑装机视频了[笑哭]",
-          "likes": 258
+          "author": "一只呆呆的屑恬",
+          "content": "累的时候真会这样，不是朋友变了，是自己那天装不下了。回头想想人家也没做错啥，就是腾不出地方",
+          "likes": 1378
         },
         {
-          "author": "阿馒姓吉良",
-          "content": "谁给金子摆这儿了",
-          "likes": 435
+          "author": "巴比卜比伯吧",
+          "content": "事后记得跟朋友态度好一点，朋友也不是情绪的牺牲品[微笑]",
+          "likes": 8093
         }
       ],
       "badges": [
@@ -127,44 +184,157 @@
           "tone": "warning"
         }
       ],
-      "publishedAt": "2026-11-18T08:39:57.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 170.41
+      "publishedAt": "2026-11-17T14:57:30.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 157.02
     },
     {
-      "id": "bili:BV1UGyszjEGX",
+      "id": "bili:BV1xfsk6FECT",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "为何去玩这个剧本杀的人都失踪了？",
-      "author": "某幻君",
-      "url": "https://www.bilibili.com/video/BV1UGyszjEGX",
-      "cover": "https://i2.hdslb.com/bfs/archive/db99953dc0c43be1b0da2c9acc6eccbc11e951fb.jpg",
-      "summary": "游戏：沂河往事",
+      "title": "【一百万字·01】我只剩300个字了，说一个少一个｜文字动画《嗯》",
+      "author": "大米画字",
+      "url": "https://www.bilibili.com/video/BV1xfsk6FECT",
+      "cover": "https://i0.hdslb.com/bfs/archive/5278688f12f643a976957ed8f1e1158908671825.jpg",
+      "summary": "「一百万字」系列 · 第1集《嗯》 设定：在我们这儿，每个人一辈子只能说一百万个字。说一个，少一个。 我话多，三十一岁就快说完了，只剩300个字。 我爸话少，他这辈子只跟我说过一个字：嗯。 看到最后，你会知道他为什么不说话。 你爸跟你说得最多的一句话，是什么？弹幕或评论区告诉我。 第2集《重播》（妈妈篇）已经做好，接着更新。 文字动画，画面和声音由 AI 辅助制作。",
       "metrics": {
-        "play": 153529,
-        "like": 20333,
-        "reply": 1104,
-        "danmaku": 2956,
-        "favorite": 8707,
-        "coin": 11212,
-        "share": 1072,
-        "fans": 9027568
+        "play": 1677501,
+        "like": 216852,
+        "reply": 5105,
+        "danmaku": 800,
+        "favorite": 43913,
+        "coin": 18456,
+        "share": 5687
       },
       "comments": [
         {
-          "author": "相思赋红豆_",
-          "content": "OS：好想看某幻把所有网页解谜游戏全玩一遍啊",
-          "likes": 522
+          "author": "梢梢想睡觉",
+          "content": "字来🖐️😠🖐️字来🖐️😠🖐️",
+          "likes": 239
         },
         {
-          "author": "雪蝶爱行诗",
-          "content": "我全家都爱看某幻玩网页游戏",
-          "likes": 802
+          "author": "次氯酸钠君",
+          "content": "🧐🎞️👍🥰 🧔‍♂️🗣️⏸️ 🧒🙁 🧔‍♂️🔚✝️ 🧒🗣️🈚 🧔‍♂️🗣️↪️🧒 🧒🗣️🈶 🧔‍♂️💔🧒❌ 🧔‍♂️❤️🧒✅ 🥲 ➖0️⃣😋",
+          "likes": 87
         },
         {
-          "author": "苦味林檎",
-          "content": "挺好看的就是文本实在是又臭又长，一想还挺合理的，陈畔估计学历不高 怕太口语化了写完之后投ai润色，果然评分也不高[藏狐]",
-          "likes": 139
+          "author": "神性恋y哥",
+          "content": "扎啤世界，看我给世界打死。",
+          "likes": 770
+        }
+      ],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-17T18:18:37.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 156.92
+    },
+    {
+      "id": "bili:BV142sS6HEyv",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "大牙|| 肖8选择题精讲带背（第二套卷），全网讲解最清晰，专治零基础！",
+      "author": "大牙考研",
+      "url": "https://www.bilibili.com/video/BV142sS6HEyv",
+      "cover": "https://i2.hdslb.com/bfs/archive/b1e342949085854749adb9f30993b052a9365082.jpg",
+      "summary": "",
+      "metrics": {
+        "play": 1319651,
+        "like": 73872,
+        "reply": 2279,
+        "danmaku": 32500,
+        "favorite": 39870,
+        "coin": 84965,
+        "share": 2029,
+        "fans": 1972187
+      },
+      "comments": [
+        {
+          "author": "竹华的格雷丝",
+          "content": "点赞都上岸，举报的出门就被撞~~~~",
+          "likes": 55
+        },
+        {
+          "author": "子游喵-",
+          "content": "第二套20，已严肃从小日本晋升为伪军",
+          "likes": 60
+        },
+        {
+          "author": "不爱吃盐的小颜",
+          "content": "谁tm举报的",
+          "likes": 20
+        }
+      ],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-18T11:40:06.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 156.42
+    },
+    {
+      "id": "bili:BV1ngyZzoE8s",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "这个草台班子的世界，比你想象的还要荒唐！",
+      "author": "汤山老王",
+      "url": "https://www.bilibili.com/video/BV1ngyZzoE8s",
+      "cover": "https://i0.hdslb.com/bfs/archive/8a0a6239e277addca823c3ba745e9eb1cb3e0b51.jpg",
+      "summary": "",
+      "metrics": {
+        "play": 128341,
+        "like": 10356,
+        "reply": 1043,
+        "danmaku": 838,
+        "favorite": 2972,
+        "coin": 3815,
+        "share": 1384,
+        "fans": 1086774
+      },
+      "comments": [
+        {
+          "author": "管重乐仪",
+          "content": "老王亏大了，气急败坏发视频谴责。",
+          "likes": 72
+        },
+        {
+          "author": "我叫拿个婉",
+          "content": "台湾媒体这波不是成最大小丑了",
+          "likes": 19
+        },
+        {
+          "author": "牧野Grant",
+          "content": "你不懂美国政治，我还是坚持自己的判断，死猫跳，虽然英伟达死猫跳跳了三丈高[滑稽]",
+          "likes": 22
         }
       ],
       "badges": [
@@ -184,9 +354,9 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-21T03:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 168.25
+      "publishedAt": "2026-11-24T04:58:28.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 156.11
     },
     {
       "id": "bili:BV18jsA6xEft",
@@ -198,14 +368,14 @@
       "cover": "https://i2.hdslb.com/bfs/archive/c014dba1c54cfcad62c30c18dfe7b0da97e45528.jpg",
       "summary": "这是模拟器项目，仅供娱乐，不是真实的操作系统～ 点击即玩，欢迎转发! https://b23.tv/OunDakP",
       "metrics": {
-        "play": 3113047,
-        "like": 212267,
-        "reply": 11775,
-        "danmaku": 1897,
-        "favorite": 165249,
-        "coin": 40572,
-        "share": 26165,
-        "fans": 411407
+        "play": 3616035,
+        "like": 253723,
+        "reply": 13011,
+        "danmaku": 2807,
+        "favorite": 195432,
+        "coin": 0,
+        "share": 0,
+        "fans": 485199
       },
       "comments": [
         {
@@ -234,108 +404,46 @@
           "key": "interactive",
           "label": "⚡ 互动率极高",
           "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
         }
       ],
       "publishedAt": "2026-11-16T12:02:40.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 167.85
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 154.35
     },
     {
-      "id": "bili:BV1wSyWzPEFP",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "不是退网，是落网了!海南走私水路不通!",
-      "author": "大漠叔叔",
-      "url": "https://www.bilibili.com/video/BV1wSyWzPEFP",
-      "cover": "https://i1.hdslb.com/bfs/archive/1d620d467f93f0ea5370de2a1ee45b3704daae33.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 735748,
-        "like": 67881,
-        "reply": 2031,
-        "danmaku": 3568,
-        "favorite": 6388,
-        "coin": 21661,
-        "share": 1382,
-        "fans": 6622434
-      },
-      "comments": [
-        {
-          "author": "异常现象ovo",
-          "content": "官方现在都这么不严谨了吗？视频封面的嫌疑人怎么不打码[doge]",
-          "likes": 368
-        },
-        {
-          "author": "扫地科的临时工",
-          "content": "听说漠仔落网了，那场景，真是锣鼓喧天，鞭炮齐鸣，红旗招展，人山人氵",
-          "likes": 267
-        },
-        {
-          "author": "雪域狼吻",
-          "content": "大漠：2026年，海南被评为全世界最安全的城市，对此我做出了卓越的贡献。 2026年，我落网了。",
-          "likes": 5725
-        }
-      ],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-20T09:14:56.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 163.34
-    },
-    {
-      "id": "bili:BV142sS6HEyv",
+      "id": "bili:BV1CVyXzJEab",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "大牙|| 肖8选择题精讲带背（第二套卷），全网讲解最清晰，专治零基础！",
-      "author": "大牙考研",
-      "url": "https://www.bilibili.com/video/BV142sS6HEyv",
-      "cover": "https://i2.hdslb.com/bfs/archive/b1e342949085854749adb9f30993b052a9365082.jpg",
-      "summary": "",
+      "title": "黄仁勋恢复原职，美股大涨7%，英伟达盘前暴涨31%，适才相戏耳，特朗普力挺是关键",
+      "author": "星话大白",
+      "url": "https://www.bilibili.com/video/BV1CVyXzJEab",
+      "cover": "https://i2.hdslb.com/bfs/archive/9a5ac691802d7a31cd19877797d050d0187b6ed0.jpg",
+      "summary": "11月23日晚上临近10点时，英伟达发布公告，宣布恢复黄仁勋总裁、首席执行官和董事会成员职务。 受此影响，美股纳斯达克盘前大涨7%，英伟达盘前暴涨31%； 对这件事情，本视频会来详细分析，感谢赞赏支持。",
       "metrics": {
-        "play": 772690,
-        "like": 46358,
-        "reply": 1900,
-        "danmaku": 21022,
-        "favorite": 25556,
-        "coin": 52960,
-        "share": 1492,
-        "fans": 1905747
+        "play": 1216735,
+        "like": 32966,
+        "reply": 5517,
+        "danmaku": 2120,
+        "favorite": 5531,
+        "coin": 3937,
+        "share": 5488,
+        "fans": 937770
       },
       "comments": [
         {
-          "author": "子游喵-",
-          "content": "第二套20，已严肃从小日本晋升为伪军",
-          "likes": 26
+          "author": "最后的傲娇神器雾",
+          "content": "手画K线的含金量[Ave Mujica_我有话说]",
+          "likes": 1027
         },
         {
-          "author": "q0xop",
-          "content": "当我整理了肖八原题和大牙笔记对应版，此时一个政治70+的选手攒了我[星星眼][星星眼][星星眼][星星眼]",
-          "likes": 323
+          "author": "RiceWong",
+          "content": "黄被炒，中输 黄回归，中又输",
+          "likes": 441
         },
         {
-          "author": "6v6TAEMIN",
-          "content": "大牙你怎么还不更新第三套讲解，我画地为牢啊",
-          "likes": 6
+          "author": "咸蛋jun",
+          "content": "民主党这么拉啊，这都搞不掉",
+          "likes": 742
         }
       ],
       "badges": [
@@ -345,56 +453,39 @@
           "tone": "error"
         },
         {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
           "key": "dark-horse",
           "label": "🐴 近期黑马",
           "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-18T11:40:06.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 162.24
+      "publishedAt": "2026-11-23T15:47:24.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 152.36
     },
     {
-      "id": "bili:BV1nzsq6BERu",
+      "id": "bili:BV1UGyszjEGX",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "长辈泡的“药酒”，里面到底有什么？",
-      "author": "亿点点不一样",
-      "url": "https://www.bilibili.com/video/BV1nzsq6BERu",
-      "cover": "https://i2.hdslb.com/bfs/archive/1bab54787d170ca00d9a70f1963792ab0f5d8efe.jpg",
-      "summary": "药材、动物…这些东西泡进酒里，真的能“养生进补”吗？这次我们通过显微镜观察和成分检测，看看长辈们泡的、买的“药酒”里，究竟有什么？如果你喜欢这期节目，请多多支持我们，也欢迎把这期视频分享给你的家人朋友们一起看看！ *本期节目包含蛇类与其他动物泡制酒的相关画面，可能引起不适。 节目中“药酒”仅为养殖科普样本展示，请遵纪守法，保护野生动物。",
+      "title": "为何去玩这个剧本杀的人都失踪了？",
+      "author": "某幻君",
+      "url": "https://www.bilibili.com/video/BV1UGyszjEGX",
+      "cover": "https://i2.hdslb.com/bfs/archive/db99953dc0c43be1b0da2c9acc6eccbc11e951fb.jpg",
+      "summary": "游戏：沂河往事",
       "metrics": {
-        "play": 1716428,
-        "like": 93335,
-        "reply": 5278,
-        "danmaku": 4211,
-        "favorite": 20744,
-        "coin": 18775,
-        "share": 11095,
-        "fans": 6906394
+        "play": 2048251,
+        "like": 107871,
+        "reply": 6822,
+        "danmaku": 11221,
+        "favorite": 51028,
+        "coin": 43180,
+        "share": 6049
       },
-      "comments": [
-        {
-          "author": "拉夫乔尼",
-          "content": "我这有个真正的神药，我称之为续命丸，只需要清水煮几分钟去皮服用 ，可强身健体，提高记忆力，恢复身体，又能瘦身减脂。",
-          "likes": 5673
-        },
-        {
-          "author": "红色驴戏团",
-          "content": "我感觉这个也挺补的…",
-          "likes": 982
-        },
-        {
-          "author": "徐东烈海王",
-          "content": "所以卖泡塑料蛇酒的还算是良心商家是吧[笑哭]",
-          "likes": 462
-        }
-      ],
+      "comments": [],
       "badges": [
         {
           "key": "hot",
@@ -412,46 +503,30 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-20T09:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 162.19
+      "publishedAt": "2026-11-21T03:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 152.31
     },
     {
-      "id": "bili:BV1N8sq6yEyM",
+      "id": "bili:BV1cpyXz5ETC",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "【盘点】互联网10大恶心设计，从愤怒到麻木……",
-      "author": "橙红Iris",
-      "url": "https://www.bilibili.com/video/BV1N8sq6yEyM",
-      "cover": "https://i1.hdslb.com/bfs/archive/1bd565d6aa51fd5dcf315909722a56d962a84cc0.jpg",
-      "summary": "开屏广告、摇一摇、弹窗广告、借贷、自动扣费、病毒APP、链接无法打开......这些让人膈应的套路、设计，相信大家每天至少都会撞上几个，从最开始的烦躁厌恶，到最后只能习惯、接受，我们到底在忍受什么？今天呢，我就把这些恶心人的互联网设计通通揪出来挂在耻辱柱上，看看它们到底是怎么算计用户的。",
+      "title": "同样是水果腌肉 为啥有人是“国宴” 有人是大型翻车现场？【主播说三农】",
+      "author": "央视农业",
+      "url": "https://www.bilibili.com/video/BV1cpyXz5ETC",
+      "cover": "https://i1.hdslb.com/bfs/archive/0ce215b775ce133157ed4aa220ca0d20b2d5f187.jpg",
+      "summary": "",
       "metrics": {
-        "play": 218396,
-        "like": 26144,
-        "reply": 1915,
-        "danmaku": 2596,
-        "favorite": 5007,
-        "coin": 9364,
-        "share": 1099,
-        "fans": 858063
+        "play": 351740,
+        "like": 25310,
+        "reply": 701,
+        "danmaku": 232,
+        "favorite": 2159,
+        "coin": 528,
+        "share": 579,
+        "fans": 4038003
       },
-      "comments": [
-        {
-          "author": "桃栀药药",
-          "content": "在此地指出这些问题，就会改吗？他们不会改的",
-          "likes": 70
-        },
-        {
-          "author": "箬颍",
-          "content": "哟～～～西",
-          "likes": 195
-        },
-        {
-          "author": "Steam__Core",
-          "content": "诱导借代才是最ex的，我洗个澡呢就花了0.46块钱弹个花呗让我分期付款😅真的是糖完了，大数据连我的流水都不知道吗？这不能吧🤣",
-          "likes": 242
-        }
-      ],
+      "comments": [],
       "badges": [
         {
           "key": "interactive",
@@ -469,110 +544,148 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-20T09:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 161.77
+      "publishedAt": "2026-11-24T02:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 151.95
     },
     {
-      "id": "bili:BV1vZs86GEgG",
+      "id": "bili:BV1S1ynzMEu5",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "高市早苗应该在深圳烈士陵园鞠躬谢罪",
+      "title": "驯化葡萄：如何把葡萄炒成一场暴富神话？",
+      "author": "大圆镜科普",
+      "url": "https://www.bilibili.com/video/BV1S1ynzMEu5",
+      "cover": "https://i0.hdslb.com/bfs/archive/c43132e464f6d8d2d2ca8b35024a698206b10c88.jpg",
+      "summary": "全世界一万多种葡萄，你吃过几种？巨峰酸甜多汁，阳光玫瑰甜到心坎，青提入口脆甜，赤霞珠虽粒小皮厚，却也是酿酒界的顶流：糖高、酸足、颜色深。这千般滋味，人类足足挑了万把年。你最爱哪一口？ 参考文献： [1]MacFarlane C. Constantinople in 1828: A Residence of Sixteen Months in the Turkish Capital and Provinces: with an Account of the Present State of the Nava",
+      "metrics": {
+        "play": 354152,
+        "like": 43067,
+        "reply": 386,
+        "danmaku": 848,
+        "favorite": 4781,
+        "coin": 889,
+        "share": 254
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T09:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 151.47
+    },
+    {
+      "id": "bili:BV1atyWz7ExR",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "【诡辩逻辑拆解】你愿意以外卖冷掉为代价，换取外卖员的8小时工作制吗？",
+      "author": "WY的灯塔",
+      "url": "https://www.bilibili.com/video/BV1atyWz7ExR",
+      "cover": "https://i2.hdslb.com/bfs/archive/0d271cc7b5950820aae537fc1d7fa14bd460c0d1.jpg",
+      "summary": "【诡辩逻辑拆解】你愿意以外卖冷掉为代价，换取外卖员的8小时工作制吗？",
+      "metrics": {
+        "play": 1297174,
+        "like": 134945,
+        "reply": 7343,
+        "danmaku": 7180,
+        "favorite": 21294,
+        "coin": 5225,
+        "share": 1287
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-20T09:57:52.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 151.36
+    },
+    {
+      "id": "bili:BV164y3z8ELw",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "非正常人物志——哥伦布",
+      "author": "抽象历史人物志",
+      "url": "https://www.bilibili.com/video/BV164y3z8ELw",
+      "cover": "https://i0.hdslb.com/bfs/archive/a69fe73f9e18b347f9b3fbecd495b0fd4619164c.jpg",
+      "summary": "意林和中学作文的常驻嘉宾，实际上是个超级烂人。我已经写的很收敛了，他干的逆天行为发不出来",
+      "metrics": {
+        "play": 1742557,
+        "like": 106943,
+        "reply": 2775,
+        "danmaku": 638,
+        "favorite": 16869,
+        "coin": 2965,
+        "share": 2448
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-22T03:36:37.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 151.14
+    },
+    {
+      "id": "bili:BV19UySzZExk",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "美军送温暖之辐到了：将在本土引爆五吨毒炸药",
       "author": "波士顿圆脸",
-      "url": "https://www.bilibili.com/video/BV1vZs86GEgG",
-      "cover": "https://i2.hdslb.com/bfs/archive/9846b97040845acbd40c7a9b63269130c5ec6cff.jpg",
+      "url": "https://www.bilibili.com/video/BV19UySzZExk",
+      "cover": "https://i1.hdslb.com/bfs/archive/67e3376637dc5fea9fb05e7fd94e07277caf6340.jpg",
       "summary": "",
       "metrics": {
-        "play": 1388412,
-        "like": 131007,
-        "reply": 2120,
-        "danmaku": 421,
-        "favorite": 12659,
-        "coin": 45363,
-        "share": 3956,
-        "fans": 5638110
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-19T12:49:28.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 161.76
-    },
-    {
-      "id": "bili:BV1mdWf6GEnF",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "大牙|| 肖8选择题精讲带背（第一套卷），全网讲解最清晰，专治零基础！",
-      "author": "大牙考研",
-      "url": "https://www.bilibili.com/video/BV1mdWf6GEnF",
-      "cover": "https://i0.hdslb.com/bfs/archive/03074f7f156d9c4b9bf3f6860f1d4688014d4807.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 1935163,
-        "like": 95843,
-        "reply": 7695,
-        "danmaku": 60925,
-        "favorite": 88084,
-        "coin": 91269,
-        "share": 12870,
-        "fans": 1905747
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-16T03:29:36.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 161.44
-    },
-    {
-      "id": "bili:BV1sDy8zdE8W",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "喊了十多年的印度制造，这回是真要自研了？",
-      "author": "麻薯波比呀",
-      "url": "https://www.bilibili.com/video/BV1sDy8zdE8W",
-      "cover": "https://i0.hdslb.com/bfs/archive/82a72a2405389643c82f7fde177be666b7442297.jpg",
-      "summary": "本期视频提及的事件以及信息来源如下： 《一台盾构机，不该成为中印之间的心结》，环球时报公众号，2026-11-05 《涉印度首条高铁项目，日本前高官吐槽印政府“荒唐”，印度反驳》，环球网，2026-07-20 《印度首个高铁项目开工》，中证网，2017-09-15 《印度这对“腐败夫妻”，让许多印度民众高呼“耻辱”》，环球时报，2026-11-02 《印度工商部长放狠话：中国不提供盾构机，那就自己研发，我们不是一个轻易低头的国家；印度工程巨头泼冷水：就算研发出来，成本也无法竞争》，东西问公众号，2026-",
-      "metrics": {
-        "play": 250231,
-        "like": 21558,
-        "reply": 909,
-        "danmaku": 1460,
-        "favorite": 4363,
-        "coin": 2144,
-        "share": 135,
-        "fans": 3480909
+        "play": 489444,
+        "like": 34224,
+        "reply": 2395,
+        "danmaku": 2610,
+        "favorite": 3921,
+        "coin": 1542,
+        "share": 1344,
+        "fans": 5641655
       },
       "comments": [],
       "badges": [
@@ -592,50 +705,9 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-21T03:44:35.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 160.33
-    },
-    {
-      "id": "bili:BV1FmyWzeErv",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "大牙|| 肖8选择题精讲带背（第三套卷），全网讲解最清晰，专治零基础！",
-      "author": "大牙考研",
-      "url": "https://www.bilibili.com/video/BV1FmyWzeErv",
-      "cover": "https://i1.hdslb.com/bfs/archive/29505d522b48846011e22a495bbc4bfe63516ab6.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 183853,
-        "like": 16917,
-        "reply": 849,
-        "danmaku": 5148,
-        "favorite": 8467,
-        "coin": 19774,
-        "share": 363,
-        "fans": 1905747
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T09:21:07.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 160.08
+      "publishedAt": "2026-11-23T13:01:46.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 151
     },
     {
       "id": "bili:BV18psq6JEgF",
@@ -647,14 +719,13 @@
       "cover": "https://i2.hdslb.com/bfs/archive/8cf2f99addeef8229cb7178cba03c309527adee0.jpg",
       "summary": "一键三连推荐给更多朋友！",
       "metrics": {
-        "play": 1612683,
-        "like": 97324,
-        "reply": 1255,
-        "danmaku": 1754,
-        "favorite": 22968,
-        "coin": 38095,
-        "share": 3734,
-        "fans": 5447250
+        "play": 3311704,
+        "like": 158418,
+        "reply": 1966,
+        "danmaku": 2914,
+        "favorite": 35519,
+        "coin": 67672,
+        "share": 7342
       },
       "comments": [],
       "badges": [
@@ -675,26 +746,26 @@
         }
       ],
       "publishedAt": "2026-11-20T06:32:50.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 159.96
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 150.97
     },
     {
-      "id": "bili:BV1JRsw66E1s",
+      "id": "bili:BV1nzsq6BERu",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "灭霸金融小课堂：应届生小浣熊的疑惑，什么是五险一金？",
-      "author": "灭霸金融小课堂",
-      "url": "https://www.bilibili.com/video/BV1JRsw66E1s",
-      "cover": "https://i0.hdslb.com/bfs/archive/328a02078e0eebd377847ed6cda81093c7659b1f.jpg",
-      "summary": "-",
+      "title": "长辈泡的“药酒”，里面到底有什么？",
+      "author": "亿点点不一样",
+      "url": "https://www.bilibili.com/video/BV1nzsq6BERu",
+      "cover": "https://i2.hdslb.com/bfs/archive/1bab54787d170ca00d9a70f1963792ab0f5d8efe.jpg",
+      "summary": "药材、动物…这些东西泡进酒里，真的能“养生进补”吗？这次我们通过显微镜观察和成分检测，看看长辈们泡的、买的“药酒”里，究竟有什么？如果你喜欢这期节目，请多多支持我们，也欢迎把这期视频分享给你的家人朋友们一起看看！ *本期节目包含蛇类与其他动物泡制酒的相关画面，可能引起不适。 节目中“药酒”仅为养殖科普样本展示，请遵纪守法，保护野生动物。",
       "metrics": {
-        "play": 3948264,
-        "like": 354459,
-        "reply": 9957,
-        "danmaku": 3315,
-        "favorite": 100072,
-        "coin": 10443,
-        "share": 11043
+        "play": 4990578,
+        "like": 178763,
+        "reply": 8253,
+        "danmaku": 7192,
+        "favorite": 43265,
+        "coin": 36714,
+        "share": 23181
       },
       "comments": [],
       "badges": [
@@ -704,37 +775,32 @@
           "tone": "error"
         },
         {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
           "key": "dark-horse",
           "label": "🐴 近期黑马",
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-16T04:11:32.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 158.74
+      "publishedAt": "2026-11-20T09:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 150.81
     },
     {
-      "id": "bili:BV1gHsz6ZEzF",
+      "id": "bili:BV11QyuzeETK",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "人情陷阱：中国人为何如此拧巴？",
+      "title": "玛雅消失案：谁杀死了一个失落的文明？",
       "author": "大圆镜科普",
-      "url": "https://www.bilibili.com/video/BV1gHsz6ZEzF",
-      "cover": "https://i0.hdslb.com/bfs/archive/356050b92c1937478757f06554b62127915b3bf7.jpg",
-      "summary": "朋友帮忙，为什么不能给钱？礼金还礼，为什么非得加码？规则怪谈里最可怕的，不是规则，是没人告诉你规则。看不懂这些规矩，是我们太天真，还是规矩太过时？ 参考文献 [1] 我的學思歷程-第1集[M/OL]. 台大出版中心, 2002. [2] 楊國樞. 我們為什么要建立中國人的本土心理學？[J]. 本土心理學研究, 1993: 6-88. [3] 杨国枢, 文崇一. 社會及行為科學研究的中國化[M/OL]. [4] 赵旭东. 超越本土化：反思中国本土文化建构[J]. 社会学研究, 2001(6): 56-72.",
+      "url": "https://www.bilibili.com/video/BV11QyuzeETK",
+      "cover": "https://i0.hdslb.com/bfs/archive/cd1712e4b205af068b9e03a57f8272bc8fb0c0b3.jpg",
+      "summary": "末日预言是假的，但满池的王族尸骨，却是真的。公元9世纪，几十座玛雅王城接连沦为死地。千年后，科学家在最大王城的水库黑泥里，测出了超标水银。是谁在给全城下毒？几百万玛雅人，又去了哪？ 参考文献： [1] INOMATA T, TRIADAN D, PONCIANO E, et al., In the Palace of the Fallen king: The Royal Residential Complex at Aguateca, Guatemala[J]. Journal of Field Arch",
       "metrics": {
-        "play": 1499252,
-        "like": 172369,
-        "reply": 7323,
-        "danmaku": 4442,
-        "favorite": 53072,
-        "coin": 12267,
-        "share": 9411
+        "play": 1464473,
+        "like": 101221,
+        "reply": 1618,
+        "danmaku": 1229,
+        "favorite": 14026,
+        "coin": 2330,
+        "share": 859
       },
       "comments": [],
       "badges": [
@@ -754,27 +820,228 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-17T09:03:54.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 158.53
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 150.27
     },
     {
-      "id": "bili:BV17LyWzxEbx",
+      "id": "bili:BV1pDyjzEEsJ",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "GTA6性能要求高吗？哪台主机表现好？解锁30帧后能跑多少帧？",
+      "author": "极客湾Geekerwan",
+      "url": "https://www.bilibili.com/video/BV1pDyjzEEsJ",
+      "cover": "https://i0.hdslb.com/bfs/archive/008f1230a45b94e33a69d0ce11432c9dc131a77c.jpg",
+      "summary": "GTA6来啦！我们今天要好好测一测，这款今年最期待的游戏大作在四款游戏主机上各自是什么性能、画质如何、结合主机价格聊聊建议，以及预测一下PC版的配置要求。最后甚至会尝试解锁30帧限制，测一测以主机的性能，游戏能跑到的极限是多少帧！一起来看看吧……",
+      "metrics": {
+        "play": 993773,
+        "like": 49402,
+        "reply": 13368,
+        "danmaku": 4144,
+        "favorite": 9725,
+        "coin": 14125,
+        "share": 7549,
+        "fans": 5694168
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-22T17:08:56.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 150.12
+    },
+    {
+      "id": "bili:BV1pkyGzMEdC",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "一次意外的叮咬，竟然让他从此告别红肉...",
-      "author": "Chubbyemu",
-      "url": "https://www.bilibili.com/video/BV17LyWzxEbx",
-      "cover": "https://i0.hdslb.com/bfs/archive/39ef1af01e208364a2dc7549dc3d20df4c671ca9.jpg",
-      "summary": "https://youtu.be/8TzDewSmlxs?si=6TGdUjjnwpnheP0R Chubbyemu 2026年11月4日发布",
+      "title": "大牙|| 肖8选择题精讲带背（第四套卷），全网讲解最清晰，专治零基础！",
+      "author": "大牙考研",
+      "url": "https://www.bilibili.com/video/BV1pkyGzMEdC",
+      "cover": "https://i0.hdslb.com/bfs/archive/e6e440df0c943a185668e648eb2f59f0ea03f5d5.jpg",
+      "summary": "",
       "metrics": {
-        "play": 71139,
-        "like": 7757,
-        "reply": 503,
-        "danmaku": 857,
-        "favorite": 2087,
-        "coin": 1575,
-        "share": 452
+        "play": 668968,
+        "like": 29504,
+        "reply": 903,
+        "danmaku": 3459,
+        "favorite": 13256,
+        "coin": 32350,
+        "share": 680,
+        "fans": 1972187
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-22T10:06:47.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 149.92
+    },
+    {
+      "id": "bili:BV1N8sq6yEyM",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "【盘点】互联网10大恶心设计，从愤怒到麻木……",
+      "author": "橙红Iris",
+      "url": "https://www.bilibili.com/video/BV1N8sq6yEyM",
+      "cover": "https://i1.hdslb.com/bfs/archive/1bd565d6aa51fd5dcf315909722a56d962a84cc0.jpg",
+      "summary": "开屏广告、摇一摇、弹窗广告、借贷、自动扣费、病毒APP、链接无法打开......这些让人膈应的套路、设计，相信大家每天至少都会撞上几个，从最开始的烦躁厌恶，到最后只能习惯、接受，我们到底在忍受什么？今天呢，我就把这些恶心人的互联网设计通通揪出来挂在耻辱柱上，看看它们到底是怎么算计用户的。",
+      "metrics": {
+        "play": 480973,
+        "like": 46174,
+        "reply": 4263,
+        "danmaku": 5190,
+        "favorite": 11755,
+        "coin": 20762,
+        "share": 1896,
+        "fans": 858310
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-20T09:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 149.52
+    },
+    {
+      "id": "bili:BV1mTyXzWEdv",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "黄仁勋正式回归英伟达：恢复全部职务｜显卡日报11月24日",
+      "author": "芝士华莱士",
+      "url": "https://www.bilibili.com/video/BV1mTyXzWEdv",
+      "cover": "https://i1.hdslb.com/bfs/archive/34d4ef9249aaa4d50b64fcaf2c585edd64102157.jpg",
+      "summary": "日报有用记得关注哦，你的鼓励真的很重要",
+      "metrics": {
+        "play": 737802,
+        "like": 27419,
+        "reply": 4660,
+        "danmaku": 1593,
+        "favorite": 3018,
+        "coin": 4058,
+        "share": 4042,
+        "fans": 534558
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T14:54:32.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 149.38
+    },
+    {
+      "id": "bili:BV1ifyGz4Edy",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "⚡️从夯到拉！ 2026年3A游戏优化水平大摸底！谁是优化之王",
+      "author": "阿狸才不是受",
+      "url": "https://www.bilibili.com/video/BV1ifyGz4Edy",
+      "cover": "https://i0.hdslb.com/bfs/archive/841259ebb82ed51539758190a626125e3099e0d7.jpg",
+      "summary": "喜欢我的视频记得一键三连哦~",
+      "metrics": {
+        "play": 954139,
+        "like": 60014,
+        "reply": 2513,
+        "danmaku": 1287,
+        "favorite": 11678,
+        "coin": 14169,
+        "share": 970,
+        "fans": 2535889
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-22T10:30:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 149.2
+    },
+    {
+      "id": "bili:BV1GAyozCELm",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "黄仁勋回归，是危机落幕，还是一场更大政治博弈的开端？【逸语道破】",
+      "author": "沈逸老师",
+      "url": "https://www.bilibili.com/video/BV1GAyozCELm",
+      "cover": "https://i2.hdslb.com/bfs/archive/af74c9ed5686704671c10d17e10200dc8930e1b7.jpg",
+      "summary": "离职11天后，黄仁勋重返英伟达，特朗普公开支持，资本市场迅速回应。但这场风波远未结束：公司内部调查仍在继续，美国国会也在盯着芯片出口和政府审批。随着新一届国会开启，民主党会怎样追问？共和党内部又会出现什么分歧？黄仁勋回归，究竟是危机落幕，还是一场更大政治博弈的开端？本期《逸语道破》，从董事会到白宫、从国会听证到中美科技博弈，梳理这场事件的下一步走向。",
+      "metrics": {
+        "play": 97910,
+        "like": 7216,
+        "reply": 750,
+        "danmaku": 315,
+        "favorite": 1754,
+        "coin": 591,
+        "share": 215,
+        "fans": 2908171
       },
       "comments": [],
       "badges": [
@@ -794,28 +1061,28 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-21T03:30:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 157.28
+      "publishedAt": "2026-11-24T06:58:44.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 149.06
     },
     {
-      "id": "bili:BV1R2s269EMr",
+      "id": "bili:BV15aytzcENP",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "从恒生指数看港股这57年【1969-2026】【特效数据可视化】",
-      "author": "湾林Studio",
-      "url": "https://www.bilibili.com/video/BV1R2s269EMr",
-      "cover": "https://i1.hdslb.com/bfs/archive/861da07f78a98c005a3927905d2cd86e7c83102e.jpg",
-      "summary": "首先非常感谢 @醉中中 中 特地帮我查阅了香港图书馆的馆藏资料，帮我找到了联交所《股市資料》和《香港經濟年鑑》的原表，为我补齐了1985、1990、1992—1997的年末市值榜数据。推荐60帧+佩戴耳机观看效果最佳。这期信息量非常大，觉得太快可以多看几次，目前难度、耗时、综合开销最大的一期，烧了42.24亿token，写了上万字分镜，一共改了43个版本，港股跨度太大了，要花相当长的时间展示，甚至tradeview的恒指数据都是从1987开始的，港股的数据比美股A股都要难找的多，很多付费金融数据库都大量",
+      "title": "Claude 证明了黎曼猜想？11分钟讲清它到底证明了什么、还差哪几步",
+      "author": "频谱之外",
+      "url": "https://www.bilibili.com/video/BV15aytzcENP",
+      "cover": "https://i1.hdslb.com/bfs/archive/d4cd0919b3d365f5443b59c9167c459b84b799ab.jpg",
+      "summary": "只要在那条窄带里找到一个偏离中线的零点，黎曼猜想就会被推翻。1950 年，图灵用曼彻斯特的一台早期计算机，想找的就是那一个。 2026 年 11 月 20 日，数学家阿尔波格与 Claude 公开了一份 Lean 证明，随后通过了多项独立机器检查。同一天公开的另一份广义黎曼猜想草稿仍在修订。 这部片从一个小问题讲起：数到一百万，素数的估算只差约 130 个。再往远处数，误差能有多大？我们把零点的波一层层叠起来，再跟着图灵的思路数一遍，看看怎样知道这一段一个都没漏，以及一份证明怎样回答「所有」。 旁白",
       "metrics": {
-        "play": 1326745,
-        "like": 62232,
-        "reply": 2591,
-        "danmaku": 926,
-        "favorite": 14363,
-        "coin": 3038,
-        "share": 4401,
-        "fans": 11721
+        "play": 1400083,
+        "like": 26480,
+        "reply": 9172,
+        "danmaku": 1372,
+        "favorite": 13963,
+        "coin": 3506,
+        "share": 7536,
+        "fans": 10786
       },
       "comments": [],
       "badges": [
@@ -830,32 +1097,32 @@
           "tone": "success"
         },
         {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-18T09:40:51.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 156.54
+      "publishedAt": "2026-11-21T01:53:08.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 147.92
     },
     {
-      "id": "bili:BV1bXypz3E1p",
+      "id": "bili:BV1DwyXzoEwW",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "抛物线二级结论大盘点",
-      "author": "一数",
-      "url": "https://www.bilibili.com/video/BV1bXypz3E1p",
-      "cover": "https://i1.hdslb.com/bfs/archive/f67a36f1f5228a3fbe99312c80d25d2ec383c804.jpg",
-      "summary": "公众号：一数儿，免费分享学习资料~ @一物儿 学习物理 @一化儿 学习化学 @一生儿 学习生物 @一英儿 学习英语 @一地er 学习地理 @一高数 学习高数 @学过石油的语文老师 学习语文 愿这份友谊长存！",
+      "title": "2026年，社会和优绩主义打了一架，输得头破血流",
+      "author": "本子在隔壁",
+      "url": "https://www.bilibili.com/video/BV1DwyXzoEwW",
+      "cover": "https://i2.hdslb.com/bfs/archive/278bb183dd823ce84e41abffbeba7ad86944ee87.jpg",
+      "summary": "个人主页：http://www.benzi-studio.cc/",
       "metrics": {
-        "play": 112435,
-        "like": 20535,
-        "reply": 182,
-        "danmaku": 117,
-        "favorite": 8150,
-        "coin": 789,
-        "share": 420
+        "play": 26872,
+        "like": 2321,
+        "reply": 257,
+        "danmaku": 238,
+        "favorite": 1312,
+        "coin": 1042,
+        "share": 218
       },
       "comments": [],
       "badges": [
@@ -868,331 +1135,11 @@
           "key": "dark-horse",
           "label": "🐴 近期黑马",
           "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-20T12:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 155.77
-    },
-    {
-      "id": "bili:BV16eyszwEJz",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "「小白」23台！2026量产机性能大实测：王者都稳不住？",
-      "author": "小白测评",
-      "url": "https://www.bilibili.com/video/BV16eyszwEJz",
-      "cover": "https://i1.hdslb.com/bfs/archive/fd40351f0c1ca7a1e305234170599d3418f27e55.jpg",
-      "summary": "关注微信公众号：小白测评 每晚发车不见不散",
-      "metrics": {
-        "play": 98988,
-        "like": 7992,
-        "reply": 1016,
-        "danmaku": 1088,
-        "favorite": 2504,
-        "coin": 2483,
-        "share": 1334,
-        "fans": 4744475
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-21T03:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 155.1
-    },
-    {
-      "id": "bili:BV1tfsG6mE5J",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "王勃：写下《滕王阁序》时，我以为往后的日子还很长【完整版】",
-      "author": "子非秋月",
-      "url": "https://www.bilibili.com/video/BV1tfsG6mE5J",
-      "cover": "https://i0.hdslb.com/bfs/archive/b56fdd3ab2119de1a2ed16d8ef56cefb53df82ad.jpg",
-      "summary": "王勃，字子安，初唐四杰之一。他少年成名，未及弱冠便步入仕途，却也在短短二十多年的生命里，经历了得意、失意、获罪与离别。他写下了“落霞与孤鹜齐飞，秋水共长天一色”，也留下了“穷且益坚，不坠青云之志”。可很少有人知道，那个在滕王阁上写下千古名篇的年轻人，当时正走在前往万里之外寻找父亲的路上。 2024年，我们曾经讲述过王勃的故事。时隔两年，这一次，我们重新翻阅史书、查阅文献，认真梳理了他短暂一生中的诸多经历，也补充了许多过去未曾讲述的细节，希望能够以更加完整的方式，重新呈现这位少年的一生。 这一次，我",
-      "metrics": {
-        "play": 148607,
-        "like": 19717,
-        "reply": 264,
-        "danmaku": 284,
-        "favorite": 4560,
-        "coin": 1741,
-        "share": 389
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T10:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 154.23
-    },
-    {
-      "id": "bili:BV1atyWz7ExR",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "【诡辩逻辑拆解】你愿意以外卖冷掉为代价，换取外卖员的8小时工作制吗？",
-      "author": "WY的灯塔",
-      "url": "https://www.bilibili.com/video/BV1atyWz7ExR",
-      "cover": "https://i2.hdslb.com/bfs/archive/0d271cc7b5950820aae537fc1d7fa14bd460c0d1.jpg",
-      "summary": "【诡辩逻辑拆解】你愿意以外卖冷掉为代价，换取外卖员的8小时工作制吗？",
-      "metrics": {
-        "play": 388409,
-        "like": 37402,
-        "reply": 1922,
-        "danmaku": 1318,
-        "favorite": 5789,
-        "coin": 1215,
-        "share": 306,
-        "fans": 528417
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T09:57:52.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 154.14
-    },
-    {
-      "id": "bili:BV1i6sH6QEU4",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "被困在千米井底的一村人，用7年、6条命，把天凿开了",
-      "author": "咕咕叫兽",
-      "url": "https://www.bilibili.com/video/BV1i6sH6QEU4",
-      "cover": "https://i2.hdslb.com/bfs/archive/b0d2ee13706e21ddbf56258a359c9374acd7e937.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 1380957,
-        "like": 168319,
-        "reply": 1682,
-        "danmaku": 473,
-        "favorite": 39794,
-        "coin": 10946,
-        "share": 1313
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-15T13:10:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 154.07
-    },
-    {
-      "id": "bili:BV153sq6oEvG",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "动态视频｜花4999元请机器人拍视频，能行吗？",
-      "author": "影视飓风",
-      "url": "https://www.bilibili.com/video/BV153sq6oEvG",
-      "cover": "https://i1.hdslb.com/bfs/archive/ec57c5ab79f2d3de34a4cfc439b2336fcceb021a.jpg",
-      "summary": "这应该是我们最近见到的最有意思的一款数码产品了。这次我们想和你一起看看，这款结合了机器人全新形态的拍摄机器，真的能符合我们日常拍摄的需求吗？如果你喜欢这期视频，请多多支持我们，并把视频分享给你的朋友们！",
-      "metrics": {
-        "play": 938853,
-        "like": 46894,
-        "reply": 2152,
-        "danmaku": 1041,
-        "favorite": 8024,
-        "coin": 7210,
-        "share": 2728,
-        "fans": 19141832
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-20T09:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 153.5
-    },
-    {
-      "id": "bili:BV1Gcsh6gER2",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "传奇历史人物志——拉马努金",
-      "author": "抽象历史人物志",
-      "url": "https://www.bilibili.com/video/BV1Gcsh6gER2",
-      "cover": "https://i1.hdslb.com/bfs/archive/7429a2423dd726bf2b0c66dd56dc9aca6268cd31.jpg",
-      "summary": "努力一辈子的人被误解为纯靠天分的天才，何尝不是一种悲哀",
-      "metrics": {
-        "play": 1112117,
-        "like": 78677,
-        "reply": 1209,
-        "danmaku": 474,
-        "favorite": 9257,
-        "coin": 1368,
-        "share": 714,
-        "fans": 700407
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-19T12:43:05.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 153.32
-    },
-    {
-      "id": "bili:BV18ws66hEXj",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "黑客打开印度骗子的摄像头，顺手把骗子策反了！",
-      "author": "哈里大王",
-      "url": "https://www.bilibili.com/video/BV18ws66hEXj",
-      "cover": "https://i2.hdslb.com/bfs/archive/c687e79d5156f27c49afac0642a79317bac6f398.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 2554192,
-        "like": 207259,
-        "reply": 2298,
-        "danmaku": 2826,
-        "favorite": 41971,
-        "coin": 2303,
-        "share": 1219
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-17T08:20:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 152.16
-    },
-    {
-      "id": "bili:BV1LTsA6aE9g",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "75年后，93岁的农村老兵终于带他9个16岁战友来北京看天安门了",
-      "author": "我是九日儿",
-      "url": "https://www.bilibili.com/video/BV1LTsA6aE9g",
-      "cover": "https://i2.hdslb.com/bfs/archive/e8dc8ca07307fe6dc7ce9f79df3e34173cb4b892.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 360022,
-        "like": 120824,
-        "reply": 1180,
-        "danmaku": 4473,
-        "favorite": 19418,
-        "coin": 41607,
-        "share": 761,
-        "fans": 227049
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-16T04:47:20.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 152
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 147.8
     },
     {
       "id": "bili:BV1NQsm6gE3L",
@@ -1204,13 +1151,14 @@
       "cover": "https://i2.hdslb.com/bfs/archive/f98da944c4ed6fe5fce3494f5dc95cff5ab6ca60.jpg",
       "summary": "",
       "metrics": {
-        "play": 1701064,
-        "like": 67889,
-        "reply": 8961,
-        "danmaku": 6153,
-        "favorite": 24930,
-        "coin": 32097,
-        "share": 11663
+        "play": 2385027,
+        "like": 81826,
+        "reply": 11319,
+        "danmaku": 7165,
+        "favorite": 30610,
+        "coin": 37964,
+        "share": 14207,
+        "fans": 1086774
       },
       "comments": [],
       "badges": [
@@ -1231,27 +1179,27 @@
         }
       ],
       "publishedAt": "2026-11-18T08:08:51.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 150.53
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 147.32
     },
     {
-      "id": "bili:BV1pDn86VERG",
+      "id": "bili:BV16jyDzzEhn",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "艺术史最大骗局：梵高生前没人认可？现实情况所有人都没想到…",
-      "author": "小透明明TM",
-      "url": "https://www.bilibili.com/video/BV1pDn86VERG",
-      "cover": "https://i1.hdslb.com/bfs/archive/841afad596bf050163da8faa8559bfcec98fe721.jpg",
-      "summary": "《神秘博士》里，梵高穿越到现代，看到自己被认可。 这竟然不是科幻剧的剧情，而是真实的历史？ 梵高生前真的看到自己的画被展出了！ 但是，梵高看到自己被认可的时候，他的反应却出乎大家的意料…",
+      "title": "“给她爱6”既不懂她也不懂爱，但它很懂美国【毒舌的南瓜】",
+      "author": "毒舌的南瓜",
+      "url": "https://www.bilibili.com/video/BV16jyDzzEhn",
+      "cover": "https://i1.hdslb.com/bfs/archive/e7760720003c75026b54b5ce1a48a932fb4d945c.jpg",
+      "summary": "",
       "metrics": {
-        "play": 426774,
-        "like": 28084,
-        "reply": 599,
-        "danmaku": 472,
-        "favorite": 7771,
-        "coin": 4083,
-        "share": 514,
-        "fans": 2877559
+        "play": 341614,
+        "like": 20444,
+        "reply": 2144,
+        "danmaku": 1893,
+        "favorite": 5068,
+        "coin": 1653,
+        "share": 856,
+        "fans": 2780131
       },
       "comments": [],
       "badges": [
@@ -1271,28 +1219,28 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-20T09:30:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 150.2
+      "publishedAt": "2026-11-23T12:07:20.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 146.99
     },
     {
-      "id": "bili:BV149ypz6Ehs",
+      "id": "bili:BV1tGyezMEuQ",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "前所未见：巴西亚马逊原始部落拖家带口现身求救",
+      "title": "APEC逢人吐舌头的高市终于迎来日本集体爆骂",
       "author": "波士顿圆脸",
-      "url": "https://www.bilibili.com/video/BV149ypz6Ehs",
-      "cover": "https://i2.hdslb.com/bfs/archive/f335b9347b729e76c911e37346a98365f53aef82.jpg",
+      "url": "https://www.bilibili.com/video/BV1tGyezMEuQ",
+      "cover": "https://i1.hdslb.com/bfs/archive/e50c2a9f522d878c8471af81684ea34bdcd68c8f.jpg",
       "summary": "",
       "metrics": {
-        "play": 562551,
-        "like": 33011,
-        "reply": 2056,
-        "danmaku": 923,
-        "favorite": 4653,
-        "coin": 1674,
-        "share": 619,
-        "fans": 5638110
+        "play": 1550700,
+        "like": 70791,
+        "reply": 1730,
+        "danmaku": 13075,
+        "favorite": 6962,
+        "coin": 3914,
+        "share": 5003,
+        "fans": 5641655
       },
       "comments": [],
       "badges": [
@@ -1312,188 +1260,157 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-20T10:49:17.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 149.72
+      "publishedAt": "2026-11-21T13:50:35.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 146.22
     },
     {
-      "id": "bili:BV1beyWzVEzi",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "不打核战争了？三国和平宣言，东风实力铸就！",
-      "author": "TomCat团座",
-      "url": "https://www.bilibili.com/video/BV1beyWzVEzi",
-      "cover": "https://i2.hdslb.com/bfs/archive/793619b68f6858d601c26abf40d0c672df30b354.jpg",
-      "summary": "视频素材来源见右下角~ 事件来源： 央视新闻《中俄美元首和平宣言》 2026年11月19日 中国报道《中俄美元首历史性会晤，为大国相处提供对抗之外的另一种选择》2026年11月20日 中国新闻网 《美方要求中方参加中美俄三边核裁军谈判，外交部:不公平、不合理也不可行》 2026年2月27日 吴日强 Elbridge Colby 著《构建中美核武器领域战略稳定》 夏立平 著《论中国核战略的演进与构成》 波尔特 李宝俊 著《美国核战略新动向及其对我国的影响》 于智勇 著《关于《核不扩散条约》若干问题的再认识》",
-      "metrics": {
-        "play": 320200,
-        "like": 22816,
-        "reply": 647,
-        "danmaku": 870,
-        "favorite": 4549,
-        "coin": 3348,
-        "share": 455
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T09:55:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 148.15
-    },
-    {
-      "id": "bili:BV1nVs16tESg",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "历史性峰会！为什么是APEC？是中国？是深圳？",
-      "author": "小王Albert",
-      "url": "https://www.bilibili.com/video/BV1nVs16tESg",
-      "cover": "https://i2.hdslb.com/bfs/archive/ca0dfc905b6afccd088c5b8b6057cdc0cb451bdb.jpg",
-      "summary": "一键三连推荐给更多朋友！",
-      "metrics": {
-        "play": 2872925,
-        "like": 112986,
-        "reply": 1286,
-        "danmaku": 4280,
-        "favorite": 22211,
-        "coin": 27522,
-        "share": 7659,
-        "fans": 5447250
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-18T05:28:57.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 147.48
-    },
-    {
-      "id": "bili:BV1WUsw6yEHF",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "灭霸金融小课堂：灭霸玉米大丰收，什么是卖出套期保值？",
-      "author": "灭霸金融小课堂",
-      "url": "https://www.bilibili.com/video/BV1WUsw6yEHF",
-      "cover": "https://i0.hdslb.com/bfs/archive/501a513bc1a2a628b7a45f1b65382c86c2e9a366.jpg",
-      "summary": "-",
-      "metrics": {
-        "play": 1852516,
-        "like": 143100,
-        "reply": 1191,
-        "danmaku": 382,
-        "favorite": 24284,
-        "coin": 1549,
-        "share": 2179
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-16T04:30:14.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 145.63
-    },
-    {
-      "id": "bili:BV15EyWzWEUg",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "墨有虚实，瓷藏纯粹！原来跨越千年的美，可以如此相通",
-      "author": "匠人集",
-      "url": "https://www.bilibili.com/video/BV15EyWzWEUg",
-      "cover": "https://i0.hdslb.com/bfs/archive/b9ca351ea3866c879a5795d39d8faae96bf89564.jpg",
-      "summary": "《胜利女神：新的希望》1.5 周年特别企划「一相一艺」× 匠人集 。以墨、瓷、光影、剪纸、掐丝、蜀绣、糖艺七种东方传统技艺，为七位角色塑写七相。跨越虚拟与现实，材质各有言语，而动人的美，从未随时间改变。 创作&摄影：匠人集 水墨： @丝鸣丝鸣 糖画：@北京糖画王岐洋 剪纸：@剪纸大师伏兆娥 蜀绣：@孟德芝蜀绣大师工作室 陶瓷：@汐的陶艺工坊 皮影：@小朱不才- 掐丝：@文笙zzz",
-      "metrics": {
-        "play": 601192,
-        "like": 22423,
-        "reply": 466,
-        "danmaku": 52,
-        "favorite": 4076,
-        "coin": 1027,
-        "share": 613,
-        "fans": 1023295
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T11:30:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 145.48
-    },
-    {
-      "id": "bili:BV19JyWzXEQ9",
+      "id": "bili:BV1isyDzPEsE",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "如果睡觉也能赚钱...",
-      "author": "刘拖地",
-      "url": "https://www.bilibili.com/video/BV19JyWzXEQ9",
-      "cover": "https://i0.hdslb.com/bfs/archive/ff51cc03aa69cc8c37c9b725b3a5e1b1964fa7ac.jpg",
+      "title": "它驯服了骁龙8EE6：红魔12 Pro+ 后发体验",
+      "author": "搞机所",
+      "url": "https://www.bilibili.com/video/BV1isyDzPEsE",
+      "cover": "https://i1.hdslb.com/bfs/archive/17fddad8c1e31977e2a90ebe5e21f1c0bbf811f0.jpg",
+      "summary": "极速风冷+双水路液冷直接塞进手机 185Hz完美全面屏 满帧畅玩PC模拟器 红魔12 Pro+可能是今年最不像手机的手机 这期视频聊聊它和常规游戏旗舰的本质差距",
+      "metrics": {
+        "play": 178476,
+        "like": 19901,
+        "reply": 662,
+        "danmaku": 522,
+        "favorite": 2907,
+        "coin": 2382,
+        "share": 577,
+        "fans": 2617744
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T10:15:02.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 145.86
+    },
+    {
+      "id": "bili:BV1SzyDz9ERv",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "重力究竟是什么？｜爱因斯坦与相对论",
+      "author": "司文的不思議世界",
+      "url": "https://www.bilibili.com/video/BV1SzyDz9ERv",
+      "cover": "https://i0.hdslb.com/bfs/archive/bf9272ec3505ba5edc6d7bd1879bf44d48c9ba22.jpg",
+      "summary": "从伽利略的自由落体实验，到牛顿的万有引力定律，再到爱因斯坦颠覆人类时空观念的广义相对论，几百年来，科学家一直在试图揭开重力的秘密。然而，即使是广义相对论，在面对黑洞奇点等极端环境时，也还是存在无法解决的问题。这也让我们不得不思考：人类真的理解重力吗？还是说，在我们熟悉的物理定律背后，隐藏着一套更加深刻的宇宙法则？这期视频，我们就一起探索重力的本质，以及现代物理学至今仍在寻找的终极答案。 -----------------------------------------------------------",
+      "metrics": {
+        "play": 138596,
+        "like": 7978,
+        "reply": 915,
+        "danmaku": 704,
+        "favorite": 4270,
+        "coin": 5250,
+        "share": 274
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T10:58:57.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 145.65
+    },
+    {
+      "id": "bili:BV1bxyJzAE1c",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "荣耀700 Pro背着你干了很多事情",
+      "author": "热男HotGuys",
+      "url": "https://www.bilibili.com/video/BV1bxyJzAE1c",
+      "cover": "https://i2.hdslb.com/bfs/archive/6acaf7c35d76c6aa576273a9fb2930d168074f5a.jpg",
+      "summary": "我觉得#荣耀700# Pro最特别的地方，是在提升日常用机体验的同时，把一块背屏玩出了个性、玩出了实用性，可以说是坐稳了潮趣影像轻旗舰的定位。 #荣耀700潮趣影像轻旗舰#",
+      "metrics": {
+        "play": 164470,
+        "like": 12600,
+        "reply": 255,
+        "danmaku": 149,
+        "favorite": 4256,
+        "coin": 8162,
+        "share": 57,
+        "fans": 1104422
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 145.65
+    },
+    {
+      "id": "bili:BV1MWyJzeE6V",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "后劲太大! 川普回国猛夸深圳: 城市甚至没有修补痕迹！沈逸 三妹",
+      "author": "新西兰三妹Summer",
+      "url": "https://www.bilibili.com/video/BV1MWyJzeE6V",
+      "cover": "https://i1.hdslb.com/bfs/archive/a06b922e3be801ed79e2dc1425060df693d85a44.jpg",
       "summary": "",
       "metrics": {
-        "play": 492610,
-        "like": 22497,
-        "reply": 192,
-        "danmaku": 173,
-        "favorite": 2648,
-        "coin": 2464,
-        "share": 130,
-        "fans": 564514
+        "play": 313750,
+        "like": 14966,
+        "reply": 1198,
+        "danmaku": 1711,
+        "favorite": 3483,
+        "coin": 3679,
+        "share": 505
       },
       "comments": [],
       "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
         {
           "key": "dark-horse",
           "label": "🐴 近期黑马",
@@ -1505,27 +1422,69 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-20T11:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 145.07
+      "publishedAt": "2026-11-23T12:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 143.99
     },
     {
-      "id": "bili:BV1Ltsm6dEin",
+      "id": "bili:BV1Z3yvzoE95",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "十分钟搞懂黎曼猜想，证明之后意味着什么？",
+      "author": "觀元-",
+      "url": "https://www.bilibili.com/video/BV1Z3yvzoE95",
+      "cover": "https://i0.hdslb.com/bfs/archive/9621efdcc2b9a5258c656856b8db24b761a41d56.jpg",
+      "summary": "希望能帮助大家！",
+      "metrics": {
+        "play": 580226,
+        "like": 10929,
+        "reply": 2560,
+        "danmaku": 957,
+        "favorite": 5922,
+        "coin": 1351,
+        "share": 1436,
+        "fans": 426
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "breakout",
+          "label": "🐣 小号爆款",
+          "tone": "success"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-21T18:43:06.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 143.99
+    },
+    {
+      "id": "bili:BV1PCy5zjEdP",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "两道影子靠近，为什么会“吸在一起”？",
-      "author": "浮世叁千问",
-      "url": "https://www.bilibili.com/video/BV1Ltsm6dEin",
-      "cover": "https://i0.hdslb.com/bfs/archive/df2458ae206e9695730ed7fe68da7ec189e81c53.jpg",
-      "summary": "小学二年级时，我发现了一个奇怪的现象：当两根手指慢慢靠近时，会有一个黑色阴影提前相连。你也有类似的发现吗？",
+      "title": "泸溪河亮片正口大鲤鱼 羡煞旁人珍贵录像",
+      "author": "波士顿圆脸",
+      "url": "https://www.bilibili.com/video/BV1PCy5zjEdP",
+      "cover": "https://i1.hdslb.com/bfs/archive/7d3ac796dde0862811b6525b40665816868ce400.jpg",
+      "summary": "同款亮片见评论区",
       "metrics": {
-        "play": 1207776,
-        "like": 60112,
-        "reply": 1118,
-        "danmaku": 769,
-        "favorite": 17417,
-        "coin": 3396,
-        "share": 1660
+        "play": 527160,
+        "like": 42332,
+        "reply": 2431,
+        "danmaku": 1866,
+        "favorite": 1247,
+        "coin": 1678,
+        "share": 521,
+        "fans": 5641655
       },
       "comments": [],
       "badges": [
@@ -1545,62 +1504,27 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-18T09:30:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 144.61
+      "publishedAt": "2026-11-22T12:44:34.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 143.34
     },
     {
-      "id": "bili:BV1X8s162EaR",
+      "id": "bili:BV1RRyJzGE4F",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "海豚尾巴上的怪东西，竟然是藤壶？",
-      "author": "阿寻有解",
-      "url": "https://www.bilibili.com/video/BV1X8s162EaR",
-      "cover": "https://i0.hdslb.com/bfs/archive/fc9637a9ee30a926fcafef745f07799127e6923f.jpg",
-      "summary": "",
+      "title": "法国战役（下）：一个国家是如何走向死亡的？【二战的故事】",
+      "author": "瑞克Zero",
+      "url": "https://www.bilibili.com/video/BV1RRyJzGE4F",
+      "cover": "https://i2.hdslb.com/bfs/archive/11e026c8701521b28197c55ae4029c5d5725659c.jpg",
+      "summary": "本期我们将继续讲述法国战役的故事",
       "metrics": {
-        "play": 4405135,
-        "like": 56623,
-        "reply": 2727,
-        "danmaku": 569,
-        "favorite": 2100,
-        "coin": 2516,
-        "share": 482
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-18T04:22:17.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 143.93
-    },
-    {
-      "id": "bili:BV1jjyWzRECb",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "中俄美元首和平宣言，到底说了啥？",
-      "author": "小Q不是导盲犬",
-      "url": "https://www.bilibili.com/video/BV1jjyWzRECb",
-      "cover": "https://i0.hdslb.com/bfs/archive/0db95f541c501454da9d2c0507a8567f460f5d64.jpg",
-      "summary": "备受瞩目的中美俄元首会晤，历史性的《中俄美元首和平宣言》，为什么这份文件这么关键？到底里面说了什么？媒体的报道埋了哪些小心思？敬请收看本期走进科……走进APEC！",
-      "metrics": {
-        "play": 339756,
-        "like": 19435,
-        "reply": 240,
-        "danmaku": 290,
-        "favorite": 3004,
-        "coin": 1120,
-        "share": 418
+        "play": 222079,
+        "like": 16646,
+        "reply": 887,
+        "danmaku": 1390,
+        "favorite": 5115,
+        "coin": 4470,
+        "share": 287
       },
       "comments": [],
       "badges": [
@@ -1620,167 +1544,9 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-20T09:48:37.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 143.38
-    },
-    {
-      "id": "bili:BV1puyxzME7Z",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "明年闪存供应增加30%：供应过剩预期提前｜显卡日报11月21日",
-      "author": "芝士华莱士",
-      "url": "https://www.bilibili.com/video/BV1puyxzME7Z",
-      "cover": "https://i2.hdslb.com/bfs/archive/5ac060cac64c50c6239ed5bc14e7f94f2a7de5cc.jpg",
-      "summary": "日报有用记得关注哦，你的鼓励真的很重要",
-      "metrics": {
-        "play": 240464,
-        "like": 12308,
-        "reply": 3007,
-        "danmaku": 538,
-        "favorite": 740,
-        "coin": 2152,
-        "share": 877,
-        "fans": 529692
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T15:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 142.8
-    },
-    {
-      "id": "bili:BV1WAyWzeEc6",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "你说过的做过的不记得了？不，我记得！",
-      "author": "epcdiy",
-      "url": "https://www.bilibili.com/video/BV1WAyWzeEc6",
-      "cover": "https://i0.hdslb.com/bfs/archive/0f0dddd14ca0d5e672c5d1a717cafbb4347cbf6b.jpg",
-      "summary": "开会三小时，扯皮一整天，最离谱的是过了几天，大家对同一件事的记忆居然完全不同！作为程序员，我发现人脑最大的BUG不是记性差，而是根本没法查日志。这次尝试给日常工作加一套AI记忆系统，看看能不能把那些扯皮都统统都消灭掉",
-      "metrics": {
-        "play": 86846,
-        "like": 7462,
-        "reply": 60,
-        "danmaku": 138,
-        "favorite": 2550,
-        "coin": 2237,
-        "share": 30,
-        "fans": 907695
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T11:15:32.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 142.64
-    },
-    {
-      "id": "bili:BV1bssj6tETx",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "驯化小麦：人类为什么对碳水如此死心塌地？",
-      "author": "大圆镜科普",
-      "url": "https://www.bilibili.com/video/BV1bssj6tETx",
-      "cover": "https://i0.hdslb.com/bfs/archive/3c6552bdd5d70fd9ae2fe99fe2fb82915c6ddafb.jpg",
-      "summary": "第一个想到把麦子磨成粉的人，一定是个天才。如今，全世界约25亿人将小麦作为主食。暄软的馒头、劲道的拉面、皮薄馅大的饺子、松软喷香的面包，你最爱的是哪一种？ 参考文献： [1]Accum F C. A treatise on adulterations of food and culinary poisons: exhibiting the fraudulent sophistications of bread, beer, wine, spirituous liquors, tea, coffee, cr",
-      "metrics": {
-        "play": 2626779,
-        "like": 139755,
-        "reply": 2026,
-        "danmaku": 2135,
-        "favorite": 16466,
-        "coin": 3663,
-        "share": 1126
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-15T00:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 142.59
-    },
-    {
-      "id": "bili:BV153sq6oEnz",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "旧瓶装新酒？不只是一个“子品牌”！华为星芒 OSTA O1 Pro体验",
-      "author": "大狸子切切里",
-      "url": "https://www.bilibili.com/video/BV153sq6oEnz",
-      "cover": "https://i1.hdslb.com/bfs/archive/7d61b9336569ef4d0fd91bdd9be38e4d489b5ef6.jpg",
-      "summary": "像啊，实在是太像了，这边框，这比例，机身还是胖胖嘟，华为老用户肯定眼熟啊",
-      "metrics": {
-        "play": 452166,
-        "like": 10116,
-        "reply": 1095,
-        "danmaku": 553,
-        "favorite": 3917,
-        "coin": 6370,
-        "share": 1055,
-        "fans": 2746572
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T08:57:39.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 142.13
+      "publishedAt": "2026-11-23T03:05:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 142.96
     },
     {
       "id": "bili:BV18GsY66EoP",
@@ -1792,16 +1558,21 @@
       "cover": "https://i0.hdslb.com/bfs/archive/e7b3896b58b53e5e75ed3750d0b524d75d832a12.jpg",
       "summary": "-",
       "metrics": {
-        "play": 172403,
-        "like": 17116,
-        "reply": 787,
-        "danmaku": 287,
-        "favorite": 5790,
-        "coin": 706,
-        "share": 4713
+        "play": 671426,
+        "like": 61239,
+        "reply": 1952,
+        "danmaku": 1000,
+        "favorite": 22854,
+        "coin": 2557,
+        "share": 14474
       },
       "comments": [],
       "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
         {
           "key": "interactive",
           "label": "⚡ 互动率极高",
@@ -1811,35 +1582,70 @@
           "key": "dark-horse",
           "label": "🐴 近期黑马",
           "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
         }
       ],
       "publishedAt": "2026-11-19T14:23:33.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 141.2
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 142.9
     },
     {
-      "id": "bili:BV1wasc6qEjc",
+      "id": "bili:BV1oyyLzYEFp",
       "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "GTA6真人版！欢迎来到真正的罪恶都市-迈阿密！！",
-      "author": "小鹿Lawrence",
-      "url": "https://www.bilibili.com/video/BV1wasc6qEjc",
-      "cover": "https://i2.hdslb.com/bfs/archive/d3a59214a79c986f70d6c3518d25f6012d901c30.jpg",
-      "summary": "等了这么多年，GTA6终于来了！这期的【美国往事】我们来到了游戏取景地迈阿密📍本期视频全程自费无广，如果您喜欢这期视频的内容，别忘了给个三连~ 🌴 阳光、海滩、棕榈树、粉色酒店……很难想象，这座看起来最适合度假的城市，曾经也是美国最危险的城市之一，现实中的迈阿密，远比我们想象中复杂得多。 所以这一次，到底是游戏更疯狂，还是现实更离谱？ 欢迎来到「美国往事」迈阿密篇！",
+      "category": "bili-knowledge",
+      "title": "见证历史！黎曼猜想被人机证明！",
+      "author": "派蒙科普",
+      "url": "https://www.bilibili.com/video/BV1oyyLzYEFp",
+      "cover": "https://i0.hdslb.com/bfs/archive/73891d7049d2dae4f9e2590980834b207238b8c9.jpg",
+      "summary": "本视频由人与AI协同制作完成，特别鸣谢：@桂皮AI实战",
       "metrics": {
-        "play": 2088820,
-        "like": 58667,
-        "reply": 1930,
-        "danmaku": 4578,
-        "favorite": 22462,
-        "coin": 22394,
-        "share": 6673,
-        "fans": 2316832
+        "play": 499836,
+        "like": 27235,
+        "reply": 3298,
+        "danmaku": 1019,
+        "favorite": 10907,
+        "coin": 2216,
+        "share": 3281
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-22T11:03:22.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 141.71
+    },
+    {
+      "id": "bili:BV1LwyVzsETP",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "同样是牛奶，凭啥一个保15天，一个能放三个月？",
+      "author": "毕的二阶导",
+      "url": "https://www.bilibili.com/video/BV1LwyVzsETP",
+      "cover": "https://i0.hdslb.com/bfs/archive/df4314807705f2bb4147eda6169bae63415798fe.jpg",
+      "summary": "祝你身体健康，多吃肉蛋奶！",
+      "metrics": {
+        "play": 1206962,
+        "like": 36976,
+        "reply": 1832,
+        "danmaku": 834,
+        "favorite": 5580,
+        "coin": 2211,
+        "share": 1203,
+        "fans": 2662875
       },
       "comments": [],
       "badges": [
@@ -1854,27 +1660,68 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-16T09:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 140.04
+      "publishedAt": "2026-11-22T09:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 141.61
     },
     {
-      "id": "bili:BV14as86FE2k",
+      "id": "bili:BV17uyHzQEuY",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "凌晨三点被叮了第四个包，我差点把全世界的蚊子一拍全灭了。【AI全民制作人】",
-      "author": "宇宙探秘社",
-      "url": "https://www.bilibili.com/video/BV14as86FE2k",
-      "cover": "https://i2.hdslb.com/bfs/archive/37baf0a9c24800655f691ca327430070a70e951f.jpg",
+      "title": "中国光伏板，成了穷国人民的彩礼嫁妆",
+      "author": "赛雷三分钟",
+      "url": "https://www.bilibili.com/video/BV17uyHzQEuY",
+      "cover": "https://i2.hdslb.com/bfs/archive/d0f769f6771d91b39a93945552539c530acb4f59.jpg",
+      "summary": "在大家的传统印象中，光伏是跟环保低碳挂钩的，国家发达了，经济条件好了，才去追求这种环保。但现实正好相反，越穷，就越需要光伏。",
+      "metrics": {
+        "play": 288964,
+        "like": 22099,
+        "reply": 1775,
+        "danmaku": 706,
+        "favorite": 2519,
+        "coin": 1419,
+        "share": 538
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T08:30:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 141.59
+    },
+    {
+      "id": "bili:BV1K8sN6sEXW",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "学校老师失踪了，很多人都知道他被埋在操场下面...",
+      "author": "M2档案",
+      "url": "https://www.bilibili.com/video/BV1K8sN6sEXW",
+      "cover": "https://i0.hdslb.com/bfs/archive/953446215346d6163635cd52b5044a857447a4df.jpg",
       "summary": "",
       "metrics": {
-        "play": 2225831,
-        "like": 818,
-        "reply": 33,
-        "danmaku": 12,
-        "favorite": 1490,
-        "coin": 0,
-        "share": 0
+        "play": 628293,
+        "like": 18767,
+        "reply": 1847,
+        "danmaku": 5555,
+        "favorite": 6964,
+        "coin": 4207,
+        "share": 1915,
+        "fans": 1180512
       },
       "comments": [],
       "badges": [
@@ -1894,28 +1741,27 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-20T04:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 138.87
+      "publishedAt": "2026-11-23T03:45:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 141.53
     },
     {
-      "id": "bili:BV1wvsA6VEd4",
+      "id": "bili:BV1sDy8zdE8W",
       "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "当我试图复刻《哈利·波特》的魔法照片……",
-      "author": "菇菇和呱呱",
-      "url": "https://www.bilibili.com/video/BV1wvsA6VEd4",
-      "cover": "https://i1.hdslb.com/bfs/archive/178cb894a2e184aa575c735512373862b98cb625.jpg",
-      "summary": "原来Live Photo还能这么玩？ 小时候看《哈利·波特》，一直很好奇那些会动的魔法照片到底是怎么拍出来的。 这次我们用 OPPO Reno17 Pro，认真研究了一下。 从构图、人物动作、6秒运镜，到无限循环的拍摄方法， 再利用实况调色盘为照片选择不同的氛围。 你们还有什么好玩的“魔法”创意，欢迎评论区分享！",
+      "category": "bili-knowledge",
+      "title": "喊了十多年的印度制造，这回是真要自研了？",
+      "author": "麻薯波比呀",
+      "url": "https://www.bilibili.com/video/BV1sDy8zdE8W",
+      "cover": "https://i0.hdslb.com/bfs/archive/82a72a2405389643c82f7fde177be666b7442297.jpg",
+      "summary": "本期视频提及的事件以及信息来源如下： 《一台盾构机，不该成为中印之间的心结》，环球时报公众号，2026-11-05 《涉印度首条高铁项目，日本前高官吐槽印政府“荒唐”，印度反驳》，环球网，2026-07-20 《印度首个高铁项目开工》，中证网，2017-09-15 《印度这对“腐败夫妻”，让许多印度民众高呼“耻辱”》，环球时报，2026-11-02 《印度工商部长放狠话：中国不提供盾构机，那就自己研发，我们不是一个轻易低头的国家；印度工程巨头泼冷水：就算研发出来，成本也无法竞争》，东西问公众号，2026-",
       "metrics": {
-        "play": 697396,
-        "like": 42805,
-        "reply": 234,
-        "danmaku": 413,
-        "favorite": 13048,
-        "coin": 3267,
-        "share": 975,
-        "fans": 268362
+        "play": 1271409,
+        "like": 72414,
+        "reply": 1984,
+        "danmaku": 4696,
+        "favorite": 7392,
+        "coin": 7271,
+        "share": 692
       },
       "comments": [],
       "badges": [
@@ -1935,27 +1781,227 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-16T12:08:11.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 138.72
+      "publishedAt": "2026-11-21T03:44:35.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 141.33
     },
     {
-      "id": "bili:BV1CRWX6UEYf",
+      "id": "bili:BV1fCyJzSEL7",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "吐舌头就能放松压力吗？",
-      "author": "猫村猫村",
-      "url": "https://www.bilibili.com/video/BV1CRWX6UEYf",
-      "cover": "https://i1.hdslb.com/bfs/archive/06bf40862b5bf6bac3e81fb001572209e2ba730b.jpg",
-      "summary": "运动确实能改善皮质醇，但皮质醇并不重要",
+      "title": "\"小县城\"靠AI拿到\"大结果\"，它凭什么？",
+      "author": "小Lin竖着说",
+      "url": "https://www.bilibili.com/video/BV1fCyJzSEL7",
+      "cover": "https://i0.hdslb.com/bfs/archive/e4712aab4e17cb4dcdb0fae83981339ba5633ddf.jpg",
+      "summary": "",
       "metrics": {
-        "play": 1522075,
-        "like": 45920,
-        "reply": 3595,
-        "danmaku": 385,
-        "favorite": 16196,
-        "coin": 519,
-        "share": 2351
+        "play": 404383,
+        "like": 20524,
+        "reply": 2383,
+        "danmaku": 753,
+        "favorite": 4482,
+        "coin": 2088,
+        "share": 2221,
+        "fans": 1168696
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T09:30:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 141.04
+    },
+    {
+      "id": "bili:BV1T4sq62E3n",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "又一“网红吃播”被全网群嘲到哭：羞辱老年人的烂梗，越来越歹毒",
+      "author": "小椰子专栏",
+      "url": "https://www.bilibili.com/video/BV1T4sq62E3n",
+      "cover": "https://i1.hdslb.com/bfs/archive/0f96d682c0787144116ee475e87c06b700d6e85e.jpg",
+      "summary": "如果小伙伴有更多的看法，可以在评论区给我留言哦。 下期想看什么热点事件，也可以跟椰子说说呀。 感谢大家的一键三连，你们的鼓励是我做视频的动力～ 也可以看看椰子的课程《普通人逆袭必备的30个认知模型》，在椰子的主页就可以看到哦。",
+      "metrics": {
+        "play": 375365,
+        "like": 20805,
+        "reply": 2104,
+        "danmaku": 794,
+        "favorite": 2826,
+        "coin": 2688,
+        "share": 918,
+        "fans": 1354119
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T08:50:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 140.65
+    },
+    {
+      "id": "bili:BV1w6yHzhEQ1",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "0元 vs 2000元摄影师！荣耀700 Pro户外体验！",
+      "author": "科技宅小明",
+      "url": "https://www.bilibili.com/video/BV1w6yHzhEQ1",
+      "cover": "https://i1.hdslb.com/bfs/archive/244d16f396ec3613408049722ad2e35d7dcc1b81.jpg",
+      "summary": "不要钱的摄影师，和2000块一天的摄影师，拍出来的照片到底有什么区别？这次我带着荣耀700 Pro来到北京野生动物园，户外用一整天，这块全新的背屏有哪些趣味玩法？ 2亿像素主摄、3.5倍潜望长焦，能不能轻松让摄影小白也拍出大片？荣耀这次堆料还有哪些惊喜？一起来看看吧～",
+      "metrics": {
+        "play": 229218,
+        "like": 20304,
+        "reply": 91,
+        "danmaku": 357,
+        "favorite": 1445,
+        "coin": 2148,
+        "share": 730,
+        "fans": 849725
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 140.41
+    },
+    {
+      "id": "bili:BV1kEyazxEp9",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "一位大学教授给的，这个网站让我对编程的学习兴趣达到了10000000%",
+      "author": "程序员芽米",
+      "url": "https://www.bilibili.com/video/BV1kEyazxEp9",
+      "cover": "https://i2.hdslb.com/bfs/archive/eb189edcc50b3acd03ca3ba0f51247a3e7d7c164.jpg",
+      "summary": "一位大学教授给的，这个网站让我对编程的学习兴趣达到了10000000%",
+      "metrics": {
+        "play": 98179,
+        "like": 7960,
+        "reply": 1988,
+        "danmaku": 18,
+        "favorite": 7560,
+        "coin": 0,
+        "share": 0,
+        "fans": 9259
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "breakout",
+          "label": "🐣 小号爆款",
+          "tone": "success"
+        },
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        }
+      ],
+      "publishedAt": "2026-11-21T08:27:02.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 139.9
+    },
+    {
+      "id": "bili:BV1HRyjz1ExG",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "给我的猫开个单间！来看看荣耀700 Pro",
+      "author": "大狸子切切里",
+      "url": "https://www.bilibili.com/video/BV1HRyjz1ExG",
+      "cover": "https://i0.hdslb.com/bfs/archive/dddd786a57914960dd7cfc0431474da867f6f754.jpg",
+      "summary": "手机的背屏确实不是什么刚需，但手机发展到现在，早就不止是一个单纯的工具，能表达出自己的品味和个性也同样重要。就像我的RGB海景房机箱，虽然不能增加100%的电脑性能，但可以让我的开心增加100%。",
+      "metrics": {
+        "play": 526485,
+        "like": 12908,
+        "reply": 219,
+        "danmaku": 508,
+        "favorite": 3503,
+        "coin": 6289,
+        "share": 620,
+        "fans": 2747052
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 137.97
+    },
+    {
+      "id": "bili:BV1kqyhzWECr",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "环保少女格蕾塔嘲讽自己发起的环保组织——“你们还在搞这个？”",
+      "author": "文同学文案",
+      "url": "https://www.bilibili.com/video/BV1kqyhzWECr",
+      "cover": "https://i2.hdslb.com/bfs/archive/209384d586c02a41951ccfbae15ec233a53e53e2.jpg",
+      "summary": "",
+      "metrics": {
+        "play": 1287632,
+        "like": 42359,
+        "reply": 6152,
+        "danmaku": 3981,
+        "favorite": 8583,
+        "coin": 2660,
+        "share": 2966
       },
       "comments": [],
       "badges": [
@@ -1970,9 +2016,207 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-18T03:30:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 138.02
+      "publishedAt": "2026-11-21T10:23:39.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 137.67
+    },
+    {
+      "id": "bili:BV1dMsU6tEPE",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "好大儿的蹭饭生活之今天给老爸上一课",
+      "author": "犟子的好大儿",
+      "url": "https://www.bilibili.com/video/BV1dMsU6tEPE",
+      "cover": "https://i1.hdslb.com/bfs/archive/357aadb1c321304f97d57f45c9e747b8502cd309.jpg",
+      "summary": "",
+      "metrics": {
+        "play": 602816,
+        "like": 24300,
+        "reply": 822,
+        "danmaku": 775,
+        "favorite": 961,
+        "coin": 1128,
+        "share": 453,
+        "fans": 34340
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "breakout",
+          "label": "🐣 小号爆款",
+          "tone": "success"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-18T07:06:04.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 136.55
+    },
+    {
+      "id": "bili:BV1JCyJzDEZF",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "「小白」全系大升级？ 荣耀700 Pro全面体验",
+      "author": "小白测评",
+      "url": "https://www.bilibili.com/video/BV1JCyJzDEZF",
+      "cover": "https://i0.hdslb.com/bfs/archive/70ec6e507add1c8afdb6dc550daa3d90ef2ed7b8.jpg",
+      "summary": "关注微信公众号：小白测评 每晚发车不见不散",
+      "metrics": {
+        "play": 201525,
+        "like": 10878,
+        "reply": 1467,
+        "danmaku": 1265,
+        "favorite": 1776,
+        "coin": 1045,
+        "share": 1274,
+        "fans": 4744752
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 134.63
+    },
+    {
+      "id": "bili:BV1KpyLzUEy1",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "“我买油条只看好不好吃，不看老板离过几次婚”",
+      "author": "WY的灯塔",
+      "url": "https://www.bilibili.com/video/BV1KpyLzUEy1",
+      "cover": "https://i1.hdslb.com/bfs/archive/050b55d56fcfdec2af778de1add7ebc2256dec00.jpg",
+      "summary": "【诡辩逻辑拆解】“明星也是人，是人就会犯错，只要作品好就可以给他一次机会”有逻辑问题吗？",
+      "metrics": {
+        "play": 357529,
+        "like": 19993,
+        "reply": 1082,
+        "danmaku": 417,
+        "favorite": 2169,
+        "coin": 751,
+        "share": 141
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-22T10:40:16.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 134.37
+    },
+    {
+      "id": "bili:BV1kqyhzWEBE",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "【短的发布会】为“AI”而生的手机！华为星芒OSTA O1 Pro，交给OSTA就O了！",
+      "author": "短的发布会",
+      "url": "https://www.bilibili.com/video/BV1kqyhzWEBE",
+      "cover": "https://i2.hdslb.com/bfs/archive/f0d7b977342fb45ca5a7cf94a49e7dcf0ceaa881.jpg",
+      "summary": "交给OSTA，就O了",
+      "metrics": {
+        "play": 696128,
+        "like": 21301,
+        "reply": 1000,
+        "danmaku": 650,
+        "favorite": 4150,
+        "coin": 1701,
+        "share": 681,
+        "fans": 2690568
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-21T10:35:21.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 133.82
+    },
+    {
+      "id": "bili:BV1tyyDznE58",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "逼死父亲，杀死师傅，因赌走上人生巅峰，又因世界杯摔进沟底，2004年安徽一号专案始末",
+      "author": "胆子不小的郑吉祥",
+      "url": "https://www.bilibili.com/video/BV1tyyDznE58",
+      "cover": "https://i1.hdslb.com/bfs/archive/38fd9fdda11def9d4325800c919a04d814fec6f9.jpg",
+      "summary": "这一切 还要从2004年10月4日 一个发现丈夫没回家的女人说起……",
+      "metrics": {
+        "play": 208114,
+        "like": 7699,
+        "reply": 394,
+        "danmaku": 902,
+        "favorite": 3473,
+        "coin": 2377,
+        "share": 314
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T09:21:53.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 133.47
     },
     {
       "id": "bili:BV1PdsS6LEYW",
@@ -1984,13 +2228,13 @@
       "cover": "https://i0.hdslb.com/bfs/archive/4c2f92ac1cc2e3b4b132ba151c3a8e10ef468e9f.jpg",
       "summary": "",
       "metrics": {
-        "play": 740696,
-        "like": 29828,
-        "reply": 997,
-        "danmaku": 452,
-        "favorite": 6377,
-        "coin": 2189,
-        "share": 502
+        "play": 1091138,
+        "like": 41387,
+        "reply": 1387,
+        "danmaku": 612,
+        "favorite": 9300,
+        "coin": 3150,
+        "share": 727
       },
       "comments": [],
       "badges": [
@@ -2006,26 +2250,26 @@
         }
       ],
       "publishedAt": "2026-11-18T11:31:49.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 137.04
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 131.79
     },
     {
-      "id": "bili:BV1sCyWzTEsa",
+      "id": "bili:BV1MvyWzkEq6",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "【3d地形图系列】阴山防线如何阻止游牧南下？",
-      "author": "有点意思研究所",
-      "url": "https://www.bilibili.com/video/BV1sCyWzTEsa",
-      "cover": "https://i1.hdslb.com/bfs/archive/44c4d046c17dd8a3bc019f7accd8942b37fef581.jpg",
+      "title": "干到住院升不上，吕梁究竟输在哪？【人民的名义74】",
+      "author": "夜雨声烦601",
+      "url": "https://www.bilibili.com/video/BV1MvyWzkEq6",
+      "cover": "https://i0.hdslb.com/bfs/archive/dc7631bf5e73e02ed1b81be9f6f21765d8fc9111.jpg",
       "summary": "",
       "metrics": {
-        "play": 193009,
-        "like": 7562,
-        "reply": 1435,
-        "danmaku": 626,
-        "favorite": 2245,
-        "coin": 875,
-        "share": 179
+        "play": 127030,
+        "like": 8590,
+        "reply": 519,
+        "danmaku": 491,
+        "favorite": 1184,
+        "coin": 608,
+        "share": 107
       },
       "comments": [],
       "badges": [
@@ -2045,261 +2289,25 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-20T10:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 136.66
+      "publishedAt": "2026-11-23T09:30:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 131.66
     },
     {
-      "id": "bili:BV15asP6NEuw",
+      "id": "bili:BV1Ltsm6dEin",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "胰岛素：一场从头错到尾的实验，凭什么拿下诺贝尔奖？",
-      "author": "大圆镜科普",
-      "url": "https://www.bilibili.com/video/BV15asP6NEuw",
-      "cover": "https://i2.hdslb.com/bfs/archive/9e4fea04f3a854b50d9e5f731b95704d9f3f1626.jpg",
-      "summary": "人类史上第一针胰岛素，差点要了一个少年的命。为救瘦成骷髅的糖尿病孩子，落魄军医班廷赌了一把：在动物胰腺里提取能降血糖的物质。可第一针杂质太多，反倒险些害了少年。班廷只得联手生理学家麦克劳德返工提纯，十几天后的第二针，终于让少年重新站了起来。 1923年，诺贝尔生理学或医学奖授予班廷与麦克劳德，表彰二人发现胰岛素，让儿童糖尿病不再是绝症。 参考文献 [1] 朱石生. 大成若缺（医学大神13）：班廷与胰岛素[M/OL]. 新星出版社, 2020. [2] ATKINSON M A, EISENBARTH G",
+      "title": "两道影子靠近，为什么会“吸在一起”？",
+      "author": "浮世叁千问",
+      "url": "https://www.bilibili.com/video/BV1Ltsm6dEin",
+      "cover": "https://i2.hdslb.com/bfs/archive/df2458ae206e9695730ed7fe68da7ec189e81c53.jpg",
+      "summary": "小学二年级时，我发现了一个奇怪的现象：当两根手指慢慢靠近时，会有一个黑色阴影提前相连。你也有类似的发现吗？",
       "metrics": {
-        "play": 645412,
-        "like": 53595,
-        "reply": 672,
-        "danmaku": 1101,
-        "favorite": 7379,
-        "coin": 1062,
-        "share": 393
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-16T09:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 136.11
-    },
-    {
-      "id": "bili:BV1Vwsh6zE2v",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "鸭子非常好养，而且下蛋比鸡多，为什么不大量吃鸭蛋？为什么鸭蛋都被做成了皮蛋和咸蛋？超市里鸭蛋少的真正原因……",
-      "author": "老肉杂谈",
-      "url": "https://www.bilibili.com/video/BV1Vwsh6zE2v",
-      "cover": "https://i0.hdslb.com/bfs/archive/66db60779a3ec1a3e2fb7aca41575e9151563d72.jpg",
-      "summary": "鸭子作为三大家禽之一，是仅次于鸡的存在，但是……，为什么鸭子不如鸡呢？鸭子可以大规模密集养殖，产蛋量也超过蛋鸡，而且鸭蛋更大更有营养，可为什么不受商业资本青睐呢？另外，超市里虽然也有鸭蛋卖，但你会发现大部分鸭蛋都被做成了皮蛋或者咸蛋，买生鸭蛋的人非常少，这又是为什么呢？另外鸭肉和鹅肉一样，大部分消费市场都在中国，这和中国传统的饮食文化有关，北京烤鸭、南京盐水鸭、咸板鸭、姜母鸭，包括武汉鸭脖，都是深受大众欢迎的热门美食，看来不是鸭子不如鸡，而是这其中另有隐情……，今天就和大家一起深挖一下鸭子。",
-      "metrics": {
-        "play": 119331,
-        "like": 5834,
-        "reply": 665,
-        "danmaku": 1029,
-        "favorite": 1159,
-        "coin": 1406,
-        "share": 143
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T13:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 135.96
-    },
-    {
-      "id": "bili:BV19ssa6kEnf",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "对话米哈游策划：从玩家到策划岗位入行",
-      "author": "老蒋巨靠谱",
-      "url": "https://www.bilibili.com/video/BV19ssa6kEnf",
-      "cover": "https://i2.hdslb.com/bfs/archive/edc4f96bda8242a2d6e5f33e26b3417961de3c8d.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 278572,
-        "like": 9602,
-        "reply": 1114,
-        "danmaku": 581,
-        "favorite": 5724,
-        "coin": 1923,
-        "share": 1751
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T04:01:39.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 135.27
-    },
-    {
-      "id": "bili:BV1PHsh6dEWS",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "鉴定网络热门营销号谣言/人脑计算机/美甲摄像头作弊/蚂蚁开高达#辟谣#营销号",
-      "author": "善良pa耙柑",
-      "url": "https://www.bilibili.com/video/BV1PHsh6dEWS",
-      "cover": "https://i2.hdslb.com/bfs/archive/771b14fc01d334da9597351662db36652ef589ac.jpg",
-      "summary": "-",
-      "metrics": {
-        "play": 301988,
-        "like": 19121,
-        "reply": 433,
-        "danmaku": 333,
-        "favorite": 1808,
-        "coin": 788,
-        "share": 155
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-19T11:30:55.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 134.23
-    },
-    {
-      "id": "bili:BV1zVyxzvEjo",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "重新发明电脑？RTX Spark迷你工作站深度评测",
-      "author": "普普通通Tony大叔",
-      "url": "https://www.bilibili.com/video/BV1zVyxzvEjo",
-      "cover": "https://i0.hdslb.com/bfs/archive/5d775c7837aea0d6665ab5691eca12579caa1abe.jpg",
-      "summary": "RTX Spark迷你工作站深度评测！~",
-      "metrics": {
-        "play": 246449,
-        "like": 4947,
-        "reply": 522,
-        "danmaku": 598,
-        "favorite": 1133,
-        "coin": 603,
-        "share": 445,
-        "fans": 1278186
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T13:28:39.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 134.16
-    },
-    {
-      "id": "bili:BV1NVsB6LEeG",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "诗酒趁年华，痛苦不过夜！苏东坡真正做到了超然物外 | 戴老师的诗歌地图·山东站04",
-      "author": "戴建业老师",
-      "url": "https://www.bilibili.com/video/BV1NVsB6LEeG",
-      "cover": "https://i2.hdslb.com/bfs/archive/6e94f205f2439781f39105dcd989b5dcf7184726.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 86066,
-        "like": 6531,
-        "reply": 209,
-        "danmaku": 69,
-        "favorite": 2155,
-        "coin": 1267,
-        "share": 348
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T03:42:44.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 132.11
-    },
-    {
-      "id": "bili:BV1musK6oEin",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "历史周期律：两千年王朝是一座座人垒的塔，从秦到清塌成一整圈，1945 年窑洞里找到跳出的路",
-      "author": "克克比特",
-      "url": "https://www.bilibili.com/video/BV1musK6oEin",
-      "cover": "https://i0.hdslb.com/bfs/archive/4aec67f9e1de3c0f2d56c75144403bc7c2ae0ab5.png",
-      "summary": "一个王朝就是一座用人垒起来的塔：人们把一个人抬上去，抬他的人弯腰成了台阶，台阶越垒越高，直到最底下一排直起腰，整座塔一拍塌掉。秦十五年、汉四百年、唐二百八十九年、明二百七十六年、清二百六十七年，两千一百多年塌出一整圈。1945 年延安窑洞对，跳出这个圈的路是让人民来监督政府。剪纸动画，无配音。",
-      "metrics": {
-        "play": 698452,
-        "like": 55113,
-        "reply": 3209,
-        "danmaku": 677,
-        "favorite": 12021,
+        "play": 1575652,
+        "like": 70020,
+        "reply": 1414,
+        "danmaku": 918,
+        "favorite": 21120,
         "coin": 0,
         "share": 0
       },
@@ -2311,144 +2319,33 @@
           "tone": "error"
         },
         {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
           "key": "dark-horse",
           "label": "🐴 近期黑马",
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-16T13:26:03.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 131.69
-    },
-    {
-      "id": "bili:BV1yTsm6gED4",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "主席为什么说：封锁吧，封锁十年八年，中国一切问题都解决了。",
-      "author": "古必的精读书柜",
-      "url": "https://www.bilibili.com/video/BV1yTsm6gED4",
-      "cover": "https://i0.hdslb.com/bfs/archive/c92a31ddc118c99f0508acecaec3fe38363ec17f.jpg",
-      "summary": "读历史，读哲学，让世事通明，人情练达",
-      "metrics": {
-        "play": 260171,
-        "like": 13500,
-        "reply": 365,
-        "danmaku": 164,
-        "favorite": 3995,
-        "coin": 3201,
-        "share": 468
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-18T10:05:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
+      "publishedAt": "2026-11-18T09:30:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
       "score": 131
     },
     {
-      "id": "bili:BV1MLsY6BEfH",
+      "id": "bili:BV16bypzoENF",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "GTA6 首发尝鲜：真实到疯狂！真·工业奇迹！真·艺术品！",
-      "author": "贪玩歌姬小宁子",
-      "url": "https://www.bilibili.com/video/BV1MLsY6BEfH",
-      "cover": "https://i2.hdslb.com/bfs/archive/1b9229b95d75ecd5104caeb1b5f265083886079f.jpg",
-      "summary": "",
+      "title": "看完鸿蒙国赛，现在的大学生有些离谱了...",
+      "author": "大宽大宽",
+      "url": "https://www.bilibili.com/video/BV16bypzoENF",
+      "cover": "https://i0.hdslb.com/bfs/archive/ef6860d091b492f08396273461191d04ba1fc624.jpg",
+      "summary": "看完鸿蒙高校创新赛决赛的现场，我被一群大二大三的学生们震惊了...",
       "metrics": {
-        "play": 429050,
-        "like": 16608,
-        "reply": 2261,
-        "danmaku": 1841,
-        "favorite": 4552,
-        "coin": 0,
-        "share": 0,
-        "fans": 2050405
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-19T14:35:37.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 129.55
-    },
-    {
-      "id": "bili:BV1nesY6xEu3",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "DDR6规范发布：内存带宽翻四倍 牙膏挤爆 ｜显卡日报11月20日",
-      "author": "芝士华莱士",
-      "url": "https://www.bilibili.com/video/BV1nesY6xEu3",
-      "cover": "https://i1.hdslb.com/bfs/archive/4eeddc375569c26dcccbf1c59a3547e6579ffddb.jpg",
-      "summary": "日报有用记得关注哦，你的鼓励真的很重要～",
-      "metrics": {
-        "play": 406164,
-        "like": 16377,
-        "reply": 4052,
-        "danmaku": 919,
-        "favorite": 1310,
-        "coin": 0,
-        "share": 0,
-        "fans": 529692
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-19T15:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 128.49
-    },
-    {
-      "id": "bili:BV1J7ss6NEDT",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "地球上最要命的十个地方，第一名连外星人都不敢上！",
-      "author": "小星科普宇宙1",
-      "url": "https://www.bilibili.com/video/BV1J7ss6NEDT",
-      "cover": "https://i2.hdslb.com/bfs/archive/a324e9b0fc5d0811988868a3420d55aa4d699dc2.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 2551572,
-        "like": 4240,
-        "reply": 120,
-        "danmaku": 225,
-        "favorite": 9847,
-        "coin": 0,
-        "share": 0
+        "play": 712743,
+        "like": 31660,
+        "reply": 543,
+        "danmaku": 182,
+        "favorite": 2964,
+        "coin": 4419,
+        "share": 642,
+        "fans": 1010408
       },
       "comments": [],
       "badges": [
@@ -2463,27 +2360,59 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-16T07:55:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 127.6
+      "publishedAt": "2026-11-20T12:35:06.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 130.92
     },
     {
-      "id": "bili:BV1fqsv6cEq4",
+      "id": "bili:BV15ryezJEko",
       "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "“人肉卫星”人类历史上最震撼、也是最恐怖的天空照片",
-      "author": "李论科学",
-      "url": "https://www.bilibili.com/video/BV1fqsv6cEq4",
-      "cover": "https://i2.hdslb.com/bfs/archive/022d179991329253960da3852b6a401e78309463.jpg",
-      "summary": "",
+      "category": "bili-tech",
+      "title": "OPPO Reno17 Pro评测丨超清四主摄体验合格吗？",
+      "author": "小杜聊手机",
+      "url": "https://www.bilibili.com/video/BV15ryezJEko",
+      "cover": "https://i0.hdslb.com/bfs/archive/836f8e4f7b3c6c7275db09b4195e0196a4d48121.jpg",
+      "summary": "全系配备四主摄的爆款新机：前后双超广+全系潜望，Reno17 Pro还有2亿主摄 这期视频，我会在外观影像/系统/性能这四个维度，评测一下这款安卓销冠。 系好安全带，准备发车！！！",
       "metrics": {
-        "play": 190905,
-        "like": 13429,
-        "reply": 236,
-        "danmaku": 138,
-        "favorite": 1183,
+        "play": 58625,
+        "like": 2994,
+        "reply": 934,
+        "danmaku": 867,
+        "favorite": 5407,
         "coin": 0,
-        "share": 0
+        "share": 0,
+        "fans": 34392
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        }
+      ],
+      "publishedAt": "2026-11-21T12:17:20.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 130.07
+    },
+    {
+      "id": "bili:BV1bxyJzAEoK",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "全面升级，反正有戏！荣耀700系列体验",
+      "author": "请不要叫我测评君",
+      "url": "https://www.bilibili.com/video/BV1bxyJzAEoK",
+      "cover": "https://i1.hdslb.com/bfs/archive/e063930da610c9f3c2525fe588d07b2cc2f5809b.jpg",
+      "summary": "这几年中端机一直在狠狠卷拍照，对目标用户肯定是好事，但忽略了更多的日用体验就不应该了，有特长也不能有短板不是。这次荣耀700系列应该是数字系列最强的一代了，性能、影像、续航、通信各方面都有升级，还解锁了AI灵动背屏，自拍很实用，玩法也够丰富。个人最喜欢小直屏的手感，拿着很舒服。好看、好玩、好用，怎么不算是「三好手机」呢？潮趣影像轻旗舰——#荣耀700#系列推荐各位尝试一下。",
+      "metrics": {
+        "play": 175825,
+        "like": 4048,
+        "reply": 150,
+        "danmaku": 138,
+        "favorite": 3363,
+        "coin": 3403,
+        "share": 25,
+        "fans": 595745
       },
       "comments": [],
       "badges": [
@@ -2503,27 +2432,98 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-20T03:15:15.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 127.04
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 129.89
     },
     {
-      "id": "bili:BV1zDyWzaEVW",
+      "id": "bili:BV1tfsG6mE5J",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "APEC上雷军戳破真相：AI不赚钱，但中美谁都不敢停",
-      "author": "戏京同志",
-      "url": "https://www.bilibili.com/video/BV1zDyWzaEVW",
-      "cover": "https://i1.hdslb.com/bfs/archive/0fab12ef900a9c63ab9487853f8efeafffd1356a.jpg",
-      "summary": "雷军在APEC谈AI：投入大、落地场景有限、赚钱的公司少 2026年11月17日，雷军在深圳APEC工商领导人峰会上表示，“AI的投入非常非常之大，但能够落地的场景目前非常有限。能够在AI这一轮的循环里真正实现商业闭环、挣到钱的公司，也相对比较少。”他同时表示，AI走向物理世界、跟终端和应用场景深度结合后会有巨大机会。 来源：安徽新闻网，文章标题《雷军在深圳发言，被调侃“有点社恐”，小米回应：这么大的国际场合，紧张太正常啦》，2026年11月17日。解放日报（jfdaily.com），2026年11月18",
+      "title": "王勃：写下《滕王阁序》时，我以为往后的日子还很长【完整版】",
+      "author": "子非秋月",
+      "url": "https://www.bilibili.com/video/BV1tfsG6mE5J",
+      "cover": "https://i1.hdslb.com/bfs/archive/b56fdd3ab2119de1a2ed16d8ef56cefb53df82ad.jpg",
+      "summary": "王勃，字子安，初唐四杰之一。他少年成名，未及弱冠便步入仕途，却也在短短二十多年的生命里，经历了得意、失意、获罪与离别。他写下了“落霞与孤鹜齐飞，秋水共长天一色”，也留下了“穷且益坚，不坠青云之志”。可很少有人知道，那个在滕王阁上写下千古名篇的年轻人，当时正走在前往万里之外寻找父亲的路上。 2024年，我们曾经讲述过王勃的故事。时隔两年，这一次，我们重新翻阅史书、查阅文献，认真梳理了他短暂一生中的诸多经历，也补充了许多过去未曾讲述的细节，希望能够以更加完整的方式，重新呈现这位少年的一生。 这一次，我",
       "metrics": {
-        "play": 144157,
-        "like": 6080,
-        "reply": 362,
-        "danmaku": 296,
-        "favorite": 1436,
+        "play": 358150,
+        "like": 34311,
+        "reply": 657,
+        "danmaku": 564,
+        "favorite": 8677,
         "coin": 0,
         "share": 0
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 129.75
+    },
+    {
+      "id": "bili:BV1CEsQ6EEaZ",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "自助餐随便吃，老板凭啥不亏？【AI全民制作人】",
+      "author": "宇宙探秘社",
+      "url": "https://www.bilibili.com/video/BV1CEsQ6EEaZ",
+      "cover": "https://i0.hdslb.com/bfs/archive/70c96d6c9e20ae851dab94302c9054ab87445af8.jpg",
+      "summary": "",
+      "metrics": {
+        "play": 2859281,
+        "like": 6729,
+        "reply": 329,
+        "danmaku": 54,
+        "favorite": 3788,
+        "coin": 0,
+        "share": 0
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-18T15:21:10.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 127.48
+    },
+    {
+      "id": "bili:BV1iHy5z8EJv",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "英伟达被SEC调查：市值接近腰斩｜显卡日报11月23日",
+      "author": "芝士华莱士",
+      "url": "https://www.bilibili.com/video/BV1iHy5z8EJv",
+      "cover": "https://i1.hdslb.com/bfs/archive/a343b909d9c3b7534ca29a935b4de06da83339b3.jpg",
+      "summary": "日报有用记得关注哦，你的鼓励真的很重要",
+      "metrics": {
+        "play": 407502,
+        "like": 14168,
+        "reply": 3928,
+        "danmaku": 659,
+        "favorite": 1059,
+        "coin": 0,
+        "share": 0,
+        "fans": 534558
       },
       "comments": [],
       "badges": [
@@ -2538,9 +2538,151 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-20T09:11:59.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 125.71
+      "publishedAt": "2026-11-22T15:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 126.81
+    },
+    {
+      "id": "bili:BV1ceyLz3Ek1",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "再分配后，我们的基尼系数依然太高，原因是什么？",
+      "author": "南半球聊财经",
+      "url": "https://www.bilibili.com/video/BV1ceyLz3Ek1",
+      "cover": "https://i2.hdslb.com/bfs/archive/7e96d740571a933c598e53c9fd434c4a48bf8d28.jpg",
+      "summary": "",
+      "metrics": {
+        "play": 112311,
+        "like": 8976,
+        "reply": 1467,
+        "danmaku": 275,
+        "favorite": 2939,
+        "coin": 0,
+        "share": 0
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-22T11:16:59.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 125.99
+    },
+    {
+      "id": "bili:BV1tSynzvE1n",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "“背”受欢迎 ｜荣耀700系列上手体验",
+      "author": "妮可厅长",
+      "url": "https://www.bilibili.com/video/BV1tSynzvE1n",
+      "cover": "https://i2.hdslb.com/bfs/archive/131faf3988ae983d2833fc43c8eff65b860279f1.jpg",
+      "summary": "我怀疑，荣耀的产品经理异于常人！今年的手机市场，都在求稳，但荣耀它不一样，他就要整花活，把什么云台手机、轻薄旗舰、续航天王全都拿出来了。更没想到有朝一日，居然可以在一台中端机型上看到这个小背屏…",
+      "metrics": {
+        "play": 159742,
+        "like": 9031,
+        "reply": 107,
+        "danmaku": 481,
+        "favorite": 3013,
+        "coin": 0,
+        "share": 0,
+        "fans": 286109
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T08:16:38.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 125.83
+    },
+    {
+      "id": "bili:BV1Thsr68Edj",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "林则徐·寒门崛起：乾隆朝出生的他，如何成了近代史的开端？",
+      "author": "正直讲史-李正Str",
+      "url": "https://www.bilibili.com/video/BV1Thsr68Edj",
+      "cover": "https://i0.hdslb.com/bfs/archive/83d7c9dab92b51706fb426ec515fd3498437e1fd.jpg",
+      "summary": "",
+      "metrics": {
+        "play": 410670,
+        "like": 13986,
+        "reply": 1430,
+        "danmaku": 1255,
+        "favorite": 4779,
+        "coin": 8123,
+        "share": 490
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        }
+      ],
+      "publishedAt": "2026-11-17T12:16:07.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 124.38
+    },
+    {
+      "id": "bili:BV1FSyWzAEch",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "手机也能用 AI agent ？OSTA O1 Pro 深度体验：华为全新子品牌首款AI手机表现如何？",
+      "author": "搞机所",
+      "url": "https://www.bilibili.com/video/BV1FSyWzAEch",
+      "cover": "https://i0.hdslb.com/bfs/archive/cccfa82209966f1e230c2c6835ed512dc58295b6.jpg",
+      "summary": "一个连 Agent、Tokens、Skill 都不理解的人 能不能今天就让 AI agent 替他干活呢？ 华为旗下的OSTA星芒，给出了他们的答案 全新推出的AI手机 OSTA O1 Pro 就是为了帮各位解决\"上手难\"这个问题 不想从头学习理解 又想让 AI 现在就为你所用 这种好事儿...... 咱们看看它能不能做到",
+      "metrics": {
+        "play": 426635,
+        "like": 28362,
+        "reply": 892,
+        "danmaku": 535,
+        "favorite": 4340,
+        "coin": 0,
+        "share": 0,
+        "fans": 2617744
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-20T09:13:07.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 123.7
     },
     {
       "id": "bili:BV1WVWu6ZE4J",
@@ -2552,14 +2694,14 @@
       "cover": "https://i2.hdslb.com/bfs/archive/324c4af9a677eef22a5dcbe56b8187dddb25aef4.jpg",
       "summary": "26年11月下旬电脑配置推荐它来了!本期视频推翻了涨价前的搭配思路，全部实装实测，小白也能看懂的配置推荐!且没有任何充值，可以放心抄作业!!如果帮助到观众姥爷记得三连！！！",
       "metrics": {
-        "play": 1361855,
-        "like": 30467,
-        "reply": 1998,
-        "danmaku": 694,
-        "favorite": 4925,
+        "play": 1511289,
+        "like": 32774,
+        "reply": 2116,
+        "danmaku": 730,
+        "favorite": 5179,
         "coin": 0,
         "share": 0,
-        "fans": 408265
+        "fans": 408223
       },
       "comments": [],
       "badges": [
@@ -2570,8 +2712,150 @@
         }
       ],
       "publishedAt": "2026-11-10T09:33:25.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 123.97
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 123.25
+    },
+    {
+      "id": "bili:BV18Ysa6TETa",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "世界十大毒蛇排行榜",
+      "author": "小白知识科普",
+      "url": "https://www.bilibili.com/video/BV18Ysa6TETa",
+      "cover": "https://i2.hdslb.com/bfs/archive/99b041135a23b49d0fddefd00888907d057a3d44.jpg",
+      "summary": "-",
+      "metrics": {
+        "play": 1617643,
+        "like": 2031,
+        "reply": 173,
+        "danmaku": 200,
+        "favorite": 6004,
+        "coin": 0,
+        "share": 0
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-19T16:36:50.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 123.1
+    },
+    {
+      "id": "bili:BV1VQWb6eEeo",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "全网最详细的 AI 入门课：一期视频搞懂 58 个 AI 术语，从大模型到 Agent、MCP、Skill",
+      "author": "亚里今天也要AI",
+      "url": "https://www.bilibili.com/video/BV1VQWb6eEeo",
+      "cover": "https://i2.hdslb.com/bfs/archive/afebbcef8cecbccb8e16379b91dac5205bc83b82.jpg",
+      "summary": "这可能是你看过的，最详细的 AI 入门课。 一期视频，带你搞懂 AI 里最常见的 58 个概念和名词：从最基础的大模型、Token，到现在最火的 Agent、MCP、Skill，每一个都讲清楚它是什么、怎么工作，和其他概念有什么区别。 五个部分循序渐进，最后用学到的词，一句一句读懂一页真的模型更新日志。 00:00 开场 00:27 课程路线：五个部分 【第一部分 AI 和大模型是什么】 00:50 AI、机器学习、深度学习、生成式 AI 02:39 大模型：预测下一个字 04:03 Token（词元）",
+      "metrics": {
+        "play": 92089,
+        "like": 3346,
+        "reply": 442,
+        "danmaku": 24,
+        "favorite": 11414,
+        "coin": 0,
+        "share": 0,
+        "fans": 8148
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "breakout",
+          "label": "🐣 小号爆款",
+          "tone": "success"
+        },
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        }
+      ],
+      "publishedAt": "2026-11-09T15:20:10.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 122.67
+    },
+    {
+      "id": "bili:BV1igyJzVEoS",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "DDR4 DDR5 CPU性能对比｜显卡日报",
+      "author": "芝士华莱士",
+      "url": "https://www.bilibili.com/video/BV1igyJzVEoS",
+      "cover": "https://i0.hdslb.com/bfs/archive/115df045a193a3c4c6bb9f3450c52680b0b4879b.jpg",
+      "summary": "日报有用记得三连哦，你的鼓励真的很重要",
+      "metrics": {
+        "play": 172358,
+        "like": 7661,
+        "reply": 1839,
+        "danmaku": 409,
+        "favorite": 692,
+        "coin": 0,
+        "share": 0,
+        "fans": 534558
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        },
+        {
+          "key": "brand-new",
+          "label": "🌱 新星起飞",
+          "tone": "success"
+        }
+      ],
+      "publishedAt": "2026-11-23T04:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 122.48
+    },
+    {
+      "id": "bili:BV1J7ss6NEDT",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "地球上最要命的十个地方，第一名连外星人都不敢上！",
+      "author": "小星科普宇宙1",
+      "url": "https://www.bilibili.com/video/BV1J7ss6NEDT",
+      "cover": "https://i2.hdslb.com/bfs/archive/a324e9b0fc5d0811988868a3420d55aa4d699dc2.jpg",
+      "summary": "",
+      "metrics": {
+        "play": 3021662,
+        "like": 5057,
+        "reply": 135,
+        "danmaku": 273,
+        "favorite": 11295,
+        "coin": 0,
+        "share": 0
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        }
+      ],
+      "publishedAt": "2026-11-16T07:55:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 122.19
     },
     {
       "id": "bili:BV1vy4w6NEmR",
@@ -2583,14 +2867,14 @@
       "cover": "https://i0.hdslb.com/bfs/archive/96358357f2e3b8e26124c6f99edd439887334bbc.jpg",
       "summary": "今年的双11即将结束，你是否已经配好主机？ 不要慌《影之刃零》已帮大家测试好！ ----------------------------------------------------------------- 我们自费装机，实拍实测，数据真实有效 20套配置，测试12款主流游戏及多种常见生产力软件，小白可抄 【工作量依然是雷霆宇宙霹雳闪电爆炸大，跪求总裁们一定一定要三连支持一下！】",
       "metrics": {
-        "play": 2067321,
-        "like": 18605,
-        "reply": 3448,
-        "danmaku": 282,
-        "favorite": 8754,
+        "play": 2167762,
+        "like": 19293,
+        "reply": 3602,
+        "danmaku": 288,
+        "favorite": 8979,
         "coin": 0,
         "share": 0,
-        "fans": 399549
+        "fans": 398067
       },
       "comments": [],
       "badges": [
@@ -2601,57 +2885,56 @@
         }
       ],
       "publishedAt": "2026-11-02T10:06:27.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 122.43
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 121.89
     },
     {
-      "id": "bili:BV1gism6nEZr",
+      "id": "bili:BV1EtyazJEQS",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "号称五毒克星，被咬破皮照样倒！公鸡为何不怕蜈蚣蝎子？｜动物科普｜公鸡｜五毒克星",
-      "author": "物种真相局",
-      "url": "https://www.bilibili.com/video/BV1gism6nEZr",
-      "cover": "https://i0.hdslb.com/bfs/archive/506794032643e2cd647bb8c63841cad8423e0d25.jpg",
-      "summary": "号称五毒克星的大公鸡，血液里其实半点抗毒成分都没有，要是不巧挨上一口照样倒下，为何撞见蜈蚣和蝎子却敢一路吃个不停？网传四十二度体温烫坏毒素与鸡肝排毒全是误解，它真正仰仗的是慢动作视觉、紫外线索敌与防抖脑袋，配合恐龙祖先留下的角质鳞片脚和厚羽护甲。变异的痛觉通道让嘴角感应不到疼痛，强酸腺胃将毒蛋白化为养料，存着砂粒的鸡胗再把硬壳尾刺磨碎，高蛋白更帮它在雨林竞争中撑起鲜红鸡冠。你见过土鸡抓毒虫的场面吗？欢迎在评论区分享你的看法，点个关注，一起探索更多自然奇观。",
+      "title": "【学透教材】高二历史选必修一｜第13课 当代中国的民族政策",
+      "author": "一史er",
+      "url": "https://www.bilibili.com/video/BV1EtyazJEQS",
+      "cover": "https://i2.hdslb.com/bfs/archive/e0531540ec418ca6ccb4a620beb0626dcc0ed50d.jpg",
+      "summary": "",
       "metrics": {
-        "play": 394906,
-        "like": 6657,
-        "reply": 852,
-        "danmaku": 1000,
-        "favorite": 3218,
-        "coin": 579,
-        "share": 243
+        "play": 21073,
+        "like": 6498,
+        "reply": 22,
+        "danmaku": 5,
+        "favorite": 270,
+        "coin": 0,
+        "share": 0
       },
       "comments": [],
       "badges": [
         {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
         }
       ],
-      "publishedAt": "2026-11-18T07:17:46.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 122.02
+      "publishedAt": "2026-11-22T01:30:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 121.45
     },
     {
-      "id": "bili:BV1u7sG62EWV",
+      "id": "bili:BV14gsQ69E4J",
       "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "（2026·11月下旬电脑配置推荐）拒绝智商税！绝无恰饭：教你把预算花在刀刃上，组装一台高性价比电脑，全实拍实测！绝不恰饭！2000-4W预算，共22套配置！",
-      "author": "野生的装机宅",
-      "url": "https://www.bilibili.com/video/BV1u7sG62EWV",
-      "cover": "https://i1.hdslb.com/bfs/archive/eed493fdc7ab2c41612bf1adaa73f7c11a69a374.jpg",
-      "summary": "本视频全程无广！无任何厂家充值！所有产品均为自费购买，实拍实测，横评对比！大家可以放心抄作业 制作不易，拜托各位观众老爷帮忙点点赞吧!",
+      "category": "bili-knowledge",
+      "title": "白洞真能让死人复活吗？",
+      "author": "小星科普宇宙1",
+      "url": "https://www.bilibili.com/video/BV14gsQ69E4J",
+      "cover": "https://i1.hdslb.com/bfs/archive/c9da3c4fc081522c82d60e4fdb0ee6957f4780fd.jpg",
+      "summary": "",
       "metrics": {
-        "play": 812677,
-        "like": 32783,
-        "reply": 2217,
-        "danmaku": 560,
-        "favorite": 6889,
+        "play": 1314620,
+        "like": 2349,
+        "reply": 92,
+        "danmaku": 102,
+        "favorite": 3499,
         "coin": 0,
-        "share": 0,
-        "fans": 1151551
+        "share": 0
       },
       "comments": [],
       "badges": [
@@ -2666,25 +2949,90 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-14T07:54:25.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 121.87
+      "publishedAt": "2026-11-19T07:55:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 120.35
     },
     {
-      "id": "bili:BV16Hy8z1EzW",
+      "id": "bili:BV1gism6nEZr",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "一张图看懂日俄战争 上集 从开战到沙河对峙",
-      "author": "图说历史战争",
-      "url": "https://www.bilibili.com/video/BV16Hy8z1EzW",
-      "cover": "https://i0.hdslb.com/bfs/archive/729511316690ac7b1503debba05e68fd7cc62d06.jpg",
+      "title": "号称五毒克星，被咬破皮照样倒！公鸡为何不怕蜈蚣蝎子？｜动物科普｜公鸡｜五毒克星",
+      "author": "物种真相局",
+      "url": "https://www.bilibili.com/video/BV1gism6nEZr",
+      "cover": "https://i1.hdslb.com/bfs/archive/506794032643e2cd647bb8c63841cad8423e0d25.jpg",
+      "summary": "号称五毒克星的大公鸡，血液里其实半点抗毒成分都没有，要是不巧挨上一口照样倒下，为何撞见蜈蚣和蝎子却敢一路吃个不停？网传四十二度体温烫坏毒素与鸡肝排毒全是误解，它真正仰仗的是慢动作视觉、紫外线索敌与防抖脑袋，配合恐龙祖先留下的角质鳞片脚和厚羽护甲。变异的痛觉通道让嘴角感应不到疼痛，强酸腺胃将毒蛋白化为养料，存着砂粒的鸡胗再把硬壳尾刺磨碎，高蛋白更帮它在雨林竞争中撑起鲜红鸡冠。你见过土鸡抓毒虫的场面吗？欢迎在评论区分享你的看法，点个关注，一起探索更多自然奇观。",
+      "metrics": {
+        "play": 886840,
+        "like": 16944,
+        "reply": 1246,
+        "danmaku": 2550,
+        "favorite": 5948,
+        "coin": 0,
+        "share": 0
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        },
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-18T07:17:46.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 119.65
+    },
+    {
+      "id": "bili:BV156y3zDE76",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "救援车怎么让红灯变绿？秘密是14次闪光",
+      "author": "怪叔科普",
+      "url": "https://www.bilibili.com/video/BV156y3zDE76",
+      "cover": "https://i2.hdslb.com/bfs/archive/18c64b612d824c83bd99d86058d3182b5b586426.jpg",
       "summary": "",
       "metrics": {
-        "play": 9003,
-        "like": 627,
-        "reply": 130,
-        "danmaku": 48,
-        "favorite": 276,
+        "play": 367371,
+        "like": 7225,
+        "reply": 238,
+        "danmaku": 18,
+        "favorite": 1112,
+        "coin": 0,
+        "share": 0
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "dark-horse",
+          "label": "🐴 近期黑马",
+          "tone": "primary"
+        }
+      ],
+      "publishedAt": "2026-11-22T02:38:05.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 119.56
+    },
+    {
+      "id": "bili:BV1SWsz64ERQ",
+      "platform": "bilibili",
+      "category": "bili-knowledge",
+      "title": "和珅发家之前，日子过得真有那么惨吗？",
+      "author": "穆金荣-穷历史",
+      "url": "https://www.bilibili.com/video/BV1SWsz64ERQ",
+      "cover": "https://i0.hdslb.com/bfs/archive/d9d569190c794dc29ff38886b3caeef04f375854.jpg",
+      "summary": "都说和珅出身贫寒，果真如此吗？",
+      "metrics": {
+        "play": 7282,
+        "like": 512,
+        "reply": 58,
+        "danmaku": 10,
+        "favorite": 108,
         "coin": 0,
         "share": 0
       },
@@ -2701,81 +3049,9 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-21T04:50:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 121.44
-    },
-    {
-      "id": "bili:BV1vbsP6KEp7",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "【11月下旬电脑配置推荐】比自己买省500+，这才是正常人要的配置单，无需改配全一线，只为教你把预算都花都在DIY装机刀刃上，建议收藏",
-      "author": "船长总动员",
-      "url": "https://www.bilibili.com/video/BV1vbsP6KEp7",
-      "cover": "https://i1.hdslb.com/bfs/archive/80e88bcbce9c0e8f82575ae232efdf2d227b7e40.jpg",
-      "summary": "HI，这期新增了9060XT和9070GRE，目前来说A卡确实很有性价比",
-      "metrics": {
-        "play": 556303,
-        "like": 20581,
-        "reply": 988,
-        "danmaku": 194,
-        "favorite": 5151,
-        "coin": 0,
-        "share": 0,
-        "fans": 397243
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "hot",
-          "label": "🔥 播放破 50 万",
-          "tone": "error"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-16T08:44:26.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 119.46
-    },
-    {
-      "id": "bili:BV15Gsj6iEaz",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "黄仁勋辞职，游戏显卡的时代会结束吗？",
-      "author": "硬件茶谈",
-      "url": "https://www.bilibili.com/video/BV15Gsj6iEaz",
-      "cover": "https://i1.hdslb.com/bfs/archive/08b67f55ed12c2a22e74d86b57f33106e9bc5eca.jpg",
-      "summary": "黄仁勋辞职了。 美国时间2026年11月12日，NVIDIA宣布黄仁勋辞去总裁、CEO和董事职务。 临时接手这家公司的，是现任首席财务官Colette Kress。 NVIDIA在财务CEO上岗后，有没有可能为了利益最大化，把游戏卡的产能全分给企业用户呢？",
-      "metrics": {
-        "play": 468944,
-        "like": 18862,
-        "reply": 5251,
-        "danmaku": 1240,
-        "favorite": 4178,
-        "coin": 0,
-        "share": 0,
-        "fans": 3993389
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
-        }
-      ],
-      "publishedAt": "2026-11-15T04:05:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 118.9
+      "publishedAt": "2026-11-24T09:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 118.94
     },
     {
       "id": "bili:BV1dPs56AEv7",
@@ -2787,14 +3063,14 @@
       "cover": "https://i0.hdslb.com/bfs/archive/8267562c5e8ca64627b27b59d66224a4d48f4a42.jpg",
       "summary": "最近市场市场实在动荡，真有刚需的小伙伴，建议尽快入手哦~ 本期配置推荐，全部采用实拍实测，每个型号都有详解详测，并从2K价位到4W价位，再从游戏到生产力，做到了价位需求全覆盖的26套配置，如果对你有帮助的话，发财的小手三连点一点，万分感谢~",
       "metrics": {
-        "play": 963044,
-        "like": 15098,
-        "reply": 1088,
-        "danmaku": 505,
-        "favorite": 5516,
+        "play": 1150135,
+        "like": 17340,
+        "reply": 1407,
+        "danmaku": 543,
+        "favorite": 5987,
         "coin": 0,
         "share": 0,
-        "fans": 746279
+        "fans": 746305
       },
       "comments": [],
       "badges": [
@@ -2802,34 +3078,29 @@
           "key": "hot",
           "label": "🔥 播放破 50 万",
           "tone": "error"
-        },
-        {
-          "key": "dark-horse",
-          "label": "🐴 近期黑马",
-          "tone": "primary"
         }
       ],
       "publishedAt": "2026-11-14T13:18:14.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 118.6
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 117.79
     },
     {
-      "id": "bili:BV1uHybzoE7n",
+      "id": "bili:BV1yby4zVE5C",
       "platform": "bilibili",
       "category": "bili-knowledge",
-      "title": "11.21: 全球陷入AI泡沫破裂恐慌、纳斯达克指数遭抛售暴跌5%、美国科技股陷入技术性熊市、金价单日跌约3%、A股港股美股金价收评",
-      "author": "知先财情",
-      "url": "https://www.bilibili.com/video/BV1uHybzoE7n",
-      "cover": "https://i1.hdslb.com/bfs/archive/ad093b43b677ac8d3071a63c07b3a927e848a4c2.jpg",
-      "summary": "",
+      "title": "豪情在天！全网最油小孩哥如何成为百万大V！",
+      "author": "GameDeath",
+      "url": "https://www.bilibili.com/video/BV1yby4zVE5C",
+      "cover": "https://i0.hdslb.com/bfs/archive/437ef29f728fe40e0e956e854b2c35b977035fcb.jpg",
+      "summary": "有谁想加入少年派主持团队的，点赞关注三连，我可以举荐（",
       "metrics": {
-        "play": 47209,
-        "like": 936,
-        "reply": 566,
-        "danmaku": 219,
-        "favorite": 210,
-        "coin": 0,
-        "share": 0
+        "play": 229790,
+        "like": 3826,
+        "reply": 477,
+        "danmaku": 1162,
+        "favorite": 1407,
+        "coin": 589,
+        "share": 555
       },
       "comments": [],
       "badges": [
@@ -2839,58 +3110,59 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-20T23:37:02.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 117.85
+      "publishedAt": "2026-11-21T09:30:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 116.57
     },
     {
-      "id": "bili:BV1DtyWz7Ekp",
+      "id": "bili:BV1u7sG62EWV",
       "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "第1316日投资记录：今日史诗级亏损，亏麻了。",
-      "author": "史诗级韭菜",
-      "url": "https://www.bilibili.com/video/BV1DtyWz7Ekp",
-      "cover": "https://i0.hdslb.com/bfs/archive/643fb8dd46526c7981bd825dc65aa01bdc857650.jpg",
-      "summary": "各位请以自己逻辑为主",
+      "category": "bili-tech",
+      "title": "（2026·11月下旬电脑配置推荐）拒绝智商税！绝无恰饭：教你把预算花在刀刃上，组装一台高性价比电脑，全实拍实测！绝不恰饭！2000-4W预算，共22套配置！",
+      "author": "野生的装机宅",
+      "url": "https://www.bilibili.com/video/BV1u7sG62EWV",
+      "cover": "https://i1.hdslb.com/bfs/archive/eed493fdc7ab2c41612bf1adaa73f7c11a69a374.jpg",
+      "summary": "本视频全程无广！无任何厂家充值！所有产品均为自费购买，实拍实测，横评对比！大家可以放心抄作业 制作不易，拜托各位观众老爷帮忙点点赞吧!",
       "metrics": {
-        "play": 46540,
-        "like": 1728,
-        "reply": 1077,
-        "danmaku": 324,
-        "favorite": 232,
+        "play": 893153,
+        "like": 35628,
+        "reply": 2808,
+        "danmaku": 596,
+        "favorite": 7571,
         "coin": 0,
-        "share": 0
+        "share": 0,
+        "fans": 1153032
       },
       "comments": [],
       "badges": [
         {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
         }
       ],
-      "publishedAt": "2026-11-20T09:59:10.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 116.95
+      "publishedAt": "2026-11-14T07:54:25.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 116.44
     },
     {
-      "id": "bili:BV17Wsm6bE1D",
+      "id": "bili:BV1wWyozFEUh",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "【熟肉】外网两千万粉数码博主评测理想L8：史无前例豪华科技SUV 中国车为何领先 ｜ Mrwhosetheboss",
-      "author": "UPTuber",
-      "url": "https://www.bilibili.com/video/BV17Wsm6bE1D",
-      "cover": "https://i2.hdslb.com/bfs/archive/a5730a654ff61cd205277fc092536759365eb5fb.jpg",
-      "summary": "作者：Mrwhosetheboss 翻译+搬运：UPTuber 原视频链接：https://www.youtube.com/watch?v=awjlMCCdqXw&t=504s",
+      "title": "巧夺天工，贴脸iPhone！华为mateX8发布会黑科技铰链技术介绍完整版。",
+      "author": "别别开枪自己人",
+      "url": "https://www.bilibili.com/video/BV1wWyozFEUh",
+      "cover": "https://i0.hdslb.com/bfs/archive/c992d423cf4cd2c75c836f3bcd6fcc88d16ccd7d.jpg",
+      "summary": "-",
       "metrics": {
-        "play": 216664,
-        "like": 3407,
-        "reply": 695,
-        "danmaku": 585,
-        "favorite": 806,
+        "play": 15908,
+        "like": 373,
+        "reply": 143,
+        "danmaku": 15,
+        "favorite": 35,
         "coin": 0,
         "share": 0,
-        "fans": 123481
+        "fans": 23150
       },
       "comments": [],
       "badges": [
@@ -2900,376 +3172,84 @@
           "tone": "primary"
         }
       ],
-      "publishedAt": "2026-11-18T09:01:47.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 116.88
+      "publishedAt": "2026-11-24T07:24:16.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 111.83
     },
     {
-      "id": "bili:BV12Css6jEBi",
+      "id": "bili:BV18ryDzpEAE",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "Windows 7 2026版：经典回归，性能超越Win11",
-      "author": "棋哥资源库AI翻译组",
-      "url": "https://www.bilibili.com/video/BV12Css6jEBi",
-      "cover": "https://i1.hdslb.com/bfs/archive/15d08d6fa0e39bfd8c5180cd66d2e1b68ae8a40b.jpg",
-      "summary": "来 源：https://www.youtube.com/watch?v=U_-JzpjSOw8 原视频：Windows 7 2026 Edition (v3) — Now with Aero (Faster than Windows 11) 原作者：HT - 【资源见评论区】 发布日期：2026-05-31 视频里的所包含资源，有需要的在【评论区留言】，会单独整理。 字幕配音：语音转录、字幕翻译、文本配音、口型对齐等全部由 AI 完成。如有不准确之处，欢迎指出。（视频相关素材、工具箱一键三连评论区回",
+      "title": "【百元电脑】￥380就能买到高颜值办公本？窄边框/四核心/居然还是金属机身/杂牌笔记本？",
+      "author": "游手好闲的青大入",
+      "url": "https://www.bilibili.com/video/BV18ryDzpEAE",
+      "cover": "https://i0.hdslb.com/bfs/archive/202cb30b71488ea94c21f8c170b5831a135c082d.jpg",
+      "summary": "仅百元的高颜值娱乐本~",
       "metrics": {
-        "play": 59999,
-        "like": 872,
-        "reply": 340,
-        "danmaku": 41,
-        "favorite": 1216,
+        "play": 24953,
+        "like": 700,
+        "reply": 158,
+        "danmaku": 122,
+        "favorite": 651,
         "coin": 0,
         "share": 0,
-        "fans": 1238
+        "fans": 25674
       },
       "comments": [],
       "badges": [
         {
-          "key": "breakout",
-          "label": "🐣 小号爆款",
-          "tone": "success"
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
         }
       ],
-      "publishedAt": "2026-11-18T23:50:13.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 115.87
+      "publishedAt": "2026-11-23T10:53:05.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 108.7
     },
     {
-      "id": "bili:BV1Nkyxz1EjX",
+      "id": "bili:BV1QiyDzdEsa",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "再见了，丘小弟",
-      "author": "小艾评论",
-      "url": "https://www.bilibili.com/video/BV1Nkyxz1EjX",
-      "cover": "https://i2.hdslb.com/bfs/archive/68630fe02c7e49335bb1c6860e2f1789b964b7c3.jpg",
-      "summary": "",
+      "title": "性能超越5080，还有24GB显存！AMD下代新显卡正式披露：启用RDNA5架构，全力提升光追与AI性能，或将2027年发布！【宅同学】",
+      "author": "有点硬核的宅同学",
+      "url": "https://www.bilibili.com/video/BV1QiyDzdEsa",
+      "cover": "https://i0.hdslb.com/bfs/archive/695df394389ae7f1912f1b183b4f41522a53b5bb.jpg",
+      "summary": "AMD新显卡的性能，预计会超越5080，还有24GB显存！而全新的RDNA5架构，也将会为光追与AI性能，带来极大的进步！",
       "metrics": {
-        "play": 20651,
-        "like": 156,
-        "reply": 23,
-        "danmaku": 1,
-        "favorite": 66,
+        "play": 38379,
+        "like": 640,
+        "reply": 425,
+        "danmaku": 168,
+        "favorite": 121,
         "coin": 0,
         "share": 0,
-        "fans": 1037
+        "fans": 413691
       },
       "comments": [],
-      "badges": [
-        {
-          "key": "breakout",
-          "label": "🐣 小号爆款",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-20T21:17:29.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 114.38
+      "badges": [],
+      "publishedAt": "2026-11-23T10:52:44.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 107.77
     },
     {
-      "id": "bili:BV1HisA6kEXn",
+      "id": "bili:BV1vbyDzhEdL",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "我也有猫啦！！｜OPPO Reno17 系列上手",
-      "author": "妮可厅长",
-      "url": "https://www.bilibili.com/video/BV1HisA6kEXn",
-      "cover": "https://i2.hdslb.com/bfs/archive/7e32a883a977de39be16bcfc2efb007a1f2d8bca.jpg",
-      "summary": "那种忍不住多看两眼的照片，就好像被阳光和微风包裹着，朦胧又柔软，像做梦一样的感觉，所以这次，我也拿着 OPPO Reno17 系列试了一下，看看能不能拍出来～～",
-      "metrics": {
-        "play": 200073,
-        "like": 11121,
-        "reply": 162,
-        "danmaku": 282,
-        "favorite": 3943,
-        "coin": 0,
-        "share": 0,
-        "fans": 286123
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-16T12:13:20.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 114.24
-    },
-    {
-      "id": "bili:BV1htyWz7E3k",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "A股11.20收评+11.23盘前预判：大宗商品全军覆没、全球股市承压！看懂当下交易主线：东方港湾、玄元等22家私募扎堆布局主动ETF",
-      "author": "价值投资笔记",
-      "url": "https://www.bilibili.com/video/BV1htyWz7E3k",
-      "cover": "https://i1.hdslb.com/bfs/archive/bfbde6362db3f30f2001a7a4d65955dcc49f8d3b.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 5074,
-        "like": 460,
-        "reply": 102,
-        "danmaku": 100,
-        "favorite": 267,
-        "coin": 0,
-        "share": 0
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-20T09:54:48.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 113.81
-    },
-    {
-      "id": "bili:BV1bQyszSEo8",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "如何让一个人对你产生深度喜欢",
-      "author": "阿七的独白馆",
-      "url": "https://www.bilibili.com/video/BV1bQyszSEo8",
-      "cover": "https://i1.hdslb.com/bfs/archive/dd9d4b257ecda5fba6771b607bc18cbf628c4f73.jpg",
-      "summary": "-",
-      "metrics": {
-        "play": 5195,
-        "like": 370,
-        "reply": 24,
-        "danmaku": 103,
-        "favorite": 406,
-        "coin": 0,
-        "share": 0
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-20T13:56:12.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 113.71
-    },
-    {
-      "id": "bili:BV1qaypzREic",
-      "platform": "bilibili",
-      "category": "bili-knowledge",
-      "title": "欲望不被满足，生命力就会堵住",
-      "author": "果子狸心理",
-      "url": "https://www.bilibili.com/video/BV1qaypzREic",
-      "cover": "https://i2.hdslb.com/bfs/archive/61521338ea720d400c9c96ec3534e3a1fc2318b4.jpg",
-      "summary": "-",
-      "metrics": {
-        "play": 6499,
-        "like": 325,
-        "reply": 54,
-        "danmaku": 54,
-        "favorite": 611,
-        "coin": 0,
-        "share": 0
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-20T12:30:35.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 113.16
-    },
-    {
-      "id": "bili:BV1cxsb6LEGP",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "【沉浸式开箱】鸿蒙AI阔直板？星芒O1Pro",
-      "author": "一袋儿盐",
-      "url": "https://www.bilibili.com/video/BV1cxsb6LEGP",
-      "cover": "https://i0.hdslb.com/bfs/archive/8a35ab7e512ee2421bc51e0b0c8d408a7111e81c.jpg",
-      "summary": "◉本期沉浸式开箱 华为星芒O1Pro",
-      "metrics": {
-        "play": 84725,
-        "like": 3335,
-        "reply": 1008,
-        "danmaku": 666,
-        "favorite": 532,
-        "coin": 0,
-        "share": 0,
-        "fans": 229266
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        },
-        {
-          "key": "brand-new",
-          "label": "🌱 新星起飞",
-          "tone": "success"
-        }
-      ],
-      "publishedAt": "2026-11-19T08:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 112.86
-    },
-    {
-      "id": "bili:BV1bcsi61EqC",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "N 卡用户集体中招！什么叫你的显卡驱动正在扫爆你的硬盘？",
-      "author": "宇浩玩数码",
-      "url": "https://www.bilibili.com/video/BV1bcsi61EqC",
-      "cover": "https://i2.hdslb.com/bfs/archive/d21f8dd70195e9b4e98e9680da7e3b98c5bdd6a2.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 28104,
-        "like": 1150,
-        "reply": 168,
-        "danmaku": 4,
-        "favorite": 1613,
-        "coin": 0,
-        "share": 0,
-        "fans": 110767
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-20T02:03:08.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 111.47
-    },
-    {
-      "id": "bili:BV1tW4B6sECG",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "【全600集】(允许白嫖)目前B站最全最细的Python零基础全套教程，（包含爬虫+数据分析+AI）逼自己一个月学完，从入门到精通，看完这一套Python就够了",
-      "author": "Python入门零基础教程君",
-      "url": "https://www.bilibili.com/video/BV1tW4B6sECG",
-      "cover": "https://i0.hdslb.com/bfs/archive/465bbeacb23d56a524f632038a512d97b903569c.jpg",
-      "summary": "本套教程为最新录制，非常适合毫无编程经验的零基础小白，用来学习提升自己，为后续发展打下坚实的",
-      "metrics": {
-        "play": 52846,
-        "like": 2518,
-        "reply": 301,
-        "danmaku": 705,
-        "favorite": 5560,
-        "coin": 0,
-        "share": 0,
-        "fans": 114429
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-06T07:46:05.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 105.99
-    },
-    {
-      "id": "bili:BV1ghsC6MEoB",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "你不敢用的电脑，可能是别人的常态 直播切片第4期",
-      "author": "香蕉丸子加番茄",
-      "url": "https://www.bilibili.com/video/BV1ghsC6MEoB",
-      "cover": "https://i1.hdslb.com/bfs/archive/eb82eeefd156b51595f3aae1d80edde7c5e1a5ca.jpg",
-      "summary": "",
-      "metrics": {
-        "play": 44025,
-        "like": 2298,
-        "reply": 417,
-        "danmaku": 175,
-        "favorite": 299,
-        "coin": 0,
-        "share": 0,
-        "fans": 447457
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-18T08:30:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 104.7
-    },
-    {
-      "id": "bili:BV1KXsS67Exf",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "三年后再看小米14：标准版，也可以是一台好旗舰",
-      "author": "做一只有梦想的匡匡喵",
-      "url": "https://www.bilibili.com/video/BV1KXsS67Exf",
-      "cover": "https://i2.hdslb.com/bfs/archive/df1f063b53e05afd061fb94de53b4c3f0b5d1ceb.jpg",
-      "summary": "小米14，个人用下来还是挺不错的，手感舒服，性能也相对够用， 现在的Pro为了区分标准版，最大的差别就是设计外观和长焦了， 除了续航，嗯，玩游戏的话应该不到3小时续航，小米14就是一台挺不错的手机 14的外观延续了13的设计，嗯，家族设计，听说18好像要改会这个设计？ 不知道说什么了，感谢大家的支持～",
-      "metrics": {
-        "play": 6685,
-        "like": 472,
-        "reply": 79,
-        "danmaku": 124,
-        "favorite": 146,
-        "coin": 0,
-        "share": 0,
-        "fans": 1562
-      },
-      "comments": [],
-      "badges": [
-        {
-          "key": "breakout",
-          "label": "🐣 小号爆款",
-          "tone": "success"
-        },
-        {
-          "key": "interactive",
-          "label": "⚡ 互动率极高",
-          "tone": "warning"
-        }
-      ],
-      "publishedAt": "2026-11-18T11:15:43.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 102.44
-    },
-    {
-      "id": "bili:BV1Ccs86nEFe",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "新显卡要来了？",
+      "title": "6090显卡发布时间曝光！5090传明年停产",
       "author": "成都显卡一号店",
-      "url": "https://www.bilibili.com/video/BV1Ccs86nEFe",
-      "cover": "https://i0.hdslb.com/bfs/archive/2ef666cb70e92b95d3091b536359caf34aa8f349.jpg",
+      "url": "https://www.bilibili.com/video/BV1vbyDzhEdL",
+      "cover": "https://i2.hdslb.com/bfs/archive/5f94303aa60f0a4f4a5de169bd2ca6b753a14751.jpg",
       "summary": "",
       "metrics": {
-        "play": 33557,
-        "like": 290,
-        "reply": 175,
-        "danmaku": 10,
-        "favorite": 58,
+        "play": 29570,
+        "like": 189,
+        "reply": 172,
+        "danmaku": 3,
+        "favorite": 49,
         "coin": 0,
         "share": 0,
-        "fans": 7947
+        "fans": 8058
       },
       "comments": [],
       "badges": [
@@ -3279,9 +3259,115 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-19T04:54:41.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 101.89
+      "publishedAt": "2026-11-23T10:16:15.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 105.05
+    },
+    {
+      "id": "bili:BV1sA1FzgEik",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "华为mate X8发布会完整版，余大嘴全程贴脸iPhone，夯爆了！2026机圈黑科技最密集产品发布会！",
+      "author": "别别开枪自己人",
+      "url": "https://www.bilibili.com/video/BV1sA1FzgEik",
+      "cover": "https://i1.hdslb.com/bfs/archive/5cd922607712de7a65f2341168404435940b1a50.jpg",
+      "summary": "-",
+      "metrics": {
+        "play": 5468,
+        "like": 151,
+        "reply": 59,
+        "danmaku": 28,
+        "favorite": 16,
+        "coin": 0,
+        "share": 0,
+        "fans": 23150
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-11-24T08:02:12.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 104.13
+    },
+    {
+      "id": "bili:BV1ks4F6gEFb",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "浅谈苹果三星华为直板机，谁是高端之最？",
+      "author": "花生説",
+      "url": "https://www.bilibili.com/video/BV1ks4F6gEFb",
+      "cover": "https://i0.hdslb.com/bfs/archive/9c8b0ec339cfa922c27dfed9a5da83f3f001c838.jpg",
+      "summary": "华为，苹果，三星就属于手机里的BBA。苹果主打守成，三星有时候非常纠结。华为则是相对激进的那个。今天我们就来看看，三个品牌的巅峰对决。",
+      "metrics": {
+        "play": 633150,
+        "like": 9503,
+        "reply": 1427,
+        "danmaku": 3393,
+        "favorite": 2987,
+        "coin": 0,
+        "share": 0,
+        "fans": 1259455
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "hot",
+          "label": "🔥 播放破 50 万",
+          "tone": "error"
+        }
+      ],
+      "publishedAt": "2026-11-02T10:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 103.32
+    },
+    {
+      "id": "bili:BV1oVyYzmEVr",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "「黑貓」银色 MacBook Pro PROLED 两周评测：超级满意！",
+      "author": "黑貓的野望",
+      "url": "https://www.bilibili.com/video/BV1oVyYzmEVr",
+      "cover": "https://i0.hdslb.com/bfs/archive/d83aca472103d31130436d86fe7ccf4683780385.jpg",
+      "summary": "本期视频开箱评测银色 MacBook Pro (PROLED XDR) M5 PRO 芯片版本！(๑╹ ╹)╭☞",
+      "metrics": {
+        "play": 48515,
+        "like": 1404,
+        "reply": 366,
+        "danmaku": 167,
+        "favorite": 503,
+        "coin": 0,
+        "share": 0,
+        "fans": 96035
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-11-21T14:57:49.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 102.08
+    },
+    {
+      "id": "bili:BV1xk4G6jEpj",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "「科技美学开箱」iPad mini 第八代（A20 Pro）超详细开箱验机 | 对比不同尺寸平板如何选择？",
+      "author": "科技美学",
+      "url": "https://www.bilibili.com/video/BV1xk4G6jEpj",
+      "cover": "https://i0.hdslb.com/bfs/archive/de9d03e17a427a22b3bee09e89dd543c44d16417.jpg",
+      "summary": "「科技美学开箱」iPad mini 第八代（A20 Pro）超详细开箱验机 | 对比不同尺寸平板如何选择？ *由厂商提供测试机器 无其他商务推广合作",
+      "metrics": {
+        "play": 324217,
+        "like": 6372,
+        "reply": 2152,
+        "danmaku": 1939,
+        "favorite": 1282,
+        "coin": 0,
+        "share": 0,
+        "fans": 4472456
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-11-03T14:00:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 98.3
     },
     {
       "id": "bili:BV1i2sU6aEy9",
@@ -3293,14 +3379,14 @@
       "cover": "https://i1.hdslb.com/bfs/archive/63b23672a1c870a2e97c8490bd0d87221d01d26d.jpg",
       "summary": "本套教程包含Python语法、课后练习、网络爬虫、人工智能、数据分析、办公自动化等等！ 每一个知识点都讲解的通俗易懂，知识点编排循序渐进，是一套非常适合零基础小白学习的课程！ 视频配套籽料+问题解答请看”置顶平论”（安装包、课件笔记、PDF电子书、问题解答等） 制作不易，大家记得点个关注，一键三连呀【点赞、收藏、转发】感谢支持~",
       "metrics": {
-        "play": 10681,
-        "like": 244,
-        "reply": 38,
-        "danmaku": 113,
-        "favorite": 783,
+        "play": 14686,
+        "like": 358,
+        "reply": 77,
+        "danmaku": 144,
+        "favorite": 1047,
         "coin": 0,
         "share": 0,
-        "fans": 6825
+        "fans": 6975
       },
       "comments": [],
       "badges": [
@@ -3311,27 +3397,27 @@
         }
       ],
       "publishedAt": "2026-11-18T13:35:43.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 101.27
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 95.76
     },
     {
-      "id": "bili:BV1FEs46GEeh",
+      "id": "bili:BV1wfy8znESK",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "139元的P104解锁2.0x16后性能多离谱？网游性能翻倍提升 各类3A不在话下！「穷数码」",
-      "author": "穷数码CHANNEL",
-      "url": "https://www.bilibili.com/video/BV1FEs46GEeh",
-      "cover": "https://i1.hdslb.com/bfs/archive/2fe75890873d85d94fadefbe4ee6f6998619626b.jpg",
-      "summary": "这类无头卡我个人觉得是众多显卡里工况最差的那一档 玩之前做好随时报废的心理预期 如果把无头卡比喻成8+2 那目前的行情P104也是里面最香的一坨。",
+      "title": "「知更鸟·晴歌」🎶盛夏是灵魂的乐手，气氛值满了~！❣️这一次我把千星城的夏天装进了机箱—— 爱国者星璨辰曲面玻璃屏显版定制电脑。",
+      "author": "至尊定制",
+      "url": "https://www.bilibili.com/video/BV1wfy8znESK",
+      "cover": "https://i0.hdslb.com/bfs/archive/9b9988bbaa171b3efb77840f1a7828c5cfb7b54d.jpg",
+      "summary": "她在千星城唱《唯有追赶风的方向》，我在机箱里给她留了一个舞台！ 性能只是一时的，好看可是一辈子的。",
       "metrics": {
-        "play": 20629,
-        "like": 747,
-        "reply": 434,
-        "danmaku": 27,
-        "favorite": 345,
+        "play": 27321,
+        "like": 1192,
+        "reply": 89,
+        "danmaku": 272,
+        "favorite": 483,
         "coin": 0,
         "share": 0,
-        "fans": 91600
+        "fans": 609733
       },
       "comments": [],
       "badges": [
@@ -3341,159 +3427,190 @@
           "tone": "warning"
         }
       ],
-      "publishedAt": "2026-11-19T10:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 100.2
+      "publishedAt": "2026-11-21T04:11:03.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 95.5
     },
     {
-      "id": "bili:BV1atyWz7EP7",
+      "id": "bili:BV1SKyazeEpB",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "900块的R7 8700G 已经把低端显卡的路全堵死了",
-      "author": "清诚实验室poi",
-      "url": "https://www.bilibili.com/video/BV1atyWz7EP7",
-      "cover": "https://i0.hdslb.com/bfs/archive/9db466944848cdedb066f0c56d1835de7ae7e75d.jpg",
-      "summary": "只适合手上有D5内存不打算买高端显卡的玩家。",
+      "title": "【简单评测】最便宜的三面屏水冷？雷利酷-全域Tri-300-360白色！",
+      "author": "吃饭团的佳乐同学",
+      "url": "https://www.bilibili.com/video/BV1SKyazeEpB",
+      "cover": "https://i1.hdslb.com/bfs/archive/17aa8a4362a8b2bb0b76ff09bfe81a0d22ebe71d.jpg",
+      "summary": "这期视频我们把这款产品的： 优势、用料拆解、缺点分析， 都基本讲透了，大家觉得如何呢？",
       "metrics": {
-        "play": 15234,
-        "like": 272,
-        "reply": 122,
-        "danmaku": 25,
-        "favorite": 92,
+        "play": 32741,
+        "like": 749,
+        "reply": 605,
+        "danmaku": 105,
+        "favorite": 328,
         "coin": 0,
         "share": 0,
-        "fans": 42765
+        "fans": 297196
       },
       "comments": [],
       "badges": [],
-      "publishedAt": "2026-11-20T09:51:52.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 98.32
+      "publishedAt": "2026-11-21T10:10:34.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 94.31
     },
     {
-      "id": "bili:BV11LsM6hENN",
+      "id": "bili:BV1p6yHzhE8N",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "重度78天！难崩！华为PuraXView纯个人体验分享",
-      "author": "绿皮小火车拉",
-      "url": "https://www.bilibili.com/video/BV11LsM6hENN",
-      "cover": "https://i2.hdslb.com/bfs/archive/4ed944d43950720299a6a019de4d28be47792d82.jpg",
+      "title": "双11过后，全系值得买的二手显卡盘点",
+      "author": "深度抠门的数码爱好者",
+      "url": "https://www.bilibili.com/video/BV1p6yHzhE8N",
+      "cover": "https://i2.hdslb.com/bfs/archive/9448e95797fd1b8d58440f9cb2b46afa6269d454.jpg",
       "summary": "",
       "metrics": {
-        "play": 47242,
-        "like": 193,
-        "reply": 314,
-        "danmaku": 174,
-        "favorite": 74,
+        "play": 12439,
+        "like": 271,
+        "reply": 120,
+        "danmaku": 56,
+        "favorite": 157,
         "coin": 0,
         "share": 0,
-        "fans": 6100
+        "fans": 19852
+      },
+      "comments": [],
+      "badges": [],
+      "publishedAt": "2026-11-23T05:43:45.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 93.14
+    },
+    {
+      "id": "bili:BV1LvyezpEzQ",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "【阿哲】15999元，全球公測的未完成品 - iPhone Duo 使用心得 [#589] B站",
+      "author": "Linzin阿哲",
+      "url": "https://www.bilibili.com/video/BV1LvyezpEzQ",
+      "cover": "https://i1.hdslb.com/bfs/archive/2076aaa30eafe5293653539b8f01b902833fafd6.jpg",
+      "summary": "可能是台湾史上最迟到的iPhone Duo测评，但可能也是你看过最详细的iPhone Duo测评。 从正式到手至今已将近一个月，基本上是一路从粗浅介绍，到各种别人没说过的深入新发现（还有一些白痴的情境剧），全加进这部视频里了。 一个月的使用，一小时的测评，整体心得还算满意，也果然是支只有苹果才做得出的产品。 只不过到最后，我还是决定...",
+      "metrics": {
+        "play": 8278,
+        "like": 481,
+        "reply": 51,
+        "danmaku": 120,
+        "favorite": 170,
+        "coin": 0,
+        "share": 0,
+        "fans": 77981
       },
       "comments": [],
       "badges": [
         {
-          "key": "breakout",
-          "label": "🐣 小号爆款",
-          "tone": "success"
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
         }
       ],
-      "publishedAt": "2026-11-17T02:37:32.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 97
+      "publishedAt": "2026-11-21T12:29:15.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 92.28
     },
     {
-      "id": "bili:BV1oTybzKENV",
+      "id": "bili:BV1Yoyhz6EJw",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "《显卡价格日报》11月21日｜RTX 5070 Ti日低降211元，阿里真武V900定档2027商用｜第1068期",
-      "author": "显卡价格信息",
-      "url": "https://www.bilibili.com/video/BV1oTybzKENV",
-      "cover": "https://i0.hdslb.com/bfs/archive/7ba1a129fe613611a81e8eed785af28c8fe7c251.jpg",
-      "summary": "RTX 5070 Ti日低降211元，阿里真武V900定档2027商用",
+      "title": "零售机开箱，定位很迷啊！星芒 OSTA O1Pro",
+      "author": "小凡咯咯咯",
+      "url": "https://www.bilibili.com/video/BV1Yoyhz6EJw",
+      "cover": "https://i1.hdslb.com/bfs/archive/22109f6bc50471aedfeac1117ce39b8d86f5d731.jpg",
+      "summary": "感觉开头不太妙，看后面怎么做吧……我还是期待能给力点的。",
       "metrics": {
-        "play": 5615,
-        "like": 114,
-        "reply": 25,
+        "play": 19299,
+        "like": 458,
+        "reply": 343,
+        "danmaku": 320,
+        "favorite": 82,
+        "coin": 0,
+        "share": 0,
+        "fans": 45576
+      },
+      "comments": [],
+      "badges": [
+        {
+          "key": "interactive",
+          "label": "⚡ 互动率极高",
+          "tone": "warning"
+        }
+      ],
+      "publishedAt": "2026-11-21T09:44:58.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 90.17
+    },
+    {
+      "id": "bili:BV15nydzGEMi",
+      "platform": "bilibili",
+      "category": "bili-tech",
+      "title": "2026年11月24日显卡价格：RTX 5070 Ti最低11999，比首发贵90%",
+      "author": "每日显卡价格统计",
+      "url": "https://www.bilibili.com/video/BV15nydzGEMi",
+      "cover": "https://i2.hdslb.com/bfs/archive/b41fbeafed5e9b4638245cf04b3d00646a7303d2.jpg",
+      "summary": "2026年11月24日显卡价格统计。 RTX 5070 Ti 最低11999，比国行首发贵90%（贵5700）。 RTX 5060 Ti 8G 最低4399，比昨天跌380。 RTX 5060 Ti 16G 最低6649，比昨天涨1775。 相对更香：RX 9070 XT 最低7999。 同卡价差最大：RTX 5080 差5781（14218–19999）。 到手价含券/补贴，价格随时变动，以下单页为准。本视频仅作价格汇总参考，非广告。",
+      "metrics": {
+        "play": 6018,
+        "like": 39,
+        "reply": 34,
         "danmaku": 0,
-        "favorite": 9,
+        "favorite": 7,
         "coin": 0,
         "share": 0,
-        "fans": 2362
+        "fans": 27337
       },
       "comments": [],
       "badges": [],
-      "publishedAt": "2026-11-20T23:24:03.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 96.88
+      "publishedAt": "2026-11-23T23:46:38.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 89.64
     },
     {
-      "id": "bili:BV19Wsa6VE12",
+      "id": "bili:BV19cyRzKEAj",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "内存显卡大降价，D5 16G降至911，5060TI降到3595，PNY 5070到手6589，2026.11.20 显卡日报",
-      "author": "愤怒的公牛Bull",
-      "url": "https://www.bilibili.com/video/BV19Wsa6VE12",
-      "cover": "https://i2.hdslb.com/bfs/archive/16c63ff4018fd0aa5088f6eb3df9d010a631af07.jpg",
+      "title": "黄仁勋回来了！显卡价格会下跌吗？",
+      "author": "成都显卡一号店",
+      "url": "https://www.bilibili.com/video/BV19cyRzKEAj",
+      "cover": "https://i2.hdslb.com/bfs/archive/93a90d88d8d8a58ab49f0d09784bd4e34c3e5252.jpg",
       "summary": "",
       "metrics": {
-        "play": 19691,
-        "like": 217,
-        "reply": 98,
-        "danmaku": 2,
-        "favorite": 27,
+        "play": 5600,
+        "like": 43,
+        "reply": 17,
+        "danmaku": 1,
+        "favorite": 5,
         "coin": 0,
         "share": 0,
-        "fans": 44884
+        "fans": 8058
       },
       "comments": [],
       "badges": [],
-      "publishedAt": "2026-11-19T16:30:38.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 90.31
+      "publishedAt": "2026-11-24T01:15:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 89.58
     },
     {
-      "id": "bili:BV1bXsk6PEbx",
+      "id": "bili:BV1yHyszgEGV",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "新款Apple TV详细实测，4年之后它改变了什么",
-      "author": "数码旭",
-      "url": "https://www.bilibili.com/video/BV1bXsk6PEbx",
-      "cover": "https://i0.hdslb.com/bfs/archive/c76d94126203798c03b5ae1638cd4553cc30ea63.jpg",
-      "summary": "等了许久，终于有机会作一期Apple TV的内容，这是我拿到新款Apple TV后第一手的实测。",
-      "metrics": {
-        "play": 30009,
-        "like": 426,
-        "reply": 103,
-        "danmaku": 150,
-        "favorite": 252,
-        "coin": 0,
-        "share": 0,
-        "fans": 23925
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-17T18:36:08.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 88.1
-    },
-    {
-      "id": "bili:BV16h4p6eEpy",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "2026年（双十一决赛圈）笔记本电脑选购攻略！3000—1.5万全价位超高性价比选购指南｜直接闭眼入!",
-      "author": "墨羽数码",
-      "url": "https://www.bilibili.com/video/BV16h4p6eEpy",
-      "cover": "https://i1.hdslb.com/bfs/archive/f89548b8cbbc4cb29c49f05c9f28eb07af6d1664.jpg",
+      "title": "预测大翻车？身价翻一倍？6499买星芒到底值不值？首发开箱体验！",
+      "author": "彼得潘mn",
+      "url": "https://www.bilibili.com/video/BV1yHyszgEGV",
+      "cover": "https://i2.hdslb.com/bfs/archive/b20a703636693e2f3fb72749a28ce3abf8bafd42.jpg",
       "summary": "",
       "metrics": {
-        "play": 37513,
-        "like": 200,
-        "reply": 237,
-        "danmaku": 103,
-        "favorite": 171,
+        "play": 12069,
+        "like": 250,
+        "reply": 37,
+        "danmaku": 18,
+        "favorite": 220,
         "coin": 0,
         "share": 0,
-        "fans": 2278
+        "fans": 3446
       },
       "comments": [],
       "badges": [
@@ -3503,53 +3620,28 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-08T01:30:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 87.7
+      "publishedAt": "2026-11-20T15:30:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 88.45
     },
     {
-      "id": "bili:BV1ETsz6MEUR",
+      "id": "bili:BV1SHyhzeEXN",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "哪款显卡能买？11月下旬显卡推荐指南：RX 9070XT成性价比之王！N卡只有RTX 5050最值得【宅同学】",
-      "author": "有点硬核的宅同学",
-      "url": "https://www.bilibili.com/video/BV1ETsz6MEUR",
-      "cover": "https://i2.hdslb.com/bfs/archive/97d9a708a61504d1f89be31ef4d60433c775dfe8.jpg",
-      "summary": "有刚需不犹豫，非刚需请别买！",
-      "metrics": {
-        "play": 20855,
-        "like": 262,
-        "reply": 168,
-        "danmaku": 129,
-        "favorite": 87,
-        "coin": 0,
-        "share": 0,
-        "fans": 413610
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-17T10:38:33.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 83.73
-    },
-    {
-      "id": "bili:BV1bcsm65EWo",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "【能劝一个算一个！自费亲测】华为星芒oste o1pro阔直版新机 上手机主请注意！它的第一批配件一定要注意，一不留神就踩坑！！！建议别撕原厂膜！！",
-      "author": "七七想去探险",
-      "url": "https://www.bilibili.com/video/BV1bcsm65EWo",
-      "cover": "https://i2.hdslb.com/bfs/archive/424460ee64dfa3eb6533279af069de3e71ca4c68.jpg",
+      "title": "【不听劝】“万众期待”衍变“万众嘲讽”！华为星芒O1Pro首发开箱，就真的那么不堪？还真未必...",
+      "author": "绿皮小火车拉",
+      "url": "https://www.bilibili.com/video/BV1SHyhzeEXN",
+      "cover": "https://i0.hdslb.com/bfs/archive/50fd6be695183a3cf961d8b1b22900a17de30345.jpg",
       "summary": "",
       "metrics": {
-        "play": 7275,
-        "like": 33,
-        "reply": 14,
-        "danmaku": 5,
-        "favorite": 17,
+        "play": 20838,
+        "like": 54,
+        "reply": 35,
+        "danmaku": 0,
+        "favorite": 29,
         "coin": 0,
         "share": 0,
-        "fans": 1006
+        "fans": 6121
       },
       "comments": [],
       "badges": [
@@ -3559,103 +3651,53 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-18T10:04:18.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 82.8
+      "publishedAt": "2026-11-21T03:24:07.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 88.22
     },
     {
-      "id": "bili:BV1dcsy62E2C",
+      "id": "bili:BV1k5yXzUEp6",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "想什么来什么地摊上旧电脑台式机太多了都不敢买了",
-      "author": "放肆luckykyq",
-      "url": "https://www.bilibili.com/video/BV1dcsy62E2C",
-      "cover": "https://i0.hdslb.com/bfs/archive/2999ffe51e7fe270e5ba1b140a842ded16690d79.jpg",
+      "title": "老黄回归，显卡和内存降价怕是得再等等了",
+      "author": "深度抠门的数码爱好者",
+      "url": "https://www.bilibili.com/video/BV1k5yXzUEp6",
+      "cover": "https://i2.hdslb.com/bfs/archive/ff62b973c06adfd2937795dc7e24afaa26ac62b3.jpg",
       "summary": "",
       "metrics": {
-        "play": 14652,
-        "like": 119,
-        "reply": 47,
-        "danmaku": 41,
-        "favorite": 27,
+        "play": 6263,
+        "like": 111,
+        "reply": 29,
+        "danmaku": 1,
+        "favorite": 6,
         "coin": 0,
         "share": 0,
-        "fans": 6817
+        "fans": 19852
       },
       "comments": [],
       "badges": [],
-      "publishedAt": "2026-11-18T00:18:21.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 82.39
+      "publishedAt": "2026-11-23T15:19:14.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 88.12
     },
     {
-      "id": "bili:BV1n2WW6aEgA",
+      "id": "bili:BV1QuyszEEpN",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "一些男生喜欢的东西",
-      "author": "Sum方糖",
-      "url": "https://www.bilibili.com/video/BV1n2WW6aEgA",
-      "cover": "https://i2.hdslb.com/bfs/archive/e7c191c1d2baa6ec6c5a3640bc04003ec360b64f.jpg",
-      "summary": "本期视频会向大家简单分享一下，最近，也就是在2026年11月份，作为一个在家工作七八年的自由职业者，或者说数码博主，我出门时会带的一些有趣数码产品和生活好物。",
+      "title": "荣耀WIN RT2一台参数大于体验的手机",
+      "author": "精神微分的ZXY",
+      "url": "https://www.bilibili.com/video/BV1QuyszEEpN",
+      "cover": "https://i2.hdslb.com/bfs/archive/ee4bc39c4be597604d4361c832b3872455eb596c.jpg",
+      "summary": "",
       "metrics": {
-        "play": 39872,
-        "like": 674,
-        "reply": 72,
-        "danmaku": 130,
-        "favorite": 648,
+        "play": 5637,
+        "like": 64,
+        "reply": 85,
+        "danmaku": 71,
+        "favorite": 39,
         "coin": 0,
         "share": 0,
-        "fans": 78861
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-09T03:40:28.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 80.36
-    },
-    {
-      "id": "bili:BV1Ro4H6oEqU",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "讲点别人没说过的干货～iPhone Duo用了两周现在都什么情况了？",
-      "author": "糖水姜_",
-      "url": "https://www.bilibili.com/video/BV1Ro4H6oEqU",
-      "cover": "https://i0.hdslb.com/bfs/archive/dcf70b52b00f2df007ece753c0a2c4dca10c2042.jpg",
-      "summary": "上一次投稿科技数码区是2021年......距今已有1805天",
-      "metrics": {
-        "play": 34809,
-        "like": 327,
-        "reply": 238,
-        "danmaku": 170,
-        "favorite": 210,
-        "coin": 0,
-        "share": 0,
-        "fans": 12022
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-07T23:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 80.35
-    },
-    {
-      "id": "bili:BV1xmsw6LEYM",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "2nm 加持 A20 Pro，iPhone 游戏发热难题根治了吗？",
-      "author": "一韵随风逝",
-      "url": "https://www.bilibili.com/video/BV1xmsw6LEYM",
-      "cover": "https://i2.hdslb.com/bfs/archive/4f933420b29cb4093e832a5c2dfefc317890953d.jpg",
-      "summary": "苹果 A20 Pro 被认为会是苹果首款采用 2nm 工艺的芯片，也让很多人期待：它能不能彻底解决 iPhone 的游戏发热问题？",
-      "metrics": {
-        "play": 6187,
-        "like": 52,
-        "reply": 55,
-        "danmaku": 2,
-        "favorite": 35,
-        "coin": 0,
-        "share": 0,
-        "fans": 1659
+        "fans": 95
       },
       "comments": [],
       "badges": [
@@ -3665,59 +3707,34 @@
           "tone": "success"
         }
       ],
-      "publishedAt": "2026-11-16T12:10:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 76.36
+      "publishedAt": "2026-11-21T00:55:00.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 85.71
     },
     {
-      "id": "bili:BV1tCsP6dEtE",
+      "id": "bili:BV1eJyWzXEdv",
       "platform": "bilibili",
       "category": "bili-tech",
-      "title": "2026年11月全价位手机推荐 | 1000、2000、3000、4000、5000元各价位手机推荐 | 高性价比手机推荐2026 | 续航、大电池、快充备用机",
-      "author": "数码派Pai",
-      "url": "https://www.bilibili.com/video/BV1tCsP6dEtE",
-      "cover": "https://i1.hdslb.com/bfs/archive/412e5d223b74ade29320e8746ddcf16b9d391a4e.jpg",
-      "summary": "",
+      "title": "华为OSTA星芒手机好用吗？OSTA O1 Pro深度评测：阔直板+系统级主动AI",
+      "author": "极果研究室",
+      "url": "https://www.bilibili.com/video/BV1eJyWzXEdv",
+      "cover": "https://i0.hdslb.com/bfs/archive/15efcdd043b8e230f37897414690384272bd8f40.jpg",
+      "summary": "华为藏了三年的全新子品牌来了！本期视频为大家奉上业界首款鸿蒙AI手机OSTA O1 Pro的深度体验。这款手机告别了模拟点击野路子，系统原生A to A全链路对接，不用翻APP，说句话就能跨应用办事，还能主动预判你的使用需求。 对比另外两款热门AI手机，三条技术路线本质差在哪？还有数码爱好者真实众测反馈。 一条视频，讲透AI手机的真正分水岭。",
       "metrics": {
-        "play": 9427,
-        "like": 89,
-        "reply": 94,
-        "danmaku": 101,
-        "favorite": 73,
+        "play": 17678,
+        "like": 279,
+        "reply": 212,
+        "danmaku": 200,
+        "favorite": 99,
         "coin": 0,
         "share": 0,
-        "fans": 8474
+        "fans": 268834
       },
       "comments": [],
       "badges": [],
-      "publishedAt": "2026-11-16T10:40:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 75.25
-    },
-    {
-      "id": "bili:BV1qqsH69EmC",
-      "platform": "bilibili",
-      "category": "bili-tech",
-      "title": "OPPOReno17Pro真体验，我憋了一肚子话想说～",
-      "author": "差评帝",
-      "url": "https://www.bilibili.com/video/BV1qqsH69EmC",
-      "cover": "https://i0.hdslb.com/bfs/archive/439f311fe8d0e83fd55b72cb7b8e591b426abe56.jpg",
-      "summary": "没有花里胡哨的整活，只有从真实的用户角度的深度体验 OPPO Reno17Pro除了颜值，影像有什么不一样的玩法吗？它能打游戏吗？ 它有哪些亮点，又有哪些不足，它值不值得买，看这一个视频就够了~",
-      "metrics": {
-        "play": 6866,
-        "like": 88,
-        "reply": 178,
-        "danmaku": 25,
-        "favorite": 40,
-        "coin": 0,
-        "share": 0,
-        "fans": 18556
-      },
-      "comments": [],
-      "badges": [],
-      "publishedAt": "2026-11-16T12:00:00.000Z",
-      "fetchedAt": "2026-11-21T07:47:59.920Z",
-      "score": 73.91
+      "publishedAt": "2026-11-20T10:23:39.000Z",
+      "fetchedAt": "2026-11-24T10:31:39.628Z",
+      "score": 84.27
     }
   ]
 }
